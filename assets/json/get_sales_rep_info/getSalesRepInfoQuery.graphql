@@ -1,0 +1,14 @@
+query salesRepresentativeInfo($userName: String!) {
+	salesRepresentativeInfo(username: $userName) {
+		rawMetaData {
+			count
+			uniquePrincipalGroup
+			uniquePrincipalNumber
+			uniqueSalesOrganisation
+		}
+	}
+}
+variable:
+{
+    "userName":"hjho"
+}

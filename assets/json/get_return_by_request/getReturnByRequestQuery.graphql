@@ -1,0 +1,22 @@
+query requestsByUserV3($requestsByUserRequest: requestsByUserRequestV3!) {
+  requestsByUserV3(request: $requestsByUserRequest) {
+    returnRequests {
+      requestId
+      requestDate
+      itemQty
+      totalPrice
+      status
+      customerName
+    }
+    totalCount
+  }
+  variable: {
+  "requestsByUserRequest": {
+    "soldTo": "0030082707",
+    "shipTo": "0070149863",
+    "username": "rootadmin",
+    "first": 10,
+    "after": 0
+  }
+}
+}

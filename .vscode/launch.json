@@ -1,0 +1,123 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    "dart.sdkPath": ".fvm/flutter_sdk/bin/dart",
+    "configurations": [
+        {
+            "name": "dev",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--flavor",
+                "dev",
+                "--web-browser-flag",
+                "--disable-web-security",
+                "--web-renderer",
+                "html",
+            ],
+        },
+        {
+            "name": "uat",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_uat.dart",
+            "args": [
+                "--flavor",
+                "uat",
+                "--web-browser-flag",
+                "--disable-web-security",
+                "--web-renderer",
+                "html",
+            ],
+        },
+        {
+            "name": "prod",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--flavor",
+                "prod"
+            ],
+        },
+        {
+            "name": "mock",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_mock.dart",
+            "args": [
+                "--flavor",
+                "mock",
+                "--web-browser-flag",
+                "--disable-web-security",
+                "--web-renderer",
+                "html"
+            ],
+        },
+        {
+            "name": "profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main_uat.dart",
+            "args": [
+                "--flavor",
+                "uat",
+            ],
+        },
+        {
+            "name": "uat-release",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_uat.dart",
+            "args": [
+                "--flavor",
+                "uat",
+                "--release",
+            ],
+        },
+        {
+            "name": "browserstack",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_browserstack.dart",
+            "args": [
+                "--flavor",
+                "uat",
+                "--debug"
+            ],
+        },
+        {
+            "name": "uat-ios",
+            "request": "launch",
+            "deviceId": "175A1213-F4BC-470A-B1ED-6964ACF55906",
+            "type": "dart",
+            "program": "lib/main_uat.dart",
+            "args": [
+                "--flavor",
+                "uat",
+            ],
+        },
+        {
+            "name": "uat-android",
+            "request": "launch",
+            "deviceId": "emulator-5554",
+            "type": "dart",
+            "program": "lib/main_uat.dart",
+            "args": [
+                "--flavor",
+                "uat",
+            ],
+        },
+    ],
+    "compounds": [
+        {
+            "name": "uat-all-devices",
+            "configurations": ["uat-ios", "uat-android"]
+        }
+    ]
+}

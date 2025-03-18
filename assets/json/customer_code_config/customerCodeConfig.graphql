@@ -1,0 +1,25 @@
+query customerConfig($request: CustomerConfig!) {
+  customerConfig(request: $request) {
+    id
+    customerCode
+    salesOrgCode
+    ponRequired
+    enableAnalytics
+    disableReturns
+    enable2fa
+    disableSoa
+    priceOverride
+    created_at
+    updated_at
+    hasMarketPlaceAccess
+    disablePayments
+  }
+}
+
+
+  variables: {
+    "request": {
+        "customerCode": "0000101221",
+    }
+  }
+ 

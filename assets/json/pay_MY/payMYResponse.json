@@ -1,0 +1,15 @@
+{
+  "data": {
+      "addCustomerPayment": {
+          "paymentID": "2        1",
+          "valueDate": "2024-05-20",
+          "transactionCurrency": "MYR",
+          "paymentBatchAdditionalInfo": "23CF88F1E7410C0",
+          "accountingDocExternalReference": "",
+          "zCcpPaymentQRCode": "",
+          "adviceExpiry":"30 Day(s)",
+          "zzHtmcs":"<html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win = window.open(\"\" ,\"_blank\");win.document.body.innerHTML = '<form id=\"pay_form\" name=\"pay_form\" action=\"https://pay.e-ghl.com/IPGSG/Payment.aspx\" method=\"post\"><input name=\"TransactionType\" type=\"hidden\" id=\"TransactionType\" value=\"SALE\" /><input name=\"PymtMethod\" type=\"hidden\" id=\"PymtMethod\" value=\"ANY\" /><input name=\"ServiceID\" type=\"hidden\" id=\"ServiceID\" value=\"ZUE\" /><input name=\"PaymentID\" type=\"hidden\" id=\"PaymentID\" value=\"09EZ230001191801\" /><input name=\"OrderNumber\" type=\"hidden\" id=\"OrderNumber\" value=\"09EZ230001191801\" /><input name=\"PaymentDesc\" type=\"hidden\" id=\"PaymentDesc\" value=\"-\" /><input name=\"MerchantName\" type=\"hidden\" id=\"MerchantName\" value=\"Zuellig Pharma\" /><input name=\"MerchantReturnURL\" type=\"hidden\" id=\"MerchantReturnURL\" value=\"https://uat-my.ezrxplus.com/api/thankyou-payment\" /><input name=\"MerchantCallBackURL\" type=\"hidden\" id=\"MerchantCallBackURL\" value=\"https://omnicollect-dev.business.hsbc.com/api/callback/my/eGHL/payment\" /><input name=\"Amount\" type=\"hidden\" id=\"Amount\" value=\"12425.98\" /><input name=\"CurrencyCode\" type=\"hidden\" id=\"CurrencyCode\" value=\"MYR\" /><input name=\"CustIP\" type=\"hidden\" id=\"CustIP\" value=\"\" /><input name=\"CustName\" type=\"hidden\" id=\"CustName\" value=\"Customer Name\" /><input name=\"CustEmail\" type=\"hidden\" id=\"CustEmail\" value=\"customer.name@example.com\" /><input name=\"CustPhone\" type=\"hidden\" id=\"CustPhone\" value=\"1234567890\" /><input name=\"LanguageCode\" type=\"hidden\" id=\"LanguageCode\" value=\"EN\" /><input name=\"PageTimeout\" type=\"hidden\" id=\"PageTimeout\" value=\"780\" /><input name=\"HashValue\" type=\"hidden\" id=\"HashValue\" value=\"d0f8a5d65db2f14c72f42bc7361ba06e225c9026dcbedacd6bbd2fc68482f962\" /></form>';win.document.pay_form.submit();})</html:script><html:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\">Open Payment Gateway</html:button>",
+          "zzAdvice": "09EZ240002316901"
+      }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "data": {
+    "AplGetTotalPrice": {
+      "TotalPrice": 56056,
+      "Tax": 4316,
+      "DeliveryFee": 12500
+    }
+  }
+}

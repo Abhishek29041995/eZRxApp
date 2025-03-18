@@ -1,0 +1,26 @@
+{
+    "id": "4AA656CAC9634AF795BBB130C094F29C",
+    "title": {
+      "value": "Contact us"
+    },
+    "backgroundImage": {
+      "jsonValue": {
+        "value": {
+          "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit2.png",
+          "alt": "",
+          "width": "392",
+          "height": "552"
+        }
+      }
+    },
+    "content": {
+      "value": "<p data-renderer-start-pos=\"44320\" style=\"color: #172b4d;  margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">Support Hours</p>\n<p data-renderer-start-pos=\"44335\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">Monday to Friday (except holidays): 8am - 5pm</p>\n<p data-renderer-start-pos=\"44383\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\"><strong data-renderer-mark=\"true\">Have any questions? We&rsquo;d love to hear from you.</strong></p>\n<p data-renderer-start-pos=\"44432\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\"><strong data-renderer-mark=\"true\">Smart:</strong> 0999 992 0790 | 0999 992 0793 | 0919 056 0455<br />\n<strong data-renderer-mark=\"true\">Globe:</strong> 0917 588 5082 | 0917 829 3807 | 0917 829 6309</p>\n<p data-renderer-start-pos=\"44539\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\"><strong data-renderer-mark=\"true\">eZRx+ General concerns:</strong><br />\n<a data-testid=\"link-with-safety\" href=\"mailto:PHCustomerCare@zuelligpharma.com\" title=\"mailto:PHCustomerCare@zuelligpharma.com\" data-renderer-mark=\"true\" class=\"cc-tgpl01\" style=\"color: var(--ds-link, #0052CC);\">PHCustomerCare@zuelligpharma.com</a></p>\n<p data-renderer-start-pos=\"44597\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\"><strong data-renderer-mark=\"true\">Payment concerns:</strong><br />\n<a data-testid=\"link-with-safety\" href=\"mailto:ezpay.phsupport@zuelligpharma.com\" title=\"mailto:ezpay.phsupport@zuelligpharma.com\" data-renderer-mark=\"true\" class=\"cc-tgpl01\" style=\"color: var(--ds-link, #0052CC);\">ezpay.phsupport@zuelligpharma.com</a></p>\n<p data-renderer-start-pos=\"44650\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\"><a data-testid=\"link-with-safety\" href=\"https://ph.ezrxplus.com/\" title=\"https://ph.ezrxplus.com/\" data-renderer-mark=\"true\" class=\"cc-tgpl01\" style=\"color: var(--ds-link, #0052CC);\">https://ph.ezrxplus.com/</a></p>\n<p data-renderer-start-pos=\"44676\" style=\"color: #172b4d;  margin-top: 0.75rem; margin-right: 0px; margin-left: 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\"><em data-renderer-mark=\"true\">Customer Support contact details apply to both</em><br />\n<em data-renderer-mark=\"true\">Zuellig Pharma and Metro Drug Inc. customers</em></p>"
+    },
+    "preloginSendToEmail": {
+      "value": ""
+    },
+    "postloginSendToEmail": {
+      "value": ""
+    },
+    "saleOrgDictionary": null
+}

@@ -1,0 +1,60 @@
+{
+  "data": {
+    "getLiveCampaigns": {
+      "statusCode": 200,
+      "statusMessage": "GetLiveCampaigns Fetched Successfully",
+      "data": [
+        {
+          "bannerId": "6448a9d447b0e4bc3c93c0aa",
+          "bannerCampaignName": "ATOZET Web Banner - Singapore Market",
+          "startDate": "2023-04-30 16:00:00 +0000 UTC",
+          "bannerCampaignLocations": [
+            "singapore"
+          ],
+          "bannerUrl": "https://ezadsprd.blob.core.windows.net/ezadsprd/ezadsprd/ATOZET%20(SG)%20Banner%20(SG-ATO-110055)%20(1440x420)-01.jpg",
+          "mobileBannerImg": "",
+          "endDate": "2023-05-25 10:45:00 +0000 UTC",
+          "websiteUrl": "https://cloud.mail.organon.sg/ATOZET_Form_Page",
+          "salesOrg": [
+            "2601"
+          ],
+          "countryCode": [
+            "SG"
+          ],
+          "bannerCountId": 56,
+          "salesRep": false,
+          "status": "active",
+          "customers": true,
+          "companyName": "Organon",
+          "targetProduct": "EZRX+",
+          "keyWord": "https://cloud.mail.organon.sg/ATOZET_Form_Page"
+        },
+        {
+          "bannerId": "644b80555c44ee7743b4c5b0",
+          "bannerCampaignName": "May Sandoz Letrozole Campaign",
+          "startDate": "2023-05-08 00:00:00 +0000 UTC",
+          "bannerCampaignLocations": [
+            "singapore"
+          ],
+          "bannerUrl": "https://ezadsprd.blob.core.windows.net/ezadsprd/ezadsprd/Letrozole%20Digital%20Banners_P3SG2303060441_v2.jpg",
+          "mobileBannerImg": "https://ezadsprd.blob.core.windows.net/ezadsprd/ezadsprd/ATOZET%20(SG)%20Banner%20(SG-ATO-110055)%20(1440x420)-01.jpg",
+          "endDate": "2023-05-21 15:45:00 +0000 UTC",
+          "websiteUrl": "",
+          "salesOrg": [
+            "2601"
+          ],
+          "countryCode": [
+            "SG"
+          ],
+          "bannerCountId": 61,
+          "salesRep": false,
+          "status": "active",
+          "customers": true,
+          "companyName": "Novartis (Singapore) Pte Ltd",
+          "targetProduct": "EZRX+",
+          "keyWord": "Letrozole"
+        }
+      ]
+    }
+  }
+}

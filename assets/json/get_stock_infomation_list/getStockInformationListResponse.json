@@ -1,0 +1,98 @@
+{
+    "data": {
+        "getStockInformationLists": [
+            {
+                "MaterialNumber": "000000000021038305",
+                "StockInformation": [
+                    {
+                        "MaterialNumber": "000000000021038305",
+                        "Batch": "12S017",
+                        "ExpiryDate": "20251130",
+                        "InStock": "Yes",
+                        "ShelfLife": 180,
+                        "SalesDistrict": null,
+                        "StockQuantity": 156
+                    }
+                ]
+            },
+            {
+                "MaterialNumber": "000000000021038302",
+                "StockInformation": [
+                    {
+                        "MaterialNumber": "000000000021038302",
+                        "Batch": "12S017",
+                        "ExpiryDate": "20251130",
+                        "InStock": "Yes",
+                        "ShelfLife": 180,
+                        "SalesDistrict": null,
+                        "StockQuantity": 156
+                    }
+                ]
+            },
+            {
+                "MaterialNumber": "000000000021041772",
+                "StockInformation": [
+                    {
+                        "MaterialNumber": "000000000021041772",
+                        "Batch": "123DJ1",
+                        "ExpiryDate": "20240530",
+                        "InStock": "Yes",
+                        "ShelfLife": 123,
+                        "SalesDistrict": null,
+                        "StockQuantity": 32
+                    }
+                ]
+            },
+            {
+                "MaterialNumber": "000000000021041773",
+                "StockInformation": []
+            },
+            {
+                "MaterialNumber": "000000000021041769",
+                "StockInformation": []
+            },
+            {
+                "MaterialNumber": "000000000021041768",
+                "StockInformation": []
+            },
+            {
+                "MaterialNumber": "000000000021041805",
+                "StockInformation": []
+            },
+            {
+                "MaterialNumber": "000000000021041779",
+                "StockInformation": []
+            },
+            {
+                "MaterialNumber": "000000000021041772",
+                "StockInformation": []
+            },
+            {
+                "MaterialNumber": "000000000021041780",
+                "StockInformation": []
+            },
+            {
+                "MaterialNumber": "000000000021041800",
+                "StockInformation": []
+            },
+            {
+                "MaterialNumber": "000000000021041729",
+                "StockInformation": []
+            },
+            {
+                "MaterialNumber": "000000000021041890",
+                "StockInformation": [
+                    {
+                        "MaterialNumber": "000000000021041890",
+                        "Batch": "33103",
+                        "ExpiryDate": "20231106",
+                        "InStock": "Yes",
+                        "ShelfLife": 90,
+                        "SalesDistrict": null,
+                        "StockQuantity": 156
+                    }
+                ]
+            }
+        ]
+    }
+}

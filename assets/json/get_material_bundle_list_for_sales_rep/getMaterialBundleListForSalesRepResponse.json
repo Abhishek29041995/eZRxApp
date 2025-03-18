@@ -1,0 +1,282 @@
+{
+    "data": {
+        "GetBundlesForSalesRep": [
+            {
+                "MaterialNumber": "000000000023007310",
+                "ListPrice": 100,
+                "FinalIndividualPrice": 80,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": false,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 100,
+                        "Conditions": "ZLP0 - A901 - 0009896378",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0009896378"
+                    },
+                    {
+                        "Type": "SGD",
+                        "Rate": 80,
+                        "Conditions": "ZDP2 - A907 - 0015315639",
+                        "BonusEligible": false,
+                        "ConditionNumber": "0015315639"
+                    }
+                ],
+                "Bonuses": [],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0010276898",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 1,
+                                "Type": "%",
+                                "Rate": -10
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 10,
+                                "Type": "%",
+                                "Rate": -15
+                            },
+                            {
+                                "Sequence": 7,
+                                "Quantity": 15,
+                                "Type": "%",
+                                "Rate": -20
+                            },
+                            {
+                                "Sequence": 13,
+                                "Quantity": 50,
+                                "Type": "%",
+                                "Rate": -30
+                            },
+                            {
+                                "Sequence": 10,
+                                "Quantity": 20,
+                                "Type": "%",
+                                "Rate": -25
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008187",
+                "ListPrice": 95,
+                "FinalIndividualPrice": 95,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 95,
+                        "Conditions": "ZLP0 - A901 - 0004925710",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0004925710"
+                    }
+                ],
+                "Bonuses": [
+                    {
+                        "BonusTiers": [
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 12,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 1,
+                                        "MaterialNumber": "000000000023008187",
+                                        "MaterialDescription": "Singulair           Tab   4mg    28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 12,
+                                        "QualifyingQuantity": 12,
+                                        "BonusQuantity": 2,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186710"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 25,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 2,
+                                        "MaterialNumber": "000000000023008187",
+                                        "MaterialDescription": "Singulair           Tab   4mg    28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 25,
+                                        "QualifyingQuantity": 25,
+                                        "BonusQuantity": 6,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186710"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 40,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 3,
+                                        "MaterialNumber": "000000000023008187",
+                                        "MaterialDescription": "Singulair           Tab   4mg    28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 40,
+                                        "QualifyingQuantity": 40,
+                                        "BonusQuantity": 14,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186710"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 60,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 4,
+                                        "MaterialNumber": "000000000023008187",
+                                        "MaterialDescription": "Singulair           Tab   4mg    28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 60,
+                                        "QualifyingQuantity": 60,
+                                        "BonusQuantity": 30,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186710"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641434",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 100
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008184",
+                "ListPrice": 71.4,
+                "FinalIndividualPrice": 71.4,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 71.4,
+                        "Conditions": "ZLP0 - A901 - 0000888933",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000888933"
+                    }
+                ],
+                "Bonuses": [
+                    {
+                        "BonusTiers": [
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 12,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 1,
+                                        "MaterialNumber": "000000000023008184",
+                                        "MaterialDescription": "Singulair           Tab   10mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 12,
+                                        "QualifyingQuantity": 12,
+                                        "BonusQuantity": 2,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186714"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 25,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 2,
+                                        "MaterialNumber": "000000000023008184",
+                                        "MaterialDescription": "Singulair           Tab   10mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 25,
+                                        "QualifyingQuantity": 25,
+                                        "BonusQuantity": 6,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186714"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 40,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 3,
+                                        "MaterialNumber": "000000000023008184",
+                                        "MaterialDescription": "Singulair           Tab   10mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 40,
+                                        "QualifyingQuantity": 40,
+                                        "BonusQuantity": 14,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186714"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 60,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 4,
+                                        "MaterialNumber": "000000000023008184",
+                                        "MaterialDescription": "Singulair           Tab   10mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 60,
+                                        "QualifyingQuantity": 60,
+                                        "BonusQuantity": 30,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186714"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641434",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 100
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            }
+        ]
+    }
+}

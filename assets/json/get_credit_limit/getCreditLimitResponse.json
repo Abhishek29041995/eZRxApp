@@ -1,0 +1,15 @@
+{
+    "data": {
+        "creditLimit": {
+            "results": [
+                {
+                    "partner": "0000101202",
+                    "currency": "MYR",
+                    "creditLimit": "3000",
+                    "creditExposure": "-3000",
+                    "creditBalance": "3000"
+                }
+            ]
+        }
+    }
+}

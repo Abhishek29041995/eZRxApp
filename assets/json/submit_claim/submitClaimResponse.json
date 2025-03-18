@@ -1,0 +1,8 @@
+{
+    "data": {
+        "submitClaim": {
+            "success": true,
+            "message": "Claim has been submitted succesfully"
+        }
+    }
+}

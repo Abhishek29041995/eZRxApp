@@ -1,0 +1,35 @@
+query customerDocumentDetails($input: customerDocumentDetailsRequest!) {
+  customerDocumentDetails(request: $input) {
+    billingDocumentItem
+    salesDocumentItemType
+    material
+    billingDocumentItemText
+    billingQuantity
+    billingQuantityUnit
+    salesMeasureISOUnit
+    referenceSDDocument
+    referenceSDDocumentItem
+    referenceSDDocumentCategory
+    grossAmount
+    netAmount
+    taxAmount
+    transactionCurrency
+    principalName
+    principalCode
+    batches {
+      batchNumber
+      expiryDate
+    }
+  }
+}
+
+"variables": {
+  "input": {
+    "customerCode": "0030082707",
+    "salesOrg": "2001",
+    "accountingDocument": "1100001137",
+    "fiscalYear": "2023",
+    "bpCustomerNumber": "0030082707",
+    "accountingDocumentItem": "001"
+  }
+}

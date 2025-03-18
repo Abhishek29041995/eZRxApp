@@ -1,0 +1,63 @@
+mutation addCustomerPayment($input: addCustomerPaymentInput!) {
+   addCustomerPayment(input: $input) {
+      paymentID
+      paymentBatchAdditionalInfo
+      valueDate
+      transactionCurrency
+      accountingDocExternalReference
+      zCcpPaymentQRCode
+      zzAdvice
+      zzHtmcs
+      adviceExpiry
+   }
+}
+
+variables: {
+   "input":{
+      "customerCode": "0000101214",
+      "salesOrg": "2001",
+      "transactionCurrency": "MYR",
+      "paymentMethod": "Payment Gateway",
+      "userName": "rootadmin",
+      "customerInvoice": [
+         {
+            "salesOrg": "2001",
+            "fiscalYear": "2015",
+            "accountingDocument": "0340000055",
+            "lineItemNumber": "001",
+            "lineNumber": "000016",
+            "bpCustomerNumber": "101214",
+            "paymentAmount": "5000",
+            "displayCurrency": "MYR",
+            "displayAmount": "5000",
+            "displayOpenAmount": "5000",
+            "discountAmount": "0",
+            "discountDate": "2015-04-30",
+            "dueDate": "2015-05-31",
+            "debitCreditFlag": "S",
+            "accountingDocExternalReference": "200120150340000055001",
+            "partialPaymentHistoryDesc": "200120150340000055001:",
+            "isDisputed": ""
+         },
+         {
+            "salesOrg": "2001",
+            "fiscalYear": "2015",
+            "accountingDocument": "0360000025",
+            "lineItemNumber": "001",
+            "lineNumber": "000023",
+            "bpCustomerNumber": "101214",
+            "paymentAmount": "-800",
+            "displayCurrency": "MYR",
+            "displayAmount": "-800",
+            "displayOpenAmount": "-800",
+            "discountAmount": "0",
+            "discountDate": "2015-04-24",
+            "dueDate": "2015-04-24",
+            "debitCreditFlag": "H",
+            "accountingDocExternalReference": "200120150360000025001",
+            "partialPaymentHistoryDesc": "200120150360000025001:",
+            "isDisputed": ""
+         }
+      ]
+   }
+}

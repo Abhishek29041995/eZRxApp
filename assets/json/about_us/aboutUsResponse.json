@@ -1,0 +1,444 @@
+{
+    "data": {
+      "item": {
+        "components": {
+          "value": [
+            {
+              "id": "4F3B817C1D2040B6BFF5661E3F208EE7",
+              "name": "About Us",
+              "template": {
+                "name": "Banner"
+              },
+              "media": {
+                "jsonValue": {
+                  "value": {
+                    "src": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/Articles/Media/1/123rf-stock-image-10-1.png?h=128&iar=0&w=192",
+                    "alt": "",
+                    "width": "192",
+                    "height": "128"
+                  }
+                }
+              },
+              "title": {
+                "value": "About us"
+              },
+              "content": {
+                "value": "Helping pharma companies focus on marketing and R&D through integrated supply chain management"
+              },
+              "buttonName": {
+                "value": "Get in touch"
+              },
+              "buttonUrl": {
+                "jsonValue": {
+                  "value": {
+                    "href": "https://www.google.com/",
+                    "linktype": "external",
+                    "url": "https://www.google.com/",
+                    "anchor": "",
+                    "target": ""
+                  }
+                }
+              },
+              "backgroundColor": {
+                "value": "#ebf6f0"
+              },
+              "backgroundImage": {
+                "jsonValue": {
+                  "value": {
+                    "src": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/Background-image.png?h=758&iar=0&w=1949",
+                    "alt": "",
+                    "width": "1949",
+                    "height": "758"
+                  }
+                }
+              }
+            },
+            {
+              "id": "A1384DE83FBA40DE961E47DFB616646B",
+              "name": "Who we are",
+              "template": {
+                "name": "Horizontal List"
+              },
+              "title": {
+                "value": "Who we are"
+              },
+              "description": {
+                "value": "Zuellig Pharma is a leading healthcare solutions company in Asia"
+              },
+              "maxNumberOfItem": {
+                "value": "3"
+              },
+              "list": {
+                "value": [
+                  {
+                    "id": "E6E7DD0DF1AD4FD2A0F8F2F47835F0AC",
+                    "name": "Horizontal List Sub Item 1",
+                    "title": {
+                      "value": "450+"
+                    },
+                    "subTitle": {
+                      "value": "Clients"
+                    },
+                    "description": {
+                      "value": "We provide world-class distribution, digital and commercial services to support the growing healthcare needs in this region, and we work with over 450 clients."
+                    }
+                  },
+                  {
+                    "id": "444A0E65DC174C9096EBF8AF49CC649A",
+                    "name": "Horizontal List Sub Item 2",
+                    "title": {
+                      "value": "200,000+"
+                    },
+                    "subTitle": {
+                      "value": "Medical Facilities"
+                    },
+                    "description": {
+                      "value": "Our mission is to make healthcare more accessible to the communities we serve, and our people serve more than 200,000 medical facilities."
+                    }
+                  },
+                  {
+                    "id": "43ABFB0F236F4DA2A621458ACFA8CE6F",
+                    "name": "Horizontal List Sub Item 3",
+                    "title": {
+                      "value": "20"
+                    },
+                    "subTitle": {
+                      "value": "Top Pharmaceutical Companies"
+                    },
+                    "description": {
+                      "value": "The company was started a hundred years ago and has grown to become a multi-billion dollar business covering 16 markets with over 12,000 employees. Our people serve the top 20 pharmaceutical companies in the world."
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "5CF459F90E414E24A46C37F760214083",
+              "name": "Our certifications",
+              "template": {
+                "name": "Slider"
+              },
+              "title": {
+                "value": "Our certificate"
+              },
+              "maxNumberOfItem": {
+                "value": "12"
+              },
+              "certificates": {
+                "value": [
+                  {
+                    "id": "1C71892991A84FEF9A053B9FD22BD2C3",
+                    "name": "Certification 1",
+                    "certificationType": {
+                      "value": "ISO 9001"
+                    },
+                    "certificationName": {
+                      "value": "Quality Management System"
+                    },
+                    "description": {
+                      "value": "Lapp delogi stenogågon sopöde. Presm befyvis preosmos, och aska förutom bedena."
+                    },
+                    "certificationYear": {
+                      "value": "2000"
+                    }
+                  },
+                  {
+                    "id": "8987A222C7124DC6965B04C6FF46DEA0",
+                    "name": "Certification 2",
+                    "certificationType": {
+                      "value": "ISO 9001"
+                    },
+                    "certificationName": {
+                      "value": "Quality Management System"
+                    },
+                    "description": {
+                      "value": "Lapp delogi stenogågon sopöde. Presm befyvis preosmos, och aska förutom bedena."
+                    },
+                    "certificationYear": {
+                      "value": "2021"
+                    }
+                  },
+                  {
+                    "id": "F74DDD4C41D24DAAB20DA8A0A790AEAB",
+                    "name": "Certification 3",
+                    "certificationType": {
+                      "value": "ISO 9001"
+                    },
+                    "certificationName": {
+                      "value": "Quality Management System"
+                    },
+                    "description": {
+                      "value": "Lapp delogi stenogågon sopöde. Presm befyvis preosmos, och aska förutom bedena."
+                    },
+                    "certificationYear": {
+                      "value": "2020"
+                    }
+                  },
+                  {
+                    "id": "ED029118A1E642029F452A42C1023D08",
+                    "name": "Certification 4",
+                    "certificationType": {
+                      "value": "1901"
+                    },
+                    "certificationName": {
+                      "value": "Quality Management System"
+                    },
+                    "description": {
+                      "value": "Lapp delogi stenogågon sopöde. Presm befyvis preosmos, och aska förutom bedena."
+                    },
+                    "certificationYear": {
+                      "value": "1900"
+                    }
+                  },
+                  {
+                    "id": "3DBA73FC046541099842F98433E1C398",
+                    "name": "Certification 5",
+                    "certificationType": {
+                      "value": "ISO 9001"
+                    },
+                    "certificationName": {
+                      "value": "Quality Management System"
+                    },
+                    "description": {
+                      "value": "Lapp delogi stenogågon sopöde. Presm befyvis preosmos, och aska förutom bedena."
+                    },
+                    "certificationYear": {
+                      "value": "2001"
+                    }
+                  },
+                  {
+                    "id": "00FFD46F52D74E10A08021F8BE158FA4",
+                    "name": "Certification 6",
+                    "certificationType": {
+                      "value": "ISO 9001"
+                    },
+                    "certificationName": {
+                      "value": "Quality Management System"
+                    },
+                    "description": {
+                      "value": "Lapp delogi stenogågon sopöde. Presm befyvis preosmos, och aska förutom bedena."
+                    },
+                    "certificationYear": {
+                      "value": "2001"
+                    }
+                  }
+                ]
+              },
+              "subtitle": {
+                "value": "What we have achieved"
+              }
+            },
+            {
+              "id": "9F12C82219ED47E893748B12F7C300E5",
+              "name": "Our Partners",
+              "template": {
+                "name": "Media List"
+              },
+              "title": {
+                "value": "Our Partners"
+              },
+              "description": {
+                "value": "Hundred’s of pharmacies have partnered with us on our mission of making healthcare more accessible"
+              },
+              "maxNumberOfItem": {
+                "value": "32"
+              },
+              "mediaItems": {
+                "value": [
+                  {
+                    "id": "2AA9B2D2465D4A60844381BF54BDBC7D",
+                    "name": "Frame 237731",
+                    "url": {
+                      "value": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237731.jpg"
+                    }
+                  },
+                  {
+                    "id": "C8980EEF97734030A821230F324C18B5",
+                    "name": "Frame 237732",
+                    "url": {
+                      "value": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237732.jpg"
+                    }
+                  },
+                  {
+                    "id": "DEF9C59DC01B45DA9A1483AB53F0BC0B",
+                    "name": "Frame 237733",
+                    "url": {
+                      "value": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237733.jpg"
+                    }
+                  },
+                  {
+                    "id": "92735A3E265A4E979DB142C16B1F1BF1",
+                    "name": "Frame 237734",
+                    "url": {
+                      "value": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237734.jpg"
+                    }
+                  },
+                  {
+                    "id": "FE338AE8F9EA432B900107604F72BE64",
+                    "name": "Frame 237735",
+                    "url": {
+                      "value": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237735.jpg"
+                    }
+                  },
+                  {
+                    "id": "1D393AA568EA4476889D1A866C83A37E",
+                    "name": "Frame 237737",
+                    "url": {
+                      "value": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237737.jpg"
+                    }
+                  },
+                  {
+                    "id": "89F5D4C9541E447A816F657197739749",
+                    "name": "Frame 237738",
+                    "url": {
+                      "value": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237738.jpg"
+                    }
+                  },
+                  {
+                    "id": "FBFEDB7A67ED4911B2F720902C7234A5",
+                    "name": "Frame 237739",
+                    "url": {
+                      "value": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237739.jpg"
+                    }
+                  },
+                  {
+                    "id": "1536A63149AC469BAD43E27E63DBC623",
+                    "name": "Frame 237740",
+                    "url": {
+                      "value": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237740.jpg"
+                    }
+                  },
+                  {
+                    "id": "E703306D110F44E192C54FBACA693CAA",
+                    "name": "Frame 237743",
+                    "url": {
+                      "value": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237743.jpg"
+                    }
+                  },
+                  {
+                    "id": "0100C802530443AF862B83298F1B0776",
+                    "name": "Frame 237744",
+                    "url": {
+                      "value": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237744.jpg"
+                    }
+                  },
+                  {
+                    "id": "E25A8BB69FBF4048ADFC3C0F39259573",
+                    "name": "Frame 237745",
+                    "url": {
+                      "value": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237745.jpg"
+                    }
+                  },
+                  {
+                    "id": "C50B7CC3AD124AEB8F13981830DB797B",
+                    "name": "Frame 237746",
+                    "url": {
+                      "value": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237746.jpg"
+                    }
+                  }
+                ]
+              },
+              "buttonName": {
+                "value": "Partner with us"
+              },
+              "buttonUrl": {
+                "jsonValue": {
+                  "value": {
+                    "href": "http://test.com",
+                    "linktype": "external",
+                    "url": "http://test.com",
+                    "anchor": "",
+                    "target": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "59362120BB87461E882994CE85178C27",
+              "name": "Reaching us is easy",
+              "template": {
+                "name": "Content Split"
+              },
+              "media": {
+                "jsonValue": {
+                  "value": {
+                    "src": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/Frame-427321746.jpg?h=824&iar=0&w=584",
+                    "alt": "",
+                    "width": "584",
+                    "height": "824"
+                  }
+                }
+              },
+              "title": {
+                "value": "Reaching us is easy"
+              },
+              "subTitle": {
+                "value": "Nationwide branches and distribution centers"
+              },
+              "description": {
+                "value": "<br class=\"t-last-br\" />\n<p style=\"color: #131313; margin-top: 0px; text-align: left; letter-spacing: normal;\">Zuellig Pharma's Malaysia facilities include a main warehouse in Bukit Jelutong and an approximately 7,000 sq.m. warehouse for dialysis solutions, medical supplies, and surgical lenses.</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\"><strong>&nbsp;</strong></p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">With two branch offices and a branch warehouse, Zuellig Pharma has 100% coverage of hospitals, clinics, and pharmacies with over 15,000 customers across Malaysia. We have won numerous awards for quality and certifications.</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">&nbsp;</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\"><strong style=\"color: #234455;\">Zuellig Pharma Sdn Bhd</strong></p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">&nbsp;</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">Customer Center:</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\"><strong>+60 (3) 5566 2288</strong></p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\"><strong>&nbsp;</strong></p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">Address:</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\"><strong>196001000352 (4013-D),No. 15 Persiaran Pasak Bumi, Section U8, Perindustrian Bukit Jelutong, 40150 Shah Alam, Selangor Darul Ehsan, Malaysia</strong></p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\"><strong>&nbsp;</strong></p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\"><strong></strong></p>\n<hr style=\"color: #131313; text-align: left; letter-spacing: normal;\" />\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\" />\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\" />\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\"><strong>MiCare Sdn Bhd</strong></p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\"><strong>&nbsp;</strong></p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">Customer Center:</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\"><strong>+60 (3) 7839 7200</strong></p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\"><strong>&nbsp;</strong></p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">Address:</p>\n<p style=\"color: #131313; margin-bottom: 0px; text-align: left; letter-spacing: normal;\"><strong>Block A, No.22, Jalan Astaka U8/84, Perindustrian Bukit Jelutong, 40150 Shah Alam,Selangor Darul Ehsan,Malaysia</strong></p>"
+              },
+              "buttonName": {
+                "value": "Contact us"
+              },
+              "buttonUrl": {
+                "jsonValue": {
+                  "value": {
+                    "href": "https://ezrxplus-dev.ezrx.com/contact-us",
+                    "linktype": "external",
+                    "url": "https://ezrxplus-dev.ezrx.com/contact-us"
+                  }
+                }
+              },
+              "greyBackgroundColor": {
+                "boolValue": false
+              }
+            },
+            {
+              "id": "37F0BFC25AFE4D2F8B5ADEB1C92CF934",
+              "name": "Why us",
+              "template": {
+                "name": "Content Split"
+              },
+              "media": {
+                "jsonValue": {
+                  "value": {
+                    "src": "https://edge.sitecorecloud.io/zuelligphar9b34-zpcms-test-fcf9/media/Project/ezrx/ezrx/About-Us/Media/Frame-237702.jpg?h=553&iar=0&w=708",
+                    "alt": "",
+                    "width": "708",
+                    "height": "553"
+                  }
+                }
+              },
+              "title": {
+                "value": "Why us"
+              },
+              "subTitle": {
+                "value": "Strict quality control, customer-tailored integrated logistics centre operated "
+              },
+              "description": {
+                "value": "<p style=\"color: #131313; margin-top: 0px; text-align: left; letter-spacing: normal;\">▶ Quality healthcare system, top global medical tourism market.</p>\n<hr style=\"color: #131313; text-align: left; letter-spacing: normal;\" />\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">&nbsp;</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">▶ Growing patient-centric digital health innovation in Malaysia.</p>\n<hr style=\"color: #131313; text-align: left; letter-spacing: normal;\" />\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">&nbsp;</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">▶ High allocation from Budget 2023 for healthcare.</p>\n<hr style=\"color: #131313; text-align: left; letter-spacing: normal;\" />\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">&nbsp;</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">▶ Medical device industry to reach USD 2.2B in 2023.</p>\n<hr style=\"color: #131313; text-align: left; letter-spacing: normal;\" />\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">&nbsp;</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">▶ Ageing population driving increasing demand for healthcare services.</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\" />\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">&nbsp;</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\"><strong>Capabilities</strong></p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">&nbsp;</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">▶ 84 years experience as healthcare provider in Malaysia.</p>\n<hr style=\"color: #131313; text-align: left; letter-spacing: normal;\" />\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">&nbsp;</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">▶ Largest cold chain facility, eZCooler as an advanced passive packaging solution.</p>\n<hr style=\"color: #131313; text-align: left; letter-spacing: normal;\" />\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">&nbsp;</p>\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">▶ End-to-end integrated solutions for the entire healthcare value chain.</p>\n<hr style=\"color: #131313; text-align: left; letter-spacing: normal;\" />\n<p style=\"color: #131313; text-align: left; letter-spacing: normal;\">&nbsp;</p>\n<p style=\"color: #131313; margin-bottom: 0px; text-align: left; letter-spacing: normal;\">▶ Actively drive sustainability and partner with clients on special projects to meet carbon savings objectives.</p>"
+              },
+              "buttonName": {
+                "value": ""
+              },
+              "buttonUrl": {
+                "jsonValue": {
+                  "value": {
+                    "href": "https://uat-my.ezrxplus.com/login/password-changed",
+                    "linktype": "external",
+                    "url": "https://uat-my.ezrxplus.com/login/password-changed",
+                    "anchor": "",
+                    "target": ""
+                  }
+                }
+              },
+              "greyBackgroundColor": {
+                "boolValue": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

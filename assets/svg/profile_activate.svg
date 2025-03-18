@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>round_btn_sm_account_onclick</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#00555B" offset="0%"></stop>
+            <stop stop-color="#008E93" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="round_btn_sm_account_onclick_with_text" transform="translate(-10.000000, 0.000000)">
+            <g id="round_btn_sm_account_onclick" transform="translate(10.000000, 0.000000)">
+                <g id="round_btn_sm" fill="url(#linearGradient-1)">
+                    <circle id="Oval" cx="15" cy="15" r="15"></circle>
+                </g>
+                <g id="account_icon_white" transform="translate(7.000000, 6.000000)" stroke-width="1">
+                    <g id="profile_icon">
+                        <path d="M0,18 L3.72986491,13.1753471 C1.91795763,11.8454448 0.743119266,9.70951492 0.743119266,7.30126139 C0.743119266,3.26888607 4.03690696,0 8.1,0 C12.163093,0 15.4568807,3.26888607 15.4568807,7.30126139 C15.4568807,9.70951492 14.2820424,11.8454448 12.4701351,13.1753471 L16.2,18 L0,18 Z" id="Path" fill="#FFFFFF"></path>
+                        <path d="M9.9,10.8 C9.54037223,11.3380729 8.86893991,11.7 8.1,11.7 C7.33106009,11.7 6.65962777,11.3380729 6.3,10.8" id="Path" stroke="#00555B" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

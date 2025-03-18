@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>round_btm_lg_right_arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#008E93" offset="0%"></stop>
+            <stop stop-color="#00555B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LoginPage" transform="translate(-275.000000, -608.000000)">
+            <g id="round_btm_lg_right_arrow" transform="translate(275.000000, 608.000000)">
+                <g id="round_btm_lg" fill="url(#linearGradient-1)">
+                    <circle id="Oval" cx="40" cy="40" r="40"></circle>
+                </g>
+                <path d="M34.9497475,21.1715729 C36.5118446,19.6094757 39.0445046,19.6094757 40.6066017,21.1715729 C42.1686989,22.73367 42.1686989,25.26633 40.6066017,26.8284271 L40.6066017,26.8284271 L31.656,35.778 L59,35.7781746 C61.209139,35.7781746 63,37.5690356 63,39.7781746 C63,41.9873136 61.209139,43.7781746 59,43.7781746 L31.657,43.778 L40.6066017,52.7279221 C42.1686989,54.2900192 42.1686989,56.8226791 40.6066017,58.3847763 C39.0445046,59.9468735 36.5118446,59.9468735 34.9497475,58.3847763 L19.3933983,42.8284271 L19.284669,42.7153723 C18.494636,41.9846609 18,40.939182 18,39.7781746 C18,38.61619 18.4954691,37.5699283 19.2866647,36.8391323 L19.3933983,36.7279221 Z" id="Combined-Shape" fill="#FFFFFF" transform="translate(40.500000, 39.778175) scale(-1, 1) translate(-40.500000, -39.778175) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

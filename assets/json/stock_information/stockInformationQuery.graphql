@@ -1,0 +1,19 @@
+query stockInfo($customerCode: String, $materialNumber: String!, $salesOrganisation: String) {
+    stockInformation(
+      customerCode: $customerCode
+      materialNumber: $materialNumber
+      salesOrganisation: $salesOrganisation
+    ) {
+      InStock
+      MaterialNumber
+      Batch
+      ExpiryDate
+      StockQuantity
+    }
+}
+
+variables:{
+  "salesOrganisation": "2001",
+  "customerCode": "0030082707",
+  "materialNumber": "000000000021038302"
+}

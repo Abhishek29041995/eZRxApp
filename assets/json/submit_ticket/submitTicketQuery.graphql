@@ -1,0 +1,30 @@
+mutation submitEZCSTicket($submitEZCSRequest: SubmitEZCSRequest!) { 
+    submitEZCSTicket(input: $submitEZCSRequest){ 
+        success 
+        message 
+    }
+}
+ 
+variables:{
+  "submitEZCSRequest": {
+     "email": "arykumar@zuelligpharma.com", 
+     "EZCSTicketDetail": "<p>Ticket Description 1</p>", 
+     "priority": 1, 
+     "subject": "Hello World 91", 
+     "EZCSTicketType": "Inquiry / Feedback", 
+     "customField": { 
+        "cf_categories1": "Customer", 
+        "cf_customer_sold_to_account": "0030082707", 
+        "cf_customer_sold_to_account_name": "Rsd Hospitals Sdn Bhd Sjmc, T A Subang Jaya Medical Centre, No 1 Jalan Ss 12 1 A,                                                                                     47500 Subang Jaya Selangor, 47500", 
+        "cf_customer_ship_to_account": "0070149863", 
+        "cf_customer_ship_to_name": "Rsd Hospitals Sdn Bhd Sjmc, Test Name 2, No 1 Jalan Ss 12 1 A, 47500 Subang Jaya Selangor,                                                                   47500", 
+        "cf_cust_category": "Order Related", 
+        "cf_customer_ticket_type_sub_category": "", 
+        "cf_document_invoice_rcn_cn_1_document_only": "123", 
+        "cf_qty_ordered452506": "20", 
+        "cf_product_ordered_description": "ABCD", 
+        "cf_product_sku_codes_must_be_from_same_manufacturer": "456" 
+     }, 
+     "attachments": []
+  }
+}

@@ -1,0 +1,17 @@
+query creditLimit($request: creditLimitRequest!) {
+  creditLimit(request: $request) {
+    results {
+      partner
+      currency
+      creditLimit
+      creditExposure
+      creditBalance
+    }
+  }
+  variable: {
+   "request": {
+      "customerCode": "0000101202",
+      "salesOrg": "2001"
+    }
+  }
+}

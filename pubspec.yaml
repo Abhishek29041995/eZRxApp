@@ -1,0 +1,329 @@
+name: ezrxmobile
+description: eZRx Plus Mobile App
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 3.0.25+417
+
+environment:
+  sdk: ">=3.2.0-122.0.dev <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  get_it: ^7.7.0
+  flutter_bloc: ^8.1.5
+  bloc_concurrency: ^0.2.5
+  auto_route: ^8.2.0
+  bloc: ^8.1.4
+  dio: ^5.4.3+1
+  flutter_pretty_dio_logger: ^3.0.0
+  json_annotation: ^4.9.0
+  freezed_annotation: ^2.2.0
+  dartz: ^0.10.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_platform_widgets: ^7.0.0
+  wakelock: ^0.6.2
+  okta_oidc: ^0.0.2
+  firebase_core: ^2.32.0
+  firebase_analytics: ^10.10.7
+  firebase_crashlytics: ^3.5.7
+  firebase_performance: ^0.9.4+7
+  firebase_messaging: ^14.9.4
+  firebase_remote_config: ^4.4.7
+  flutter_local_notifications: ^17.1.2
+  flutter_secure_storage: ^9.2.2
+  permission_handler: ^11.3.1
+  device_info_plus: ^10.1.0
+  package_info_plus: ^8.0.0
+  intl: ^0.19.0
+  easy_localization: ^3.0.7
+  easy_localization_loader: ^2.0.2
+  upgrader: ^10.3.0
+  local_auth: ^2.2.0
+  #Use for custom message display in local auth, if not will got dependencies linter issue
+  local_auth_android: ^1.0.40
+  local_auth_darwin: ^1.3.1
+  sizer: ^2.0.15
+  smooth_page_indicator: ^1.1.0
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.1
+  flutter_inappwebview: ^6.0.0
+  scandit_flutter_datacapture_barcode: 6.25.0
+  scandit_flutter_datacapture_core: 6.25.0
+  loading_indicator: ^3.1.1
+  badges: ^3.1.2
+  flutter_slidable: ^3.1.0
+  encrypt: ^5.0.3
+  crypto: ^3.0.3
+  convert: ^3.1.1
+  tuple: ^2.0.2
+  pdf: ^3.10.8
+  printing: ^5.12.0
+  screenshot: ^3.0.0
+  #We need to change this later when web is supported
+  open_file_safe:
+    git:
+      url: https://github.com/Ramkrishna-egov/open_file.git
+      ref: patch-1
+  path_provider: ^2.1.3
+  path: ^1.9.0
+  collection: ^1.18.0
+  cunning_document_scanner: ^1.2.2
+  file_picker: ^8.0.3
+  intl_phone_number_input: ^0.7.4
+  flutter_svg: ^1.1.6
+  connectivity_plus: ^6.0.3
+  #for web
+  universal_io: ^2.2.2
+  mixpanel_flutter: ^2.3.1
+  clevertap_plugin: ^2.4.0
+  flutter_html: ^3.0.0-beta.2
+  loading_animation_widget: ^1.2.1
+  datadog_flutter_plugin: ^2.5.0
+  datadog_tracking_http_client: ^2.2.0
+  app_links: ^6.1.1
+  flutter_cached_pdfview: ^0.4.2
+  url_launcher: ^6.2.6
+  ymchat_flutter: ^2.13.0
+  dropdown_button2: ^2.3.9
+  keyboard_actions: ^4.2.0
+  image_gallery_saver: ^2.0.0
+  searchfield: ^1.0.5
+  dotted_border: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  auto_route_generator: ^8.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+  build_runner: ^2.4.10
+  json_serializable: ^6.8.0
+  freezed: ^2.3.2
+  hive_generator: ^2.0.1
+  bloc_test: ^9.1.7
+  mocktail: ^1.0.3
+  #Use for zephyr report
+  test_api: ^0.7.0
+  #Use for mock webview
+  plugin_platform_interface: ^2.1.8
+  http_mock_adapter: ^0.6.1
+  file: ^7.0.0
+  visibility_detector: ^0.4.0+2
+
+dependency_overrides:
+  ffi: ^2.1.2
+  win32: ^5.5.1
+  # Because mixpanel_flutter need 0.7.1 and flutter_inappwebview need 0.6.4
+  js: 0.6.4
+  # Because freezed need analyze 6.5.0 have meta 1.15.0 and flutter_test need 1.12.0
+  meta: 1.12.0
+  pdf_widget_wrapper: 1.0.4
+  # #Override this library cause this issue with latest flutter_inappwebview version https://github.com/pichillilorenzo/flutter_inappwebview/issues/2139
+  # #Change this when newer version of the library to be released
+  flutter_inappwebview_android:
+    git:
+      url: https://github.com/holzgeist/flutter_inappwebview
+      path: flutter_inappwebview_android
+      ref: d89b1d32638b49dfc58c4b7c84153be0c269d057
+  #Override to temporarily resolve https://github.com/pichillilorenzo/flutter_inappwebview/issues/2150
+  webview_flutter_android: 3.16.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/data/
+    - assets/images/default_banners/
+    - assets/images/seals/
+    - assets/json/
+    - assets/json/market_static_content/
+    - assets/json/market_static_content/about_us/
+    - assets/json/market_static_content/contact_us/
+    - assets/json/market_static_content/faq/
+    - assets/json/return_request_information_v2/
+    - assets/json/get_material_bundle_list/
+    - assets/json/payment_attachment/
+    - assets/json/clear_all_clevertap_notification/
+    - assets/json/get_sales_rep_info/
+    - assets/json/similar_searches/
+    - assets/json/get_EZ_point/
+    - assets/json/payment_summary/
+    - assets/json/upsert_cart_items/
+    - assets/json/get_material_filter/
+    - assets/json/request_reset_password_link/
+    - assets/json/pay_VN/
+    - assets/json/get_announcements/
+    - assets/json/requests_by_user_v2/
+    - assets/json/request_by_items_excel/
+    - assets/json/cancel_virtual_txn/
+    - assets/json/customer_document_header/
+    - assets/json/get_principal_cutoffs/
+    - assets/json/payment_in_progress/
+    - assets/json/get_article_info/
+    - assets/json/tnc_date/
+    - assets/json/get_order_details/
+    - assets/json/get_sales_org_configs/
+    - assets/json/update_selected_order_type/
+    - assets/json/get_add_policy/
+    - assets/json/get_combo_deal_for_principal/
+    - assets/json/get_payment_customer_info/
+    - assets/json/upsert_cart/
+    - assets/json/get_delete_policy/
+    - assets/json/set_notification_settings/
+    - assets/json/submit_claim/
+    - assets/json/add_file_request/
+    - assets/json/customer_licenses/
+    - assets/json/submit_contact_us/
+    - assets/json/search_return_materials_sales_rep_v2/
+    - assets/json/get_material_permissions/
+    - assets/json/change_password_first_time/
+    - assets/json/material_details/
+    - assets/json/favourite_materials/
+    - assets/json/get_claim_submissions/
+    - assets/json/contact_us/
+    - assets/json/login_ad/
+    - assets/json/announcement_article_tag/
+    - assets/json/create_draft_order/
+    - assets/json/get_outstanding_balance/
+    - assets/json/customer_code_config/
+    - assets/json/get_order_history_fetch_by_items/
+    - assets/json/get_invoice_details_for_order/
+    - assets/json/get_maintenance/
+    - assets/json/get_stock_infomation_list/
+    - assets/json/payment_summary_list/
+    - assets/json/pay_PH_bank_in/
+    - assets/json/delete_favourite_material/
+    - assets/json/get_added_to_cart_product_list/
+    - assets/json/get_product_details/
+    - assets/json/get_combo_deal_for_material/
+    - assets/json/create_favourite_material/
+    - assets/json/user/
+    - assets/json/get_customer_information/
+    - assets/json/change_password/
+    - assets/json/get_EZ_reach_banner/
+    - assets/json/get_clevertap_notifications/
+    - assets/json/get_payment_bank_in_accounts/
+    - assets/json/add_request_v2/
+    - assets/json/common/
+    - assets/json/get_transaction/
+    - assets/json/pay_SG/
+    - assets/json/pay_PH/
+    - assets/json/get_announcement_info_details/
+    - assets/json/search_return_materials_v2/
+    - assets/json/payment_invoice_info_pdf/
+    - assets/json/get_material_bundle_list_for_sales_rep/
+    - assets/json/delete_customer_payment/
+    - assets/json/principal_sales_org/
+    - assets/json/get_invoice_for_orders/
+    - assets/json/apl_simulate_order/
+    - assets/json/payment_summary_attachment/
+    - assets/json/get_return_by_item/
+    - assets/json/pay_MY/
+    - assets/json/get_customer_information_for_sales_rep/
+    - assets/json/stock_information/
+    - assets/json/create_virtual_account/
+    - assets/json/change_clevertap_notification_status/
+    - assets/json/apl_get_total_price/
+    - assets/json/update_saved_order/
+    - assets/json/list_transactions/
+    - assets/json/customer_document_details/
+    - assets/json/get_notification_settings/
+    - assets/json/remove_favourite_material/
+    - assets/json/submit_order/
+    - assets/json/proxy_user/
+    - assets/json/about_us/
+    - assets/json/get_zyllem_v2/
+    - assets/json/delete_file/
+    - assets/json/get_all_products/
+    - assets/json/get_combo_deal_for_principalK5/
+    - assets/json/get_return_by_request/
+    - assets/json/proxy_login/
+    - assets/json/get_tender_contract_details/
+    - assets/json/stock_information_list/
+    - assets/json/update_language_and_holiday/
+    - assets/json/payment_methods/
+    - assets/json/get_announcement_info/
+    - assets/json/pay_TH/
+    - assets/json/customer_document_header_v2/
+    - assets/json/reset_password_v3/
+    - assets/json/update_payment_gateway/
+    - assets/json/get_order_history/
+    - assets/json/add_favourite_material/
+    - assets/json/get_faq/
+    - assets/json/get_usage_list/
+    - assets/json/payment_item/
+    - assets/json/get_credit_limit/
+    - assets/json/get_product/
+    - assets/json/customer_open_items/
+    - assets/json/validate_reset_password_key/
+    - assets/langs/
+    - assets/html/
+    - assets/html/id/
+    - assets/html/kh/
+    - assets/html/vn/
+    - assets/html/th/
+    - assets/html/mm/
+    - assets/html/tw/
+    - assets/svg/
+    - assets/svg/flags/
+
+flutter_icons:
+  image_path: assets/images/launcher_icon.png
+  android: true
+  adaptive_icon_background: "#023507"
+  adaptive_icon_foreground: assets/images/launcher_icon.png
+  ios: true
+  remove_alpha_ios: true
+  web:
+    generate: true
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: true
+  color: "#FFFFFF"
+  image: assets/images/ezrxlogo.png
+  ios_content_mode: center
+  web_image_mode: center
+  fullscreen: true
+
+  android_12:
+    image: assets/images/android12splash.png
+    icon_background_color: "#FFFFFF"
+    color: "#FFFFFF"

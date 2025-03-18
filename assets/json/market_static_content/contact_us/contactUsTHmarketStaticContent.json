@@ -1,0 +1,26 @@
+{
+    "id": "4AA656CAC9634AF795BBB130C094F29C",
+    "title": {
+      "value": "ติดต่อเรา"
+    },
+    "backgroundImage": {
+      "jsonValue": {
+        "value": {
+          "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit2.png",
+          "alt": "",
+          "width": "392",
+          "height": "552"
+        }
+      }
+    },
+    "content": {
+      "value": "<p data-renderer-start-pos=\"44772\" style=\"color: #172b4d; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">เวลาทำการ</p>\n<p data-renderer-start-pos=\"44783\" style=\"color: #172b4d; margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">วันจันทร์ - วันศุกร์ เวลา 08:00น. - 17:00น.</p>\n<p data-renderer-start-pos=\"44828\" style=\"color: #172b4d; margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">หากมีคำถาม? เรายินดีที่จะได้รับฟังจากคุณ</p>\n<p data-renderer-start-pos=\"44870\" style=\"color: #172b4d; margin-top: 0.75rem; margin-right: 0px; margin-left: 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">สามารถติดต่อเราได้ผ่าน LINE Official: @ezrxthailand</p>"
+    },
+    "preloginSendToEmail": {
+      "value": ""
+    },
+    "postloginSendToEmail": {
+      "value": ""
+    },
+    "saleOrgDictionary": null
+}

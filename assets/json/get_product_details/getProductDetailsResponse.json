@@ -1,0 +1,91 @@
+{
+    "data": {
+        "GetProductDetails": {
+            "Code": "0008896469",
+            "Name": "UAT ALM 9060",
+            "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+            "Type": "bundle",
+            "IsFavourite": false,
+            "BundleInformation": {
+                "BundleName": "UAT ALM 9060",
+                "BundleCode": "0008896469",
+                "BundleInformation": [
+                    {
+                        "Sequence": 1,
+                        "Quantity": 5,
+                        "Type": "MYR",
+                        "Rate": 100
+                    },
+                    {
+                        "Sequence": 4,
+                        "Quantity": 10,
+                        "Type": "MYR",
+                        "Rate": 90
+                    },
+                    {
+                        "Sequence": 7,
+                        "Quantity": 20,
+                        "Type": "MYR",
+                        "Rate": 85
+                    }
+                ]
+            },
+            "Data": [
+                {
+                    "MaterialCode": "000000000023046003",
+                    "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                    "MaterialDescription": "COZAAR TABS 100MG 30'S",
+                    "DefaultMaterialDescription": "COZAAR TABS 100MG 30'S",
+                    "GenericMaterialName": "LOSARTAN POTASSIUM",
+                    "ItemRegistrationNumber": null
+                },
+                {
+                    "MaterialCode": "000000000023046018",
+                    "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                    "MaterialDescription": "FOSAMAXTABS10MG30'S",
+                    "DefaultMaterialDescription": "FOSAMAXTABS10MG30'S",
+                    "GenericMaterialName": "ALENDRONATE SODIUM",
+                    "ItemRegistrationNumber": null
+                },
+                {
+                    "MaterialCode": "000000000023046031",
+                    "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                    "MaterialDescription": "PROPECIA FP LPTABS1MG28'S",
+                    "DefaultMaterialDescription": "PROPECIA FP LPTABS1MG28'S",
+                    "GenericMaterialName": "FINASTERIDE",
+                    "ItemRegistrationNumber": null
+                },
+                {
+                    "MaterialCode": "000000000023046042",
+                    "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                    "MaterialDescription": "SINEMET CRTABS50/200MG 100'S",
+                    "DefaultMaterialDescription": "SINEMET CRTABS50/200MG 100'S",
+                    "GenericMaterialName": "CARBIDOPA, LEVODOPA",
+                    "ItemRegistrationNumber": null
+                },
+                {
+                    "MaterialCode": "000000000023046118",
+                    "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                    "MaterialDescription": "JANUVIATABS100MG28'S",
+                    "DefaultMaterialDescription": "JANUVIATABS100MG28'S",
+                    "GenericMaterialName": "SITAGLIPTIN",
+                    "ItemRegistrationNumber": null
+                },
+                {
+                    "MaterialCode": "000000000023046313",
+                    "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                    "MaterialDescription": "LIVIALTAB2.5MG1X28'S",
+                    "DefaultMaterialDescription": "LIVIALTAB2.5MG1X28'S",
+                    "GenericMaterialName": "TIBOLONE",
+                    "ItemRegistrationNumber": null
+                }
+            ],
+            "DataTotalCount": 6,
+            "DataTotalHidden": 0,
+            "IsGimmick": null
+        }
+    },
+    "extensions": {
+        "trace-id": "8883b19d95bcb5c5098e6418e4555c55"
+    }
+}

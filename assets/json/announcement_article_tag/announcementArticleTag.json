@@ -1,0 +1,58 @@
+{
+    "data": {
+      "search": {
+        "pageInfo": {
+          "endCursor": "eyJzZWFyY2hBZnRlciI6WyJ0cmFpbmluZyIsIjkyQTAzQjU3NDNBNzRDNzlBQ0M3MzI3OUM2MTg1RjAwIiwiOTJBMDNCNTc0M0E3NEM3OUFDQzczMjc5QzYxODVGMDAiXSwiY291bnQiOjl9",
+          "hasNext": false
+        },
+        "total": 9,
+        "results": [
+          {
+            "id": "B229CF5D31F54E09AC89BB4448D6A75E",
+            "name": "Article tag",
+            "displayName": "Article tag"
+          },
+          {
+            "id": "86516EE4477F4F558D588AEBCC34940E",
+            "name": "Artile tag 2",
+            "displayName": "Artile tag 2"
+          },
+          {
+            "id": "16060AEB4D05407DAE2927604338EB14",
+            "name": "Copy of Article tag",
+            "displayName": "Copy of Article tag"
+          },
+          {
+            "id": "ECE65A0E3DED4D1395BF25DF28EA70CF",
+            "name": "Copy of Article tag 1",
+            "displayName": "Copy of Article tag 1"
+          },
+          {
+            "id": "4702D4623E4C43ECA00AFD0C7581AE0D",
+            "name": "Copy of Article tag 2",
+            "displayName": "Copy of Article tag 2"
+          },
+          {
+            "id": "E358A8194B444D3C807DE2186ED87440",
+            "name": "General notice",
+            "displayName": "General notice"
+          },
+          {
+            "id": "7D4BB8E2BD8149068B64DB1273724309",
+            "name": "News",
+            "displayName": "News"
+          },
+          {
+            "id": "914405E45643414C8380E116FA50F180",
+            "name": "Research articles",
+            "displayName": "Research articles"
+          },
+          {
+            "id": "92A03B5743A74C79ACC73279C6185F00",
+            "name": "Training",
+            "displayName": "Training"
+          }
+        ]
+      }
+    }
+  }

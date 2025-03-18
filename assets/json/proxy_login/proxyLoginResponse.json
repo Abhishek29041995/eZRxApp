@@ -1,0 +1,20 @@
+{
+    "data": {
+        "proxyLoginV3": {
+            "userID": 7307,
+            "authenticated": true,
+            "eZRxJWT": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJadWVsbGlnIFBoYXJtYSIsInN1YiI6IkFjY2VzcyBUb2tlbiIsImV4cCI6MTY5MDQ2NjgyOCwiaWF0IjoxNjkwNDYzMjI4LCJpZCI6NzMwNywicm9sZSI6IkNsaWVudCBBZG1pbiIsInVzZXJuYW1lIjoidGVzdGNsaWVudGFkbWluIiwicmlnaHRzIjpbeyJ2YWx1ZSI6W3sic2hpcFRvQ29kZSI6WyIwMDcwMTQ5ODYzIiwiMDA3MDE0OTg2NCJdLCJjdXN0b21lckNvZGUiOiIwMDMwMDgyNzA3Iiwic2FsZXNPcmciOiIyMDAxIn1dfV0sInNhbGVzT3JncyI6WyIyMDAxIl19.j39coMdr1V5cUBeCMU6C5ReoiDOdFvRFug_tATv1Jag",
+            "email": "",
+            "userMobileToken": {
+                "firstName": "testclientadmin",
+                "lastName": "testclientadmin",
+                "mobileTokens": [],
+                "mobileNotifications": false
+            },
+            "passwordLastReset": "",
+            "passwordExpiry": "",
+            "isAccountLocked": null,
+            "isAccountExpired": null
+        }
+    }
+}

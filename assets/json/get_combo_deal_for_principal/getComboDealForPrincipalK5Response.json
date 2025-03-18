@@ -1,0 +1,47 @@
+{
+  "data": {
+    "comboDealForPrincMatGrp": {
+      "flexiGroupCombo": {
+        "type": "ZPRINC",
+        "value": "140132",
+        "minQty": "0.000",
+        "setNo": "00000001"
+      },
+      "flexiTierRule": [
+        {
+          "rate": "-3.00",
+          "type": "%",
+          "minTotalAmount": "50.00",
+          "maxTotalAmount": "499.00",
+          "minTotalCurrency": "USD",
+          "maxTotalCurrency": "USD",
+          "minQty": "0.000",
+          "conditionNumber": "0015959395",
+          "conditions": ""
+        },
+        {
+          "rate": "-5.00",
+          "type": "%",
+          "minTotalAmount": "500.00",
+          "maxTotalAmount": "2000.00",
+          "minTotalCurrency": "USD",
+          "maxTotalCurrency": "USD",
+          "minQty": "0.000",
+          "conditionNumber": "0015959396",
+          "conditions": ""
+        },
+        {
+          "rate": "0.00",
+          "type": "%",
+          "minTotalAmount": "2001.00",
+          "maxTotalAmount": "0.00",
+          "minTotalCurrency": "USD",
+          "maxTotalCurrency": "USD",
+          "minQty": "0.000",
+          "conditionNumber": "0015959397",
+          "conditions": ""
+        }
+      ]
+    }
+  }
+}

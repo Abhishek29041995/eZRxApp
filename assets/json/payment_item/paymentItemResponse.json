@@ -1,0 +1,44 @@
+{
+  "data": {
+    "paymentItems": [
+      {
+        "accountingDocument": "0040178241",
+        "billingDocument": "",
+        "referenceDocumentNumber": "40178241",
+        "fiscalYear": "2014",
+        "companyCode": "2001",
+        "bpCustomerNumber": "0030082707",
+        "accountingDocumentItem": "001",
+        "netDueDate": "2014-02-25T00:00:00Z",
+        "postingDate": "2014-02-28T00:00:00Z",
+        "documentDate": "2014-02-25T00:00:00Z",
+        "transactionCurrency": "MYR",
+        "amountInTransactionCurrency": 2980,
+        "openAmountInTransCrcy": 2980,
+        "netPaymentAmount": 0,
+        "paymentAmountInDisplayCrcy": 2980,
+        "displayCurrency": "MYR",
+        "totalAmountInDisplayCrcy": 2980,
+        "openAmountInDisplayCrcy": 2980,
+        "cashDiscountAmountInDspCrcy": 0,
+        "cashDiscountDueDate": "2014-02-25T00:00:00Z",
+        "partnerFunctionIsPrintRelevant": false,
+        "functionIsXMLRelevant": false,
+        "specialGLCode": "",
+        "postingKey": "",
+        "postingKeyName": "Invoice",
+        "documentReferenceID": "51294056",
+        "debitCreditCode": "S",
+        "accountingDocExternalReference": "200120140040178241001",
+        "accountingDocumentItemRef": "000840",
+        "invoiceProcessingStatus": "",
+        "isDisputed": "",
+        "disputeCaseStatus": "00",
+        "disputeCaseStatusName": "",
+        "disputeCaseUUID": "",
+        "partialPaymentHistoryDesc": "200120140040178241001:",
+        "accountingDocumentType": "I"
+      }
+    ]
+  }
+}

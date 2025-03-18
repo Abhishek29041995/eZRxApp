@@ -1,0 +1,55 @@
+{
+  "data": {
+    "comboDealForMaterials": [
+      {
+        "groupDeal": null,
+        "flexiSKUTier": [],
+        "flexiQtyTier": [],
+        "flexiAmmountTier": [],
+        "materialComboDeals": [
+          {
+            "setNo": "00000001",
+            "materials": [
+              {
+                "minQty": "24.000",
+                "materialNumber": "000000000023344243",
+                "rate": "-8.50",
+                "type": "%",
+                "conditionNumber": "0015958835",
+                "mandatory": true
+              }
+            ]
+          },
+          {
+            "setNo": "00000002",
+            "materials": [
+              {
+                "minQty": "15.000",
+                "materialNumber": "000000000023344235",
+                "rate": "",
+                "type": "",
+                "conditionNumber": "0015958834",
+                "mandatory": true
+              }
+            ]
+          },
+          {
+            "setNo": "00000003",
+            "materials": [
+              {
+                "minQty": "20.000",
+                "materialNumber": "000000000023272832",
+                "rate": "8",
+                "type": "USD",
+                "conditionNumber": "0015958836",
+                "mandatory": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
+

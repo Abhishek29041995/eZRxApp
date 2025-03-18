@@ -1,0 +1,180 @@
+{
+  "data": {
+    "item": {
+      "components": {
+        "value": [
+          {
+            "template": {
+              "name": "Banner"
+            },
+            "media": {
+              "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg",
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg"
+                }
+              }
+            },
+            "title": {
+              "value": "About Us"
+            },
+            "content": {
+              "value": "Zuellig Pharma provides world-class pharmaceutical distribution, digital and commercial services to support the evolving healthcare needs in the region."
+            },
+            "buttonName": {
+              "value": "Get in touch"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "backgroundColor": {
+              "value": "#EBF6F1"
+            },
+            "backgroundImage": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-background.png"
+                }
+              }
+            }
+          },
+          {
+            "template": {
+              "name": "Horizontal List"
+            },
+            "title": {
+              "value": "Who we are"
+            },
+            "description": {
+              "value": "Zuellig Pharma is a leading healthcare solutions company in Asia"
+            },
+            "maxNumberOfItem": {
+              "value": "3"
+            },
+            "list": {
+              "value": [
+                {
+                  "id": "E6E7DD0DF1AD4FD2A0F8F2F47835F0AC",
+                  "name": "Horizontal List Sub Item 1",
+                  "title": {
+                    "value": "200,000+"
+                  },
+                  "subTitle": {
+                    "value": "Medical Facilities"
+                  },
+                  "description": {
+                    "value": "Our mission is to make healthcare more accessible to the communities we serve, and our people serve more than 200,000 medical facilities."
+                  }
+                },
+                {
+                  "id": "7794D5595D6A4790A7F8841C4DC3B98C",
+                  "name": "Horizontal List Sub Item",
+                  "title": {
+                    "value": "450+"
+                  },
+                  "subTitle": {
+                    "value": "Clients"
+                  },
+                  "description": {
+                    "value": "We provide world-class distribution, digital and commercial services to support the growing healthcare needs in this region, and we work with over 450 clients."
+                  }
+                },
+                {
+                  "id": "444A0E65DC174C9096EBF8AF49CC649A",
+                  "name": "Horizontal List Sub Item 2",
+                  "title": {
+                    "value": "20"
+                  },
+                  "subTitle": {
+                    "value": "Top Pharmaceutical Companies"
+                  },
+                  "description": {
+                    "value": "The company was started a hundred years ago and has grown to become a multi-billion dollar business covering 16 markets with over 12,000 employees. Our people serve the top 20 pharmaceutical companies in the world."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit.jpg",
+                  "alt": "",
+                  "width": "708",
+                  "height": "553"
+                }
+              }
+            },
+            "title": {
+              "value": "Why us"
+            },
+            "subTitle": {
+              "value": "Opportunities"
+            },
+            "description": {
+              "value": "<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Quality healthcare system, top global medical tourism market.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Growing patient-centric digital health innovation in Malaysia.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ High allocation from Budget 2023 for healthcare.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Medical device industry to reach USD 2.2B in 2023.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Ageing population driving increasing demand for healthcare services.</span></p>\n<p><span style=\"color: #234455;\"><br />\n</span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"font-size: 40px; line-height: 150%;\">Capabilities</span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ 84 years experience as healthcare provider in Malaysia.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Largest cold chain facility, eZCooler as an advanced passive packaging solution.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ End-to-end integrated solutions for the entire healthcare value chain.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Actively drive sustainability and partner with clients on special projects to meet carbon savings objectives.</span></p>"
+            },
+            "buttonName": {
+              "value": ""
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": true
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-linear.png",
+                  "alt": "map",
+                  "width": "392",
+                  "height": "552"
+                }
+              }
+            },
+            "title": {
+              "value": "Reaching us is easy"
+            },
+            "subTitle": {
+              "value": "Nationwide branches and distribution centers"
+            },
+            "description": {
+              "value": "<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Zuellig Pharma's Malaysia facilities include a main warehouse in Bukit Jelutong and an approximately 7,000 sq.m. warehouse for dialysis solutions, medical supplies, and surgical lenses.</span></p>\n<p><span style=\"line-height: 50%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">With two branch offices and a branch warehouse, Zuellig Pharma has 100% coverage of hospitals, clinics, and pharmacies with over 15,000 customers across Malaysia. We have won numerous awards for quality and certifications.</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\"></span><strong style=\"color: #234455; font-size: x-large;\">Zuellig Pharma Sdn Bhd</strong></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Customer Center:</span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>+60 (3) 5566 2288</strong></span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Address:</span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>196001000352 (4013-D),No. 15 Persiaran Pasak Bumi, Section U8, Perindustrian Bukit Jelutong, 40150 Shah Alam, Selangor Darul Ehsan, Malaysia</strong></span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\"><strong></strong></span></p>\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"2\" viewbox=\"0 0 600 2\" fill=\"none\">\n<path d=\"M0 1L600 0.999943\" stroke=\"#AFAFAF\" stroke-width=\"0.5\"></path>\n</svg>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\"><strong>MiCare Sdn Bhd</strong></span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Customer Center:</span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>+60 (3) 7839 7200</strong></span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Address:</span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>Block A, No.22, Jalan Astaka U8/84, Perindustrian Bukit Jelutong, 40150 Shah Alam,Selangor Darul Ehsan,Malaysia</strong></span></p>"
+            },
+            "buttonName": {
+              "value": "Contact us"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": false
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+query customerDocumentHeaderV2($input: customerDocumentHeaderRequest!) {
+  customerDocumentHeaderV2(request: $input) {
+    documentHeaderList {
+      companyCode
+      bpCustomerNumber
+      accountingDocument
+      accountingDocumentType
+      fiscalYear
+      accountingDocumentItem
+      specialGLCode
+      postingKey
+      postingKeyName
+      netDueDate
+      postingDate
+      transactionCurrency
+      billingDocument
+      referenceDocumentNumber
+      payerParty
+      payerName1
+      dueCalculationBaseDate
+      cashDiscount1DueDate
+      cashDiscount2DueDate
+      cashDiscount1Percent
+      cashDiscount2Percent
+      invoiceProcessingStatus
+      documentReferenceID
+      purchaseOrderByCustomer
+      customerReferenceNumber
+      openAmountInTransCrcy
+      grossAmount
+      netAmount
+      taxAmount
+      paymentAmount
+      iban
+      bankAccountNumber
+      bankName
+      memoLine
+      paymentCardType
+      paymentCardTypeName
+      paymentCardNumber
+      paymentCardMaskedNumber
+      paymentCardHolderName
+      debitCreditCode
+      postingPeriod
+      clearingAccountingDocument
+      clearingDate
+      documentDate
+      amountInTransactionCurrency
+      isDisputed
+      disputeCaseUUID
+      disputeCaseStatus
+      disputeCaseStatusName
+      invoiceReference
+      partnerFunctionIsPrintRelevant
+      functionIsXMLRelevant
+      invoiceIsResidualForInference
+      returnId
+      orderId
+      referenceId
+    }
+    totalCount
+  }
+}
+
+variables : {
+  "input": {
+    "customerCode": "0030082707",
+    "salesOrg": "2001",
+    "first": 10,
+    "after": 0,
+    "excelFor": "Debit",
+    "allDebitItems": true,
+    "orderBy": [
+      {
+        "order": "desc",
+        "field": "documentDate"
+      }
+    ],
+    "filterBy": [
+      {
+        "field": "accountingDocumentType",
+        "value": "Invoice"
+      }
+    ]
+  }
+}

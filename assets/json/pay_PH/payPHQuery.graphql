@@ -1,0 +1,44 @@
+mutation addCustomerPayment($input: addCustomerPaymentInput!) {
+    addCustomerPayment(input: $input) {
+      paymentID
+      paymentBatchAdditionalInfo
+      valueDate
+      transactionCurrency
+      accountingDocExternalReference
+      zCcpPaymentQRCode
+      zzAdvice
+      zzHtmcs
+      adviceExpiry
+   }
+}
+
+"variables": {
+    "input": {
+    "customerCode":"0030007794",
+    "customerInvoice":[
+        {
+            "accountingDocExternalReference":"250020211030134251001SD 1030134251",
+            "accountingDocument":"1030134251",
+            "bpCustomerNumber":"30007794",
+            "debitCreditFlag":"S",
+            "discountAmount":"0.00",
+            "discountDate":"2022-11-04",
+            "displayAmount":"4192.86",
+            "displayCurrency":"PHP",
+            "displayOpenAmount":"1.20",
+            "dueDate":"2022-11-04",
+            "fiscalYear":"2021",
+            "isDisputed":"X",
+            "lineItemNumber":"001",
+            "lineNumber":"000032",
+            "partialPaymentHistoryDesc":"250020230160000237001:",
+            "paymentAmount":"1.13",
+            "salesOrg":"2500"
+        }
+    ],
+    "paymentMethod":"Payment Gateway",
+    "salesOrg":"2500",
+    "transactionCurrency":"PHP",
+    "userName":"rootadmin",
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "data": {
+        "customerLicenses": {
+            "Total": 20,
+            "Licenses": [
+                {
+                    "licenceType": "R03",
+                    "licenseNumber": "0000170159",
+                    "validFrom": "20160401",
+                    "validTo": "20991231",
+                    "licenseDescription": "ZP Customer Regulation",
+                    "status": "Active"
+                },
+                {
+                    "licenceType": "R03",
+                    "licenseNumber": "0000314752",
+                    "validFrom": "20220101",
+                    "validTo": "20230131",
+                    "licenseDescription": "ZP Customer Regulation",
+                    "status": "Expired"
+                },
+                {
+                    "licenceType": "S4",
+                    "licenseNumber": "0000314621",
+                    "validFrom": "20220607",
+                    "validTo": "20220607",
+                    "licenseDescription": "ZPActive Ingredients License",
+                    "status": "Expired"
+                },
+                {
+                    "licenceType": "R03",
+                    "licenseNumber": "0000307831",
+                    "validFrom": "20180101",
+                    "validTo": "20190331",
+                    "licenseDescription": "ZP Customer Regulation",
+                    "status": "Expired"
+                },
+                {
+                    "licenceType": "R03",
+                    "licenseNumber": "0000170207",
+                    "validFrom": "20160807",
+                    "validTo": "20181231",
+                    "licenseDescription": "ZP Customer Regulation",
+                    "status": "Expired"
+                },
+                {
+                    "licenceType": "S4",
+                    "licenseNumber": "0000170193",
+                    "validFrom": "20160805",
+                    "validTo": "20160831",
+                    "licenseDescription": "ZPActive Ingredients License",
+                    "status": "Expired"
+                },
+                {
+                    "licenceType": "S4",
+                    "licenseNumber": "0000170194",
+                    "validFrom": "20160805",
+                    "validTo": "20160831",
+                    "licenseDescription": "ZPActive Ingredients License",
+                    "status": "Expired"
+                },
+                {
+                    "licenceType": "S4",
+                    "licenseNumber": "0000170192",
+                    "validFrom": "20160805",
+                    "validTo": "20160831",
+                    "licenseDescription": "ZPActive Ingredients License",
+                    "status": "Expired"
+                },
+                {
+                    "licenceType": "S4",
+                    "licenseNumber": "0000170209",
+                    "validFrom": "20160807",
+                    "validTo": "20160831",
+                    "licenseDescription": "ZPActive Ingredients License",
+                    "status": "Expired"
+                },
+                {
+                    "licenceType": "S4",
+                    "licenseNumber": "0000170210",
+                    "validFrom": "20160807",
+                    "validTo": "20160831",
+                    "licenseDescription": "ZPActive Ingredients License",
+                    "status": "Expired"
+                }
+            ]
+        }
+    }
+}

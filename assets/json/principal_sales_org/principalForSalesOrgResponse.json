@@ -1,0 +1,53 @@
+{
+    "data": {
+      "principalForSalesOrg": {
+        "principals": [
+          {
+            "principalName": "B. BRAUN MEDICAL INC.",
+            "principalCode": "0000100462"
+            
+          },
+          {
+            "principalName": "PASCUAL MULTI DIVISION",
+            "principalCode": "0000100337"
+            
+          },
+          {
+            "principalName": "ESSEX PHARMACEUTICAL, INC.",
+            "principalCode": "0000100475"
+            
+          },
+          {
+            "principalName": "ZUELLIG PHARMA SOLUTION (ZPS)",
+            "principalCode": "0000100438"
+            
+          },
+          {
+            "principalName": "sanofi-pasteur Inc.",
+            "principalCode": "0000100457"
+            
+          },
+          {
+            "principalName": "GLAXOSMITHKLINE - EZ",
+            "principalCode": "0000140227"
+            
+          },
+          {
+            "principalName": "현대약품",
+            "principalCode": "0000103605"
+            
+          },
+          {
+            "principalName": "TAKEDA PHARMACEUTICALS (PHILS),",
+            "principalCode": "0000100434"
+            
+          },
+          {
+            "principalName": "MERCK SHARP & DOHME (I.A)",
+            "principalCode": "0000100460"
+            
+          }
+        ]
+      }
+    }
+  }

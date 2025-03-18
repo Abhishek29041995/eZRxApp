@@ -1,0 +1,19 @@
+mutation deleteCustomerPayment(\$input: deleteCustomerPaymentInput!) {
+    deleteCustomerPayment(input: \$input) {
+        statusMessage
+    }
+}  
+variables: {
+    input: {
+      "paymentID": "2        1",
+      "paymentBatchAdditionalInfo": "23C4E01F38DB48E",
+      "valueDate": "2023-10-31",
+      "paymentAmount": "1605",
+      "customerCode": "0030224907",
+      "salesOrg": "2902",
+      "transactionCurrency": "THB",
+      "zzAdvice": "09EZ230001214101",
+      "shipToCode": "0071115077"
+    }
+},
+ 

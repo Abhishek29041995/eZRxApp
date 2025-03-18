@@ -1,0 +1,53 @@
+query customerInformationSalesRep($customerInformationSalesRepInput: customerInformationSalesRepInput!) {
+  customerInformationSalesRep(input: $customerInformationSalesRepInput) {
+    shipToCount
+    SoldToInformation {
+      customerCodeSoldTo
+      telephoneNumber
+      name1
+      name2
+      name3
+      name4
+      street1
+      street2
+      street3
+      street4
+      building
+      floor
+      houseNumber1
+      postalCode
+      city1
+      city2
+      status
+      salesDeals
+      shipTo {
+        defaultShipToAddress
+        shipToCustomerCode
+        name1
+        name2
+        name3
+        name4
+        street
+        street2
+        street3
+        street4
+        building
+        floor
+        houseNumber1
+        postalCode
+        city1
+        city2
+        status
+      }
+    }
+  }
+  variables {
+    "customerInformationSalesRepInput": {
+        "salesOrganisation": "2902",
+        "searchKey": "",
+        "filterBlockCustomer": false,
+        "first": 10,
+        "after": 0
+        }
+    }
+}

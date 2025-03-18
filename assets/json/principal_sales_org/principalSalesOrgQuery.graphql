@@ -1,0 +1,13 @@
+{
+    query principalSalesOrg($salesOrg: String!) {
+        principalForSalesOrg(request: {salesOrg: $salesOrg}) {
+            principals {
+                principalName
+                principalCode
+            }
+        }
+    }
+    "variables": {
+        "salesOrg": "2500"
+    },
+}

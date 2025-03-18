@@ -1,0 +1,3 @@
+{
+    "query": "mutation deletePolicy($input: deletePolicyInput!) {\n  deletePolicy(input: $input) {\n    status\n   }\n}\n"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:$(DYNAMIC_LINK_URI_PREFIX)</string>
+		<string>applinks:$(WEB_DOMAIN)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_MY)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_SG)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_PH)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_TH)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_KH)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_TW)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_MM)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_VN)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_VNS)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_VNM)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_VNP)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_ID)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_KR)</string>
+		<string>applinks:$(WEB_DOMAIN_MARKET_HK)</string>
+		<string>webcredentials:$(WEB_DOMAIN)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_MY)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_SG)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_PH)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_TH)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_KH)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_TW)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_MM)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_VN)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_VNS)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_VNM)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_VNP)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_ID)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_KR)</string>
+		<string>webcredentials:$(WEB_DOMAIN_MARKET_HK)</string>
+	</array>
+</dict>
+</plist>

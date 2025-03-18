@@ -1,0 +1,18 @@
+{
+    "data": {
+        "outstandingBalance": {
+            "results": [
+                {
+                    "customerCode": "0000101202",
+                    "currency": "MYR",
+                    "amount": "-31.8",
+                    "overdue": "-31.8",
+                    "checkDate": "/Date(1686182400000)/"
+                }
+            ]
+        }
+    },
+    "extensions": {
+        "trace-id": "6129adaeea718a311d66a5b537ae7a5f"
+    }
+}

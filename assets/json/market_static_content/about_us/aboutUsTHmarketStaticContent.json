@@ -1,0 +1,180 @@
+{
+  "data": {
+    "item": {
+      "components": {
+        "value": [
+          {
+            "template": {
+              "name": "Banner"
+            },
+            "media": {
+              "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg",
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg"
+                }
+              }
+            },
+            "title": {
+              "value": "เกี่ยวกับเรา"
+            },
+            "content": {
+              "value": "ซิลลิคฟาร์มาให้บริการจัดจำหน่ายยา บริการดิจิทัล และเชิงพาณิชย์ระดับโลก เพื่อรองรับความต้องการด้านการดูแลสุขภาพที่เปลี่ยนแปลงไปในภูมิภาค"
+            },
+            "buttonName": {
+              "value": "ติดต่อกัน"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "backgroundColor": {
+              "value": "#EBF6F1"
+            },
+            "backgroundImage": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-background.png"
+                }
+              }
+            }
+          },
+          {
+            "template": {
+              "name": "Horizontal List"
+            },
+            "title": {
+              "value": "พวกเราคือใคร"
+            },
+            "description": {
+              "value": "ซิลลิคฟาร์มาเป็นบริษัทโซลูชั่นด้านการดูแลสุขภาพชั้นนำในเอเชีย"
+            },
+            "maxNumberOfItem": {
+              "value": "3"
+            },
+            "list": {
+              "value": [
+                {
+                  "id": "73B0537C190D484BB31BCB3B3F4DF3E5",
+                  "name": "Clients",
+                  "title": {
+                    "value": "450+"
+                  },
+                  "subTitle": {
+                    "value": "ลูกค้า"
+                  },
+                  "description": {
+                    "value": "เราให้บริการจัดจำหน่าย ดิจิทัล และเชิงพาณิชย์ระดับโลก เพื่อรองรับความต้องการด้านการดูแลสุขภาพที่เพิ่มขึ้นในภูมิภาคนี้ และเราทำงานร่วมกับลูกค้ามากกว่า 450 ราย"
+                  }
+                },
+                {
+                  "id": "CAEF85318847425EA93DEEB4B1CB49A3",
+                  "name": "Medical Facilities",
+                  "title": {
+                    "value": "200,000+"
+                  },
+                  "subTitle": {
+                    "value": "สิ่งอำนวยความสะดวกทางการแพทย์"
+                  },
+                  "description": {
+                    "value": "ภารกิจของเราคือการทำให้ชุมชนที่เราให้บริการเข้าถึงการรักษาพยาบาลได้มากขึ้น และบุคลากรของเราให้บริการในสถานพยาบาลมากกว่า 200,000 แห่ง"
+                  }
+                },
+                {
+                  "id": "E985156FB25F428D8F50740B87576BE8",
+                  "name": "Top Pharmaceutical Companies",
+                  "title": {
+                    "value": "20"
+                  },
+                  "subTitle": {
+                    "value": "บริษัทยาชั้นนำ"
+                  },
+                  "description": {
+                    "value": "บริษัทก่อตั้งขึ้นเมื่อร้อยปีที่แล้วและเติบโตขึ้นจนกลายเป็นธุรกิจที่มีมูลค่าหลายพันล้านดอลลาร์ครอบคลุม 16 ตลาดและมีพนักงานมากกว่า 12,000 คน บุคลากรของเราให้บริการแก่บริษัทยาชั้นนำ 20 แห่งของโลก"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit.jpg",
+                  "alt": "",
+                  "width": "708",
+                  "height": "553"
+                }
+              }
+            },
+            "title": {
+              "value": "ทำไมต้องเป็นเรา"
+            },
+            "subTitle": {
+              "value": "โอกาส"
+            },
+            "description": {
+              "value": "<p><span style=\"font-size: medium; color: #234455;\">▶ ความต้องการด้านการดูแลสุขภาพที่เพิ่มขึ้นเนื่องจากการให้ความสำคัญกับสุขภาพส่วนบุคคลและโควิด-19 เพิ่มขึ้น</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ ประชากรสูงอายุในประเทศไทยส่งผลให้การรักษาโรคเรื้อรังเพิ่มมากขึ้น</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ โครงการหลักประกันสุขภาพถ้วนหน้าให้ความคุ้มครองกว้างขวางพร้อมผู้ป่วยต่างชาติกลับมา</span>&nbsp;</p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"font-size: 40px; line-height: 150%; font-weight: 300; color: #19303c;\">ความสามารถ</span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp; </span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ ซิลลิคฟาร์มามีประสบการณ์ด้านการดูแลสุขภาพในประเทศไทยมากกว่า 75 ปี</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ สิ่งอำนวยความสะดวก cold-chain ที่ใหญ่ที่สุดสำหรับผลิตภัณฑ์ดูแลสุขภาพที่มี protocol อุณหภูมิที่หลากหลายรถตู้ขนส่งปรับอากาศพร้อมบรรจุภัณฑ์ eZCooler ที่เป็นนวัตกรรมใหม่บริการครบวงจรสำหรับการแก้ไขภายใต้ GMP</span>&nbsp;</p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">\n</span></p>"
+            },
+            "buttonName": {
+              "value": ""
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": true
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-linear.png",
+                  "alt": "map",
+                  "width": "392",
+                  "height": "552"
+                }
+              }
+            },
+            "title": {
+              "value": "การเข้าถึงเราเป็นเรื่องง่าย"
+            },
+            "subTitle": {
+              "value": "สาขาและศูนย์กระจายสินค้าทั่วประเทศ"
+            },
+            "description": {
+              "value": "<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">ซิลลิคฟาร์มามีคลังสินค้า 4 แห่งในประเทศไทย โดยมีพื้นที่จัดเก็บพาเลท 56,400 พาเลท และห้องควบคุมความเย็นแบบครบวงจรสำหรับผลิตภัณฑ์ต่างๆ</span></p>\n<p><span style=\"line-height: 50%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">เรานำเสนอความคุ้มครองด้านจริยธรรม ร้านขายยา และ OTC ให้กับลูกค้า 98% โดยให้บริการลูกค้าด้านการดูแลสุขภาพมากกว่า 22,000 ราย พร้อมด้วยตัวแทนฝ่ายขายและการตลาด 500 ราย และจนถึงปัจจุบันได้แจกจ่ายวัคซีนไปแล้ว 87% เราได้รับรางวัลมากมาย รวมถึงรางวัลเก้ารางวัลในงาน TCCTA Contact Center Awards ประจำปี 2022</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\"></span><strong style=\"color: #234455; font-size: x-large;\">Zuellig Pharma Ltd.</strong></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span>&nbsp;</p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>ชั้น 8-9 อาคารเพลินจิตเซ็นเตอร์<br />\n2 ถนนสุขุมวิท แขวงคลองเตย<br />\nเขตคลองเตย<br />\nกรุงเทพฯ 10110</strong></span></p>"
+            },
+            "buttonName": {
+              "value": "ติดต่อเรา"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": false
+            }
+          }
+        ]
+      }
+    }
+  }
+}

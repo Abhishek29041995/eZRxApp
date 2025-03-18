@@ -1,0 +1,33 @@
+query customerLicenses($customerCodes: [String!]!, $salesOrganisation: String!, $language: String!, $filterBlockCustomer: Boolean!, $first: Int!, $after: Int!, $orderBy: String!) {
+  customerLicenses(
+    customerCodes: $customerCodes
+    salesOrganisation: $salesOrganisation
+    language: $language
+    filterBlockCustomer: $filterBlockCustomer
+    first: $first
+    after: $after
+    orderBy: $orderBy
+  ) {
+    Total
+    Licenses {
+      licenceType
+      licenseNumber
+      validFrom
+      validTo
+      licenseDescription
+      status
+    }
+  }
+}
+
+variables:{
+  "customerCodes": [
+    "all"
+  ],
+  "salesOrganisation": "2001",
+  "language": "EN",
+  "filterBlockCustomer": false,
+  "first": 10,
+  "after": 0,
+  "orderBy": "DESC"
+}

@@ -1,0 +1,97 @@
+{
+  "data": {
+    "getLiveCampaigns": {
+      "statusCode": 200,
+      "statusMessage": "GetLiveCampaigns Fetched Successfully",
+      "data": [
+        {
+          "bannerId": "644b39480a572d862a35ca01",
+          "bannerCampaignName": "Campaign Test For Korea",
+          "startDate": "2023-04-27 15:00:00 +0000 UTC",
+          "bannerCampaignLocations": [
+            "korea"
+          ],
+          "bannerUrl": "https://ezadsstg.blob.core.windows.net/ezadsstg/image-784x256%20(2).jpg",
+          "endDate": "2023-06-29 15:00:00 +0000 UTC",
+          "websiteUrl": "https://uat-kr.ezrxplus.com/ko-KR/ProductListing?q=physio",
+          "salesOrg": [
+            "3001"
+          ],
+          "countryCode": [
+            "KR"
+          ],
+          "bannerCountId": 323,
+          "salesRep": false,
+          "status": "active",
+          "customers": true,
+          "companyName": "Zuellig Pharma test 1",
+          "targetProduct": "eZRx+",
+          "keyWord": "",
+          "mobileBannerImg": "",
+          "bannerPlacement": "Top Advert Box",
+          "bannerSlot": 1,
+          "brandTags": "SKC"
+        },
+        {
+          "bannerId": "6451c319a71213dfc38664b9",
+          "bannerCampaignName": "Campaign Test For Kore STG",
+          "startDate": "2023-05-02 15:00:00 +0000 UTC",
+          "bannerCampaignLocations": [
+            "korea"
+          ],
+          "bannerUrl": "https://ezadsstg.blob.core.windows.net/ezadsstg/MicrosoftTeams-image%20(14).png",
+          "endDate": "2023-05-16 15:00:00 +0000 UTC",
+          "websiteUrl": "https://uat-kr.ezrxplus.com/ko-KR/ProductDetails/000000000021248000",
+          "salesOrg": [
+            "3001"
+          ],
+          "countryCode": [
+            "KR"
+          ],
+          "bannerCountId": 330,
+          "salesRep": false,
+          "status": "active",
+          "customers": true,
+          "companyName": "Zuellig Pharma test 1",
+          "targetProduct": "eZRx+",
+          "keyWord": "",
+          "mobileBannerImg": "",
+          "bannerPlacement": "Top Advert Box",
+          "bannerSlot": 2,
+          "brandTags": "SKC"
+        },
+        {
+          "bannerId": "645b70dbf15712f9d8b58e9e",
+          "bannerCampaignName": "Campaign Test For Korea Top Advert",
+          "startDate": "2023-05-09 15:00:00 +0000 UTC",
+          "bannerCampaignLocations": [
+            "korea"
+          ],
+          "bannerUrl": "https://ezadsstg.blob.core.windows.net/ezadsstg/KOREA_SMALL_BANNERS_784x256%20(3).jpg",
+          "endDate": "2023-05-23 15:00:00 +0000 UTC",
+          "websiteUrl": "https://uat-kr.ezrxplus.com/ko-KR/ProductDetails/000000000021247998",
+          "salesOrg": [
+            "3001"
+          ],
+          "countryCode": [
+            "KR"
+          ],
+          "bannerCountId": 348,
+          "salesRep": false,
+          "status": "active",
+          "customers": true,
+          "companyName": "Zuellig Pharma test 1",
+          "targetProduct": "eZRx+",
+          "keyWord": "",
+          "mobileBannerImg": "",
+          "bannerPlacement": "Top Advert Box",
+          "bannerSlot": 3,
+          "brandTags": "SKC"
+        }
+      ]
+    }
+  },
+  "extensions": {
+    "trace-id": "375c397ae747786732e12c95e94a5935"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "data": {
+        "setNotificationSettings": {
+            "settings": {
+                "orderConfirmation": false,
+                "paymentConfirmation": true,
+                "ereturnConfirmation": true
+            }
+        }
+    }
+}

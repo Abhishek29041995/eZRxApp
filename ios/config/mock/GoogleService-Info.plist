@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>289365077122-jn5m8057i1041g0l7egngf0i42t8sj8e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.289365077122-jn5m8057i1041g0l7egngf0i42t8sj8e</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>289365077122-6v22jm67inus2evkp4lpr1cdta6i0su9.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCbTOL3mSI66YTCHVadxz2_vhjBN1BSeJU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>289365077122</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.zuelligpharma.ezrxplus.mock</string>
+	<key>PROJECT_ID</key>
+	<string>ezrx-uat</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ezrx-uat.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:289365077122:ios:9523c883e8911510f6589b</string>
+</dict>
+</plist>

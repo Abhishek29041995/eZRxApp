@@ -1,0 +1,173 @@
+{
+    "data": {
+      "additionalBonusMaterial": {
+        "processedMetaData": {
+          "count": 18
+        },
+        "materials": [
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100358",
+            "principalName": "MULTICARE PHARMACEUTICALS",
+            "materialNumber": "000000000013025897",
+            "materialDescription": "RHINODEC TABLET 100'S",
+            "therapeuticClass": "Multivitamins with minerals",
+            "itemBrand": "RHINODEC TABLET 100'"
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100486",
+            "principalName": "RECKITT BENCKISER (SINGAPORE) PTE",
+            "materialNumber": "000000000021000054",
+            "materialDescription": "10010320 HIGH HEEL ISOLES 'S",
+            "therapeuticClass": "Non-IMS classified",
+            "itemBrand": "SCHOLL"
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000104047",
+            "principalName": "JOHNSON & JOHNSON (PHILIPPINES) INC",
+            "materialNumber": "000000000023298527",
+            "materialDescription": "3544300 SILTEX RND HI-PROF GEL CI 300CC",
+            "therapeuticClass": "All other non-therapeutic products",
+            "itemBrand": ""
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100414",
+            "principalName": "ELI LILLY (PHILIPPINES),",
+            "materialNumber": "000000000021000166",
+            "materialDescription": "HUMULIN  70/30 HI-710 1'S_testinterface",
+            "therapeuticClass": "Human insulins+analogues itmd.& f.acting",
+            "itemBrand": "HUMULIN"
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100486",
+            "principalName": "RECKITT BENCKISER (SINGAPORE) PTE",
+            "materialNumber": "000000000021000051",
+            "materialDescription": "10002180 BALL OF FOO CUSHIN 1'S",
+            "therapeuticClass": "Non-IMS classified",
+            "itemBrand": "SCHOLL"
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100482",
+            "principalName": "FRESENIUS KABI PHILIPPINES INC.",
+            "materialNumber": "000000000013024938",
+            "materialDescription": "THICK&EASY6.5FSACH100SINSTFTHICKNR",
+            "therapeuticClass": "All other non-therapeutic products",
+            "itemBrand": "THICK&EASY"
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100414",
+            "principalName": "ELI LILLY (PHILIPPINES),",
+            "materialNumber": "000000000021210621",
+            "materialDescription": "HUMULIN  70/30 HI-710 1'S",
+            "therapeuticClass": "Human insulins+analogues itmd.& f.acting",
+            "itemBrand": "HUMULIN"
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100294",
+            "principalName": "JELMA PHILIPPINES INC.",
+            "materialNumber": "000000000013010127",
+            "materialDescription": "WHITE FLWRCLASS#51.5ML12S",
+            "therapeuticClass": "Other therapeutic preparations",
+            "itemBrand": "WHITEFLOWER  C#5"
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100408",
+            "principalName": "ADVANCED NUTRITIONAL TECHNOLOGIES",
+            "materialNumber": "000000000023000793",
+            "materialDescription": "EASIYO YOGURT MAKER WHITE",
+            "therapeuticClass": "Emollients, protectives",
+            "itemBrand": "EASIYO YOGURT MAKER"
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100482",
+            "principalName": "FRESENIUS KABI PHILIPPINES INC.",
+            "materialNumber": "000000000013024939",
+            "materialDescription": "THICK&EASY 227GCAN  INSTFDTHICKNR",
+            "therapeuticClass": "All other non-therapeutic products",
+            "itemBrand": "THICK&EASY"
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000104047",
+            "principalName": "JOHNSON & JOHNSON (PHILIPPINES) INC",
+            "materialNumber": "000000000023298528",
+            "materialDescription": "3544325 SILTEX RND HI-PROF GEL CI 325CC",
+            "therapeuticClass": "All other non-therapeutic products",
+            "itemBrand": ""
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000104047",
+            "principalName": "JOHNSON & JOHNSON (PHILIPPINES) INC",
+            "materialNumber": "000000000023298525",
+            "materialDescription": "3544250 SILTEX RND HI-PROF GEL CI 250CC",
+            "therapeuticClass": "All other non-therapeutic products",
+            "itemBrand": ""
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100354",
+            "principalName": "ABBOTT PRODUCTS (PHILS.,) INC.",
+            "materialNumber": "000000000011003583",
+            "materialDescription": "HIDRASEC 10MG SCHET 16'S",
+            "therapeuticClass": "All other antidiarrhoeals",
+            "itemBrand": "HIDRASEC"
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100408",
+            "principalName": "ADVANCED NUTRITIONAL TECHNOLOGIES",
+            "materialNumber": "000000000011010833",
+            "materialDescription": "HIPP ORGANIC KINDERMILK 800G",
+            "therapeuticClass": "All other non-therapeutic products",
+            "itemBrand": "HIPP ORGANIC"
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100425",
+            "principalName": "JOHNSON & JOHNSON (PHILIPPINES) INC",
+            "materialNumber": "000000000023001565",
+            "materialDescription": "02251301 OT VERIO CONTROL SOLUTIONS HI",
+            "therapeuticClass": "Diabetes tests",
+            "itemBrand": "02251301 OT VERIO CO"
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000104047",
+            "principalName": "JOHNSON & JOHNSON (PHILIPPINES) INC",
+            "materialNumber": "000000000023298529",
+            "materialDescription": "3544350 SILTEX RND HI-PROF GEL CI 350CC",
+            "therapeuticClass": "All other non-therapeutic products",
+            "itemBrand": ""
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100399",
+            "principalName": "GALDERMA PHILIPPINES, INC.",
+            "materialNumber": "000000000013017572",
+            "materialDescription": "CETAPHIL DAILY FACIAL MOIST SPF 15 118ML",
+            "therapeuticClass": "Non-IMS classified",
+            "itemBrand": "CETAPHIL DAILY FACIA"
+          },
+          {
+            "isSampleMaterial": false,
+            "principalCode": "0000100425",
+            "principalName": "JOHNSON & JOHNSON (PHILIPPINES) INC",
+            "materialNumber": "000000000013025860",
+            "materialDescription": "HRUB05E MICROSHIELD HANDRUB 500ML",
+            "therapeuticClass": "All other non-therapeutic products",
+            "itemBrand": "HRUB05E MICROSHIELD"
+          }
+        ]
+      }
+    }
+  }

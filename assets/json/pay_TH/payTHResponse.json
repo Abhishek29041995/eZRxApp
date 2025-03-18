@@ -1,0 +1,15 @@
+{
+  "data": {
+      "addCustomerPayment": {
+          "paymentID": "2        1",
+          "valueDate": "2024-05-20",
+          "transactionCurrency": "THB",
+          "paymentBatchAdditionalInfo": "23CF8B2C409E758",
+          "accountingDocExternalReference": "",
+          "zCcpPaymentQRCode": "",
+          "adviceExpiry":"30 Day(s)",
+          "zzHtmcs": "<html:button id=\"btn_submit\"> Pay Now </html:button><html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win, doc;win = window.open(\"\",\"_blank\"); doc = win.document;doc.write('<html><head></head><body><form method=\"POST\" action=\"/api/thankyou-payment\"><script type=\"text/javascript\" src=\"https://dev-kpaymentgateway.kasikornbank.com/ui/v2/kpayment.min.js\" data-apikey=\"pkey_test_21102hvZyafqGFFzN0G3NjphkJZ2NPFbRBMRq\" data-amount=\"32199.51\" data-currency=\"THB\" data-payment-methods=\"qr\" data-order-id=\"order_test_211025257366f3c084154b2941ae1fa149c53\"></script></form></body></html>');doc.close();})</html:script>",
+          "zzAdvice": "09EZ240002318701"
+      }
+  }
+}

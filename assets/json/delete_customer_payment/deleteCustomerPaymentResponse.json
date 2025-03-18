@@ -1,0 +1,7 @@
+{
+    "data": {
+        "deleteCustomerPayment": {
+            "statusMessage": "Customer Payment Advice has been Deleted Successfully"
+        }
+    }
+}

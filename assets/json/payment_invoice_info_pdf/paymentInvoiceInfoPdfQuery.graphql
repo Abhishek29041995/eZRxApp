@@ -1,0 +1,49 @@
+query paymentInvoicePdf($request: paymentInvoiceRequest!) {
+   paymentInvoicePdf(request: $request) {
+      valueDate
+      paymentID
+      zzAdvice
+      paymentDue
+      paymentMethod
+      customerName
+      payer
+      bankBeneficiary{
+         beneficiaryName
+         bankName
+         branch
+         bankCode
+         bankAccount
+         hdbcSwiftCode
+         bankAddress
+         payNowUen
+         emailId
+    }
+      qrCode
+      paymentBatchAdditionalInfo
+      paymentItems {
+         postingKeyName
+         accountingDocument
+         documentDate
+         transactionCurrency
+         paymentAmountInDisplayCrcy
+         documentReferenceID
+      }
+      salesDistrict
+      footer
+      headerLogoPath
+      pleaseNote
+      header
+   }
+}
+
+"variables": {
+   "request": {
+      "accountingDocExternalReference":"200120210180000087001",
+      "customerCode":"0000101215",
+      "customerName":"rootadmin",
+      "payer":"0000101215",
+      "paymentBatchAdditionalInfo":"23C3A52470CA05C",
+      "paymentId":"2        3",
+      "salesOrg":"2001"
+   }
+}

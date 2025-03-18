@@ -1,0 +1,65 @@
+mutation addCustomerPayment($input: addCustomerPaymentInput!) {
+    addCustomerPayment(input: $input) {
+      paymentID
+      paymentBatchAdditionalInfo
+      valueDate
+      transactionCurrency
+      accountingDocExternalReference
+      zCcpPaymentQRCode
+      zzAdvice
+      zzHtmcs
+      adviceExpiry
+   }
+}
+
+variables: {
+    "input":{
+        "isV2": true,
+        "customerCode": "0030224907",
+        "salesOrg": "2902",
+        "transactionCurrency": "THB",
+        "paymentMethod": "Payment Gateway",
+        "userName": "rootadmin",
+        "shipToCode": "0071115077",
+        "customerInvoice": [
+            {
+                "salesOrg": "2902",
+                "fiscalYear": "2023",
+                "accountingDocument": "1310000426",
+                "lineItemNumber": "001",
+                "lineNumber": "000626",
+                "bpCustomerNumber": "30224907",
+                "paymentAmount": "1070",
+                "displayCurrency": "THB",
+                "displayAmount": "1070",
+                "displayOpenAmount": "1070",
+                "discountAmount": "0",
+                "discountDate": "2024-03-08",
+                "dueDate": "2024-03-08",
+                "debitCreditFlag": "S",
+                "accountingDocExternalReference": "290220231310000426001SD 1310000426",
+                "partialPaymentHistoryDesc": "290220231310000426001:",
+                "isDisputed": ""
+            },
+            {
+                "salesOrg": "2902",
+                "fiscalYear": "2016",
+                "accountingDocument": "0040024362",
+                "lineItemNumber": "001",
+                "lineNumber": "000007",
+                "bpCustomerNumber": "30224907",
+                "paymentAmount": "-990",
+                "displayCurrency": "THB",
+                "displayAmount": "-990",
+                "displayOpenAmount": "-990",
+                "discountAmount": "0",
+                "discountDate": "2014-10-29",
+                "dueDate": "2014-10-29",
+                "debitCreditFlag": "H",
+                "accountingDocExternalReference": "290220160040024362001",
+                "partialPaymentHistoryDesc": "290220160040024362001:",
+                "isDisputed": ""
+            }
+        ]
+    }
+}

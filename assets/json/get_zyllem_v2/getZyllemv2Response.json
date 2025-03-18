@@ -1,0 +1,38 @@
+{
+    "data": {
+        "zyllemStatusV2": {
+            "Entry": [
+                {
+                    "Actiom": "Delivered",
+                    "StepName": "",
+                    "StepStape": "",
+                    "State": "",
+                    "Status": "",
+                    "UpdateTimeStamp": "2024-06-08T00:26:04.315+08:00",
+                    "PreformedAt": "2024-06-08T00:26:03+08:00"
+                },
+                {
+                    "Actiom": "Arrival At Customer Site",
+                    "StepName": "",
+                    "StepStape": "",
+                    "State": "",
+                    "Status": "",
+                    "UpdateTimeStamp": "2024-05-08T00:24:12.566+08:00",
+                    "PreformedAt": "2024-05-08T00:24:11+08:00"
+                },
+                {
+                    "Actiom": "Out for delivery",
+                    "StepName": "",
+                    "StepStape": "",
+                    "State": "",
+                    "Status": "",
+                    "UpdateTimeStamp": "2024-04-08T00:24:08.672+08:00",
+                    "PreformedAt": "2024-04-08T00:24:07+08:00"
+                }
+            ]
+        }
+    },
+    "extensions": {
+        "x-cached": false
+    }
+}

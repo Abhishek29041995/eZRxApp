@@ -1,0 +1,24 @@
+{
+  "operationName": "bankBeneficiary",
+  "variables":{
+  "request": {
+    "salesOrg": "2500"
+  }
+},
+  "query": "query bankBeneficiary($request: bankBeneficiaryRequest!) {
+  bankBeneficiary(request: $request) {
+    salesOrg
+    salesDistrict
+    beneficiaryName
+    bankName
+    branch
+    bankCode
+    bankAccount
+    hdbcSwiftCode
+    bankAddress
+    payNowUen
+    emailId
+  }
+}
+"
+}

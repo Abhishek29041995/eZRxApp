@@ -1,0 +1,40 @@
+query getLiveCampaigns(
+  $country: String
+  $Salesorg: String
+  $role: String
+  $targetProduct: String
+  $sort: String
+) {
+  getLiveCampaigns(
+    request: {
+      country: $country
+      Salesorg: $Salesorg
+      role: $role
+      targetProduct: $targetProduct
+      sort: $sort
+      bannerPlacement: banner_carousel
+    }
+  ) {
+    statusCode
+    statusMessage
+    data {
+      bannerId
+      bannerCampaignName
+      startDate
+      bannerCampaignLocations
+      bannerUrl
+      mobileBannerImg
+      endDate
+      websiteUrl
+      salesOrg
+      countryCode
+      bannerCountId
+      salesRep
+      status
+      customers
+      companyName
+      targetProduct
+      keyWord
+    }
+  }
+}

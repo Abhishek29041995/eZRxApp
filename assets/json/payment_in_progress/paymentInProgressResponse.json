@@ -1,0 +1,11 @@
+{
+    "data": {
+        "paymentInProgress": {
+            "results": [
+                {
+                    "amount": "2052"
+                }
+            ]
+        }
+    }
+}

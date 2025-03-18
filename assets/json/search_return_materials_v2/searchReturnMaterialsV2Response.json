@@ -1,0 +1,176 @@
+{
+  "data": {
+    "searchReturnMaterialsV2": {
+      "materialBasicInformation": [
+        {
+          "salesOrg": "2001",
+          "partnerRole": "SH",
+          "partnerNumber": "0070149863"
+        },
+        {
+          "salesOrg": "2001",
+          "partnerRole": "AG",
+          "partnerNumber": "0030082707"
+        }
+      ],
+      "materials": [
+        {
+          "item": {
+            "assignmentNumber": "1100001104",
+            "referenceDocument": "0085672118",
+            "material": "000000000021040129",
+            "materialDescription": "NATIONAL EXPORT 1",
+            "DefaultMaterialDescription": "NATIONAL EXPORT 1",
+            "balanceQuantity": "50",
+            "targetQuantity": "49",
+            "batch": "C10527042",
+            "eligibleForReturn": true,
+            "priceDate": "20230529",
+            "unitPrice": "402.80",
+            "totalPrice": "20140",
+            "principalCode": "0000101296",
+            "principalName": "PFIZER 1 (M) SDN BHD  (PCL a/c)",
+            "expiryDate": "20251101",
+            "itemNumber": "20251101",
+            "bonusItem": [],
+            "outsidePolicy": true,
+            "wareHouseStorageCondition":"AC",
+            "isMarketPlace": true
+          }
+        },
+        {
+          "item": {
+            "assignmentNumber": "1100001110",
+            "material": "000000000021040129",
+            "materialDescription": "ZP EXPORT 1",
+            "DefaultMaterialDescription": "ZP EXPORT 1",
+            "balanceQuantity": "2",
+            "batch": "C10527042",
+            "eligibleForReturn": true,
+            "priceDate": "20230530",
+            "unitPrice": "268.53",
+            "totalPrice": "805.5899999999999",
+            "principalCode": "0000101296",
+            "principalName": "PFIZER 1 (M) SDN BHD  (PCL a/c)",
+            "expiryDate": "20251101",
+            "itemNumber": "20251101",
+            "isMarketPlace": false,
+            "bonusItem": [
+              {
+                "assignmentNumber": "1100001110",
+                "material": "000000000021040129",
+                "materialDescription": "VFENDTAB50MG10'S",
+                "DefaultMaterialDescription": "VFENDTAB50MG10'S",
+                "balanceQuantity": "12",
+                "targetQuantity": "14",
+                "eligibleForReturn": true,
+                "batch": "C10527042",
+                "priceDate": "20230530",
+                "unitPrice": "268.53",
+                "totalPrice": "0",
+                "principalCode": "0000101297",
+                "principalName": "PFIZER 2 (M) SDN BHD  (PCL a/c)",
+                "expiryDate": "20251101",
+                "itemNumber": "20251101",
+                "outsidePolicy": false,
+                "wareHouseStorageCondition":"AC"
+              }
+            ],
+            "wareHouseStorageCondition":"AC",
+            "outsidePolicy": false
+          }
+        },
+        {
+          "item": {
+            "assignmentNumber": "1100001104",
+            "referenceDocument": "0085672118",
+            "material": "000000000021040129",
+            "materialDescription": "NATIONAL EXPORT 2",
+            "DefaultMaterialDescription": "NATIONAL EXPORT 2",
+            "balanceQuantity": "50",
+            "targetQuantity": "45",
+            "batch": "C10527042",
+            "eligibleForReturn": true,
+            "priceDate": "20230529",
+            "unitPrice": "402.80",
+            "totalPrice": "20140",
+            "principalCode": "0000101297",
+            "principalName": "PFIZER 2 (M) SDN BHD  (PCL a/c)",
+            "expiryDate": "20251101",
+            "itemNumber": "20251101",
+            "bonusItem": [],
+            "outsidePolicy": true,
+            "wareHouseStorageCondition":"AC",
+            "isMarketPlace": true
+          }
+        },
+        {
+          "item": {
+            "assignmentNumber": "1100001104",
+            "referenceDocument": "0085672118",
+            "material": "000000000021040129",
+            "materialDescription": "NATIONAL EXPORT 3",
+            "DefaultMaterialDescription": "NATIONAL EXPORT 3",
+            "balanceQuantity": "50",
+            "batch": "C10527042",
+            "eligibleForReturn": true,
+            "priceDate": "20230529",
+            "unitPrice": "402.80",
+            "totalPrice": "20140",
+            "principalCode": "0000101296",
+            "principalName": "PFIZER 1 (M) SDN BHD  (PCL a/c)",
+            "expiryDate": "20251101",
+            "itemNumber": "20251101",
+            "bonusItem": [],
+            "outsidePolicy": true,
+            "wareHouseStorageCondition":"AC",
+            "isMarketPlace": true
+          }
+        },
+        {
+          "item": {
+            "assignmentNumber": "1100001110",
+            "material": "000000000021040129",
+            "materialDescription": "ZP EXPORT 2",
+            "DefaultMaterialDescription": "ZP EXPORT 2",
+            "balanceQuantity": "21",
+            "targetQuantity": "20",
+            "batch": "C10527042",
+            "eligibleForReturn": true,
+            "priceDate": "20230530",
+            "unitPrice": "268.53",
+            "totalPrice": "805.5899999999999",
+            "principalCode": "0000101297",
+            "principalName": "PFIZER 2 (M) SDN BHD  (PCL a/c)",
+            "expiryDate": "20251101",
+            "itemNumber": "20251101",
+            "isMarketPlace": false,
+            "bonusItem": [
+              {
+                "assignmentNumber": "1100001110",
+                "material": "000000000021040129",
+                "materialDescription": "VFENDTAB50MG10'S",
+                "DefaultMaterialDescription": "VFENDTAB50MG10'S",
+                "balanceQuantity": "1",
+                "targetQuantity": "3",
+                "eligibleForReturn": true,
+                "batch": "C10527042",
+                "priceDate": "20230530",
+                "unitPrice": "268.53",
+                "totalPrice": "0",
+                "principalCode": "0000101297",
+                "principalName": "PFIZER 2 (M) SDN BHD  (PCL a/c)",
+                "expiryDate": "20251101",
+                "itemNumber": "20251101",
+                "wareHouseStorageCondition":"AC",
+                "outsidePolicy": false
+              }
+            ],
+            "wareHouseStorageCondition":"AC",
+            "outsidePolicy": false
+          }
+        }
+      ]
+    }
+  }
+}

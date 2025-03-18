@@ -1,0 +1,51 @@
+query ($pageSize: Int!, $template: String!, $path: String!, $lang: String!, $after: String) {
+  search(
+    where: {AND: [{name: "_templates", value: $template, operator: CONTAINS}, {name: "_path", value: $path, operator: CONTAINS}, {name: "_language", value: $lang, operator: CONTAINS}]}
+    first: $pageSize
+    after: $after
+  ) {
+    pageInfo {
+      endCursor
+      hasNext
+
+    }
+    total
+    results {
+      ...itemDetailFAQ
+
+    }
+  }
+}
+
+fragment itemDetailFAQ on Item {
+  ... on FAQ {
+    id
+    name
+    question: field(name: "Question") {
+      ...textFieldsFAQ
+
+    }
+    answer: field(name: "Answer") {
+      ...textFieldsFAQ
+
+    }
+    category: parent {
+      id
+      name
+      displayName
+
+    }
+  }
+}
+
+fragment textFieldsFAQ on TextField {
+  value
+}
+
+Variables : {
+  "template": "4A583EF3-A105-4A00-BC98-EC96A9967966",
+  "path": "51B88D33-B26E-475D-90FC-BEFD9FF0A348",
+  "pageSize": 1000,
+  "lang": "en",
+  "after": ""
+}

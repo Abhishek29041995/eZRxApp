@@ -1,0 +1,36 @@
+{
+    "data": {
+        "getProduct": {
+            "orderCloudProduct": [
+                {
+                    "materialID": "000000000021041773",
+                    "name": "190 BREATH RIGHT KIDS 1 2'S-6",
+                    "description": "",
+                    "image": [
+                        "https://ezrxdev.blob.core.windows.net/assets/Test/my/21041790/21038305.png",
+                        "https://ezrxdev.blob.core.windows.net/assets/Test/my/21041790/21038305.png",
+                        "https://ezrxdev.blob.core.windows.net/assets/Test/my/21041790/21038305.png"
+                    ],
+                    "thumbNail": "https://ezrxdev.blob.core.windows.net/assets/Test/my/21041790/21038305.png-s",
+                    "isFavourite": false
+                }
+            ],
+            "Items": [
+                {
+                    "PromotionMaterial": "\u003caddress\u003e\u003cspan style=\"color:#27ae60\"\u003e\u003cspan style=\"font-size:20px\"\u003e\u003cimg alt=\"heart\" src=\"https://cdn.ckeditor.com/4.18.0/full-all/plugins/smiley/images/heart.png\" style=\"height:23px; width:23px\" title=\"heart\" /\u003e\u003cstrong\u003eVaccination Programs\u003c/strong\u003e\u003c/span\u003e\u003c/span\u003e\u003c/address\u003e\n\n\u003caddress style=\"text-align: right;\"\u003e\u003cspan style=\"font-size:20px\"\u003eThe end-to-end program includes website registration and ordering, delivery of products to the site, administration of vaccines, data and insight reports to evaluate effectiveness, as well as options for ongoing patient management programs. Our patient care solutions help to tackle access and education barriers while our sophisticated supply chain expertise ensures the \u003cimg alt=\"\" src=\"https://ezrxdev.blob.core.windows.net/assets/Test/my/unassignproduct/anh%201%20-%20copy%20(4).png\" /\u003eintegrity and quality of vaccines to the last \u003cu\u003emile of distribution\u003c/u\u003e\u003c/span\u003e\u003cu\u003e.\u003c/u\u003e\u003c/address\u003e\n\n\u003caddress style=\"text-align: right;\"\u003e\u003cu\u003ehttps://seller-center-mpmy-uat.ezrxplus.com/asset-management?isSapNumber=false\u003c/u\u003e\u003c/address\u003e\n",
+                    "HidePrice": false,
+                    "XP": {
+                        "Dosage": "dosage test dosage test",
+                        "HowToUse": "how to usehow to usehow to usehow to usevhow to usehow to usevvvhow to usevhow to usehow to usehow to usehow to usevvvhow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to usehow to use",
+                        "Composition": "Composition Composition Composition",
+                        "DeliveryInstructions": "Delivery instructions",
+                        "Usability": "uability test uability test "
+                    }
+                }
+            ]
+        }
+    },
+    "extensions": {
+        "trace-id": "266e9c7423d81505c135f9822823da33"
+    }
+}

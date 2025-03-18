@@ -1,0 +1,1020 @@
+{
+  "data": {
+    "customerPayment": {
+      "total": 16,
+      "showing": 16,
+      "totalPaymentInProgress": 5342,
+      "resultPaymentInProgress": 5342,
+      "customerPaymentResponse": [
+        {
+          "paymentID": "2       14",
+          "valueDate": "2023-06-16",
+          "paymentAmount": 100,
+          "transactionCurrency": "MYR",
+          "paymentDocument": "",
+          "invoiceProcessingStatus": "In Progress",
+          "paymentMethod": "Payment Gateway",
+          "iban": "",
+          "bankIdentification": "BCA",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "23BE8AED635184A",
+          "accountingDocExternalReference": "200120212040000284001SD 2040000284",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "09EZ230000544601",
+          "zzHtmcs": "<html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win = window.open(\"\" ,\"_blank\");win.document.body.innerHTML = '<form id=\"pay_form\" name=\"pay_form\" action=\"https://pay.e-ghl.com/IPGSG/Payment.aspx\" method=\"post\"><input name=\"TransactionType\" type=\"hidden\" id=\"TransactionType\" value=\"SALE\" /><input name=\"PymtMethod\" type=\"hidden\" id=\"PymtMethod\" value=\"ANY\" /><input name=\"ServiceID\" type=\"hidden\" id=\"ServiceID\" value=\"ZUE\" /><input name=\"PaymentID\" type=\"hidden\" id=\"PaymentID\" value=\"09EZ230000544601\" /><input name=\"OrderNumber\" type=\"hidden\" id=\"OrderNumber\" value=\"09EZ230000544601\" /><input name=\"PaymentDesc\" type=\"hidden\" id=\"PaymentDesc\" value=\"-\" /><input name=\"MerchantName\" type=\"hidden\" id=\"MerchantName\" value=\"Zuellig Pharma\" /><input name=\"MerchantReturnURL\" type=\"hidden\" id=\"MerchantReturnURL\" value=\"https://uat-my.ezrxplus.com/my-account/thankyou-payment\" /><input name=\"MerchantCallBackURL\" type=\"hidden\" id=\"MerchantCallBackURL\" value=\"https://omnicollect-dev.business.hsbc.com/api/callback/my/eGHL/payment\" /><input name=\"Amount\" type=\"hidden\" id=\"Amount\" value=\"100.00\" /><input name=\"CurrencyCode\" type=\"hidden\" id=\"CurrencyCode\" value=\"MYR\" /><input name=\"CustIP\" type=\"hidden\" id=\"CustIP\" value=\"\" /><input name=\"CustName\" type=\"hidden\" id=\"CustName\" value=\"Customer Name\" /><input name=\"CustEmail\" type=\"hidden\" id=\"CustEmail\" value=\"customer.name@example.com\" /><input name=\"CustPhone\" type=\"hidden\" id=\"CustPhone\" value=\"1234567890\" /><input name=\"LanguageCode\" type=\"hidden\" id=\"LanguageCode\" value=\"EN\" /><input name=\"PageTimeout\" type=\"hidden\" id=\"PageTimeout\" value=\"780\" /><input name=\"HashValue\" type=\"hidden\" id=\"HashValue\" value=\"62c048d5b21f6cd014cbd72abcdf1892ae3f1ce7db603b5ba0220c4f217ff772\" /></form>';win.document.pay_form.submit();})</html:script><html:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\">Open Payment Gateway</html:button>",
+          "adviceExpiry": "23 Day(s)",
+          "createdDate": "2023-06-09",
+          "status": "In Progress"
+        },
+        {
+          "paymentID": "2        3",
+          "valueDate": "2023-06-16",
+          "paymentAmount": 200,
+          "transactionCurrency": "MYR",
+          "paymentDocument": "",
+          "invoiceProcessingStatus": "In Progress",
+          "paymentMethod": "Payment Gateway",
+          "iban": "",
+          "bankIdentification": "",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "23BE0F6E293256A",
+          "accountingDocExternalReference": "200120140220000020001",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "09EZ230000506401",
+          "zzHtmcs": "<html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win = window.open(\"\" ,\"_blank\");win.document.body.innerHTML = '<form id=\"pay_form\" name=\"pay_form\" action=\"https://pay.e-ghl.com/IPGSG/Payment.aspx\" method=\"post\"><input name=\"TransactionType\" type=\"hidden\" id=\"TransactionType\" value=\"SALE\" /><input name=\"PymtMethod\" type=\"hidden\" id=\"PymtMethod\" value=\"ANY\" /><input name=\"ServiceID\" type=\"hidden\" id=\"ServiceID\" value=\"ZUE\" /><input name=\"PaymentID\" type=\"hidden\" id=\"PaymentID\" value=\"09EZ230000506401\" /><input name=\"OrderNumber\" type=\"hidden\" id=\"OrderNumber\" value=\"09EZ230000506401\" /><input name=\"PaymentDesc\" type=\"hidden\" id=\"PaymentDesc\" value=\"-\" /><input name=\"MerchantName\" type=\"hidden\" id=\"MerchantName\" value=\"Zuellig Pharma\" /><input name=\"MerchantReturnURL\" type=\"hidden\" id=\"MerchantReturnURL\" value=\"https://uat-my.ezrxplus.com/my-account/thankyou-payment\" /><input name=\"MerchantCallBackURL\" type=\"hidden\" id=\"MerchantCallBackURL\" value=\"https://omnicollect-dev.business.hsbc.com/api/callback/my/eGHL/payment\" /><input name=\"Amount\" type=\"hidden\" id=\"Amount\" value=\"200.00\" /><input name=\"CurrencyCode\" type=\"hidden\" id=\"CurrencyCode\" value=\"MYR\" /><input name=\"CustIP\" type=\"hidden\" id=\"CustIP\" value=\"\" /><input name=\"CustName\" type=\"hidden\" id=\"CustName\" value=\"Customer Name\" /><input name=\"CustEmail\" type=\"hidden\" id=\"CustEmail\" value=\"customer.name@example.com\" /><input name=\"CustPhone\" type=\"hidden\" id=\"CustPhone\" value=\"1234567890\" /><input name=\"LanguageCode\" type=\"hidden\" id=\"LanguageCode\" value=\"EN\" /><input name=\"PageTimeout\" type=\"hidden\" id=\"PageTimeout\" value=\"780\" /><input name=\"HashValue\" type=\"hidden\" id=\"HashValue\" value=\"12d93e523d4e195b723a6e188ad2ca7073046befec709583c3fbb3444ff7b2c8\" /></form>';win.document.pay_form.submit();})</html:script><html:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\">Open Payment Gateway</html:button>",
+          "adviceExpiry": "13 Day(s)",
+          "createdDate": "2023-05-30",
+          "status": "In Progress"
+        },
+        {
+          "paymentID": "2        4",
+          "valueDate": "2023-06-16",
+          "paymentAmount": 1000,
+          "transactionCurrency": "MYR",
+          "paymentDocument": "",
+          "invoiceProcessingStatus": "In Progress",
+          "paymentMethod": "Payment Gateway",
+          "iban": "",
+          "bankIdentification": "",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "23BE0F2D074C7F2",
+          "accountingDocExternalReference": "200120140220000023001",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "09EZ230000506201",
+          "zzHtmcs": "<html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win = window.open(\"\" ,\"_blank\");win.document.body.innerHTML = '<form id=\"pay_form\" name=\"pay_form\" action=\"https://pay.e-ghl.com/IPGSG/Payment.aspx\" method=\"post\"><input name=\"TransactionType\" type=\"hidden\" id=\"TransactionType\" value=\"SALE\" /><input name=\"PymtMethod\" type=\"hidden\" id=\"PymtMethod\" value=\"ANY\" /><input name=\"ServiceID\" type=\"hidden\" id=\"ServiceID\" value=\"ZUE\" /><input name=\"PaymentID\" type=\"hidden\" id=\"PaymentID\" value=\"09EZ230000506201\" /><input name=\"OrderNumber\" type=\"hidden\" id=\"OrderNumber\" value=\"09EZ230000506201\" /><input name=\"PaymentDesc\" type=\"hidden\" id=\"PaymentDesc\" value=\"-\" /><input name=\"MerchantName\" type=\"hidden\" id=\"MerchantName\" value=\"Zuellig Pharma\" /><input name=\"MerchantReturnURL\" type=\"hidden\" id=\"MerchantReturnURL\" value=\"https://ezrxplus-dev.ezrx.com/my-account/thankyou-payment\" /><input name=\"MerchantCallBackURL\" type=\"hidden\" id=\"MerchantCallBackURL\" value=\"https://omnicollect-dev.business.hsbc.com/api/callback/my/eGHL/payment\" /><input name=\"Amount\" type=\"hidden\" id=\"Amount\" value=\"1000.00\" /><input name=\"CurrencyCode\" type=\"hidden\" id=\"CurrencyCode\" value=\"MYR\" /><input name=\"CustIP\" type=\"hidden\" id=\"CustIP\" value=\"\" /><input name=\"CustName\" type=\"hidden\" id=\"CustName\" value=\"Customer Name\" /><input name=\"CustEmail\" type=\"hidden\" id=\"CustEmail\" value=\"customer.name@example.com\" /><input name=\"CustPhone\" type=\"hidden\" id=\"CustPhone\" value=\"1234567890\" /><input name=\"LanguageCode\" type=\"hidden\" id=\"LanguageCode\" value=\"EN\" /><input name=\"PageTimeout\" type=\"hidden\" id=\"PageTimeout\" value=\"780\" /><input name=\"HashValue\" type=\"hidden\" id=\"HashValue\" value=\"cef50fae3afbaa049385cdf9ad24b2c824bff3bbdae5f3fabae7da19c483893c\" /></form>';win.document.pay_form.submit();})</html:script><html:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\">Open Payment Gateway</html:button>",
+          "adviceExpiry": "13 Day(s)",
+          "createdDate": "2023-05-30",
+          "status": "Successful"
+        },
+        {
+          "paymentID": "2        5",
+          "valueDate": "2023-06-16",
+          "paymentAmount": 1000,
+          "transactionCurrency": "MYR",
+          "paymentDocument": "",
+          "invoiceProcessingStatus": "In Progress",
+          "paymentMethod": "Payment Gateway",
+          "iban": "",
+          "bankIdentification": "",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "23BE100C736A332",
+          "accountingDocExternalReference": "200120140220000024002",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "09EZ230000507001",
+          "zzHtmcs": "<html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win = window.open(\"\" ,\"_blank\");win.document.body.innerHTML = '<form id=\"pay_form\" name=\"pay_form\" action=\"https://pay.e-ghl.com/IPGSG/Payment.aspx\" method=\"post\"><input name=\"TransactionType\" type=\"hidden\" id=\"TransactionType\" value=\"SALE\" /><input name=\"PymtMethod\" type=\"hidden\" id=\"PymtMethod\" value=\"ANY\" /><input name=\"ServiceID\" type=\"hidden\" id=\"ServiceID\" value=\"ZUE\" /><input name=\"PaymentID\" type=\"hidden\" id=\"PaymentID\" value=\"09EZ230000507001\" /><input name=\"OrderNumber\" type=\"hidden\" id=\"OrderNumber\" value=\"09EZ230000507001\" /><input name=\"PaymentDesc\" type=\"hidden\" id=\"PaymentDesc\" value=\"-\" /><input name=\"MerchantName\" type=\"hidden\" id=\"MerchantName\" value=\"Zuellig Pharma\" /><input name=\"MerchantReturnURL\" type=\"hidden\" id=\"MerchantReturnURL\" value=\"https://ezrxplus-dev.ezrx.com/my-account/thankyou-payment\" /><input name=\"MerchantCallBackURL\" type=\"hidden\" id=\"MerchantCallBackURL\" value=\"https://omnicollect-dev.business.hsbc.com/api/callback/my/eGHL/payment\" /><input name=\"Amount\" type=\"hidden\" id=\"Amount\" value=\"1000.00\" /><input name=\"CurrencyCode\" type=\"hidden\" id=\"CurrencyCode\" value=\"MYR\" /><input name=\"CustIP\" type=\"hidden\" id=\"CustIP\" value=\"\" /><input name=\"CustName\" type=\"hidden\" id=\"CustName\" value=\"Customer Name\" /><input name=\"CustEmail\" type=\"hidden\" id=\"CustEmail\" value=\"customer.name@example.com\" /><input name=\"CustPhone\" type=\"hidden\" id=\"CustPhone\" value=\"1234567890\" /><input name=\"LanguageCode\" type=\"hidden\" id=\"LanguageCode\" value=\"EN\" /><input name=\"PageTimeout\" type=\"hidden\" id=\"PageTimeout\" value=\"780\" /><input name=\"HashValue\" type=\"hidden\" id=\"HashValue\" value=\"61fcf6578ebf2424c138aba620534ae50246dc30e4dc56c124cb6ea27c6fe053\" /></form>';win.document.pay_form.submit();})</html:script><html:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\">Open Payment Gateway</html:button>",
+          "adviceExpiry": "13 Day(s)",
+          "createdDate": "2023-05-30",
+          "status": "Successful"
+        },
+        {
+          "paymentID": "2        6",
+          "valueDate": "2023-06-16",
+          "paymentAmount": 1000,
+          "transactionCurrency": "MYR",
+          "paymentDocument": "",
+          "invoiceProcessingStatus": "In Progress",
+          "paymentMethod": "Payment Gateway",
+          "iban": "",
+          "bankIdentification": "",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "23BE10107ED982C",
+          "accountingDocExternalReference": "200120140220000028002",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "09EZ230000507101",
+          "zzHtmcs": "<html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win = window.open(\"\" ,\"_blank\");win.document.body.innerHTML = '<form id=\"pay_form\" name=\"pay_form\" action=\"https://pay.e-ghl.com/IPGSG/Payment.aspx\" method=\"post\"><input name=\"TransactionType\" type=\"hidden\" id=\"TransactionType\" value=\"SALE\" /><input name=\"PymtMethod\" type=\"hidden\" id=\"PymtMethod\" value=\"ANY\" /><input name=\"ServiceID\" type=\"hidden\" id=\"ServiceID\" value=\"ZUE\" /><input name=\"PaymentID\" type=\"hidden\" id=\"PaymentID\" value=\"09EZ230000507101\" /><input name=\"OrderNumber\" type=\"hidden\" id=\"OrderNumber\" value=\"09EZ230000507101\" /><input name=\"PaymentDesc\" type=\"hidden\" id=\"PaymentDesc\" value=\"-\" /><input name=\"MerchantName\" type=\"hidden\" id=\"MerchantName\" value=\"Zuellig Pharma\" /><input name=\"MerchantReturnURL\" type=\"hidden\" id=\"MerchantReturnURL\" value=\"https://ezrxplus-dev.ezrx.com/my-account/thankyou-payment\" /><input name=\"MerchantCallBackURL\" type=\"hidden\" id=\"MerchantCallBackURL\" value=\"https://omnicollect-dev.business.hsbc.com/api/callback/my/eGHL/payment\" /><input name=\"Amount\" type=\"hidden\" id=\"Amount\" value=\"1000.00\" /><input name=\"CurrencyCode\" type=\"hidden\" id=\"CurrencyCode\" value=\"MYR\" /><input name=\"CustIP\" type=\"hidden\" id=\"CustIP\" value=\"\" /><input name=\"CustName\" type=\"hidden\" id=\"CustName\" value=\"Customer Name\" /><input name=\"CustEmail\" type=\"hidden\" id=\"CustEmail\" value=\"customer.name@example.com\" /><input name=\"CustPhone\" type=\"hidden\" id=\"CustPhone\" value=\"1234567890\" /><input name=\"LanguageCode\" type=\"hidden\" id=\"LanguageCode\" value=\"EN\" /><input name=\"PageTimeout\" type=\"hidden\" id=\"PageTimeout\" value=\"780\" /><input name=\"HashValue\" type=\"hidden\" id=\"HashValue\" value=\"ed21dc706952ccf33b8cd7c6505b08e4e0a82b6d5287ad644ef38d7995b58208\" /></form>';win.document.pay_form.submit();})</html:script><html:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\">Open Payment Gateway</html:button>",
+          "adviceExpiry": "13 Day(s)",
+          "createdDate": "2023-05-30",
+          "status": "Successful"
+        },
+        {
+          "paymentID": "2        7",
+          "valueDate": "2023-06-16",
+          "paymentAmount": 1000,
+          "transactionCurrency": "MYR",
+          "paymentDocument": "",
+          "invoiceProcessingStatus": "In Progress",
+          "paymentMethod": "Payment Gateway",
+          "iban": "",
+          "bankIdentification": "",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "23BE0E3BA56BB6A",
+          "accountingDocExternalReference": "200120140220000029001",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "09EZ230000505401",
+          "zzHtmcs": "<html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win = window.open(\"\" ,\"_blank\");win.document.body.innerHTML = '<form id=\"pay_form\" name=\"pay_form\" action=\"https://pay.e-ghl.com/IPGSG/Payment.aspx\" method=\"post\"><input name=\"TransactionType\" type=\"hidden\" id=\"TransactionType\" value=\"SALE\" /><input name=\"PymtMethod\" type=\"hidden\" id=\"PymtMethod\" value=\"ANY\" /><input name=\"ServiceID\" type=\"hidden\" id=\"ServiceID\" value=\"ZUE\" /><input name=\"PaymentID\" type=\"hidden\" id=\"PaymentID\" value=\"09EZ230000505401\" /><input name=\"OrderNumber\" type=\"hidden\" id=\"OrderNumber\" value=\"09EZ230000505401\" /><input name=\"PaymentDesc\" type=\"hidden\" id=\"PaymentDesc\" value=\"-\" /><input name=\"MerchantName\" type=\"hidden\" id=\"MerchantName\" value=\"Zuellig Pharma\" /><input name=\"MerchantReturnURL\" type=\"hidden\" id=\"MerchantReturnURL\" value=\"https://uat-my.ezrxplus.com/my-account/thankyou-payment\" /><input name=\"MerchantCallBackURL\" type=\"hidden\" id=\"MerchantCallBackURL\" value=\"https://omnicollect-dev.business.hsbc.com/api/callback/my/eGHL/payment\" /><input name=\"Amount\" type=\"hidden\" id=\"Amount\" value=\"1000.00\" /><input name=\"CurrencyCode\" type=\"hidden\" id=\"CurrencyCode\" value=\"MYR\" /><input name=\"CustIP\" type=\"hidden\" id=\"CustIP\" value=\"\" /><input name=\"CustName\" type=\"hidden\" id=\"CustName\" value=\"Customer Name\" /><input name=\"CustEmail\" type=\"hidden\" id=\"CustEmail\" value=\"customer.name@example.com\" /><input name=\"CustPhone\" type=\"hidden\" id=\"CustPhone\" value=\"1234567890\" /><input name=\"LanguageCode\" type=\"hidden\" id=\"LanguageCode\" value=\"EN\" /><input name=\"PageTimeout\" type=\"hidden\" id=\"PageTimeout\" value=\"780\" /><input name=\"HashValue\" type=\"hidden\" id=\"HashValue\" value=\"5ecb6ad89ee6ce38165e2ffaf0ac53ee625e65c017e530bffca4a04ffa168e51\" /></form>';win.document.pay_form.submit();})</html:script><html:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\">Open Payment Gateway</html:button>",
+          "adviceExpiry": "13 Day(s)",
+          "createdDate": "2023-05-30",
+          "status": "In Progress"
+        },
+        {
+          "paymentID": "2       10",
+          "valueDate": "2023-06-16",
+          "paymentAmount": 500,
+          "transactionCurrency": "MYR",
+          "paymentDocument": "",
+          "invoiceProcessingStatus": "In Progress",
+          "paymentMethod": "Payment Gateway",
+          "iban": "",
+          "bankIdentification": "",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "23BE02C0A1CB2E8",
+          "accountingDocExternalReference": "200120142040000094001SD 2040000094",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "09EZ230000504701",
+          "zzHtmcs": "<html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win = window.open(\"\" ,\"_blank\");win.document.body.innerHTML = '<form id=\"pay_form\" name=\"pay_form\" action=\"https://pay.e-ghl.com/IPGSG/Payment.aspx\" method=\"post\"><input name=\"TransactionType\" type=\"hidden\" id=\"TransactionType\" value=\"SALE\" /><input name=\"PymtMethod\" type=\"hidden\" id=\"PymtMethod\" value=\"ANY\" /><input name=\"ServiceID\" type=\"hidden\" id=\"ServiceID\" value=\"ZUE\" /><input name=\"PaymentID\" type=\"hidden\" id=\"PaymentID\" value=\"09EZ230000504701\" /><input name=\"OrderNumber\" type=\"hidden\" id=\"OrderNumber\" value=\"09EZ230000504701\" /><input name=\"PaymentDesc\" type=\"hidden\" id=\"PaymentDesc\" value=\"-\" /><input name=\"MerchantName\" type=\"hidden\" id=\"MerchantName\" value=\"Zuellig Pharma\" /><input name=\"MerchantReturnURL\" type=\"hidden\" id=\"MerchantReturnURL\" value=\"https://ezrxplus-dev.ezrx.com/my-account/thankyou-payment\" /><input name=\"MerchantCallBackURL\" type=\"hidden\" id=\"MerchantCallBackURL\" value=\"https://omnicollect-dev.business.hsbc.com/api/callback/my/eGHL/payment\" /><input name=\"Amount\" type=\"hidden\" id=\"Amount\" value=\"500.00\" /><input name=\"CurrencyCode\" type=\"hidden\" id=\"CurrencyCode\" value=\"MYR\" /><input name=\"CustIP\" type=\"hidden\" id=\"CustIP\" value=\"\" /><input name=\"CustName\" type=\"hidden\" id=\"CustName\" value=\"Customer Name\" /><input name=\"CustEmail\" type=\"hidden\" id=\"CustEmail\" value=\"customer.name@example.com\" /><input name=\"CustPhone\" type=\"hidden\" id=\"CustPhone\" value=\"1234567890\" /><input name=\"LanguageCode\" type=\"hidden\" id=\"LanguageCode\" value=\"EN\" /><input name=\"PageTimeout\" type=\"hidden\" id=\"PageTimeout\" value=\"780\" /><input name=\"HashValue\" type=\"hidden\" id=\"HashValue\" value=\"02444b056796c13474bc900b646844bd99929c737d25fea503269720a43eecde\" /></form>';win.document.pay_form.submit();})</html:script><html:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\">Open Payment Gateway</html:button>",
+          "adviceExpiry": "12 Day(s)",
+          "createdDate": "2023-05-29",
+          "status": "In Progress"
+        },
+        {
+          "paymentID": "9 200120150140000142",
+          "valueDate": "2015-12-24",
+          "paymentAmount": 500,
+          "transactionCurrency": "MYR",
+          "paymentDocument": "0140000142",
+          "invoiceProcessingStatus": "Processed",
+          "paymentMethod": "",
+          "iban": "",
+          "bankIdentification": "",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "",
+          "accountingDocExternalReference": "",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "09EZ230000504701",
+          "zzHtmcs": "<html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win = window.open(\"\" ,\"_blank\");win.document.body.innerHTML = '<form id=\"pay_form\" name=\"pay_form\" action=\"https://pay.e-ghl.com/IPGSG/Payment.aspx\" method=\"post\"><input name=\"TransactionType\" type=\"hidden\" id=\"TransactionType\" value=\"SALE\" /><input name=\"PymtMethod\" type=\"hidden\" id=\"PymtMethod\" value=\"ANY\" /><input name=\"ServiceID\" type=\"hidden\" id=\"ServiceID\" value=\"ZUE\" /><input name=\"PaymentID\" type=\"hidden\" id=\"PaymentID\" value=\"09EZ230000504701\" /><input name=\"OrderNumber\" type=\"hidden\" id=\"OrderNumber\" value=\"09EZ230000504701\" /><input name=\"PaymentDesc\" type=\"hidden\" id=\"PaymentDesc\" value=\"-\" /><input name=\"MerchantName\" type=\"hidden\" id=\"MerchantName\" value=\"Zuellig Pharma\" /><input name=\"MerchantReturnURL\" type=\"hidden\" id=\"MerchantReturnURL\" value=\"https://ezrxplus-dev.ezrx.com/my-account/thankyou-payment\" /><input name=\"MerchantCallBackURL\" type=\"hidden\" id=\"MerchantCallBackURL\" value=\"https://omnicollect-dev.business.hsbc.com/api/callback/my/eGHL/payment\" /><input name=\"Amount\" type=\"hidden\" id=\"Amount\" value=\"500.00\" /><input name=\"CurrencyCode\" type=\"hidden\" id=\"CurrencyCode\" value=\"MYR\" /><input name=\"CustIP\" type=\"hidden\" id=\"CustIP\" value=\"\" /><input name=\"CustName\" type=\"hidden\" id=\"CustName\" value=\"Customer Name\" /><input name=\"CustEmail\" type=\"hidden\" id=\"CustEmail\" value=\"customer.name@example.com\" /><input name=\"CustPhone\" type=\"hidden\" id=\"CustPhone\" value=\"1234567890\" /><input name=\"LanguageCode\" type=\"hidden\" id=\"LanguageCode\" value=\"EN\" /><input name=\"PageTimeout\" type=\"hidden\" id=\"PageTimeout\" value=\"780\" /><input name=\"HashValue\" type=\"hidden\" id=\"HashValue\" value=\"02444b056796c13474bc900b646844bd99929c737d25fea503269720a43eecde\" /></form>';win.document.pay_form.submit();})</html:script><html:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\">Open Payment Gateway</html:button>",
+          "adviceExpiry": "N.A.",
+          "createdDate": "2023-05-29",
+          "status": "Processed"
+        },
+        {
+          "paymentID": "2       13",
+          "valueDate": "2023-06-16",
+          "paymentAmount": 542,
+          "transactionCurrency": "MYR",
+          "paymentDocument": "",
+          "invoiceProcessingStatus": "In Progress",
+          "paymentMethod": "Payment Gateway",
+          "iban": "",
+          "bankIdentification": "",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "23BDD44AD0E2ECC",
+          "accountingDocExternalReference": "200120192040000252001SD 2040000252",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "09EZ230000494201",
+          "zzHtmcs": "<html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win = window.open(\"\" ,\"_blank\");win.document.body.innerHTML = '<form id=\"pay_form\" name=\"pay_form\" action=\"https://pay.e-ghl.com/IPGSG/Payment.aspx\" method=\"post\"><input name=\"TransactionType\" type=\"hidden\" id=\"TransactionType\" value=\"SALE\" /><input name=\"PymtMethod\" type=\"hidden\" id=\"PymtMethod\" value=\"ANY\" /><input name=\"ServiceID\" type=\"hidden\" id=\"ServiceID\" value=\"ZUE\" /><input name=\"PaymentID\" type=\"hidden\" id=\"PaymentID\" value=\"09EZ230000494201\" /><input name=\"OrderNumber\" type=\"hidden\" id=\"OrderNumber\" value=\"09EZ230000494201\" /><input name=\"PaymentDesc\" type=\"hidden\" id=\"PaymentDesc\" value=\"-\" /><input name=\"MerchantName\" type=\"hidden\" id=\"MerchantName\" value=\"Zuellig Pharma\" /><input name=\"MerchantReturnURL\" type=\"hidden\" id=\"MerchantReturnURL\" value=\"https://uat-my.ezrxplus.com/my-account/thankyou-payment\" /><input name=\"MerchantCallBackURL\" type=\"hidden\" id=\"MerchantCallBackURL\" value=\"https://omnicollect-dev.business.hsbc.com/api/callback/my/eGHL/payment\" /><input name=\"Amount\" type=\"hidden\" id=\"Amount\" value=\"542.00\" /><input name=\"CurrencyCode\" type=\"hidden\" id=\"CurrencyCode\" value=\"MYR\" /><input name=\"CustIP\" type=\"hidden\" id=\"CustIP\" value=\"\" /><input name=\"CustName\" type=\"hidden\" id=\"CustName\" value=\"Customer Name\" /><input name=\"CustEmail\" type=\"hidden\" id=\"CustEmail\" value=\"customer.name@example.com\" /><input name=\"CustPhone\" type=\"hidden\" id=\"CustPhone\" value=\"1234567890\" /><input name=\"LanguageCode\" type=\"hidden\" id=\"LanguageCode\" value=\"EN\" /><input name=\"PageTimeout\" type=\"hidden\" id=\"PageTimeout\" value=\"780\" /><input name=\"HashValue\" type=\"hidden\" id=\"HashValue\" value=\"dc954d813602044cdc45bc4e8b880bff9c231e5f662488d69711993e8c3fa354\" /></form>';win.document.pay_form.submit();})</html:script><html:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\">Open Payment Gateway</html:button>",
+          "adviceExpiry": "9 Day(s)",
+          "createdDate": "2023-05-26",
+          "status": "In Progress"
+        },
+        {
+          "paymentID": "9 200120140160000322",
+          "valueDate": "2014-08-11",
+          "paymentAmount": 70,
+          "transactionCurrency": "MYR",
+          "paymentDocument": "0160000322",
+          "invoiceProcessingStatus": "Processed",
+          "paymentMethod": "",
+          "iban": "",
+          "bankIdentification": "",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "",
+          "accountingDocExternalReference": "",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "",
+          "zzHtmcs": "",
+          "adviceExpiry": "N.A.",
+          "createdDate": null,
+          "status": "Processed"
+        },
+        {
+          "paymentID": "9 200120150140000053",
+          "valueDate": "2015-03-10",
+          "paymentAmount": 9603,
+          "transactionCurrency": "MYR",
+          "paymentDocument": "0140000053",
+          "invoiceProcessingStatus": "Processed",
+          "paymentMethod": "",
+          "iban": "",
+          "bankIdentification": "",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "",
+          "accountingDocExternalReference": "",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "",
+          "zzHtmcs": "",
+          "adviceExpiry": "N.A.",
+          "createdDate": null,
+          "status": "Processed"
+        },
+        {
+          "paymentID": "9 200120150140000140",
+          "valueDate": "2015-12-24",
+          "paymentAmount": 9603,
+          "transactionCurrency": "MYR",
+          "paymentDocument": "0140000140",
+          "invoiceProcessingStatus": "Processed",
+          "paymentMethod": "",
+          "iban": "",
+          "bankIdentification": "",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "",
+          "accountingDocExternalReference": "",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "",
+          "zzHtmcs": "",
+          "adviceExpiry": "N.A.",
+          "createdDate": null,
+          "status": "Processed"
+        },
+        {
+          "paymentID": "9 200120150140000141",
+          "valueDate": "2015-12-24",
+          "paymentAmount": 500,
+          "transactionCurrency": "MYR",
+          "paymentDocument": "0140000141",
+          "invoiceProcessingStatus": "Processed",
+          "paymentMethod": "",
+          "iban": "",
+          "bankIdentification": "",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "",
+          "accountingDocExternalReference": "",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "",
+          "zzHtmcs": "",
+          "adviceExpiry": "N.A.",
+          "createdDate": null,
+          "status": "Processed"
+        },
+        {
+          "paymentID": "213",
+          "valueDate": "2023-12-04",
+          "paymentAmount": 100,
+          "transactionCurrency": "SGD",
+          "paymentDocument": "",
+          "invoiceProcessingStatus": "In Progress",
+          "paymentMethod": "Payment Gateway",
+          "iban": "",
+          "bankIdentification": "BCA",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "23BE8AED635184A",
+          "accountingDocExternalReference": "200120212040000284001SD 2040000284",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "09EZ230000544601",
+          "zzHtmcs": "<html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win = window.open(\"\" ,\"_blank\");win.document.body.innerHTML = '<form id=\"pay_form\" name=\"pay_form\" action=\"https://pay.e-ghl.com/IPGSG/Payment.aspx\" method=\"post\"><input name=\"TransactionType\" type=\"hidden\" id=\"TransactionType\" value=\"SALE\" /><input name=\"PymtMethod\" type=\"hidden\" id=\"PymtMethod\" value=\"ANY\" /><input name=\"ServiceID\" type=\"hidden\" id=\"ServiceID\" value=\"ZUE\" /><input name=\"PaymentID\" type=\"hidden\" id=\"PaymentID\" value=\"09EZ230000544601\" /><input name=\"OrderNumber\" type=\"hidden\" id=\"OrderNumber\" value=\"09EZ230000544601\" /><input name=\"PaymentDesc\" type=\"hidden\" id=\"PaymentDesc\" value=\"-\" /><input name=\"MerchantName\" type=\"hidden\" id=\"MerchantName\" value=\"Zuellig Pharma\" /><input name=\"MerchantReturnURL\" type=\"hidden\" id=\"MerchantReturnURL\" value=\"https://uat-my.ezrxplus.com/my-account/thankyou-payment\" /><input name=\"MerchantCallBackURL\" type=\"hidden\" id=\"MerchantCallBackURL\" value=\"https://omnicollect-dev.business.hsbc.com/api/callback/my/eGHL/payment\" /><input name=\"Amount\" type=\"hidden\" id=\"Amount\" value=\"100.00\" /><input name=\"CurrencyCode\" type=\"hidden\" id=\"CurrencyCode\" value=\"MYR\" /><input name=\"CustIP\" type=\"hidden\" id=\"CustIP\" value=\"\" /><input name=\"CustName\" type=\"hidden\" id=\"CustName\" value=\"Customer Name\" /><input name=\"CustEmail\" type=\"hidden\" id=\"CustEmail\" value=\"customer.name@example.com\" /><input name=\"CustPhone\" type=\"hidden\" id=\"CustPhone\" value=\"1234567890\" /><input name=\"LanguageCode\" type=\"hidden\" id=\"LanguageCode\" value=\"EN\" /><input name=\"PageTimeout\" type=\"hidden\" id=\"PageTimeout\" value=\"780\" /><input name=\"HashValue\" type=\"hidden\" id=\"HashValue\" value=\"62c048d5b21f6cd014cbd72abcdf1892ae3f1ce7db603b5ba0220c4f217ff772\" /></form>';win.document.pay_form.submit();})</html:script><html:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\">Open Payment Gateway</html:button>",
+          "adviceExpiry": "23 Day(s)",
+          "createdDate": "2023-06-09",
+          "status": "Pending"
+        },
+        {
+          "paymentID": "214",
+          "valueDate": "2023-12-05",
+          "paymentAmount": 100,
+          "transactionCurrency": "PHP",
+          "paymentDocument": "",
+          "invoiceProcessingStatus": "In Progress",
+          "paymentMethod": "Payment Gateway",
+          "iban": "",
+          "bankIdentification": "BCA",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "23BE8AED635184A",
+          "accountingDocExternalReference": "200120212040000284001SD 2040000284",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "09EZ230000544601",
+          "zzHtmcs": "<html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win = window.open(\"\" ,\"_blank\");win.document.body.innerHTML = '<form id=\"pay_form\" name=\"pay_form\" action=\"https://pay.e-ghl.com/IPGSG/Payment.aspx\" method=\"post\"><input name=\"TransactionType\" type=\"hidden\" id=\"TransactionType\" value=\"SALE\" /><input name=\"PymtMethod\" type=\"hidden\" id=\"PymtMethod\" value=\"ANY\" /><input name=\"ServiceID\" type=\"hidden\" id=\"ServiceID\" value=\"ZUE\" /><input name=\"PaymentID\" type=\"hidden\" id=\"PaymentID\" value=\"09EZ230000544601\" /><input name=\"OrderNumber\" type=\"hidden\" id=\"OrderNumber\" value=\"09EZ230000544601\" /><input name=\"PaymentDesc\" type=\"hidden\" id=\"PaymentDesc\" value=\"-\" /><input name=\"MerchantName\" type=\"hidden\" id=\"MerchantName\" value=\"Zuellig Pharma\" /><input name=\"MerchantReturnURL\" type=\"hidden\" id=\"MerchantReturnURL\" value=\"https://uat-my.ezrxplus.com/my-account/thankyou-payment\" /><input name=\"MerchantCallBackURL\" type=\"hidden\" id=\"MerchantCallBackURL\" value=\"https://omnicollect-dev.business.hsbc.com/api/callback/my/eGHL/payment\" /><input name=\"Amount\" type=\"hidden\" id=\"Amount\" value=\"100.00\" /><input name=\"CurrencyCode\" type=\"hidden\" id=\"CurrencyCode\" value=\"MYR\" /><input name=\"CustIP\" type=\"hidden\" id=\"CustIP\" value=\"\" /><input name=\"CustName\" type=\"hidden\" id=\"CustName\" value=\"Customer Name\" /><input name=\"CustEmail\" type=\"hidden\" id=\"CustEmail\" value=\"customer.name@example.com\" /><input name=\"CustPhone\" type=\"hidden\" id=\"CustPhone\" value=\"1234567890\" /><input name=\"LanguageCode\" type=\"hidden\" id=\"LanguageCode\" value=\"EN\" /><input name=\"PageTimeout\" type=\"hidden\" id=\"PageTimeout\" value=\"780\" /><input name=\"HashValue\" type=\"hidden\" id=\"HashValue\" value=\"62c048d5b21f6cd014cbd72abcdf1892ae3f1ce7db603b5ba0220c4f217ff772\" /></form>';win.document.pay_form.submit();})</html:script><html:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\">Open Payment Gateway</html:button>",
+          "adviceExpiry": "23 Day(s)",
+          "createdDate": "2023-06-09",
+          "status": "Pending"
+        },
+        {
+          "paymentID": "215",
+          "valueDate": "2023-12-06",
+          "paymentAmount": 100,
+          "transactionCurrency": "PHP",
+          "paymentDocument": "",
+          "invoiceProcessingStatus": "In Progress",
+          "paymentMethod": "Bank-In",
+          "iban": "",
+          "bankIdentification": "BCA",
+          "bankCountryKey": "",
+          "bankKey": "",
+          "bankAccountNumber": "",
+          "bankName": "",
+          "paymentCardID": "",
+          "paymentCardNumber": "",
+          "paymentCardHolderName": "",
+          "paymentCardMaskedNumber": "",
+          "paymentCardTypeName": "",
+          "extensibilityCustomField": {
+            "paymentBatchAdditionalInfo": [
+              {
+                "businessContext": "Y",
+                "label": "Omni Channel",
+                "technicalName": "ZZHTMCS"
+              },
+              {
+                "businessContext": "Z",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "QR Code",
+                "technicalName": "Z_CCP_PAYMENT_QRCODE"
+              },
+              {
+                "businessContext": "Payment",
+                "label": "Payment Advice Number",
+                "technicalName": "ZZADVICE"
+              }
+            ]
+          },
+          "customId": null,
+          "tmpPaytByDigitalPaytService": null,
+          "payerByPaymentServiceProvider": null,
+          "paymentRefByPaytSrvcProvider": "",
+          "paymentServiceProvider": "",
+          "transactionStatus": null,
+          "customerInvoice": null,
+          "paymentCardData": null,
+          "paytCardVerificatDetResultText": null,
+          "disputeCaseInformationText": null,
+          "userName": null,
+          "paymentBatchAdditionalInfo": "23BE8AED635184A",
+          "accountingDocExternalReference": "200120212040000284001SD 2040000284",
+          "zCcpPaymentQRCode": "",
+          "zzAdvice": "09EZ230000544601",
+          "zzHtmcs": "<html:script language=\"javascript\">$(\"#btn_submit\").click(function(){var win = window.open(\"\" ,\"_blank\");win.document.body.innerHTML = '<form id=\"pay_form\" name=\"pay_form\" action=\"https://pay.e-ghl.com/IPGSG/Payment.aspx\" method=\"post\"><input name=\"TransactionType\" type=\"hidden\" id=\"TransactionType\" value=\"SALE\" /><input name=\"PymtMethod\" type=\"hidden\" id=\"PymtMethod\" value=\"ANY\" /><input name=\"ServiceID\" type=\"hidden\" id=\"ServiceID\" value=\"ZUE\" /><input name=\"PaymentID\" type=\"hidden\" id=\"PaymentID\" value=\"09EZ230000544601\" /><input name=\"OrderNumber\" type=\"hidden\" id=\"OrderNumber\" value=\"09EZ230000544601\" /><input name=\"PaymentDesc\" type=\"hidden\" id=\"PaymentDesc\" value=\"-\" /><input name=\"MerchantName\" type=\"hidden\" id=\"MerchantName\" value=\"Zuellig Pharma\" /><input name=\"MerchantReturnURL\" type=\"hidden\" id=\"MerchantReturnURL\" value=\"https://uat-my.ezrxplus.com/my-account/thankyou-payment\" /><input name=\"MerchantCallBackURL\" type=\"hidden\" id=\"MerchantCallBackURL\" value=\"https://omnicollect-dev.business.hsbc.com/api/callback/my/eGHL/payment\" /><input name=\"Amount\" type=\"hidden\" id=\"Amount\" value=\"100.00\" /><input name=\"CurrencyCode\" type=\"hidden\" id=\"CurrencyCode\" value=\"MYR\" /><input name=\"CustIP\" type=\"hidden\" id=\"CustIP\" value=\"\" /><input name=\"CustName\" type=\"hidden\" id=\"CustName\" value=\"Customer Name\" /><input name=\"CustEmail\" type=\"hidden\" id=\"CustEmail\" value=\"customer.name@example.com\" /><input name=\"CustPhone\" type=\"hidden\" id=\"CustPhone\" value=\"1234567890\" /><input name=\"LanguageCode\" type=\"hidden\" id=\"LanguageCode\" value=\"EN\" /><input name=\"PageTimeout\" type=\"hidden\" id=\"PageTimeout\" value=\"780\" /><input name=\"HashValue\" type=\"hidden\" id=\"HashValue\" value=\"62c048d5b21f6cd014cbd72abcdf1892ae3f1ce7db603b5ba0220c4f217ff772\" /></form>';win.document.pay_form.submit();})</html:script><html:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\">Open Payment Gateway</html:button>",
+          "adviceExpiry": "23 Day(s)",
+          "createdDate": "2023-06-09",
+          "status": "Pending"
+        }
+      ]
+    }
+  }
+}

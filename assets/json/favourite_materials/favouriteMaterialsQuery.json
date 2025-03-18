@@ -1,0 +1,3 @@
+{
+    "query":"    {\n      favouriteMaterials (where: {user:11588}\n      sort: \"created_at\"){\n          id\n          materialNumber\n          materialDescription \n          isFOC\n          isTenderContract\n      }\n    }\n    "
+}

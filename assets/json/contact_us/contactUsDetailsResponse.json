@@ -1,0 +1,30 @@
+{
+  "data": {
+    "item": {
+      "id": "FD4EBB5A7740435491C798642E735337",
+      "title": {
+        "value": "Contact usmmm"
+      },
+      "backgroundImage": {
+        "jsonValue": {
+          "value": {
+            "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Contact-Us/Media/contact-us.png?h=735&iar=0&w=521",
+            "alt": "",
+            "width": "521",
+            "height": "735"
+          }
+        }
+      },
+      "content": {
+        "value": "<p style=\"margin-top: 0in;\"><strong><span class=\"fontstyle0\">服務時間</span> <br style=\"text-align: -webkit-auto; letter-spacing: normal; line-height: normal;\" />\n</strong></p>\n<p>&nbsp;</p>\n<p><span class=\"fontstyle0\">周一</span><span class=\"fontstyle1\">~</span><span class=\"fontstyle0\">周五 </span><span class=\"fontstyle1\">09:00AM~18:00PM</span> <br style=\"text-align: -webkit-auto; letter-spacing: normal; line-height: normal;\" />\n</p>\n<p><span class=\"fontstyle0\">有任何問題，請隨時與我們聯絡</span> <br style=\"text-align: -webkit-auto; letter-spacing: normal; line-height: normal;\" />\n</p>\n<p>&nbsp;</p>\n<p><strong><span class=\"fontstyle0\">eZRx</span><span class=\"fontstyle1\">客服專線</span><span class=\"fontstyle0\">0809-090-887</span></strong></p>\n<p><strong> <br style=\"text-align: -webkit-auto; letter-spacing: normal; line-height: normal;\" />\n</strong></p>\n<p><img alt=\"\" src=\"/Project/ezrx/ezrx-tw/Contact-Us/Media/Line.PNG?h=262&amp;w=272\" style=\"height: 262px; width: 272px;\" /></p>\n&nbsp;\n<p>&nbsp;</p>"
+      },
+      "preloginSendToEmail": {
+        "value": "ttklien@zuelligpharma.com"
+      },
+      "postloginSendToEmail": {
+        "value": "support@ezrxplus.com"
+      },
+      "saleOrgDictionary": null
+    }
+  }
+}

@@ -1,0 +1,33 @@
+query getClevertapNotifications($page: Int!, $perPage: Int!) {
+  getClevertapNotifications(request: {perPage: $perPage, page: $page}) {
+    message
+    data {
+      id
+      userName
+      type
+      title
+      imageUrl
+      description
+      isRead
+      createdAt
+      updatedAt
+      orderNumber
+      returnRequestNumber
+      paymentNumber
+      paymentBatchAdditionalInfo
+     
+    }
+    pagination {
+      totalPage
+      totalItem
+      totalUnread
+     
+    }
+   
+  }
+}
+
+variables:{
+  "page": 1,
+  "perPage": 5
+}

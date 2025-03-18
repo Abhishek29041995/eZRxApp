@@ -1,0 +1,25 @@
+{
+  "data": {
+      "createVirtualAccount": {
+          "id": "TR202311281018",
+          "invoices": [
+              {
+                  "documentDate": "20231120",
+                  "documentType": "Invoice",
+                  "documentNo": "1200021558",
+                  "amount": 1.547311e+06
+              }
+          ],
+          "amountPayable": 1547311,
+          "status": "creating",
+          "paymentDetails": {
+              "vaNumber": "88908999920100164",
+              "vaName": "PT Anugerah Pharmindo Lestari",
+              "expiresAt": "2023-12-01T01:17:50"
+          },
+          "paymentMethodDisplay": "Bank Mandiri",
+          "createdOn": "2023-11-28T01:17:54",
+          "paidOn": null
+      }
+  }
+}

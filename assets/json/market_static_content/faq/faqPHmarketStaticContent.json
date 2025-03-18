@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+          "id": "ctg-general-1",
+          "name": "What is eZRx+?",
+          "displayName": "What is eZRx+?",
+          "question": {
+            "value": "What is eZRx+?"
+          },
+          "answer": {
+            "value": "eZRx+ is ASEAN's largest award-winning B2B eCommerce healthcare platform.\r\nA seamless self-service buying experience, customers can order, return* and pay* for healthcare products and services in simple, quick and convenient ways.\r\nPowered with enhanced features to delight you every time, start using eZRx+ today to save time, increase efficiency and maximise productivity.\r\n*Please check with market representatives on available features"
+          },
+          "category": {
+            "id": "ctg-general",
+            "name": "General",
+            "displayName": "General"
+          }
+        },
+        {
+            "id": "ctg-general-2",
+            "name": "What are the benefits of using eZRx+?",
+            "displayName": "What are the benefits of using eZRx+?",
+            "question": {
+              "value": "What are the benefits of using eZRx+?"
+            },
+            "answer": {
+              "value": "With eZRx+, you can now do the following via self-service processes:\r\n   • Place your orders anytime, anywhere\r\n   • Track your orders with the “live tracking” feature\r\n   • View all past order history in one place\r\n   • Re-order easily at the tap of a button\r\n   • View expiry dates, stock availability and other product information at a glance\r\nStay in the know with the latest offers, personalised just for you!"
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "General",
+              "displayName": "General"
+            }
+        },
+        {
+            "id": "ctg-general-3",
+            "name": "What products can I order?",
+            "displayName": "What products can I order?",
+            "question": {
+              "value": "What products can I order?"
+            },
+            "answer": {
+              "value": "Order and browse from hundreds of healthcare manufacturers in the Philippines"
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "General",
+              "displayName": "General"
+            }
+        },
+        {
+            "id": "ctg-general-4",
+            "name": "How do I register or find out more about eZRx+?",
+            "displayName": "How do I register or find out more about eZRx+?",
+            "question": {
+              "value": "How do I register or find out more about eZRx+?"
+            },
+            "answer": {
+              "value": "eZRx+ is available for all existing Zuellig Pharma customers.\r\nIf you do not have an account with us yet, please contact your local market representative to register for an eZRx+ account.\r\nAlternatively, you may wish to leave your enquiry on the Contact Us email provided below:\r\nCustomer Support details apply to both Zuellig Pharma and  Metro Drug Inc. customers:\r\neZRx+ General concerns: PHCustomerCare@zuelligpharma.com\r\nPayment concerns: ezpay.phsupport@zuelligpharma.com"
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "General",
+              "displayName": "General"
+            }
+        },
+        {
+            "id": "ctg-general-5",
+            "name": "Who can use / access eZRx+?",
+            "displayName": "Who can use / access eZRx+?",
+            "question": {
+              "value": "Who can use / access eZRx+?"
+            },
+            "answer": {
+              "value": "eZRx+ is a B2B eCommerce platform which can be used by sales reps and customers (e.g. healthcare providers, B2B buyers etc) in the healthcare industry."
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "General",
+              "displayName": "General"
+            }
+        },
+        {
+            "id": "ctg-general-6",
+            "name": "Where is eZRx+ available?",
+            "displayName": "Where is eZRx+ available?",
+            "question": {
+              "value": "Where is eZRx+ available?"
+            },
+            "answer": {
+              "value": "eZRx is available in 11 markets in ASEAN: Singapore, Cambodia, Hong Kong, Indonesia, Korea, Malaysia, Myanmar, Philippines, Taiwan, Thailand and Vietnam"
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "General",
+              "displayName": "General"
+            }
+        },
+        {
+          "id": "ctg-ordering-1",
+          "name": "How do I find items? How do I place an order?",
+          "displayName": "How do I find items? How do I place an order?",
+          "question": {
+            "value": "How do I find items? How do I place an order?"
+          },
+          "answer": {
+            "value": "1. Select your 'Ship To' address to begin.\r\n2. Input search keywords in the search engine, find products and add products to your cart.\r\n3. Alternatively, you may also browse all products on the homepage.\r\n4. Check order details before clicking on Checkout\r\nYou may wish to contact your Trade Representative or our eZRx+ Customer Support for more details."
+          },
+          "category": {
+            "id": "ctg-ordering",
+            "name": "Ordering",
+            "displayName": "Ordering"
+          }
+        },
+        {
+            "id": "ctg-ordering-2",
+            "name": "Retrieve order history",
+            "displayName": "Retrieve order history",
+            "question": {
+              "value": "Retrieve order history"
+            },
+            "answer": {
+              "value": "1. Go to your Profile page and click on Orders\r\n2. You would be able to view your order history by items or orders"
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Ordering",
+              "displayName": "Ordering"
+            }
+        },
+        {
+            "id": "ctg-ordering-3",
+            "name": "Have not received my order",
+            "displayName": "Have not received my order",
+            "question": {
+              "value": "Have not received my order"
+            },
+            "answer": {
+              "value": "You may check your order status under Order History.\r\n1. Go to your Profile page and click on Orders\r\n2. You would be able to view your order history by items or orders"
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Ordering",
+              "displayName": "Ordering"
+            }
+        },
+        {
+            "id": "ctg-ordering-4",
+            "name": "Find products on promotion",
+            "displayName": "Find products on promotion",
+            "question": {
+              "value": "Find products on promotion"
+            },
+            "answer": {
+              "value": "You may choose to filter products with `On Offer` tags to identify products with promotions. For details on the promotions, click to view the individual material details page."
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Ordering",
+              "displayName": "Ordering"
+            }
+        },
+        {
+            "id": "ctg-ordering-5",
+            "name": "Amend my product details (eg - quantity, delivery address)",
+            "displayName": "Amend my product details (eg - quantity, delivery address)",
+            "question": {
+              "value": "Amend my product details (eg - quantity, delivery address)"
+            },
+            "answer": {
+              "value": "By default, you cannot amend your product details once you have placed an order. Please contact your local market representative if you require further assistance."
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Ordering",
+              "displayName": "Ordering"
+            }
+        },
+        {
+            "id": "ctg-ordering-6",
+            "name": "Cancel my order",
+            "displayName": "Cancel my order",
+            "question": {
+              "value": "Cancel my order"
+            },
+            "answer": {
+              "value": "Order cancellation is not allowed via the eZRx+ website. Please contact your local market representative for assistance, where your request will be evaluated."
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Ordering",
+              "displayName": "Ordering"
+            }
+        },
+        {
+            "id": "ctg-return-1",
+            "name": "How do I make a return?",
+            "displayName": "How do I make a return?",
+            "question": {
+              "value": "How do I make a return?"
+            },
+            "answer": {
+              "value": "You may use the Return feature to put in your return request. Sales reps and customers* can raise a return request.\r\nFeatures may differ from market to market. Please contact your local market representative if you require further assistance."
+            },
+            "category": {
+              "id": "ctg-return",
+              "name": "Returns",
+              "displayName": "Returns"
+            }
+        },
+        {
+            "id": "ctg-return-2",
+            "name": "Find invoices for items I've ordered",
+            "displayName": "Find invoices for items I've ordered",
+            "question": {
+              "value": "Find invoices for items I've ordered"
+            },
+            "answer": {
+              "value": "Do note that the `Returns Overview` page only displays invoices that are within the policy, period, i.e from the past 3 months. Please use the “Search” feature to find invoices older than 3 months from the “Request Return” page."
+            },
+            "category": {
+              "id": "ctg-return",
+              "name": "Returns",
+              "displayName": "Returns"
+            }
+        },
+        {
+            "id": "ctg-return-3",
+            "name": "Track my return requests",
+            "displayName": "Track my return requests",
+            "question": {
+              "value": "Track my return requests"
+            },
+            "answer": {
+              "value": "You may use the Return Order number to track your return request approval status. Note: you will not be able to view the return order processing statuses (e.g. goods collected on the return summary)."
+            },
+            "category": {
+              "id": "ctg-return",
+              "name": "Returns",
+              "displayName": "Returns"
+            }
+        },
+        {
+            "id": "ctg-payment-1",
+            "name": "How do I make a payment?",
+            "displayName": "How do I make a payment?",
+            "question": {
+              "value": "How do I make a payment?"
+            },
+            "answer": {
+              "value": "You may use the Payment module in eZRx+ to select the invoices that you would like to generate a payment advice and make a payment for.\r\nFeatures may differ from market to market, and this is not available for sales reps. Please contact your local market representative if you require further assistance."
+            },
+            "category": {
+              "id": "ctg-payment",
+              "name": "Payment",
+              "displayName": "Payment"
+            }
+        },
+        {
+            "id": "ctg-payment-2",
+            "name": "Why did my payment fail?",
+            "displayName": "Why did my payment fail?",
+            "question": {
+              "value": "Why did my payment fail?"
+            },
+            "answer": {
+              "value": "Here are some possible reasons why the payment gateway could have failed:\r\n- Misconfiguration of payment gateway.\r\n- Transaction blocked by the merchant account.\r\n- Expired credit/debit card.\r\n- Cancelled credit/debit card.\r\n- The online payment method chosen by the customer is not supported by the payment gateway.\r\n- If the customer’s account is flagged by the bank.\r\n- If the account through which the transaction is initiated is closed or suspended.\r\n- Transaction via maxed-out credit card.\r\n- Transaction cannot be authorised: Incorrect OTP or Password"
+            },
+            "category": {
+              "id": "ctg-payment",
+              "name": "Payment",
+              "displayName": "Payment"
+            }
+        },
+        {
+            "id": "ctg-payment-3",
+            "name": "How do I know if my payment is successful?",
+            "displayName": "How do I know if my payment is successful?",
+            "question": {
+              "value": "How do I know if my payment is successful?"
+            },
+            "answer": {
+              "value": "Under your Payment Summary tab, you will see the status of the corresponding payment advice updated from `In Progress` to `Completed`. Please note that this status update may require some time to be reflected."
+            },
+            "category": {
+              "id": "ctg-payment",
+              "name": "Payment",
+              "displayName": "Payment"
+            }
+        },
+        {
+            "id": "ctg-other-1",
+            "name": "How do I promote my product on eZRx+? ",
+            "displayName": "How do I promote my product on eZRx+? ",
+            "question": {
+              "value": "How do I promote my product on eZRx+? "
+            },
+            "answer": {
+              "value": "You may promote your product via banner spaces available on eZRx+. Contact sales@ezrx.comn (to be provided by Edison) for more information."
+            },
+            "category": {
+              "id": "ctg-other",
+              "name": "Others",
+              "displayName": "Others"
+            }
+        },
+        {
+            "id": "ctg-other-2",
+            "name": "Where can I get more information about how to use eZRx+?",
+            "displayName": "Where can I get more information about how to use eZRx+?",
+            "question": {
+              "value": "Where can I get more information about how to use eZRx+?"
+            },
+            "answer": {
+              "value": "Please contact your local market representative if you require further assistance or watch these short instructional videos\r\nOrdering: https://bit.ly/ezrxplus_ordering\r\nReturns: https://bit.ly/eZRXReturns\r\nPayment: https://bit.ly/ezrxplus_payment"
+            },
+            "category": {
+                "id": "ctg-other",
+                "name": "Others",
+                "displayName": "Others"
+            }
+        }
+    ]
+}

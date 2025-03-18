@@ -1,0 +1,112 @@
+{
+    "data": {
+        "getClevertapNotifications": {
+            "message": "Get list notification successfully",
+            "data": [
+                {
+                    "id": 13160,
+                    "userName": "jsharma",
+                    "type": "OrderCreated",
+                    "title": "Reminder: Your action needed",
+                    "imageUrl": "",
+                    "description": "Return request #EZRE-200123001136 send 7days ago. waiting for approvals",
+                    "isRead": false,
+                    "createdAt": "2023-07-24 18:33:09",
+                    "updatedAt": "2023-07-24 18:33:09",
+                    "orderNumber": "79812EZRX123",
+                    "returnRequestNumber": "EZRE-200123001136",
+                    "paymentNumber": "",
+                    "paymentBatchAdditionalInfo": "",
+                    "isMarketPlace": true
+                },
+                {
+                    "id": 13075,
+                    "userName": "jsharma",
+                    "type": "ReturnRequestReminder",
+                    "title": "Reminder: Your action needed",
+                    "imageUrl": "",
+                    "description": "Return request #EZRE-200123001121 send 7days ago. waiting for approvals",
+                    "isRead": false,
+                    "createdAt": "2023-07-24 18:32:57",
+                    "updatedAt": "2023-07-24 18:32:57",
+                    "orderNumber": "",
+                    "returnRequestNumber": "EZRE-200123001121",
+                    "paymentNumber": "",
+                    "paymentBatchAdditionalInfo": "",
+                    "isMarketPlace": false
+                },
+                {
+                    "id": 12990,
+                    "userName": "jsharma",
+                    "type": "ReturnRequestReminder",
+                    "title": "Reminder: Your action needed",
+                    "imageUrl": "",
+                    "description": "Return request #EZRE-200123001120 send 7days ago. waiting for approvals",
+                    "isRead": false,
+                    "createdAt": "2023-07-24 18:32:46",
+                    "updatedAt": "2023-07-24 18:32:46",
+                    "orderNumber": "",
+                    "returnRequestNumber": "EZRE-200123001120",
+                    "paymentNumber": "",
+                    "paymentBatchAdditionalInfo": ""
+                },
+                {
+                    "id": 12905,
+                    "userName": "jsharma",
+                    "type": "ReturnRequestReminder",
+                    "title": "Reminder: Your action needed",
+                    "imageUrl": "",
+                    "description": "Return request #EZRE-200123001119 send 7days ago. waiting for approvals",
+                    "isRead": false,
+                    "createdAt": "2023-07-24 18:32:36",
+                    "updatedAt": "2023-07-24 18:32:36",
+                    "orderNumber": "",
+                    "returnRequestNumber": "EZRE-200123001119",
+                    "paymentNumber": "",
+                    "paymentBatchAdditionalInfo": "",
+                    "isMarketPlace": true
+                },
+                {
+                    "id": 12820,
+                    "userName": "jsharma",
+                    "type": "ReturnRequestReminder",
+                    "title": "Reminder: Your action needed",
+                    "imageUrl": "",
+                    "description": "Return request #EZRE-200123001118 send 7days ago. waiting for approvals",
+                    "isRead": false,
+                    "createdAt": "2023-07-24 18:32:25",
+                    "updatedAt": "2023-07-24 18:32:25",
+                    "orderNumber": "",
+                    "returnRequestNumber": "EZRE-200123001118",
+                    "paymentNumber": "",
+                    "paymentBatchAdditionalInfo": "",
+                    "isMarketPlace": false
+                },
+                {
+                    "id": 183106,
+                    "userName": "jsharma",
+                    "type": "PaymentAdviceCreated",
+                    "title": "Payment Advice created",
+                    "imageUrl": "",
+                    "description": "Payment advice #09EZ230001606901 was created.",
+                    "isRead": false,
+                    "createdAt": "2023-10-30 07:39:26",
+                    "updatedAt": "2023-10-30 07:39:26",
+                    "orderNumber": "",
+                    "returnRequestNumber": "",
+                    "paymentNumber": "09EZ230001606901",
+                    "paymentBatchAdditionalInfo": "23C7BB7B1C1F496",
+                    "isMarketPlace": true
+                }
+            ],
+            "pagination": {
+                "totalPage": 18,
+                "totalItem": 89,
+                "totalUnread": 88
+            }
+        }
+    },
+    "extensions": {
+        "traceId": "b5b1e8679a7042c48a010b6cbc6bec8c"
+    }
+}

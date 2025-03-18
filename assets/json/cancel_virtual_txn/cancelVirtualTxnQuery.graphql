@@ -1,0 +1,28 @@
+mutation CancelVirtualTxn($input: cancelVirtualAccountRequest!) {
+    cancelVirtualAccount(input: $input) {
+        id
+        invoices {
+            documentDate
+            documentType
+            documentNo
+            amount
+        }
+        amountPayable
+        status
+        paymentDetails {
+            vaNumber
+            vaName
+            expiresAt
+        }
+        createdOn
+        paidOn
+    }
+}
+
+variables: {
+    "input": {
+        "customer": "0000100224",
+        "id": "TR202310190725",
+        "salesOrg": "1900"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "data": {
+        "customerConfig": {
+            "id": 0,
+            "customerCode": "0000101221",
+            "salesOrgCode": null,
+            "ponRequired": false,
+            "enableAnalytics": false,
+            "disableReturns": false,
+            "enable2fa": false,
+            "disableSoa": false,
+            "priceOverride": false,
+            "created_at": "",
+            "updated_at": "",
+            "hasMarketPlaceAccess": false,
+            "disablePayments":false
+        }
+    }
+}

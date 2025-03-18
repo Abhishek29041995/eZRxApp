@@ -1,0 +1,26 @@
+<svg width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+
+ <title>通用/Icon图标/Line/left</title>
+ <desc>Created with Sketch.</desc>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="14" width="14" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="none" id="Symbols">
+   <g stroke="null" fill="#000000" id="header_doc_profile">
+    <g stroke="null" id="通用/Icon图标/Line/left">
+     <g transform="rotate(-89.61273193359375 4.499999523162843,6.000000000000001) " stroke="null" opacity="0" id="minus-square">
+      <rect stroke="null" height="16" width="16" y="-2" x="-3.5" fill-rule="nonzero" id="矩形"/>
+     </g>
+     <g stroke="null" id="left">
+      <rect transform="rotate(-89.61273193359375 5.999999523162841,5.999999999999999) " stroke="null" height="16" width="16" y="-2" x="-2" opacity="0" fill-rule="nonzero" id="矩形"/>
+      <path fill="#ffffff" transform="rotate(-90.04668426513672 5.996471405029298,6.40623426437378) " stroke="null" id="路径" d="m9.71522,1.817956l0,-1.20781c0,-0.10469 -0.12031,-0.16251 -0.20156,-0.09844l-7.04375,5.50156c-0.25625,0.2 -0.25625,0.58594 0,0.78594l7.04375,5.50156c0.08281,0.06406 0.20156,0.00625 0.20156,-0.09844l0,-1.20781c0,-0.07656 -0.03594,-0.15 -0.09531,-0.19687l-5.625,-4.39063l5.625,-4.39219c0.05937,-0.04687 0.09531,-0.12031 0.09531,-0.19687z"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

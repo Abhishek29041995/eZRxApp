@@ -1,0 +1,20 @@
+{
+    "data": {
+        "cancelVirtualAccount": {
+            "id": "TR202310190725",
+            "invoices": [
+                {
+                    "documentDate": "20231012",
+                    "documentType": "Invoice",
+                    "documentNo": "1110019088",
+                    "amount": 7952040
+                }
+            ],
+            "amountPayable": 7952040,
+            "status": "canceled",
+            "paymentDetails": null,
+            "createdOn": "2023-10-20T08:32:07",
+            "paidOn": null
+        }
+    }
+}

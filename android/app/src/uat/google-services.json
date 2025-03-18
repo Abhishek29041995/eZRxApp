@@ -1,0 +1,274 @@
+{
+  "project_info": {
+    "project_number": "289365077122",
+    "project_id": "ezrx-uat",
+    "storage_bucket": "ezrx-uat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289365077122:android:12b96520deb5b021f6589b",
+        "android_client_info": {
+          "package_name": "com.zuelligpharma.ezrxmobile.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289365077122-8qsd47mpr0m70hok279neug3ujtc9bog.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zuelligpharma.ezrxmobile.dev",
+            "certificate_hash": "c5df22ff637e0859dab6dcdd0defc2a9239f402a"
+          }
+        },
+        {
+          "client_id": "289365077122-j1l9222qsjsmai6p67ih7phkv9fl5anb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zuelligpharma.ezrxmobile.dev",
+            "certificate_hash": "4bd5affa692720a34df9c0ad1cbafc1163fb9269"
+          }
+        },
+        {
+          "client_id": "289365077122-qhkob5negv9879q57td1t9rb7r7o6avf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zuelligpharma.ezrxmobile.dev",
+            "certificate_hash": "b1e10ba57a316261784f81d32c4afa912fb869d4"
+          }
+        },
+        {
+          "client_id": "289365077122-fo2k0ba3q9p185afokr84t3jsfaaqq57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt5uh_WFQphr3EHKkZQLNy-wTz-fqt4Us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289365077122-fo2k0ba3q9p185afokr84t3jsfaaqq57.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "289365077122-3ooh6t2t3305qiqb8osjh8jr2tmh2frp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zuelligpharma.ezrxplus.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289365077122:android:5301e854363ee6d2f6589b",
+        "android_client_info": {
+          "package_name": "com.zuelligpharma.ezrxmobile.mock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289365077122-fo2k0ba3q9p185afokr84t3jsfaaqq57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt5uh_WFQphr3EHKkZQLNy-wTz-fqt4Us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289365077122-fo2k0ba3q9p185afokr84t3jsfaaqq57.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "289365077122-3ooh6t2t3305qiqb8osjh8jr2tmh2frp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zuelligpharma.ezrxplus.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289365077122:android:f090a3b6cfa429b2f6589b",
+        "android_client_info": {
+          "package_name": "com.zuelligpharma.ezrxmobile.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289365077122-6v22jm67inus2evkp4lpr1cdta6i0su9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zuelligpharma.ezrxmobile.uat",
+            "certificate_hash": "75ec9c6d84158b3c5cb46aceed2c777ca5c576c8"
+          }
+        },
+        {
+          "client_id": "289365077122-81aj8pv36gv683eq24vnvd7s8lc7v5a9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zuelligpharma.ezrxmobile.uat",
+            "certificate_hash": "c5df22ff637e0859dab6dcdd0defc2a9239f402a"
+          }
+        },
+        {
+          "client_id": "289365077122-o8c8pg4q1e9oj638kb66jr86qorc6ph2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zuelligpharma.ezrxmobile.uat",
+            "certificate_hash": "b1e10ba57a316261784f81d32c4afa912fb869d4"
+          }
+        },
+        {
+          "client_id": "289365077122-fo2k0ba3q9p185afokr84t3jsfaaqq57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt5uh_WFQphr3EHKkZQLNy-wTz-fqt4Us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289365077122-fo2k0ba3q9p185afokr84t3jsfaaqq57.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "289365077122-3ooh6t2t3305qiqb8osjh8jr2tmh2frp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zuelligpharma.ezrxplus.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289365077122:android:51cb253e416c12cbf6589b",
+        "android_client_info": {
+          "package_name": "com.zuelligpharma.ezrxplus.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289365077122-fo2k0ba3q9p185afokr84t3jsfaaqq57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt5uh_WFQphr3EHKkZQLNy-wTz-fqt4Us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289365077122-fo2k0ba3q9p185afokr84t3jsfaaqq57.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "289365077122-3ooh6t2t3305qiqb8osjh8jr2tmh2frp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zuelligpharma.ezrxplus.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289365077122:android:8fd364a7c87b7b1ef6589b",
+        "android_client_info": {
+          "package_name": "com.zuelligpharma.ezrxplus.mock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289365077122-fo2k0ba3q9p185afokr84t3jsfaaqq57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt5uh_WFQphr3EHKkZQLNy-wTz-fqt4Us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289365077122-fo2k0ba3q9p185afokr84t3jsfaaqq57.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "289365077122-3ooh6t2t3305qiqb8osjh8jr2tmh2frp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zuelligpharma.ezrxplus.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289365077122:android:14311f5a88bd7c82f6589b",
+        "android_client_info": {
+          "package_name": "com.zuelligpharma.ezrxplus.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289365077122-fo2k0ba3q9p185afokr84t3jsfaaqq57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt5uh_WFQphr3EHKkZQLNy-wTz-fqt4Us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289365077122-fo2k0ba3q9p185afokr84t3jsfaaqq57.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "289365077122-3ooh6t2t3305qiqb8osjh8jr2tmh2frp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zuelligpharma.ezrxplus.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

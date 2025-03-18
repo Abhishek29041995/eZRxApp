@@ -1,0 +1,23 @@
+query validCustomerMaterials($request: validCustomerMaterialsRequest!) {
+  validCustomerMaterials(request: $request) {    
+    materials{
+      hidePrice
+      materialNumber
+      isGimmick
+      isValid
+    }
+  }
+}
+
+variables : {
+  "request": {
+    "materialNumberList": [
+      "000000000021038302",
+    ],
+    "customerSoldToCode": "0030197800",
+    "customerShipToCode": "0071093976",
+    "salesOrganisation": "1700",
+    "cached": false,
+    "invalidateCache": false
+  }
+}

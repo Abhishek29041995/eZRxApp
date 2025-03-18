@@ -1,0 +1,302 @@
+{
+  "data": {
+    "GetInvoiceDetailsForOrder": {
+      "InvoiceCount": 14,
+      "InvoiceDetails": [
+        {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "1100001707",
+          "InvoiceHeaderStatus": "Invoice Created",
+          "InvoiceProcessingStatus": "In Progress",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145803",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Comm",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 6.84
+            }
+          ]
+        },
+        {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "4040002512",
+          "InvoiceHeaderStatus": "Invoice Cancelled",
+          "InvoiceProcessingStatus": "Cleared",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145745",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Bonus",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 0
+            }
+          ]
+        },
+        {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "1100001706",
+          "InvoiceHeaderStatus": "Invoice Created",
+          "InvoiceProcessingStatus": "Cleared",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145456",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Comm",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 6.84
+            }
+          ]
+        },
+        {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "4040002511",
+          "InvoiceHeaderStatus": "Invoice Cancelled",
+          "InvoiceProcessingStatus": "Cleared",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145439",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Comm",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 6.84
+            }
+          ]
+        },
+        {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "1100001705",
+          "InvoiceHeaderStatus": "Invoice Created",
+          "InvoiceProcessingStatus": "Cleared",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145313",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Comm",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 6.84
+            }
+          ]
+        },
+        {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "1100001705",
+          "InvoiceHeaderStatus": "Invoice Created",
+          "InvoiceProcessingStatus": "Cleared",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145313",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Comm",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 6.84
+            }
+          ]
+        },
+        {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "1100001705",
+          "InvoiceHeaderStatus": "Invoice Created",
+          "InvoiceProcessingStatus": "Cleared",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145313",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Comm",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 6.84
+            }
+          ]
+        },
+        {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "1100001705",
+          "InvoiceHeaderStatus": "Invoice Created",
+          "InvoiceProcessingStatus": "Cleared",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145313",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Comm",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 6.84
+            }
+          ]
+        },
+        {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "1100001705",
+          "InvoiceHeaderStatus": "Invoice Created",
+          "InvoiceProcessingStatus": "Cleared",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145313",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Comm",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 6.84
+            }
+          ]
+        },
+        {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "1100001705",
+          "InvoiceHeaderStatus": "Invoice Created",
+          "InvoiceProcessingStatus": "Cleared",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145313",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Comm",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 6.84
+            }
+          ]
+        },
+        {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "1100001705",
+          "InvoiceHeaderStatus": "Invoice Created",
+          "InvoiceProcessingStatus": "Cleared",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145313",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Comm",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 6.84
+            }
+          ]
+        },
+        {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "1100001705",
+          "InvoiceHeaderStatus": "Invoice Created",
+          "InvoiceProcessingStatus": "Cleared",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145313",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Comm",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 6.84
+            }
+          ]
+        },
+        {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "1100001705",
+          "InvoiceHeaderStatus": "Invoice Created",
+          "InvoiceProcessingStatus": "Cleared",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145313",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Comm",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 6.84
+            }
+          ]
+        }, {
+          "OrderNumber": "0200468780",
+          "InvoiceNumber": "1100001705",
+          "InvoiceHeaderStatus": "Invoice Created",
+          "InvoiceProcessingStatus": "Cleared",
+          "InvoiceDate": "20240709",
+          "InvoiceTime": "145313",
+          "InvoiceTotalQty": 1,
+          "InvoiceTotalPrice": 6.84,
+          "InvoiceTotalTax": 0,
+          "InvoiceItems": [
+            {
+              "LineNumber": "000010",
+              "Type": "Comm",
+              "MaterialCode": "000000000023007419",
+              "MaterialDescription": "aYNPARZA TAB 100MG 7X8 (Program stock)",
+              "Qty": 1,
+              "UnitPrice": 6.84
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+query createFavouriteMaterial($input: CreateFavouriteMaterialInput!) {
+    createFavouriteMaterial(input: $input) {
+        id
+    }
+}
+variables:
+{
+    "input":{
+        "data":{
+            "user":"10797",
+            "materialNumber":"000000000023168451",
+            "materialDescription":"EXETER V40 KL 42",
+            "isFOC":false,
+            "type":"Comm",
+            "isTenderContract":false
+        }
+    }
+}

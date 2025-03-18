@@ -1,0 +1,19 @@
+{
+  "query": " query getInvoiceIdForOrders($orderNumbers: [String!]!) {
+      getInvoiceIdForOrders(orderNumbers: $orderNumbers) {
+        orderId
+        invoice
+        lineNumber
+      }
+    }",
+  "variables": {
+    "orderNumbers": [
+      "0200261763",
+      "0200263571",
+      "0200261977",
+      "0200262192",
+      "0200261403",
+      "0200262259",
+    ]
+  }
+}

@@ -1,0 +1,401 @@
+# Test all the test cases when commit happend
+trigger: none
+
+resources:
+  - repo: self
+
+pool: dnd-azdevops-flutter
+
+variables:
+  - group: 'eZRx plus CICD'
+
+stages:
+  - stage: CodeAnalyze
+    displayName: Code Analyze
+    jobs:
+      - job: FlutterAnalyze
+        displayName: 'Analyze flutter'
+        steps:
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: flutter doctor -v
+            displayName: Flutter Version
+
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: flutter analyze --fatal-infos --fatal-warnings
+            displayName: Flutter Analyze
+
+      - job: BranchNameValidate
+        displayName: 'Branch Name Validate'
+        steps:
+          - bash: bash scripts/branch_name_validate.sh
+            env:
+              CI_BRANCH_NAME: '$(System.PullRequest.SourceBranch)'
+
+      - job: DCMAnalyse
+        displayName: 'DCM Analyse'
+        steps:
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: dcm --version
+            displayName: DCM Version
+
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: flutter pub get
+            displayName: Flutter Pub Get
+
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: dcm analyze lib --ci-key=$DCM_CI_KEY --email=$DCM_LICENSE_EMAIL --fatal-style --fatal-performance --fatal-warnings
+            displayName: DCM Analyse
+
+      - job: DCMCheckParameters
+        displayName: 'DCM Check Parameters'
+        steps:
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: flutter pub get
+            displayName: Flutter Pub Get
+
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: dcm check-parameters lib --ci-key=$DCM_CI_KEY --email=$DCM_LICENSE_EMAIL --fatal-found
+            displayName: DCM Check Parameters
+
+      - job: DCMCheckUnusedFiles
+        displayName: 'DCM Check Unused Files'
+        steps:
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: flutter pub get
+            displayName: Flutter Pub Get
+
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: dcm check-unused-files lib test integration_test --ci-key=$DCM_CI_KEY --email=$DCM_LICENSE_EMAIL --fatal-unused
+            displayName: DCM Check Unused Files
+
+      - job: DCMCheckUnusedCode
+        displayName: 'DCM Check Unused Code'
+        steps:
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: flutter pub get
+            displayName: Flutter Pub Get
+
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: dcm check-unused-code lib --ci-key=$DCM_CI_KEY --email=$DCM_LICENSE_EMAIL --fatal-unused
+            displayName: DCM Check Unused Code
+
+      - job: DCMCheckCodeDuplication
+        displayName: 'DCM Check Code Duplication'
+        steps:
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: flutter pub get
+            displayName: Flutter Pub Get
+
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: dcm check-code-duplication lib --ci-key=$DCM_CI_KEY --email=$DCM_LICENSE_EMAIL --fatal-found
+            displayName: DCM Check Code Duplication
+
+      - job: DCMCheckDependencies
+        displayName: 'DCM Check Dependencies'
+        steps:
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: flutter pub get
+            displayName: Flutter Pub Get
+
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: dcm check-dependencies lib test integration_test --ignored-packages flutter_launcher_icons --ci-key=$DCM_CI_KEY --email=$DCM_LICENSE_EMAIL --fatal-found
+            displayName: DCM Check Dependencies
+
+      - job: DCMCheckExportCompleteness
+        displayName: 'DCM Check Export Completeness'
+        steps:
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: flutter pub get
+            displayName: Flutter Pub Get
+
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: dcm check-exports-completeness lib test integration_test --ci-key=$DCM_CI_KEY --email=$DCM_LICENSE_EMAIL --fatal-found
+            displayName: DCM Check Export Completeness
+
+  - stage: UnitTest
+    displayName: Unit Test Coverage
+    dependsOn: []
+    jobs:
+      - job: TestApplication
+        displayName: Test application
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/application'
+
+      - job: TestDomain
+        displayName: Test domain
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/domain'
+
+      - job: TestInfrastructureAccount
+        displayName: Test infrastructure -> account
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/account'
+
+      - job: TestInfrastructureAnnouncement
+        displayName: Test infrastructure -> announcement
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/announcement'
+
+      - job: TestInfrastructureAupTc
+        displayName: Test infrastructure -> aup_tc
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/aup_tc'
+
+      - job: TestInfrastructureAboutUs
+        displayName: Test infrastructure -> about_us
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/about_us'
+
+      - job: TestInfrastructureAnnouncementInfo
+        displayName: Test infrastructure -> announcement_info
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/announcement_info'
+
+      - job: TestInfrastructureArticle_info
+        displayName: Test infrastructure -> article_info
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/article_info'
+
+      - job: TestInfrastructureContactUs
+        displayName: Test infrastructure -> contact_us
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/contact_us'
+
+      - job: TestInfrastructureAuth
+        displayName: Test infrastructure -> auth
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/auth'
+
+      - job: TestInfrastructureBanner
+        displayName: Test infrastructure -> banner
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/banner'
+
+      - job: TestInfrastructurePayments
+        displayName: Test infrastructure -> payments
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/payments'
+
+      - job: TestInfrastructureOrder
+        displayName: Test infrastructure -> order
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/order'
+
+      - job: TestInfrastructureReturns
+        displayName: Test infrastructure -> returns
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/returns'
+
+      - job: TestInfrastructureChatbot
+        displayName: Test infrastructure -> chatbot
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/chatbot'
+
+      - job: TestInfrastructureCore
+        displayName: Test infrastructure -> core
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/core'
+
+      - job: TestInfrastructureNotification
+        displayName: Test infrastructure -> notification
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/notification'
+
+      - job: TestInfrastructureFaq
+        displayName: Test infrastructure -> faq
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/faq'
+
+      - job: TestInfrastructureDeepLinking
+        displayName: Test infrastructure -> deep_linking
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/infrastructure/deep_linking'
+
+      - job: TestPresentationAccount
+        displayName: Test presentation -> account
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/presentation/account'
+
+      - job: TestPresentationAnnouncement
+        displayName: Test presentation -> announcement
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/presentation/announcement'
+
+      - job: TestPresentationAupTc
+        displayName: Test presentation -> aup_tc_test
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/presentation/aup_tc_test'
+
+      - job: TestPresentationAuth
+        displayName: Test presentation -> auth
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/presentation/auth'
+
+      - job: TestPresentationHome
+        displayName: Test presentation -> home
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/presentation/home'
+
+      - job: TestPresentationMore
+        displayName: Test presentation -> more
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/presentation/more'
+
+      - job: TestPresentationOrders
+        displayName: Test presentation -> orders
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/presentation/orders'
+
+      - job: TestPresentationReturns
+        displayName: Test presentation -> returns
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/presentation/returns'
+
+      - job: TestPresentationPayments
+        displayName: Test presentation -> payments
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/presentation/payments'
+
+      - job: TestPresentationProducts
+        displayName: Test presentation -> products
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/presentation/products'
+
+      - job: TestPresentationNotification
+        displayName: Test presentation -> notification
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/presentation/notification'
+
+      - job: TestPresentationFAQ
+        displayName: Test presentation -> faq
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/presentation/faq'
+
+      - job: TestPresentationCore
+        displayName: Test presentation -> core
+        steps:
+          - template: templates/unit_test_coverage_steps_template.yml
+            parameters:
+              testPath: 'test/presentation/core'
+
+  - stage: CheckMinCoverage
+    displayName: Check Min Test Coverage And Genrate Report
+    dependsOn: UnitTest
+    jobs:
+      - job: CheckMinCoverage
+        displayName: 'Validate test coverage'
+        steps:
+          - download: current
+              
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: bash scripts/merge-coverage.sh
+            displayName: Merged Test Coverage From Artifact
+            env:
+              ARTIFACT_FOLDER: '$(Pipeline.Workspace)'
+              COVERAGE_FOLDER: '$(System.DefaultWorkingDirectory)/coverage'
+                      
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: bash scripts/test_coverage_validate.sh
+            displayName: Check Min Test Coverage
+            env:
+              MIN_TEST_COVERAGE: '$(MIN_TEST_COVERAGE)'

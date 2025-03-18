@@ -1,0 +1,43 @@
+query customerDocumentHeader($input: customerDocumentHeaderRequest!){  
+ customerDocumentHeader(request: $input) {    
+   documentHeaderList {    
+        bpCustomerNumber
+        fiscalYear
+        accountingDocumentItem
+        netDueDate
+        referenceDocumentNumber
+        postingDate
+        amountInTransactionCurrency
+        invoiceReference
+        invoiceProcessingStatus
+        orderId
+        accountingDocumentType
+        accountingDocument
+        postingKeyName
+    }    
+  }
+}
+
+
+  variables: {
+    "input": {
+      "customerCode": "0030032223",
+      "salesOrg": "2601",
+      "first": 11,
+      "after": 0,
+      "excelFor": "Debit",
+      "orderBy": [
+        {
+          "order": "desc",
+          "field": "netDueDate"
+        }
+      ],
+      "filterBy": [
+        {
+          "field": "debitCreditCode",
+          "value": "S"
+        }
+      ]
+    }
+  }
+ 

@@ -1,0 +1,32 @@
+{
+    "data":{
+       "bankBeneficiary":[
+          {
+             "salesOrg":"2500",
+             "salesDistrict":null,
+             "beneficiaryName":"HSBC FAO Zuellig Pharma Corporation",
+             "bankName":"Banco de Oro",
+             "branch":null,
+             "bankCode":null,
+             "bankAccount":"0006-6108-0676",
+             "hdbcSwiftCode":null,
+             "bankAddress":null,
+             "payNowUen":null,
+             "emailId":null
+          },
+          {
+             "salesOrg":"2500",
+             "salesDistrict":null,
+             "beneficiaryName":"HSBC FAO Zuellig Pharma Corporation",
+             "bankName":"Bank of the Philippine Island",
+             "branch":null,
+             "bankCode":null,
+             "bankAccount":"1623-0304-54",
+             "hdbcSwiftCode":null,
+             "bankAddress":null,
+             "payNowUen":null,
+             "emailId":null
+          }
+       ]
+    }
+ }

@@ -1,0 +1,24 @@
+{
+  "data": {
+    "GetFilterList": {
+      "ManufactureList": [
+        "STRYKER CORPORATION (M) SDN BHD"
+      ],
+      "CountryList": [
+        {
+          "Code": "HK",
+          "Name": "Hong Kong"
+        },
+        {
+          "Code": "US",
+          "Name": "USA"
+        },
+        {
+          "Code": "VN",
+          "Name": "Viet Nam"
+        }
+      ],
+      "BrandList": []
+    }
+  }
+}

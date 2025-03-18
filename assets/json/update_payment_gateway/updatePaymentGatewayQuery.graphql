@@ -1,0 +1,14 @@
+mutation updatePaymentGatewayMutation($input: updatePaymentGatewayInput!) {
+   updatePaymentGateway(input: $input) {
+      message
+   }
+}
+
+   "variables":{
+      "input":{
+         "paymentID":"09EZ230000958301",
+         "txnStatus":"1",
+         "transactionRef":"ZUE000009EZ230000958301",
+         "salesOrg":"2001"
+      }
+   }

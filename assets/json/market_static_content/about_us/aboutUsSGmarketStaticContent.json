@@ -1,0 +1,180 @@
+{
+  "data": {
+    "item": {
+      "components": {
+        "value": [
+          {
+            "template": {
+              "name": "Banner"
+            },
+            "media": {
+              "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg",
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg"
+                }
+              }
+            },
+            "title": {
+              "value": "About Us"
+            },
+            "content": {
+              "value": "Zuellig Pharma provides world-class pharmaceutical distribution, digital and commercial services to support the evolving healthcare needs in the region."
+            },
+            "buttonName": {
+              "value": "Get in touch"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "backgroundColor": {
+              "value": "#EBF6F1"
+            },
+            "backgroundImage": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-background.png"
+                }
+              }
+            }
+          },
+          {
+            "template": {
+              "name": "Horizontal List"
+            },
+            "title": {
+              "value": "Who we are"
+            },
+            "description": {
+              "value": "Zuellig Pharma is a leading healthcare solutions company in Asia"
+            },
+            "maxNumberOfItem": {
+              "value": "3"
+            },
+            "list": {
+              "value": [
+                {
+                  "id": "E6E7DD0DF1AD4FD2A0F8F2F47835F0AC",
+                  "name": "Horizontal List Sub Item 1",
+                  "title": {
+                    "value": "200,000+"
+                  },
+                  "subTitle": {
+                    "value": "Medical Facilities"
+                  },
+                  "description": {
+                    "value": "Our mission is to make healthcare more accessible to the communities we serve, and our people serve more than 200,000 medical facilities."
+                  }
+                },
+                {
+                  "id": "7794D5595D6A4790A7F8841C4DC3B98C",
+                  "name": "Horizontal List Sub Item",
+                  "title": {
+                    "value": "450+"
+                  },
+                  "subTitle": {
+                    "value": "Clients"
+                  },
+                  "description": {
+                    "value": "We provide world-class distribution, digital and commercial services to support the growing healthcare needs in this region, and we work with over 450 clients."
+                  }
+                },
+                {
+                  "id": "444A0E65DC174C9096EBF8AF49CC649A",
+                  "name": "Horizontal List Sub Item 2",
+                  "title": {
+                    "value": "20"
+                  },
+                  "subTitle": {
+                    "value": "Top Pharmaceutical Companies"
+                  },
+                  "description": {
+                    "value": "The company was started a hundred years ago and has grown to become a multi-billion dollar business covering 16 markets with over 12,000 employees. Our people serve the top 20 pharmaceutical companies in the world."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit.jpg",
+                  "alt": "",
+                  "width": "708",
+                  "height": "553"
+                }
+              }
+            },
+            "title": {
+              "value": "Why us"
+            },
+            "subTitle": {
+              "value": "Opportunities"
+            },
+            "description": {
+              "value": "<p><span style=\"font-size: medium; color: #234455;\">▶ Top destination for medical tourism with excellent healthcare.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Singapore driving patient-centred innovations in digital health.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ High GDP per capita reflects strong purchasing power in APAC.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Medical device industry projected to reach USD 3.5B by 2022.</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\"></span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Increasing demand for health services due to ageing population.</span></p>\n<p>&nbsp;</p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"font-size: 40px; line-height: 150%; font-weight: 300; color: #19303c;\">Capabilities</span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp; </span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Zuellig Pharma delivers 85+ years of healthcare excellence in Singapore.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Largest cold-room facility with innovative infrastructure.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Top secondary repackager with serialisation capability.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Patient-centric programmes for affordability and adherence, with custom mobile app.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">\n</span></p>\n<p>&nbsp;</p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Tailored technology solutions for eCommerce, blockchain and analytics</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">\n</span></p>"
+            },
+            "buttonName": {
+              "value": ""
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": true
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-linear.png",
+                  "alt": "map",
+                  "width": "392",
+                  "height": "552"
+                }
+              }
+            },
+            "title": {
+              "value": "Partner us"
+            },
+            "subTitle": {
+              "value": "Singapore's Leading Healthcare Services Provider"
+            },
+            "description": {
+              "value": "<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Zuellig Pharma's Singapore warehouse facilities cover over 44,000 sq.m. and serve over 6,000 healthcare customers with extensive ethical, pharmacy, and modern trade coverage.</span></p>\n<p><span style=\"line-height: 50%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">We have received various accolades and certifications, such as the HR Asia Best Companies to Work (2020) for Singapore, ACES Awards Industry Champions of the Year (2021) , IDC Future Enterprise Awards (2022), and the National Awards (COVID-19) 2022 recipient for President's Certificate of Commendation for Singapore.</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\"></span><strong style=\"color: #234455; font-size: x-large;\">Zuellig Pharma Pte Ltd</strong></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Customer Care Hotline:</span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>1800 214 2132</strong></span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Address:</span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>15 Changi North Way<br />\n<br />\n#01-01 Singapore 498770</strong></span></p>"
+            },
+            "buttonName": {
+              "value": "Contact us"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": false
+            }
+          }
+        ]
+      }
+    }
+  }
+}

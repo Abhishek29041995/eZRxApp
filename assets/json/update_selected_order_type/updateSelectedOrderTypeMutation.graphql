@@ -1,0 +1,3 @@
+mutation updateSelectedOrderType(\$orderType: String!) {
+  updateSelectedOrderType(orderType: \$orderType)
+}

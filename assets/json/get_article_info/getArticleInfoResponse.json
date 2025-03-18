@@ -1,0 +1,145 @@
+{
+    "data": {
+        "search": {
+            "pageInfo": {
+                "endCursor": "eyJzZWFyY2hBZnRlciI6WyIyMDIzMDcxM3QwOTU3NTkiLCIzMjUxRENEN0I3MEM0ODU2OEVFODg1RDIwMkY4OTA4NiIsIjMyNTFEQ0Q3QjcwQzQ4NTY4RUU4ODVEMjAyRjg5MDg2Il0sImNvdW50IjoyOH0="
+            },
+            "total": 28,
+            "results": [
+                {
+                    "id": "026364A2E37B4E56A61856040093509A",
+                    "title": {
+                        "value": "eZRx Article "
+                    },
+                    "content": {
+                        "value": "\u003Cspan style=\u0022color: #111111; background-color: #f9f8f4;\u0022\u003E\u003Cstrong\u003EThis page shares my best articles to read on topics like health, happiness, creativity, productivity and more. The central question that drives my work is, \u0026ldquo;How can we live better?\u0026rdquo; To answer that question, I like to write about science-based ways to solve practical problems.\u003Cbr /\u003E\n\u003Cspan style=\u0022color: #111111; background-color: #f9f8f4;\u0022\u003E\u003C/span\u003E\u003C/strong\u003E\u003Cspan style=\u0022color: #111111; background-color: #f9f8f4;\u0022\u003E\u003Cem\u003EThis page shares my best articles to read on topics like health, happiness, creativity, productivity and more. The central question that drives my work is, \u0026ldquo;How can we live better?\u0026rdquo; To answer that question, I like to write about science-based ways to solve practical problems.\u003Cbr /\u003E\n\u003Cspan style=\u0022color: #111111; background-color: #f9f8f4;\u0022\u003E\u003Ca rel=\u0022noopener noreferrer\u0022 href=\u0022http://google.com\u0022 target=\u0022_blank\u0022\u003E\u003Cstrong\u003EThis page \u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003Eshares my best articles to read on topics like health, happiness, creativity, productivity and more. The central question that drives my work is, \u0026ldquo;How can we live better?\u0026rdquo; To answer that question, I like to write about science-based ways to solve practical problems.\u003C/strong\u003E\u003Cbr /\u003E\n\u003Cspan style=\u0022color: #111111; background-color: #f9f8f4;\u0022\u003EThis page shares my best articles to read on topics like health, happiness, creativity, productivity and more. The central question that drives my work is, \u0026ldquo;How can we live better?\u0026rdquo; To answer that question, I like to write about science-based ways to solve practical problems.\u003C/span\u003E\u003C/span\u003E\u003C/em\u003E\u003C/span\u003E\u003C/span\u003E"
+                    },
+                    "summary": null,
+                    "thumbnail": {
+                        "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Feature/JSS-Experience-Accelerator/Basic-Site/template-thumbnail.png"
+                    },
+                    "publishedDate": {
+                        "isoValue": "20230713T095802",
+                        "formattedDateValue": "07/13/2023 09:58"
+                    },
+                    "releaseDate": {
+                        "isoValue": "20230713T095802",
+                        "formattedDateValue": "07/13/2023 09:58"
+                    },
+                    "documents": {
+                        "value": []
+                    },
+                    "manufacturer": {
+                        "value": ""
+                    },
+                    "source": {
+                        "value": ""
+                    },
+                    "tag": {
+                        "value": null
+                    },
+                    "pinToTop": {
+                        "isChecked": false
+                    }
+                },
+                
+                {
+                    "id": "6272B26504A249A283D9DBDC55DC399B",
+                    "title": {
+                        "value": "Article 28 Jun 01"
+                    },
+                    "content": {
+                        "value": "\u003Cbr class=\u0022t-last-br\u0022 /\u003E\n\u003Ch2 class=\u0022title\u0022 data-lfr-editable-id=\u0022career_title\u0022 data-lfr-editable-type=\u0022rich-text\u0022 style=\u0022color: #212529; background-color: #ffffff; margin-top: 0px; margin-bottom: 38px; text-align: start; letter-spacing: normal; line-height: 44.8px;\u0022\u003EAwareness \u0026amp; Communication\u003C/h2\u003E\n\u003Cdiv class=\u0022description\u0022 data-lfr-editable-id=\u0022career_desc\u0022 data-lfr-editable-type=\u0022rich-text\u0022 style=\u0022color: #212529; background-color: #ffffff; margin-bottom: 0px; text-align: start; letter-spacing: normal; line-height: 28.8px;\u0022\u003E\n\u003Cp style=\u0022margin-top: 0px; margin-bottom: 1rem;\u0022\u003EZuellig Pharma provides healthcare communication and education services to promote disease prevention and management for the healthcare community.\u0026nbsp;\u003C/p\u003E\n\u003Cp style=\u0022margin-top: 0px; margin-bottom: 1rem;\u0022\u003EFrom nutrition, stress management and more, our team of experts disseminate medical information through webcasts, onsite reporting, daily newspapers, and working with key opinion leaders to improve healthcare outcomes, increase efficiency, and reduce costs.\u003C/p\u003E\n\u003C/div\u003E"
+                    },
+                    "summary": null,
+                    "thumbnail": {
+                        "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Feature/JSS-Experience-Accelerator/Basic-Site/bottom-left.jpg"
+                        
+                    },
+                    "publishedDate": {
+                        "isoValue": "20230713T095800",
+                        "formattedDateValue": "07/13/2023 09:58"
+                    },
+                    "releaseDate": {
+                        "isoValue": "20230713T095802",
+                        "formattedDateValue": "07/13/2023 09:58"
+                    },
+                    "documents": {
+                        "value": []
+                    },
+                    "manufacturer": {
+                        "value": "zuellig"
+                    },
+                    "source": {
+                        "value": "test Source "
+                    },
+                    "tag": {
+                        "value": {
+                            "id": "E72B381ADBA448DCA6860D262FB18D27",
+                            "name": "new Tag 1311",
+                            "displayName": "new Tag 1311"
+                        }
+                    },
+                    "pinToTop": {
+                        "isChecked": true
+                    }
+                },
+                {
+                    "id": "6E2CE7A6A5D74403840B3E8569412790",
+                    "title": {
+                        "value": "Clinic eZRx Survey Event"
+                    },
+                    "content": {
+                        "value": "\u003Cp\u003EThis is content xample.\u003C/p\u003E\n\u003Cp\u003E\u0022It was a cold grey day in late November. The weather had changed overnight, when a backing wind brought a granite sky and a mizzling rain with it, and although it was now only a little after two o\u0027clock in the afternoon the pallor of a winter evening seemed to have closed upon the hills, cloaking them in mist.\u0022\u003C/p\u003E"         
+                    },
+                    "summary": null,
+                    "thumbnail": {
+                        "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Media/Rectangle_402001.png"
+                    },
+                    "publishedDate": {
+                        "isoValue": "20230713T095800",
+                        "formattedDateValue": "07/13/2023 09:58"
+                    },
+                    "releaseDate": {
+                        "isoValue": "20230713T095802",
+                        "formattedDateValue": "07/13/2023 09:58"
+                    },
+                    "documents": {
+                        "value": [
+                            {
+                                "url": {
+                                    "value": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document1.pdf"
+                                   
+                                }    
+                            },
+                            {
+                                "url": {
+                                    "value": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document2.pdf"
+                                    
+                                }   
+                            },
+                            {
+                                "url": {
+                                    "value": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document3.pdf"
+                                   
+                                }
+                            }
+                        ]
+                    },
+                    "manufacturer": {
+                        "value": ""
+                    },
+                    "source": {
+                        "value": ""
+                    },
+                    "tag": {
+                        "value": null
+                    },
+                    "pinToTop": {
+                        "isChecked": false
+                    }
+                }
+            ]
+        }
+    }
+}

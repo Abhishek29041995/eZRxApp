@@ -1,0 +1,34 @@
+query ($input: getTxnParams!) {
+  getTransaction(input: $input) {
+    id
+    reference
+    invoices {
+      documentDate
+      documentType
+      documentNo
+      amount
+    }
+    amountPayable
+    status
+    paymentDetails {
+      vaNumber
+      vaName
+      externalLink
+      expiresAt
+    }
+    paymentMethodDisplay
+    createdOn
+    bankId
+    paidOn
+  }
+}
+
+"variables":
+{
+  "input":
+  {
+    "customer":"0000100224",
+    "id":"TR202310190725",
+    "salesOrg":"1900"
+  }
+}

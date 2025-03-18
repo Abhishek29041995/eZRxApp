@@ -1,0 +1,62 @@
+query customerInformationSearch($salesOrganisation: String!, $searchKey: String!, $first: Int!, $after: Int!, $filterBlockCustomer: Boolean) {
+  customerInformationSearch(
+    searchKey: $searchKey
+    salesOrganisation: $salesOrganisation
+    first: $first
+    after: $after
+    filterBlockCustomer: $filterBlockCustomer
+  ) {
+    shipToCount
+    SoldToInformation {
+      customerCodeSoldTo
+      telephoneNumber
+      name1
+      name2
+      name3
+      name4
+      street1
+      street2
+      street3
+      street4
+      street5
+      building
+      floor
+      houseNumber1
+      postalCode
+      city1
+      city2
+      status
+      customerGrp4
+      shipTo {
+        defaultShipToAddress
+        shipToCustomerCode
+        customerBlock
+        name1
+        name2
+        name3
+        name4
+        street
+        street2
+        street3
+        street4
+        street5
+        building
+        floor
+        houseNumber1
+        postalCode
+        city1
+        city2
+        status
+      }
+      comboEligible
+      salesDeals
+    }
+  }
+  variables {
+    "salesOrganisation": "2800",
+    "searchKey": "",
+    "filterBlockCustomer": false,
+    "first": 10,
+    "after": 0
+    }
+}

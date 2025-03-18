@@ -1,0 +1,58 @@
+{
+    "data": {
+        "search": {
+            "pageInfo": {
+                "endCursor": "eyJzZWFyY2hBZnRlciI6WzE2ODc4NDcwMjcwMDAsIjRCQUUxQjU4OEI5MDRENUZBRjRCQkNFN0I0NTFCN0JDIiwiNEJBRTFCNTg4QjkwNEQ1RkFGNEJCQ0U3QjQ1MUI3QkMiXSwiY291bnQiOjN9",
+                "hasNext": false
+            },
+            "total": 3,
+            "results": [
+                {
+                    "id": "3F2440E0ED6D43F0A1BB1FD3CC7D4DA6",
+                    "name": "UAT_FAQ",
+                    "question": {
+                        "value": "I'd like to check the status of my order."
+                    },
+                    "answer": {
+                        "value": "1. Select the My Account icon.\r\n2. Click on the 'Order' menu and select the order history screen.\r\n3. You can check the order status by order/product by selecting\r\n4. 'Require by order' or 'Require by product'."
+                    },
+                    "category": {
+                        "id": "FD59944ED004464CA35C5D566D4376F0",
+                        "name": "UAT_Order",
+                        "displayName": "UAT_Order"
+                    }
+                },
+                {
+                    "id": "A98AADDB6D9C46B49282EE4019A36FE3",
+                    "name": "UAT_FAQ",
+                    "question": {
+                        "value": "How do I change language settings?"
+                    },
+                    "answer": {
+                        "value": "1. Select the My Account icon (people shape).\r\n2. Click on the 'Settings' menu to select the member basic information screen.\r\n3. Change to the desired language from the 'Select your language' drop-down menu.\r\n4. Click the 'Save' menu."
+                    },
+                    "category": {
+                        "id": "92A05B4400CA4958BCE94D776FEB8FE9",
+                        "name": "UAT_Account settings",
+                        "displayName": "UAT_Account settings"
+                    }
+                },
+                {
+                    "id": "4BAE1B588B904D5FAF4BBCE7B451B7BC",
+                    "name": "UAT_How do I reset my password",
+                    "question": {
+                        "value": "How do I reset my password?"
+                    },
+                    "answer": {
+                        "value": "Password reset can be initialized through personal mail registered when you sign up.\r\n\r\n1. On the login screen, click the 'Find Password' link.\r\n2. If you enter your user ID and click the 'Next' button, the password reset method will be sent to the registered email address.\r\n3. You can set a new password in the email you received.\r\n4. You can log in with the newly set password on the login screen.\r\n(*If you don't know your personal email address, please contact the customer service center.)"
+                    },
+                    "category": {
+                        "id": "92A05B4400CA4958BCE94D776FEB8FE9",
+                        "name": "UAT_Account settings",
+                        "displayName": "UAT_Account settings"
+                    }
+                }
+            ]
+        }
+    }
+}

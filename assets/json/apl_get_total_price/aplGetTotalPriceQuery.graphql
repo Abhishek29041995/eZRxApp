@@ -1,0 +1,20 @@
+query aplGetTotalPrice($AplGetTotalPrice: AplGetTotalPriceRequest!) {
+  AplGetTotalPrice(request: $AplGetTotalPrice) {
+    TotalPrice
+    DeliveryFee
+    Tax
+  }
+}
+
+
+variable :
+{
+  "AplGetTotalPrice": {
+    "Customer": "0000100237",
+    "Amount": 720000,
+    "MaterialNumber": [
+      "JSR55"
+    ],
+    "SalesOrg": "1900"
+  }
+}

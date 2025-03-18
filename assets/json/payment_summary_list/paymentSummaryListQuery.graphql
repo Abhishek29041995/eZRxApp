@@ -1,0 +1,69 @@
+query customerPayment(\$request: customerPaymentRequest!) {
+  customerPayment(request: \$request) {
+    total
+    showing
+    totalPaymentInProgress
+    customerPaymentResponse {
+      paymentID
+      valueDate
+      paymentAmount
+      transactionCurrency
+      paymentDocument
+      invoiceProcessingStatus
+      paymentMethod
+      iban
+      bankIdentification
+      bankCountryKey
+      bankKey
+      bankAccountNumber
+      bankName
+      paymentCardID
+      paymentCardNumber
+      paymentCardHolderName
+      paymentCardMaskedNumber
+      paymentCardTypeName
+      extensibilityCustomField {
+        paymentBatchAdditionalInfo {
+          businessContext
+          label
+          technicalName
+        }
+      }
+      customId
+      tmpPaytByDigitalPaytService
+      payerByPaymentServiceProvider
+      paymentRefByPaytSrvcProvider
+      paymentServiceProvider
+      transactionStatus
+      customerInvoice
+      paymentCardData
+      paytCardVerificatDetResultText
+      disputeCaseInformationText
+      userName
+      paymentBatchAdditionalInfo
+      accountingDocExternalReference
+      zCcpPaymentQRCode
+      zzAdvice
+      zzHtmcs
+      adviceExpiry
+      createdDate
+      transactionStatus
+      status
+    }
+  }
+}
+
+
+variables :
+{
+  "request": {
+    "customerCode": "0030082707",
+    "salesOrg": "2001",
+    "filterBy": [
+      {
+        "field": "paymentID",
+        "value": "2       46"
+      }
+    ]
+  }
+}

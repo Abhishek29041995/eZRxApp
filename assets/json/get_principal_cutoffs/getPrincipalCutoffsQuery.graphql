@@ -1,0 +1,17 @@
+query GetPrincipalCutoffs($request: PrincipalCutoffRequest!) {
+  getPrincipalCutoffs(request: $request) {
+    total
+  }
+}
+
+{
+  "request": {
+    "branch": [
+      "1910"
+    ],
+    "configurationName": "Payment",
+    "status": [
+      "Active"
+    ]
+  }
+}

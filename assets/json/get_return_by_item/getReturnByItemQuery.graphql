@@ -1,0 +1,35 @@
+query requestsByItems($request: requestsByItems!) {
+  requestsByItems(request: $request) {
+    returnRequestsByItems {
+      requestDate
+      requestByItems {
+        prsfd
+        requestId
+        requestDate
+        itemQty
+        totalPrice
+        status
+        materialNumber
+        materialName
+        DefaultMaterialDescription
+        orderNumber
+        invoiceID
+        customerName
+        batch
+        outsidePolicy
+        expiry
+        wareHouseStorageCondition
+      }
+    }
+    totalCount
+  }
+  variable: {
+  "request": {
+    "soldTo": "0030082707",
+    "shipTo": "0070149863",
+    "username": "rootadmin",
+    "first": 10,
+    "after": 0
+  }
+}
+}

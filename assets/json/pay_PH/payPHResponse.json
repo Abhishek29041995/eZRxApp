@@ -1,0 +1,15 @@
+{
+  "data": {
+      "addCustomerPayment": {
+          "paymentID": "2        1",
+          "valueDate": "2024-05-20",
+          "transactionCurrency": "PHP",
+          "paymentBatchAdditionalInfo": "23CF8B0F0737A68",
+          "accountingDocExternalReference": "",
+          "zCcpPaymentQRCode": "",
+          "adviceExpiry":"30 Day(s)",
+          "zzHtmcs":"\u003chtml:script language=\"javascript\"\u003e$(document).ready(function(){$(\"#btn_submit\").click(function (){var win=window.open(\"https://ubotpsentry-tst1.outsystemsenterprise.com/UPAY/WhiteLabel/73352865-5C06-AB2A-16A0-7E63A173AD0B?s=BO6qn38IzSkPzODnR%2FrCTg%3D%3DPz7CbHG%2Buec9hTb4u%2FwxLR7ku5kbpINSnE6zxubEqnUMBX%2Bzt9VvqSgyGV%2Btd8I%2BvTxSZDERDbSzzaOyr9MMsQc2rjGEsPf%2B2A7vPQrdAtEx729fM8kSlrjH8fc8l3cv1wwUwzlb3jUncpo6kocvJvhtCaYQj2FRV40DcCJeH10S47SIGAPeGKb1Sfz6413hdb1h3h%2BudYzEJpmbuVsqWPrIGe3GyPLsoUbg0dXpNqJ30hFF%2F1JidSyho1ghz2MmVAHg31HiiEG%2FjiCZIrPvxWQvP2LWw4DA2BhDCanPs%2F0BtNQ5W8hGpG3D60YhzTYk2oS8W026OOCurKw%2BG9qdyIJdpBMIxLrGH7uPgR2NcfhOPsYVg1YbYcHPzDiJobbhU2SaHFac52eLZUdacfUdc%2BdeYPlZzYYQCmD%2FyWzX9d4%3D\" ,\"_blank\" );})})\u003c/html:script\u003e\u003chtml:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\"\u003eOpen Payment Gateway\u003c/html:button\u003e",
+          "zzAdvice": "09EZ240002318101"
+      }
+  }
+}

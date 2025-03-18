@@ -1,0 +1,14 @@
+{
+    "data": {
+        "submitOrder": {
+            "SalesDocument": "27faf203-62e6-43cf-a9cc-9edd3e22d032",
+            "SalesDocuments": ["27faf203-62e6-43cf-a9cc-9edd3e22d032", "438sm23-62e6-43cf-a9cc-312ha231s232", "js912h-j131287y-23js3s15-743hwj2387hw"],
+            "Messages": [
+                {
+                    "Type": "S",
+                    "Message": "EZRX-b628ca8"
+                }
+            ]
+        }
+    }
+}

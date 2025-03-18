@@ -1,0 +1,468 @@
+{
+  "data": {
+    "GetAllProducts": {
+      "Count": 17,
+      "Products": [
+        {
+          "Code": "000000000021231548",
+          "Name": "A-CERUMEN 10 DOSES 2ML",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": true,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231548",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "A-CERUMEN 10 DOSES 2ML",
+              "DefaultMaterialDescription": "A-CERUMEN 10 DOSES 2ML",
+              "GenericMaterialName": "Alkylamido/Coco-Betaine/PEG120 methyl gl",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231547",
+          "Name": "DOLOGEL GEL GINGINVAL 25ML",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231547",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "DOLOGEL GEL GINGINVAL 25ML",
+              "DefaultMaterialDescription": "DOLOGEL GEL GINGINVAL 25ML",
+              "GenericMaterialName": "Extract Camomile+Valerian+Propalis",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231313",
+          "Name": "MARIMER SPRAY NEZ ALLERGY 100ML",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231313",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "MARIMER SPRAY NEZ ALLERGY 100ML",
+              "DefaultMaterialDescription": "MARIMER SPRAY NEZ ALLERGY 100ML",
+              "GenericMaterialName": "Seawater sterile Isotonic",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231312",
+          "Name": "MARIMER BABY ISOTONIC NASAL SPRAY 100ML",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231312",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "MARIMER BABY ISOTONIC NASAL SPRAY 100ML",
+              "DefaultMaterialDescription": "MARIMER BABY ISOTONIC NASAL SPRAY 100ML",
+              "GenericMaterialName": "Seawater sterile Isotonic",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231310",
+          "Name": "CHLORHEXIDINE 0.2% 10 x 5ml",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231310",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "CHLORHEXIDINE 0.2% 10 x 5ml",
+              "DefaultMaterialDescription": "CHLORHEXIDINE 0.2% 10 x 5ml",
+              "GenericMaterialName": "Chlorhexidine 0.2g",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231308",
+          "Name": "PHYSIODOSE B/30 X 5ML",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231308",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "PHYSIODOSE B/30 X 5ML",
+              "DefaultMaterialDescription": "PHYSIODOSE B/30 X 5ML",
+              "GenericMaterialName": "NaCl 0.9g",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231307",
+          "Name": "MARIMER ISOTONIC",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231307",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "MARIMER ISOTONIC",
+              "DefaultMaterialDescription": "MARIMER ISOTONIC",
+              "GenericMaterialName": "Seawater sterile Isotonic",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231306",
+          "Name": "MARIMER HYPERTONIC",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231306",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "MARIMER HYPERTONIC",
+              "DefaultMaterialDescription": "MARIMER HYPERTONIC",
+              "GenericMaterialName": "Seawater sterile (Eq. Salt 22g/L)",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231277",
+          "Name": "PHYSIOLAC ANTIREGURGITATION AR2 900G",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231277",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "PHYSIOLAC ANTIREGURGITATION AR2 900G",
+              "DefaultMaterialDescription": "PHYSIOLAC ANTIREGURGITATION AR2 900G",
+              "GenericMaterialName": "Skimmed milk",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231276",
+          "Name": "PHYSIOLAC ANTIREGURGITATION AR1 900G",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231276",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "PHYSIOLAC ANTIREGURGITATION AR1 900G",
+              "DefaultMaterialDescription": "PHYSIOLAC ANTIREGURGITATION AR1 900G",
+              "GenericMaterialName": "Skimmed milk",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231275",
+          "Name": "PHYSIOLAC EPISODES DIA",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231275",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "PHYSIOLAC EPISODES DIA",
+              "DefaultMaterialDescription": "PHYSIOLAC EPISODES DIA",
+              "GenericMaterialName": "Skimmed milk",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231274",
+          "Name": "PHYSIOLAC RELAIS 1 400",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231274",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "PHYSIOLAC RELAIS 1 400",
+              "DefaultMaterialDescription": "PHYSIOLAC RELAIS 1 400",
+              "GenericMaterialName": "Skimmed milk",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231273",
+          "Name": "PHYSIOLAC HYPOALLERGENIQUE 400G",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231273",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "PHYSIOLAC HYPOALLERGENIQUE 400G",
+              "DefaultMaterialDescription": "PHYSIOLAC HYPOALLERGENIQUE 400G",
+              "GenericMaterialName": "Skimmed milk",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231272",
+          "Name": "PHYSIOLAC 3A 900G",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231272",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "PHYSIOLAC 3A 900G",
+              "DefaultMaterialDescription": "PHYSIOLAC 3A 900G",
+              "GenericMaterialName": "Skimmed milk",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231271",
+          "Name": "PHYSIOLAC 2A 900G",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231271",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "PHYSIOLAC 2A 900G",
+              "DefaultMaterialDescription": "PHYSIOLAC 2A 900G",
+              "GenericMaterialName": "Skimmed milk",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231270",
+          "Name": "PHYSIOLAC 1A 900G",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231270",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "PHYSIOLAC 1A 900G",
+              "DefaultMaterialDescription": "PHYSIOLAC 1A 900G",
+              "GenericMaterialName": "Skimmed milk",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        },
+        {
+          "Code": "000000000021231269",
+          "Name": "LINIDERM BOTTLE 250ML",
+          "PrincipalCode": "0000140132",
+          "materialNumber": "",
+          "materialDescription": "",
+          "Manufactured": "Groupe Batteur",
+          "IsFavourite": false,
+          "isFOCMaterial": false,
+          "materialGroup4": "K04",
+          "Type": "material",
+          "HidePrice": false,
+          "BundleInformation": null,
+          "Data": [
+            {
+              "MaterialCode": "000000000021231269",
+              "Manufactured": "Groupe Batteur",
+              "MaterialDescription": "LINIDERM BOTTLE 250ML",
+              "DefaultMaterialDescription": "LINIDERM BOTTLE 250ML",
+              "GenericMaterialName": "Olive oil extract",
+              "GovernmentMaterialCode": ""
+            }
+          ],
+          "DataTotalCount": 1,
+          "DataTotalHidden": 0,
+          "IsGimmick": false
+        }
+      ]
+    }
+  }
+}

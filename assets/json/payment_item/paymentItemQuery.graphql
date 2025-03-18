@@ -1,0 +1,51 @@
+query paymentItems(\$request: paymentItemsRequest!) {
+  paymentItems(request: \$request) {
+    accountingDocument
+    billingDocument
+    referenceDocumentNumber
+    fiscalYear
+    companyCode
+    bpCustomerNumber
+    accountingDocumentItem
+    netDueDate
+    postingDate
+    documentDate
+    transactionCurrency
+    amountInTransactionCurrency
+    openAmountInTransCrcy
+    netPaymentAmount
+    paymentAmountInDisplayCrcy
+    displayCurrency
+    totalAmountInDisplayCrcy
+    openAmountInDisplayCrcy
+    cashDiscountAmountInDspCrcy
+    cashDiscountDueDate
+    partnerFunctionIsPrintRelevant
+    functionIsXMLRelevant
+    specialGLCode
+    postingKey
+    postingKeyName
+    documentReferenceID
+    debitCreditCode
+    accountingDocExternalReference
+    accountingDocumentItemRef
+    invoiceProcessingStatus
+    isDisputed
+    disputeCaseStatus
+    disputeCaseStatusName
+    disputeCaseUUID
+    partialPaymentHistoryDesc
+    accountingDocumentType
+  }
+}
+
+variables:
+{
+  "request": {
+    "customerCode": "0030082707",
+    "salesOrg": "2001",
+    "paymentID": "2      684",
+    "accountingDocExternalReference": "200120140040178241001",
+    "paymentBatchAdditionalInfo": "23BF4365128BEDE"
+  }
+}

@@ -1,0 +1,65 @@
+mutation addCustomerPayment($input: addCustomerPaymentInput!) {
+    addCustomerPayment(input: $input) {
+      paymentID
+      paymentBatchAdditionalInfo
+      valueDate
+      transactionCurrency
+      accountingDocExternalReference
+      zCcpPaymentQRCode
+      zzAdvice
+      zzHtmcs
+      adviceExpiry
+   }
+}
+
+"variables": {
+    "input": {
+        "isV2":true,
+        "customerCode":"0030032073",
+        "customerInvoice":[
+            {
+                "salesOrg": "2601",
+                "fiscalYear": "2021",
+                "accountingDocument": "1080004756",
+                "lineItemNumber": "001",
+                "lineNumber": "000813",
+                "bpCustomerNumber": "30032073",
+                "paymentAmount": "35467.18",
+                "displayCurrency": "SGD",
+                "displayAmount": "35467.18",
+                "displayOpenAmount": "35467.18",
+                "discountAmount": "0",
+                "discountDate": "2021-06-30",
+                "dueDate": "2021-07-30",
+                "debitCreditFlag": "S",
+                "accountingDocExternalReference": "260120211080004756001SD 1080004756",
+                "partialPaymentHistoryDesc": "260120211080004756001:",
+                "isDisputed": ""
+            },
+            {
+                "salesOrg": "2601",
+                "fiscalYear": "2023",
+                "accountingDocument": "4080001960",
+                "lineItemNumber": "001",
+                "lineNumber": "000917",
+                "bpCustomerNumber": "30032073",
+                "paymentAmount": "-648",
+                "displayCurrency": "SGD",
+                "displayAmount": "-648",
+                "displayOpenAmount": "-648",
+                "discountAmount": "0",
+                "discountDate": "2023-01-31",
+                "dueDate": "2023-01-31",
+                "debitCreditFlag": "H",
+                "accountingDocExternalReference": "260120234080001960001SD 4080001960",
+                "partialPaymentHistoryDesc": "260120234080001960001:",
+                "isDisputed": ""
+            }
+        ],
+        "shipToCode":"0070042482",
+        "paymentMethod":"QR Code",
+        "salesOrg":"2601",
+        "transactionCurrency":"SGD",
+        "userName":"rootadmin"
+    }
+}

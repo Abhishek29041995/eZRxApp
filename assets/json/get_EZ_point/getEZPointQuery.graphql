@@ -1,0 +1,12 @@
+{
+    "query": "query ($request: EzPointTokenRequest!) {
+        getEzPointToken(request: $request) {
+            ezPointToken
+        }
+    }",
+    "variables": {
+        "request": {
+            "customerCode": "0000100164"
+        }
+    }
+}

@@ -1,0 +1,70 @@
+query customerPayment(\$request: customerPaymentRequest!) {
+         customerPayment(request: \$request) {
+            paymentID
+            valueDate
+            paymentAmount
+            transactionCurrency
+            paymentDocument
+            invoiceProcessingStatus
+            paymentMethod
+            iban
+            bankIdentification
+            bankCountryKey
+            bankKey
+            bankAccountNumber
+            bankName
+            paymentCardID
+            paymentCardNumber
+            paymentCardHolderName
+            paymentCardMaskedNumber
+            paymentCardTypeName
+            extensibilityCustomField {
+              paymentBatchAdditionalInfo {
+                businessContext
+                label
+                technicalName
+              }
+            }
+            customId
+            tmpPaytByDigitalPaytService
+            payerByPaymentServiceProvider
+            paymentRefByPaytSrvcProvider
+            paymentServiceProvider
+            transactionStatus
+            customerInvoice
+            paymentCardData
+            paytCardVerificatDetResultText
+            disputeCaseInformationText
+            userName
+            paymentBatchAdditionalInfo
+            accountingDocExternalReference
+            zCcpPaymentQRCode
+            zzAdvice
+            adviceExpiry
+            zzHtmcs
+            createdDate
+            status
+    }
+}
+
+
+variables:
+{
+  "request": {
+    "salesOrg": "2601",
+    "customerCode": "30031505",
+    "first": 20,
+    "after": 0,
+    "orderBy":[
+    {
+        "order": "desc",
+        "field": "createdDate"
+    },
+    {
+        "order": "desc",
+        "field": "PaymentBatchAdditionalInfo"
+    }
+    ]
+  }
+}
+

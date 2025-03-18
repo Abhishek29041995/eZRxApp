@@ -1,0 +1,3 @@
+{
+    "query": "mutation addPolicy($input: addPolicyInput!) {\n  addPolicy(input: $input) {\n    status\n    }\n}\n"
+}

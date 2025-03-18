@@ -1,0 +1,197 @@
+{
+  "data": {
+    "requestsByUserV2": {
+      "requestIds": [
+        "EZRE-260122000367",
+        "EZRE-260122000366",
+        "EZRE-260123000378",
+        "EZRE-260123000377",
+        "EZRE-260123000370",
+        "EZRE-260123000371",
+        "EZRE-260122000365",
+        "EZRE-260122000362",
+        "EZRE-260123000374",
+        "EZRE-260123000373",
+        "EZRE-260123000372"
+      ],
+      "requests": [
+        {
+          "submitDate": "20221228",
+          "returnId": "EZRE-260122000367",
+          "refundTotal": "45.9",
+          "requestStatus": "PENDING",
+          "items": [
+            {
+              "status": "CREATED",
+              "total": "45.900000",
+              "materialNumber": "000000000023008209",
+              "materialName": "Zocor  Tab 5mg 30's",
+              "unitPrice": "45.900000",
+              "returnQty": "1"
+            }
+          ]
+        },
+        {
+          "submitDate": "20221228",
+          "returnId": "EZRE-260122000366",
+          "refundTotal": "566.7",
+          "requestStatus": "PENDING",
+          "items": [
+            {
+              "status": "CREATED",
+              "total": "566.700000",
+              "materialNumber": "000000000023008056",
+              "materialName": "Aerius Tab 5mg 500's",
+              "unitPrice": "566.700000",
+              "returnQty": "1"
+            }
+          ]
+        },
+        {
+          "submitDate": "20230207",
+          "returnId": "EZRE-260123000378",
+          "refundTotal": "33.58",
+          "requestStatus": "PENDING",
+          "items": [
+            {
+              "status": "CREATED",
+              "total": "33.580000",
+              "materialNumber": "000000000021026761",
+              "materialName": "Physiogel DMT Body Lotion 200ml",
+              "unitPrice": "33.580000",
+              "returnQty": "1"
+            }
+          ]
+        },
+        {
+          "submitDate": "20230203",
+          "returnId": "EZRE-260123000377",
+          "refundTotal": "45.9",
+          "requestStatus": "PENDING",
+          "items": [
+            {
+              "status": "CREATED",
+              "total": "45.900000",
+              "materialNumber": "000000000023008209",
+              "materialName": "Zocor  Tab 5mg 30's",
+              "unitPrice": "45.900000",
+              "returnQty": "1"
+            }
+          ]
+        },
+        {
+          "submitDate": "20230110",
+          "returnId": "EZRE-260123000370",
+          "refundTotal": "45.9",
+          "requestStatus": "PENDING",
+          "items": [
+            {
+              "status": "CREATED",
+              "total": "45.900000",
+              "materialNumber": "000000000023008209",
+              "materialName": "Zocor  Tab 5mg 30's",
+              "unitPrice": "45.900000",
+              "returnQty": "1"
+            }
+          ]
+        },
+        {
+          "submitDate": "20230113",
+          "returnId": "EZRE-260123000371",
+          "refundTotal": "45.9",
+          "requestStatus": "PENDING",
+          "items": [
+            {
+              "status": "CREATED",
+              "total": "45.900000",
+              "materialNumber": "000000000023008209",
+              "materialName": "Zocor  Tab 5mg 30's",
+              "unitPrice": "45.900000",
+              "returnQty": "1"
+            }
+          ]
+        },
+        {
+          "submitDate": "20221228",
+          "returnId": "EZRE-260122000365",
+          "refundTotal": "566.7",
+          "requestStatus": "PENDING",
+          "items": [
+            {
+              "status": "CREATED",
+              "total": "566.700000",
+              "materialNumber": "000000000023008056",
+              "materialName": "Aerius Tab 5mg 500's",
+              "unitPrice": "566.700000",
+              "returnQty": "1"
+            }
+          ]
+        },
+        {
+          "submitDate": "20221109",
+          "returnId": "EZRE-260122000362",
+          "refundTotal": "45.9",
+          "requestStatus": "PENDING",
+          "items": [
+            {
+              "status": "CREATED",
+              "total": "45.900000",
+              "materialNumber": "000000000023008209",
+              "materialName": "Zocor  Tab 5mg 30's",
+              "unitPrice": "45.900000",
+              "returnQty": "1"
+            }
+          ]
+        },
+        {
+          "submitDate": "20230114",
+          "returnId": "EZRE-260123000374",
+          "refundTotal": "45.9",
+          "requestStatus": "PENDING",
+          "items": [
+            {
+              "status": "CREATED",
+              "total": "45.900000",
+              "materialNumber": "000000000023008209",
+              "materialName": "Zocor  Tab 5mg 30's",
+              "unitPrice": "45.900000",
+              "returnQty": "1"
+            }
+          ]
+        },
+        {
+          "submitDate": "20230114",
+          "returnId": "EZRE-260123000373",
+          "refundTotal": "45.9",
+          "requestStatus": "PENDING",
+          "items": [
+            {
+              "status": "CREATED",
+              "total": "45.900000",
+              "materialNumber": "000000000023008209",
+              "materialName": "Zocor  Tab 5mg 30's",
+              "unitPrice": "45.900000",
+              "returnQty": "1"
+            }
+          ]
+        },
+        {
+          "submitDate": "20230113",
+          "returnId": "EZRE-260123000372",
+          "refundTotal": "45.9",
+          "requestStatus": "PENDING",
+          "items": [
+            {
+              "status": "CREATED",
+              "total": "45.900000",
+              "materialNumber": "000000000023008209",
+              "materialName": "Zocor  Tab 5mg 30's",
+              "unitPrice": "45.900000",
+              "returnQty": "1"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

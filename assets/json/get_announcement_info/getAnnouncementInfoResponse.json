@@ -1,0 +1,2659 @@
+{
+    "data": {
+      "search": {
+        "pageInfo": {
+          "endCursor": "eyJzZWFyY2hBZnRlciI6WyIyMDIzMTExNnQwMzI5MzIiLCJBMjhCNTFGMzhBN0Y0RTA5OEE2QjlEOTgwN0NCQjRCMyIsIkEyOEI1MUYzOEE3RjRFMDk4QTZCOUQ5ODA3Q0JCNEIzIl0sImNvdW50IjozN30=",
+          "hasNext": false,
+          "__typename": "PageInfo"
+        },
+        "total": 37,
+        "results": [
+          {
+            "id": "995F1D832F55417F95FFBF1A7F6D068C",
+            "title": {
+              "value": "Announcement 1",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "tesst",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Contact-Us/Media/Vector/Rectangle-17532/Test2.jpg",
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231130T020000Z",
+              "formattedDateValue": "11/30/2023 02:00",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "b5a887e3-733f-4827-9558-cc2b6c06611a",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Announcements/Media/default.pdf",
+                  "name": "default",
+                  "displayName": "default",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "80377"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://b9f82e4c-65d4-4c2b-ae20-72fa115b38a5"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "Sanofi",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "ZP",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "9529FD15AC594B2ABF4D0A9BCF169397",
+                "name": "General notice",
+                "displayName": "General notice",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "3E79E2DB76A040AA8BA1F05C55F58D78",
+            "title": {
+              "value": "Announcement 2",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "Announcement test content",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Carousel/Media/Desktop-455x455---Copy-(2).jpg",
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231130T010000Z",
+              "formattedDateValue": "11/30/2023 01:00",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "0c76bc81-43cc-4ec9-b10c-b961481de2b6",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/1695778714960.jpg",
+                  "name": "1695778714960",
+                  "displayName": "1695778714960",
+                  "fields": {
+                    "Height": {
+                      "value": "450"
+                    },
+                    "Mime Type": {
+                      "value": "image/jpeg"
+                    },
+                    "Size": {
+                      "value": "30068"
+                    },
+                    "Extension": {
+                      "value": "jpg"
+                    },
+                    "Blob": {
+                      "value": "blob://2d5e9638-b0df-41e6-87ce-4de2b39316be"
+                    },
+                    "Width": {
+                      "value": "800"
+                    },
+                    "Dimensions": {
+                      "value": "800 x 450"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "Panadol",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "ZP",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "9529FD15AC594B2ABF4D0A9BCF169397",
+                "name": "General notice",
+                "displayName": "General notice",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": true,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "BD82E110047D43AE8514661F0E075A45",
+            "title": {
+              "value": "Announcement 3",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "<p style=\"color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px 0px 5px;\"><span style=\"margin: 0px; padding: 0px; margin: 0px; padding: 0px;\">On 10th December 2022, the Zuellig Pharma Career Talk &ndash; Making Your Career More Achievable was successfully held in cooperation between Zuellig Pharma Vietnam and Pharmacy Faculty with the participation of 200 medicine students.&nbsp;</span><span style=\"margin: 0px; padding: 0px; margin: 0px; padding: 0px;\">At the event, we had the great conversation about early career orientation from inspired and meaningful stories of seasoned speakers who are representative from Commercial and Marketing Head, ZP Therapeutics. Beyond that, students were also provided with useful tips and advices on how to seize their career from now.</span></p>\n<div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x126k92a\" style=\"color: #333333; background-color: #ffffff; margin: 0.5em 0px 0px; padding: 0px;\">\n<div dir=\"auto\" style=\"margin: 0px; padding: 0px;\"><span style=\"margin: 0px; padding: 0px; margin: 0px; padding: 0px;\">Thank you all and look forward to seeing all of you in the upcoming events of Zuellig Pharma Vietnam! </span></div>\n</div>",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/1695778714960.jpg",
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231129T033000Z",
+              "formattedDateValue": "11/29/2023 03:30",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "test",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "9529FD15AC594B2ABF4D0A9BCF169397",
+                "name": "General notice",
+                "displayName": "General notice",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "E91E423C82A84B5891BC6AF77480D395",
+            "title": {
+              "value": "Announcement 4",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "test new announcement",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231128T113900Z",
+              "formattedDateValue": "11/28/2023 11:39",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "b5a887e3-733f-4827-9558-cc2b6c06611a",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Announcements/Media/default.pdf",
+                  "name": "default",
+                  "displayName": "default",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "80377"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://b9f82e4c-65d4-4c2b-ae20-72fa115b38a5"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "Medicine",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "Medicine",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "EF09548D892D41DDB18E24746CCA54A7",
+                "name": "Medicine",
+                "displayName": "Medicine",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "BE649CC5667A45A2AF4A1415A8A26556",
+            "title": {
+              "value": "Announcement 5",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "<p style=\"color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px 0px 5px;\"><span style=\"margin: 0px; padding: 0px; margin: 0px; padding: 0px;\">On 10th December 2022, the Zuellig Pharma Career Talk &ndash; Making Your Career More Achievable was successfully held in cooperation between Zuellig Pharma Vietnam and Pharmacy Faculty with the participation of 200 medicine students.&nbsp;</span><span style=\"margin: 0px; padding: 0px; margin: 0px; padding: 0px;\">At the event, we had the great conversation about early career orientation from inspired and meaningful stories of seasoned speakers who are representative from Commercial and Marketing Head, ZP Therapeutics. Beyond that, students were also provided with useful tips and advices on how to seize their career from now.</span></p>\n<div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x126k92a\" style=\"color: #333333; background-color: #ffffff; margin: 0.5em 0px 0px; padding: 0px;\">\n<div dir=\"auto\" style=\"margin: 0px; padding: 0px;\"><span style=\"margin: 0px; padding: 0px; margin: 0px; padding: 0px;\">Thank you all and look forward to seeing all of you in the upcoming events of Zuellig Pharma Vietnam! </span></div>\n</div>",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/1695778714960.jpg",
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231127T033000Z",
+              "formattedDateValue": "11/27/2023 03:30",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "test",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "9529FD15AC594B2ABF4D0A9BCF169397",
+                "name": "General notice",
+                "displayName": "General notice",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "98677988A01E453CAB2DA5433DA41F93",
+            "title": {
+              "value": "Announcement 6",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "<p style=\"color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px 0px 5px;\"><span style=\"margin: 0px; padding: 0px; margin: 0px; padding: 0px;\">On 10th December 2022, the Zuellig Pharma Career Talk &ndash; Making Your Career More Achievable was successfully held in cooperation between Zuellig Pharma Vietnam and Pharmacy Faculty with the participation of 200 medicine students.&nbsp;</span><span style=\"margin: 0px; padding: 0px; margin: 0px; padding: 0px;\">At the event, we had the great conversation about early career orientation from inspired and meaningful stories of seasoned speakers who are representative from Commercial and Marketing Head, ZP Therapeutics. Beyond that, students were also provided with useful tips and advices on how to seize their career from now.</span></p>\n<div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x126k92a\" style=\"color: #333333; background-color: #ffffff; margin: 0.5em 0px 0px; padding: 0px;\">\n<div dir=\"auto\" style=\"margin: 0px; padding: 0px;\"><span style=\"margin: 0px; padding: 0px; margin: 0px; padding: 0px;\">Thank you all and look forward to seeing all of you in the upcoming events of Zuellig Pharma Vietnam! </span></div>\n</div>",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/1695778714960.jpg",
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231126T033000Z",
+              "formattedDateValue": "11/26/2023 03:30",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "test",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "9529FD15AC594B2ABF4D0A9BCF169397",
+                "name": "General notice",
+                "displayName": "General notice",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "09E64F4F8F0A43BFB82803D2D95EB638",
+            "title": {
+              "value": "Announcement 7",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "<p style=\"color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px 0px 5px;\"><span style=\"margin: 0px; padding: 0px; margin: 0px; padding: 0px;\">On 10th December 2022, the Zuellig Pharma Career Talk &ndash; Making Your Career More Achievable was successfully held in cooperation between Zuellig Pharma Vietnam and Pharmacy Faculty with the participation of 200 medicine students.&nbsp;</span><span style=\"margin: 0px; padding: 0px; margin: 0px; padding: 0px;\">At the event, we had the great conversation about early career orientation from inspired and meaningful stories of seasoned speakers who are representative from Commercial and Marketing Head, ZP Therapeutics. Beyond that, students were also provided with useful tips and advices on how to seize their career from now.</span></p>\n<div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x126k92a\" style=\"color: #333333; background-color: #ffffff; margin: 0.5em 0px 0px; padding: 0px;\">\n<div dir=\"auto\" style=\"margin: 0px; padding: 0px;\"><span style=\"margin: 0px; padding: 0px; margin: 0px; padding: 0px;\">Thank you all and look forward to seeing all of you in the upcoming events of Zuellig Pharma Vietnam! </span></div>\n</div>",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/1695778714960.jpg",
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231125T033000Z",
+              "formattedDateValue": "11/25/2023 03:30",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "test",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "9529FD15AC594B2ABF4D0A9BCF169397",
+                "name": "General notice",
+                "displayName": "General notice",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "03A46670C6CE41868A7156ED4ED846F5",
+            "title": {
+              "value": "Announcement 08091",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "<p>Link:&nbsp;<a href=\"https://www.figma.com/file/eaAaoDj4r1iW5CUElqcQi5/%F0%9F%87%B2%F0%9F%87%BE-Malaysia?node-id=7658%3A158817&amp;mode=dev\">https://www.figma.com/file/eaAaoDj4r1iW5CUElqcQi5/%F0%9F%87%B2%F0%9F%87%BE-Malaysia?node-id=7658%3A158817&amp;mode=dev</a></p>\n<p><a href=\"https://zuelligpharma.atlassian.net/browse/EZRX-11136\"><span style=\"color: #ff0000;\">https://zuelligpharma.atlassian.net/browse/EZRX-11136</span></a></p>\n<p><span style=\"color: #000000;\">Link2:&nbsp;<a href=\"https://kenh14.vn/tay-trang-toi-my-nguoi-phu-nu-goc-viet-gay-dung-su-nghiep-rieng-tro-thanh-vo-ty-phu-khong-phai-may-man-cai-gi-cung-co-cai-gia-cua-no-20231004093456823.chn\">https://kenh14.vn/tay-trang-toi-my-nguoi-phu-nu-goc-viet-gay-dung-su-nghiep-rieng-tro-thanh-vo-ty-phu-khong-phai-may-man-cai-gi-cung-co-cai-gia-cua-no-20231004093456823.chn</a></span></p>\n<p><span style=\"color: #000000;\">Link3:&nbsp;<a href=\"https://kenh14.vn/2-nu-hoang-canh-nong-han-quoc-day-than-thai-o-phim-bom-tan-moi-20231003212736008.chn\"><span style=\"color: #ff0000;\">https://kenh14.vn/2-nu-hoang-canh-nong-han-quoc-day-than-thai-o-phim-bom-tan-moi-20231003212736008.chn</span></a></span></p>\n<p><span style=\"color: #000000;\">Link4:&nbsp;<a href=\"https://kenh14.vn/64-co-thu-du-peri-open-va-hanoi-open-2023-se-duoc-xac-dinh-hom-nay-20231004085956663.chn\">Lin</a></span></p>",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T041800Z",
+              "formattedDateValue": "11/16/2023 04:18",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "AD5F2995C1BA4BBCBF4CE2013FFE3324",
+                "name": "Medicine and Life",
+                "displayName": "Medicine & Life",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": true,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "124A7BE0FAEA47FA9CB28CD03D49F782",
+            "title": {
+              "value": "eZRx Announcement test17",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "Link:&nbsp;<a href=\"https://kenh14.vn/ket-qua-cup-c1-chau-au-hom-nay-4-10-mu-arsenal-thua-soc-real-thang-nhoc-20231004094425243.chn\">https://kenh14.vn/ket-qua-cup-c1-chau-au-hom-nay-4-10-mu-arsenal-thua-soc-real-thang-nhoc-20231004094425243.chn</a>",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032935Z",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "0fb29a5d-6e00-4aa5-ba3a-31953ff4113e",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/71C5ueC9K-L---Copy.jpg",
+                  "name": "71C5ueC9K-L - Copy",
+                  "displayName": "71C5ueC9K-L - Copy",
+                  "fields": {
+                    "Alt": {
+                      "value": "image"
+                    },
+                    "Height": {
+                      "value": "1995"
+                    },
+                    "Mime Type": {
+                      "value": "image/jpeg"
+                    },
+                    "Size": {
+                      "value": "225366"
+                    },
+                    "Extension": {
+                      "value": "jpg"
+                    },
+                    "Blob": {
+                      "value": "blob://6dc7dad6-2361-4057-8b1d-6c3afbc441a4"
+                    },
+                    "Width": {
+                      "value": "1995"
+                    },
+                    "Dimensions": {
+                      "value": "1995 x 1995"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "Testing Manufacture",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "Testing Source",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "A9844528CC7047E8AAECB4BB2B5F4D54",
+                "name": "System maintenance",
+                "displayName": "System maintenance",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "24C66CFB5A4C4D61A47558E6213CD740",
+            "title": {
+              "value": "Test Announcement 19 Jun - TEXT",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "<img alt=\"\" height=\"166\" width=\"615\" src=\"/Project/ezrx/ezrx/MicrosoftTeams-image-(5).png\" />",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/About-Us/Media/About-us/123rf-stock-image-10-1.jpg",
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032935",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "7321BF853B3B428B8585495A82157432",
+            "title": {
+              "value": "Announcement24-06",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032935",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "AC2F0E571CFD449DACCD215EAA4F1DED",
+            "title": {
+              "value": "Fiasp Flex Touch Wine Out of Stock Notice",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032935",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "zuellig",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "C1B4AAFF48C94AA19253D5B9E96EB368",
+            "title": {
+              "value": "Announcement SG 26 Jun",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "<a href=\"https://zuelligpharma.atlassian.net/browse/EZRXMP-1103\">[EZRXMP-1103] [MY]Enhance Announcements and Articles for eZRx+ - Jira (atlassian.net)</a>",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032935",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "DB7822F576284D86B76DB9A0AE19B01D",
+            "title": {
+              "value": "test 22-06 my",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032935",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "ECA3519AFC3D4764839C2FF31F92B314",
+            "title": {
+              "value": "Announcement 10 may",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "<a href=\"https://kenh14.vn/bi-to-no-6-nam-khong-tra-nam-em-chuyen-khoan-thanh-toan-gan-150-trieu-trong-dem-20231004065046348.chn\"><span style=\"color: #ff0000;\">https://kenh14.vn/bi-to-no-6-nam-khong-tra-nam-em-chuyen-khoan-thanh-toan-gan-150-trieu-trong-dem-20231004065046348.chn</span></a>",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032935",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "086F872D092E4A70848414C1AEE60F37",
+            "title": {
+              "value": "Announcement 1",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032934",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "1169A0A8C66C42E082F5670917E9295F",
+            "title": {
+              "value": "Announcement22-06",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032934",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "2891AFDCC13A4109B9849CBC2BDC0AA5",
+            "title": {
+              "value": "New Announcement",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032934",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "29B1F870E57C499CBF8EEC70AE502136",
+            "title": {
+              "value": "[L'Oreal] Sep 2022 Skinceuticals Product Price Increase Notice",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032934",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "ad186458-40e1-464a-9050-eaaddef4653c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document1.pdf",
+                  "name": "document1",
+                  "displayName": "document1",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://42b5713a-7c7c-47ac-a61b-c23d495a6e9f"
+                    }
+                  }
+                },
+                {
+                  "id": "1ca462b8-8eb8-4bd4-a556-328af8bea57f",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document2.pdf",
+                  "name": "document2",
+                  "displayName": "document2",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6a760a30-b722-442c-abff-ee537972da5f"
+                    }
+                  }
+                },
+                {
+                  "id": "6fda496f-ee51-4e5b-9aa1-5744c007615c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document3.pdf",
+                  "name": "document3",
+                  "displayName": "document3",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6165ccaa-1e08-426b-b456-05a8a92af169"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "6E70F3AB7802426395ECD689C493CB72",
+            "title": {
+              "value": "Announcement test create",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032934",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "7771B038CE324950BA3D9858194069C5",
+            "title": {
+              "value": "check contact us",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "<p><strong>Customer Center</strong></p>\n<p><span>Weekdays AM 09:00 - PM 18:00<br />\nLunchtime PM 12:00 - PM 13:00<br />\nClosed on weekends and public holidays</span></p>\n<p><span>&nbsp;</span></p>\n<table style=\"width: 511px; height: 225px;\">\n    <tbody>\n        <tr>\n            <td>\n            <p style=\"text-align: left;\">&nbsp;<span>Saxenda, Novo, Dupixent Order Inquiry</span></p>\n            <p style=\"text-align: left;\"><span><strong>1899-4156</strong></span></p>\n            <p style=\"text-align: left;\"><span><strong></strong><br />\n            <br />\n            </span></p>\n            </td>\n            <td style=\"text-align: left;\">\n            <p>Larochopose/skinceuticals </p>\n            <p>order inquiry</p>\n            <p><strong>02-2006-0816</strong></p>\n            <p><strong>&nbsp;</strong></p>\n            </td>\n            <td style=\"text-align: left;\">\n            <p>Physiogel order inquiry&nbsp;</p>\n            <p><strong>080-2005-080</strong></p>\n            <p><strong>&nbsp;</strong></p>\n            </td>\n        </tr>\n        <tr>\n            <td style=\"text-align: left;\">\n            <p>&nbsp;<span>Saxenda Product Inquiry</span></p>\n            <p><span><strong>1833-8561</strong></span></p>\n            <p><span><strong>&nbsp;</strong></span></p>\n            </td>\n            <td style=\"text-align: left;\">\n            <p><span>larocheposay product inquiry<br />\n            <strong>080-344-0088</strong></span></p>\n            <p>&nbsp;</p>\n            </td>\n            <td style=\"text-align: left;\">\n            <p>&nbsp;<span>Physiogel product inquiry<br />\n            <strong>080-023-7007</strong></span></p>\n            <p><span><strong>&nbsp;</strong></span></p>\n            </td>\n        </tr>\n        <tr>\n            <td style=\"text-align: left;\">\n            <p>Novo Product Inquiry</p>\n            <p><span><strong>02-2188-8900</strong></span></p>\n            <p><span><strong>&nbsp;</strong></span></p>\n            </td>\n            <td style=\"text-align: left;\">\n            <p>&nbsp;<span>Skinceuticals product inquiry<br />\n            <strong>080-348-0086</strong></span></p>\n            <p><span><strong>&nbsp;</strong></span></p>\n            </td>\n            <td>\n            <p style=\"text-align: left;\">&nbsp;<span>Dupixent product inquiry</span></p>\n            <p style=\"text-align: left;\"><span><strong>02-2136-9000</strong></span></p>\n            <p style=\"text-align: left;\"><span><strong>&nbsp;</strong></span></p>\n            </td>\n        </tr>\n    </tbody>\n</table>\n<br />",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032934",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "B6B1176A4EB3440E809F531A669CB0CF",
+            "title": {
+              "value": "[L'Oreal] May 2022 Skinceuticals Product Price Increase Notice",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032934",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "ad186458-40e1-464a-9050-eaaddef4653c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document1.pdf",
+                  "name": "document1",
+                  "displayName": "document1",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://42b5713a-7c7c-47ac-a61b-c23d495a6e9f"
+                    }
+                  }
+                },
+                {
+                  "id": "1ca462b8-8eb8-4bd4-a556-328af8bea57f",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document2.pdf",
+                  "name": "document2",
+                  "displayName": "document2",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6a760a30-b722-442c-abff-ee537972da5f"
+                    }
+                  }
+                },
+                {
+                  "id": "6fda496f-ee51-4e5b-9aa1-5744c007615c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document3.pdf",
+                  "name": "document3",
+                  "displayName": "document3",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6165ccaa-1e08-426b-b456-05a8a92af169"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "D6AFD64D9E2B414C9770ECE65AACA5C3",
+            "title": {
+              "value": "new announcement 02",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032934",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "E901604B71244AC5BBFD5F464B45EF8B",
+            "title": {
+              "value": "all Announcement 6",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "test",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032934",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "39473413-670a-41ba-bf92-1f20bd684dc5",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Sample-JPEG-Image-File-Download-scaled.jpg",
+                  "name": "Sample-JPEG-Image-File-Download-scaled",
+                  "displayName": "Sample-JPEG-Image-File-Download-scaled",
+                  "fields": {
+                    "Height": {
+                      "value": "1920"
+                    },
+                    "Mime Type": {
+                      "value": "image/jpeg"
+                    },
+                    "Size": {
+                      "value": "221472"
+                    },
+                    "Extension": {
+                      "value": "jpg"
+                    },
+                    "Blob": {
+                      "value": "blob://20445cfd-ffb7-4ac0-87c5-a05dcfa5002c"
+                    },
+                    "Width": {
+                      "value": "2560"
+                    },
+                    "Dimensions": {
+                      "value": "2560 x 1920"
+                    }
+                  }
+                },
+                {
+                  "id": "ad186458-40e1-464a-9050-eaaddef4653c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document1.pdf",
+                  "name": "document1",
+                  "displayName": "document1",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://42b5713a-7c7c-47ac-a61b-c23d495a6e9f"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "FEAB1CF4291C452BA74772E3557609BA",
+            "title": {
+              "value": "[UAT] Announcement  Jul 11",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "<p><span style=\"color: #333333; background-color: #ffffff; text-align: justify;\"><strong>Zuellig Pharma</strong> is one of the largest healthcare services groups in Asia and our purpose is to make healthcare more accessible. In Asia, we provide world-class distribution, commercial solutions, patient care, clinic reach, data analytics, pharmacy channel and payor services to support the growing healthcare needs in this region.</span></p>\n<p><img alt=\"IM\" src=\"/Project/ezrx/ezrx/Announcements/Media/anh-1.png?h=394.778&amp;w=704.111\" style=\"left: 207.431px; top: 97.0833px; width: 704.111px; height: 394.778px;\" /></p>",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/71C5ueC9K-L---Copy.jpg",
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032934",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "9529FD15AC594B2ABF4D0A9BCF169397",
+                "name": "General notice",
+                "displayName": "General notice",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": true,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "FEF6BFC769054187880E2F2997BEF513",
+            "title": {
+              "value": "[[UAT] Announcement 08-07",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "<span style=\"color: #333333; background-color: #ffffff; text-align: justify;\">Zuellig Pharma is one of the largest healthcare services groups in Asia and our purpose is to make healthcare more accessible. In Asia, we provide world-class distribution, commercial solutions, patient care, clinic reach, data analytics, pharmacy channel and payor services to support the growing healthcare needs in this region.</span><img alt=\"image\" src=\"/Project/ezrx/ezrx/71C5ueC9K-L---Copy.jpg?h=831.444&amp;w=443.667\" style=\"left: 826.319px; top: 737.431px; width: 443.667px; height: 831.444px;\" />",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/71C5ueC9K-L---Copy.jpg",
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173351",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032934",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "07C683A7A8AC4ABDBB280B827F72A177",
+                "name": "Research announcement",
+                "displayName": "Research announcement",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": true,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "26336023408A420E87C63C3AF5272D36",
+            "title": {
+              "value": "Novo Nordisk] Fiasp Flex Touch 100ML Product Resumption Schedule Notice 2",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032933",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "ad186458-40e1-464a-9050-eaaddef4653c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document1.pdf",
+                  "name": "document1",
+                  "displayName": "document1",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://42b5713a-7c7c-47ac-a61b-c23d495a6e9f"
+                    }
+                  }
+                },
+                {
+                  "id": "1ca462b8-8eb8-4bd4-a556-328af8bea57f",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document2.pdf",
+                  "name": "document2",
+                  "displayName": "document2",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6a760a30-b722-442c-abff-ee537972da5f"
+                    }
+                  }
+                },
+                {
+                  "id": "6fda496f-ee51-4e5b-9aa1-5744c007615c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document3.pdf",
+                  "name": "document3",
+                  "displayName": "document3",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6165ccaa-1e08-426b-b456-05a8a92af169"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "3FF1EE0E57844FB7A0CA167B3526C19E",
+            "title": {
+              "value": "[L'Oreal] Aug 2022 Skinceuticals Product Price Increase Notice",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032933",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "ad186458-40e1-464a-9050-eaaddef4653c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document1.pdf",
+                  "name": "document1",
+                  "displayName": "document1",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://42b5713a-7c7c-47ac-a61b-c23d495a6e9f"
+                    }
+                  }
+                },
+                {
+                  "id": "1ca462b8-8eb8-4bd4-a556-328af8bea57f",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document2.pdf",
+                  "name": "document2",
+                  "displayName": "document2",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6a760a30-b722-442c-abff-ee537972da5f"
+                    }
+                  }
+                },
+                {
+                  "id": "6fda496f-ee51-4e5b-9aa1-5744c007615c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document3.pdf",
+                  "name": "document3",
+                  "displayName": "document3",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6165ccaa-1e08-426b-b456-05a8a92af169"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "557286DB5C84454593B1692236245068",
+            "title": {
+              "value": "[Information] June 11th site security enhancement work guidance ",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032933",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "ad186458-40e1-464a-9050-eaaddef4653c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document1.pdf",
+                  "name": "document1",
+                  "displayName": "document1",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://42b5713a-7c7c-47ac-a61b-c23d495a6e9f"
+                    }
+                  }
+                },
+                {
+                  "id": "1ca462b8-8eb8-4bd4-a556-328af8bea57f",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document2.pdf",
+                  "name": "document2",
+                  "displayName": "document2",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6a760a30-b722-442c-abff-ee537972da5f"
+                    }
+                  }
+                },
+                {
+                  "id": "6fda496f-ee51-4e5b-9aa1-5744c007615c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document3.pdf",
+                  "name": "document3",
+                  "displayName": "document3",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6165ccaa-1e08-426b-b456-05a8a92af169"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "563745D6BF0B4039BA55CCB2208434FF",
+            "title": {
+              "value": "[L'Oreal] May 2022 Skinceuticals Product Price Increase Notice",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032933",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "ad186458-40e1-464a-9050-eaaddef4653c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document1.pdf",
+                  "name": "document1",
+                  "displayName": "document1",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://42b5713a-7c7c-47ac-a61b-c23d495a6e9f"
+                    }
+                  }
+                },
+                {
+                  "id": "1ca462b8-8eb8-4bd4-a556-328af8bea57f",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document2.pdf",
+                  "name": "document2",
+                  "displayName": "document2",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6a760a30-b722-442c-abff-ee537972da5f"
+                    }
+                  }
+                },
+                {
+                  "id": "6fda496f-ee51-4e5b-9aa1-5744c007615c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document3.pdf",
+                  "name": "document3",
+                  "displayName": "document3",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6165ccaa-1e08-426b-b456-05a8a92af169"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "ADD1B474704047EA98CC2609D0195FC5",
+            "title": {
+              "value": "[Novo Nordisk] Fiasp Flex Touch Wine Out of Stock Notice",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032933",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "ad186458-40e1-464a-9050-eaaddef4653c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document1.pdf",
+                  "name": "document1",
+                  "displayName": "document1",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://42b5713a-7c7c-47ac-a61b-c23d495a6e9f"
+                    }
+                  }
+                },
+                {
+                  "id": "1ca462b8-8eb8-4bd4-a556-328af8bea57f",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document2.pdf",
+                  "name": "document2",
+                  "displayName": "document2",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6a760a30-b722-442c-abff-ee537972da5f"
+                    }
+                  }
+                },
+                {
+                  "id": "6fda496f-ee51-4e5b-9aa1-5744c007615c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document3.pdf",
+                  "name": "document3",
+                  "displayName": "document3",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6165ccaa-1e08-426b-b456-05a8a92af169"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "D576583319CD46A8A5D5BDCBEA7DFA4E",
+            "title": {
+              "value": "Test KMC",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "Test content",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Announcements/Media/d0e30570ca9da96da2911219687acccc---Copy-(6).jpg",
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032933",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "DCC0D8159683412597F9D70C681416F5",
+                "name": "Lifestyle",
+                "displayName": "Lifestyle",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "DB8D6384FD834DF3B972F1260A3E07A7",
+            "title": {
+              "value": "[L'Oreal] May 2022 Skinceuticals Product Price Increase Notice",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032933",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "ad186458-40e1-464a-9050-eaaddef4653c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document1.pdf",
+                  "name": "document1",
+                  "displayName": "document1",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://42b5713a-7c7c-47ac-a61b-c23d495a6e9f"
+                    }
+                  }
+                },
+                {
+                  "id": "1ca462b8-8eb8-4bd4-a556-328af8bea57f",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document2.pdf",
+                  "name": "document2",
+                  "displayName": "document2",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6a760a30-b722-442c-abff-ee537972da5f"
+                    }
+                  }
+                },
+                {
+                  "id": "6fda496f-ee51-4e5b-9aa1-5744c007615c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document3.pdf",
+                  "name": "document3",
+                  "displayName": "document3",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6165ccaa-1e08-426b-b456-05a8a92af169"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "E2F8980FE53E43C3A17EE4A8164A3FD8",
+            "title": {
+              "value": "[L'Oreal] May 2022 Skinceuticals Product Price Increase Notice",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032933",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "ad186458-40e1-464a-9050-eaaddef4653c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document1.pdf",
+                  "name": "document1",
+                  "displayName": "document1",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://42b5713a-7c7c-47ac-a61b-c23d495a6e9f"
+                    }
+                  }
+                },
+                {
+                  "id": "1ca462b8-8eb8-4bd4-a556-328af8bea57f",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document2.pdf",
+                  "name": "document2",
+                  "displayName": "document2",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6a760a30-b722-442c-abff-ee537972da5f"
+                    }
+                  }
+                },
+                {
+                  "id": "6fda496f-ee51-4e5b-9aa1-5744c007615c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document3.pdf",
+                  "name": "document3",
+                  "displayName": "document3",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6165ccaa-1e08-426b-b456-05a8a92af169"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "FBAE8F605EE54F5B9410F25082D788B2",
+            "title": {
+              "value": "[L'Oreal] May 2022 Skinceuticals Product Price Increase Notice",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032933",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "ad186458-40e1-464a-9050-eaaddef4653c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document1.pdf",
+                  "name": "document1",
+                  "displayName": "document1",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://42b5713a-7c7c-47ac-a61b-c23d495a6e9f"
+                    }
+                  }
+                },
+                {
+                  "id": "1ca462b8-8eb8-4bd4-a556-328af8bea57f",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document2.pdf",
+                  "name": "document2",
+                  "displayName": "document2",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6a760a30-b722-442c-abff-ee537972da5f"
+                    }
+                  }
+                },
+                {
+                  "id": "6fda496f-ee51-4e5b-9aa1-5744c007615c",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Articles/Documents/document3.pdf",
+                  "name": "document3",
+                  "displayName": "document3",
+                  "fields": {
+                    "Mime Type": {
+                      "value": "application/pdf"
+                    },
+                    "Size": {
+                      "value": "3028"
+                    },
+                    "Extension": {
+                      "value": "pdf"
+                    },
+                    "Blob": {
+                      "value": "blob://6165ccaa-1e08-426b-b456-05a8a92af169"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": null,
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": false,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "5207E50D4BDF42B98E602042316EB6CC",
+            "title": {
+              "value": "Announcement",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "<p><span style=\"background-color: #ffffff; text-align: justify; color: #333333;\">Zuellig Pharma is one of the largest healthcare services groups in Asia and our purpose is to make healthcare more accessible. In Asia, we provide world-class distribution, commercial solutions, patient care, clinic reach, data analytics, pharmacy channel and payor services to support the growing healthcare needs in this region.</span></p>\n<p style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt=\"\" src=\"/Project/ezrx/ezrx/tet-2024.jpg?h=400&amp;w=600\" style=\"height: 400px; width: 600px;\" /></p>\n<p style=\"text-align: left;\"><span style=\"background-color: #ffffff; text-align: justify; color: #333333;\">The company started almost a hundred years ago and has grown to become a US$ 13 billion business covering 13 markets with 13,000 employees. We serve over 350,000 medical facilities and work with more than 1,000 clients, including the top 20 pharmaceutical companies in the world.</span></p>\n<p style=\"text-align: left;\"><a href=\"https://zuelligpharmavietnamcareers.com/about-us-35a52803/en\">https://zuelligpharmavietnamcareers.com/about-us-35a52803/en</a></p>\n<p style=\"text-align: left;\"><a href=\"https://kenh14.vn/hieu-truong-noi-gi-ve-thong-tin-xu-ly-hoc-sinh-quay-clip-vu-nu-sinh-quy-20231004085548779.chn\"><span style=\"color: #ff0000;\">Link5</span></a></p>",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/ti-xung.jpg",
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032932",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "07C683A7A8AC4ABDBB280B827F72A177",
+                "name": "Research announcement",
+                "displayName": "Research announcement",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": true,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          },
+          {
+            "id": "A28B51F38A7F4E098A6B9D9807CBB4B3",
+            "title": {
+              "value": "Announcement EZRX-11637",
+              "__typename": "TextField"
+            },
+            "content": {
+              "value": "<span style=\"color: #000000; background-color: #ffffff; text-align: justify;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>",
+              "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+              "src": null,
+              "__typename": "ImageField"
+            },
+            "publishedDate": {
+              "isoValue": "20231216T173350",
+              "formattedDateValue": "12/16/2023 17:33",
+              "__typename": "DateField"
+            },
+            "releaseDate": {
+              "isoValue": "20231116T032932",
+              "formattedDateValue": "11/16/2023 03:29",
+              "__typename": "DateField"
+            },
+            "documents": {
+              "jsonValue": [
+                {
+                  "id": "0fb29a5d-6e00-4aa5-ba3a-31953ff4113e",
+                  "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/71C5ueC9K-L---Copy.jpg",
+                  "name": "71C5ueC9K-L - Copy",
+                  "displayName": "71C5ueC9K-L - Copy",
+                  "fields": {
+                    "Alt": {
+                      "value": "image"
+                    },
+                    "Height": {
+                      "value": "1995"
+                    },
+                    "Mime Type": {
+                      "value": "image/jpeg"
+                    },
+                    "Size": {
+                      "value": "225366"
+                    },
+                    "Extension": {
+                      "value": "jpg"
+                    },
+                    "Blob": {
+                      "value": "blob://6dc7dad6-2361-4057-8b1d-6c3afbc441a4"
+                    },
+                    "Width": {
+                      "value": "1995"
+                    },
+                    "Dimensions": {
+                      "value": "1995 x 1995"
+                    }
+                  }
+                }
+              ],
+              "__typename": "MultilistField"
+            },
+            "manufacturer": {
+              "value": "Sanofi",
+              "__typename": "TextField"
+            },
+            "source": {
+              "value": "",
+              "__typename": "TextField"
+            },
+            "tag": {
+              "value": {
+                "id": "AAAF9E3CCF0442249799A17CBDCAFDBB",
+                "name": "Food",
+                "displayName": "Food",
+                "__typename": "EzrxTag"
+              },
+              "__typename": "LookupField"
+            },
+            "pinToTop": {
+              "boolValue": true,
+              "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+          }
+        ],
+        "__typename": "ItemSearchResults"
+      }
+    }
+  }

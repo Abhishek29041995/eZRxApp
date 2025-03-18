@@ -1,0 +1,132 @@
+{
+  "data": {
+      "customerInformationSalesRep": {
+          "shipToCount": 3,
+          "SoldToInformation": [
+              {
+                  "customerCodeSoldTo": "0030224907",
+                  "telephoneNumber": "03-56341212",
+                  "name1": "รพ.เจริญกรุงประชารักษ์",
+                  "name2": "",
+                  "name3": "",
+                  "name4": "",
+                  "street1": "8 ถ.เจริญกรุง",
+                  "street2": "",
+                  "street3": "ข.บางคอแหลม",
+                  "street4": "กทม.",
+                  "building": "",
+                  "floor": "",
+                  "houseNumber1": "",
+                  "postalCode": "10120",
+                  "city1": "Bangkok",
+                  "city2": "ข.บางคอแหลม",
+                  "status": "",
+                  "salesDeals": [],
+                  "shipTo": [
+                      {
+                          "defaultShipToAddress": true,
+                          "shipToCustomerCode": "0071115077",
+                          "name1": "รพ.เจริญกรุงประชารักษ์",
+                          "name2": "",
+                          "name3": "",
+                          "name4": "",
+                          "street": "8 ถ.เจริญกรุง",
+                          "street2": "",
+                          "street3": "ข.บางคอแหลม",
+                          "street4": "กทม.",
+                          "building": "",
+                          "floor": "",
+                          "houseNumber1": "",
+                          "postalCode": "10120",
+                          "city1": "Bangkok",
+                          "city2": "ข.บางคอแหลม",
+                          "status": ""
+                      }
+                  ]
+              },
+              {
+                  "customerCodeSoldTo": "0030240031",
+                  "telephoneNumber": "03-56341212",
+                  "name1": "นพ. ยรรยง ผลพอตน",
+                  "name2": "",
+                  "name3": "",
+                  "name4": "",
+                  "street1": "คลินิกเวชกรรมชุมชนอบอุ่นมหาชัย",
+                  "street2": "1117/1 ถ.สุรนารายณ์",
+                  "street3": "ต.ในเมือง อ.เมือง",
+                  "street4": "จ.นครราชสีมา",
+                  "building": "",
+                  "floor": "",
+                  "houseNumber1": "",
+                  "postalCode": "30000",
+                  "city1": "Nakhon Ratchasima",
+                  "city2": "อ.เมืองนครราชสีมา",
+                  "status": "",
+                  "salesDeals": [],
+                  "shipTo": [
+                      {
+                          "defaultShipToAddress": true,
+                          "shipToCustomerCode": "0071153502",
+                          "name1": "นพ. ยรรยง ผลพอตน",
+                          "name2": "",
+                          "name3": "",
+                          "name4": "",
+                          "street": "คลินิกเวชกรรมชุมชนอบอุ่นมหาชัย",
+                          "street2": "1117/1 ถ.สุรนารายณ์",
+                          "street3": "ต.ในเมือง อ.เมือง",
+                          "street4": "จ.นครราชสีมา",
+                          "building": "",
+                          "floor": "",
+                          "houseNumber1": "",
+                          "postalCode": "30000",
+                          "city1": "Nakhon Ratchasima",
+                          "city2": "อ.เมืองนครราชสีมา",
+                          "status": ""
+                      }
+                  ]
+              },
+              {
+                  "customerCodeSoldTo": "0030250030",
+                  "telephoneNumber": "03-56341212",
+                  "name1": "คุณ นุชสุรางค์ วีระพันธ์ุ",
+                  "name2": "(แอ็บบอต ลาบอแรตอรีส)",
+                  "name3": "",
+                  "name4": "",
+                  "street1": "1 อาคารคิวเฮ้าส์ ลุมพินี ชั้น33",
+                  "street2": "ถ.สาทรใต้",
+                  "street3": "ขว.ทุ่งมหาเมฆ ข.สาทร",
+                  "street4": "กทม.",
+                  "building": "",
+                  "floor": "",
+                  "houseNumber1": "",
+                  "postalCode": "10120",
+                  "city1": "Bangkok",
+                  "city2": "ข.สาธร",
+                  "status": "",
+                  "salesDeals": [],
+                  "shipTo": [
+                      {
+                          "defaultShipToAddress": true,
+                          "shipToCustomerCode": "0071168407",
+                          "name1": "คุณ นุชสุรางค์ วีระพันธ์ุ",
+                          "name2": " (แอ็บบอต ลาบอแรตอรีส)",
+                          "name3": "",
+                          "name4": "",
+                          "street": "1 อาคารคิวเฮ้าส์ ลุมพินี ชั้น33",
+                          "street2": "ถ.สาทรใต้",
+                          "street3": "ขว.ทุ่งมหาเมฆ ข.สาทร",
+                          "street4": "กทม.",
+                          "building": "",
+                          "floor": "",
+                          "houseNumber1": "",
+                          "postalCode": "10120",
+                          "city1": "Bangkok",
+                          "city2": "ข.สาธร",
+                          "status": ""
+                      }
+                  ]
+              }
+          ]
+      }
+  }
+}

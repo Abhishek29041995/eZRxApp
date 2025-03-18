@@ -1,0 +1,29 @@
+
+query requestsByUserV2($request: requestsByUserRequest!) {
+  requestsByUserV2(request: $request) {
+    requestIds
+    requests {
+      submitDate
+      returnId
+      refundTotal
+      requestStatus
+      items {
+        status
+        total
+        materialNumber
+        materialName
+        unitPrice
+        returnQty
+      }
+    }
+  }
+}
+variable : {
+  "request": {
+    "soldTo": "0030032223",
+    "shipTo": "0070042688",
+    "username": "rabiswas",
+    "first": 10,
+    "after": 0,
+  }
+}

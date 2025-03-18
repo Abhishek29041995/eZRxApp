@@ -1,0 +1,48 @@
+{
+  "data": {
+    "availablePaymentMethods": [
+      {
+        "salesOrg": "1900",
+        "paymentMethods": "Virtual Account Payment",
+        "options": [
+            {
+                "id": "BSI",
+                "type": "va",
+                "provider": "xendit",
+                "displayName": "Bank Syariah Indonesia"
+            },
+            {
+                "id": "BRI",
+                "type": "va",
+                "provider": "xendit",
+                "displayName": "Bank Rakyat Indonesia"
+            },
+            {
+                "id": "MANDIRI",
+                "type": "va",
+                "provider": "xendit",
+                "displayName": "Bank Mandiri"
+            },
+            {
+                "id": "BNI",
+                "type": "va",
+                "provider": "xendit",
+                "displayName": "Bank BNI"
+            },
+            {
+                "id": "PERMATA",
+                "type": "va",
+                "provider": "xendit",
+                "displayName": "Bank Permata"
+            },
+            {
+                "id": "BCA",
+                "type": "va",
+                "provider": "bca",
+                "displayName": "BCA Bank"
+            }
+        ]
+    }
+    ]
+  }
+}

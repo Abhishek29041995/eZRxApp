@@ -1,0 +1,104 @@
+
+{
+   "data": {
+      "user": {
+         "id": "3860",
+         "username": "rootadmin",
+         "email": "mdas@zuelligpharma.com",
+         "provider": "local",
+         "confirmed": false,
+         "blocked": false,
+         "role": {
+            "id": "7",
+            "name": "ROOT Admin",
+            "type": "root_admin",
+            "description": "ROOT Admin"
+         },
+         "initialLogin": true,
+         "accessRight": {
+            "Users": false,
+            "Orders": false,
+            "Promos": false,
+            "LoyaltyScheme": false,
+            "HCPHUB": false,
+            "Products": false,
+            "Services": false,
+            "Analytics": false,
+            "AdminPOAttachment": false
+         },
+         "firstName": "rootadmin",
+         "lastName": "rootadmin",
+         "adName": "rootadmin",
+         "isFromAD": true,
+         "shipToAddr": "",
+         "shipToAddrTwo": "",
+         "disable2fa": false,
+         "lastLogin": "",
+         "mobileNumber": "888888888",
+         "countryCode": "+84",
+         "acceptTC": true,
+         "isResetUserPassword": false,
+         "optIn": false,
+         "optInTimestamp": "",
+         "hasPriceOverride": false,
+         "hasBonusOverride": false,
+         "disableReturns": false,
+         "disablePaymentAccess": true,
+         "disableCreateOrder": false,
+         "principalOverrideList": "",
+         "mobileAccess": false,
+         "totp2fa": false,
+         "emailNotifications": false,
+         "mobileNotifications": false,
+         "passwordLastUpdate": "",
+         "passwordActionName": "",
+         "passwordActionTime": "",
+         "holiday": {
+            "monday": false,
+            "tuesday": false,
+            "wednesday": false,
+            "thursday": false,
+            "friday": false,
+            "saturday": false,
+            "sunday": false
+         },
+         "conditionGroup": "",
+         "salesOrganisations": [
+            "2001"
+         ],
+         "salesOrganization": "",
+         "salesOrganizationTwo": "",
+         "languagePreference": "E",
+         "preferredLanguage": "EN",
+         "supportedLanguages": [
+            {
+               "language": "EN",
+               "searchFilter": true
+            }
+         ],
+         "userSalesOrganisationList": [
+            {
+               "SalesOrg": "2001",
+               "CustomerCode": "all",
+               "ShipToCode": [
+                  "all"
+               ]
+            }
+         ],
+         "enableOrderType": false,
+         "disablePaymentNotification": null,
+         "paymentNotification": null,
+         "privacyControls": {
+            "enableBrowserCookies": true,
+            "automatedPersonalisation": true,
+            "directMarketing": true,
+            "viaEmails": true,
+            "viaPushNotification": true,
+            "viaSMS": true
+         },
+         "acceptMPTC": 0,
+         "isPPATriggerMaintained": false,
+         "selectedOrderType": "zpor"
+      }
+   }
+}

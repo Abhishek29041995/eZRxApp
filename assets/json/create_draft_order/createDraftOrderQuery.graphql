@@ -1,0 +1,14 @@
+mutation createDraftorder($input: CreateDraftOrderInput!) {
+      createDraftOrder(input: $input) { 
+          draftorder
+          id
+      }
+    }
+
+    variables: {"input":{"data":{"DeliveryDocument":"ZPC Canlubang Plant",
+"BillingDocument":"ZPC Canlubang Plant","SalesOrganization":"2500","requestedDeliveryDate":"2022-11-18","Principal":"",
+"SoldToParty":"0000002510","ShipToParty":"0000002510","ProcessingStatus":"Draft","CompanyName":"ZPC Canlubang Plant   ",
+"country":null,"post_code1":"","orderRequest":"","POReference":"","paymentTerm":"","collectiveNumber":"","Quantity":0,
+"UnitPrice":0,"TotalPrice":0,"TotalOrderValue":0.0,"draftorder":true,"address1":"","address2":"","city":"","fax":"",
+"phonenumber":"","orderType":"","orderReason":"","shippingCondition":"","user":"11617","contactPerson":"Joseph Stalin",
+"referenceNote":"","itemlist":"{\"value\":[{\"materialNumber\":\"000000000023001758\",\"qty\":1,\"defaultMaterialDescription\":\"02079701 OTULTRASOFT LANCET 25 IFD\",\"type\":\"Comm\",\"itemRegistrationNumber\":\"DVR-8134\",\"unitOfMeasurement\":\"EA\",\"zdp8Override\":false,\"comment\":\"\",\"additionalBonus\":[],\"batchNumber\":\"\",\"materialGroup2\":null,\"materialGroup4\":\"199\",\"hidePrice\":false,\"overridenPrice\":null}]}"}}}

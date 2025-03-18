@@ -1,0 +1,33 @@
+mutation CreateVirtualAccount($input: createVirtualAccountRequest!) {
+  createVirtualAccount(input: $input) {
+    id
+    invoices {
+      documentDate
+      documentType
+      documentNo
+      amount
+    }
+    amountPayable
+    status
+    paymentDetails {
+      vaNumber
+      vaName
+      expiresAt
+    }
+    paymentMethodDisplay
+    createdOn
+    paidOn
+  }
+}
+
+{
+  "input": {
+    "customer": "0000100164",
+    "invoices": [
+      "1200021558"
+    ],
+    "salesOrg": "1900",
+    "provider": "xendit",
+    "bankID": "MANDIRI"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "data": {
+    "item": {
+      "components": {
+        "value": [
+          {
+            "template": {
+              "name": "Banner"
+            },
+            "media": {
+              "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg",
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg"
+                }
+              }
+            },
+            "title": {
+              "value": "ကျွန်တော်တို့အကြောင်း"
+            },
+            "content": {
+              "value": "Zuellig Pharma သည် ကမ္ဘာ့အဆင့်မီ ဆေးဝါးဖြန့်ဖြူးရေး၊ ဒစ်ဂျီတယ်နှင့် စီးပွားရေးဝန်ဆောင်မှုများကို တိုးတက်လာသော ဒေသတွင်း ကျန်းမာရေးလိုအပ်ချက်များအတွက် ထောက်ပံ့ပေးပါသည်။"
+            },
+            "buttonName": {
+              "value": "ဆက်သွယ်လိုက်ပါ။"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "backgroundColor": {
+              "value": "#EBF6F1"
+            },
+            "backgroundImage": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-background.png"
+                }
+              }
+            }
+          },
+          {
+            "template": {
+              "name": "Horizontal List"
+            },
+            "title": {
+              "value": "ကျွန်တော်တို့က ဘယ်သူတွေလဲ"
+            },
+            "description": {
+              "value": "Zuellig Pharma သည် အာရှတွင် ကျန်းမာရေးဝန်ဆောင်မှုပေးသော ကုမ္ပဏီများထဲတွင် ဦးဆောင်နေသောကုမ္ပဏီတစ်ခုဖြစ်ပါသည်။"
+            },
+            "maxNumberOfItem": {
+              "value": "3"
+            },
+            "list": {
+              "value": [
+                {
+                  "id": "8397404073A64C79A309D5B8BDAA5787",
+                  "name": "Medical Facilities",
+                  "title": {
+                    "value": "200,000+"
+                  },
+                  "subTitle": {
+                    "value": "ဆေးဝါးနှင့်အထောက်ကူပစ္စည်းများ"
+                  },
+                  "description": {
+                    "value": "ကျန်းမာရေးဝန်ဆောင်မှုများကို ပြည်သူလူထုအတွက် လက်တကမ်းတွင် အသင့်ရရှိနိုင်‌ရေးမှာ ကျွန်တော်တို့၏တာဝန်ဖြစ်ပြီး လက်ရှိတွင် ကျွန်တော်တို့ရဲ့ ဝန်ထမ်းတွေဟာ ဆေးဝါးဝန်ဆောင်မှု ၂၀၀၀၀၀ကျော်ကို ကူညီ၍ တာဝန်ထမ်းဆောင်နေပါသည်။"
+                  }
+                },
+                {
+                  "id": "7202B9DF74FC4ADBBB1C640AD81FBB54",
+                  "name": "Clients",
+                  "title": {
+                    "value": "450+"
+                  },
+                  "subTitle": {
+                    "value": "ကျွန်တော်တို့၏ မိတ်ဖက်ကုမ္ပဏီများ"
+                  },
+                  "description": {
+                    "value": "ဒေသတွင်းတွင် ကြီးထွားလာသည့် ကျန်းမာရေးဝန်ဆောင်မှုလိုအပ်ချက်များကို ထောက်ပံ့ရန်အတွက် ကျွန်တော်တို့သည် ကမ္ဘာ့အဆင့်မီ ဖြန့်ချီရေး၊ ဒစ်ဂျီတယ်နှင့် စီးပွားရေးဝန်ဆောင်မှုများကို ထောက်ပံ့‌ပေးနေပြီး ကျွန်တော်တို့နှင့် လက်တွဲဆောင်ရွက်နေသည့် မိတ်ဖက်အဖွဲ့အစည်း ၄၅၀ကျော်ရှိပါသည်။"
+                  }
+                },
+                {
+                  "id": "8E0FD14F51D447799CF1936C6EF05DA2",
+                  "name": "Top Pharmaceutical Companies",
+                  "title": {
+                    "value": "20"
+                  },
+                  "subTitle": {
+                    "value": "ထိပ်သီးဆေးဝါးကုမ္ပဏီများ"
+                  },
+                  "description": {
+                    "value": "ကျွန်တော်တို့ ကုမ္ပဏီသည် လွန်ခဲ့သော နှစ်တရာကျော်က စတင်တည်ထောင်ခဲ့ပြီး နိုင်ငံပေါင်း ၁၆နိုင်ငံတွင် ဝန်ထမ်းပေါင်း ၁၂၀၀၀ကျော်နှင့် လည်ပတ်နေသည့် ဘီလျံပမာဏ ကုန်သွယ်နေသော ကုမ္ပဏီတခုဖြစ်ပါသည်။ ကျွန်တော်တို့၏ ဝန်ထမ်းများသည် ကမ္ဘာပေါ်ရှိ ထိပ်သီးဆေးဝါးကုမ္ပဏီ ၂၀တွင် တာဝန်များထမ်းဆောင်နေပါသည်။"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit.jpg",
+                  "alt": "",
+                  "width": "708",
+                  "height": "553"
+                }
+              }
+            },
+            "title": {
+              "value": "ကျွန်တော်တို့ကို ဘာကြောင့်ရွေးချယ်သင့်လဲ"
+            },
+            "subTitle": {
+              "value": "အခွင့်အလမ်းများ"
+            },
+            "description": {
+              "value": "<p><span style=\"font-size: medium; color: #234455;\">▶ အမျိုးသားကျန်းမာရေးအာမခံစနစ်သည် ကျန်းမာရေးစရိတ်များကို လျှော့ချပြီး လက်လှမ်းမီရန်လွယ်ကူပါသည်။</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ ကုမ္ပဏီအက်ဥပဒေအရ ဆေးဝါးအခန်းကဏ္ဍတွင် ရင်းနှီးမြှုပ်နှံရန် ထောက်ပံ့အားပေးပါသည်</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ ကျန်းမာရေးနှင့်အသိပညာပေးခြင်းလုပ်ငန်းများမှတစ်ဆင့်အာဟာရချို့တဲ့ခြင်း၊ အာဟာရမမျှတခြင်းနှင့်အဝလွန်ခြင်းတို့ကို တစ်နိုင်ငံလုံးအတိုင်းအတာဖြင့် တိုက်ဖျက်လျက်ရှိပါသည်။</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ နိုင်ငံတကာမှအထောက်ပံ့အကူအညီပေးခြင်းအစီအစဉ်များမှလည်း ဒေသတွင်းကျန်းမာရေးစင်တာများကို ကိုဗစ်-19အားတိုက်ထုတ်ရန်အကူညီပေးလျက်ရှိပါသည်။ </span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"font-size: 40px; line-height: 150%; font-weight: 300; color: #19303c;\">လုပ်ဆောင်နိုင်စွမ်းများ</span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp; </span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Zuellig Pharma သည် မြန်မာနိုင်ငံတွင် လုပ်ငန်းများဆောင်ရွက်နေသည်မှာ ၈နှစ်ကြာပြီဖြစ်ပြီး ထိပ်သီးမိတ်ဖက် ၁၀ကုမ္ပဏီတွင် ၆ခုနှင့် အလုပ်အတူတကွ လုပ်ဆောင်နေပါသည်။</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ ကျွန်တော်တို့ရဲ့ ထိပ်တန်းအအေးခန်း အဆောက်အအုံများသည် ခေတ်မီနည်းစနစ်များကို အသုံးပြုထားပါသည်။</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ ရေခဲဆေးများအတွက် သယ်ယူပို့ဆောင်ရေးနှင့်ထုတ်ပိုးရေးနည်းပညာများသည် သီးသန့်အပူခွဲထုတ်သောအကန့်ပါ သေတ္တာများကို အရည်အသွေးမြင့်ထိန်းညှိမှုများအတွက် သုံးထားပါသည်။</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ လူနာများ သက်တောင့်သက်သာနှင့်လွယ်ကူစွာဝယ်ယူနိုင်ရေးအတွက် လူနာများကို ဗဟိုပြု၍ ထောက်ပံ့ပေးထားပါသည်။</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">\n</span></p>\n<p>&nbsp;</p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ မိတ်ဖက်လုပ်ငန်းများ၏ အစီအစဉ်များစီမံခန့်ခွဲရန်နှင့် အချိန်နှင့်တပြေးညီ သတင်းများတင်ပြရန်အတွက် အထူးပြုလုပ်ထားသော Mobile App များလည်း ရရှိနိုင်ပါသည်။</span></p>"
+            },
+            "buttonName": {
+              "value": ""
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": true
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-linear.png",
+                  "alt": "map",
+                  "width": "392",
+                  "height": "552"
+                }
+              }
+            },
+            "title": {
+              "value": "ကျွန်တော်တို့နှင့် ဆက်သွယ်ဖို့ လွယ်ကူပါတယ်။"
+            },
+            "subTitle": {
+              "value": "နိုင်ငံတဝှမ်းတွင် ဆိုင်ခွဲများနှင့် ဖြန့်ချီရေးစင်တာများ ရှိပါသည်။"
+            },
+            "description": {
+              "value": "<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Zuellig Pharma မြန်မာသည် နိုင်ငံတဝှမ်းရှိ ဆရာဝန်ညွှန်ကြားချက်ဖြင့်ရောင်းချသောဆေးဆိုင်များ၊ သာမန်ဆေးဆိုင်များနှင့် ခေတ်မီအရောင်းစ်တာများကို ၉၀ရာနှုန်းထိ လွှမ်းခြုံထားပါသည်။ ကျွန်တော်တို့ရဲ့ အခြေခံအဆောက်အအုံများသည် GDSP, GMP, ISO အသိအမှတ်ပြုလက်မှတ်များရရှိထားပြီး အရည်အသွေးမြင့်မားသော ရေခဲဆေးဝါးများအတွက်လိုအပ်ပစ္စည်းများ၊ ထုတ်ပိုးမှုမျာနှင့် လူနာအခြေပြုအစီအစဉ်များကို သက်တောင့်သက်သာဖြင့် လွယ်ကူစွာရရှိနိုင်အောင် ဆောင်ရွက်ထားပါသည်။ နိုင်ငံတဝှမ်းတွင် မိတ်ဖက်ဆိုင်ပေါင်း ၄၀၀၀ ကျော်ရှိပြီး ကျွမ်းကျင်စွာလေ့ကျင့်သင်ကြားထားသော အရောင်းဝန်ထမ်း ၉၀ကျော်ြဖင့် ဝန်ဆောင်မှုပေးနေပါသည်။ </span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\"></span><strong style=\"color: #234455; font-size: x-large;\">Zuellig Pharma Myanmar</strong></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">ဝယ်ယူသူများဆက်သွယ်ရန်-</span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>+၉၅၉ ၇၆၅၄၇၈၅၀၈</strong></span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">ရုံးချုပ်လီပ်စာ-</span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>နံပါတ် ၂၃၊ ဗိုလ်ချိုလမ်း၊ ဗိုလ်ချို (၁)ရပ်ကွက်၊ အင်ကြင်းမြိုင်အိမ်ရာ၊ဗဟန်းမြို့နယ်၊ရန်ကုန်</strong></span></p>"
+            },
+            "buttonName": {
+              "value": "Contact us"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": false
+            }
+          }
+        ]
+      }
+    }
+  }
+}

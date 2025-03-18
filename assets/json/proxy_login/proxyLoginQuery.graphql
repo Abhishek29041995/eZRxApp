@@ -1,0 +1,30 @@
+{
+   query proxyLogin($request: ProxyLoginRequestV3!) {
+        proxyLoginV3(request: $request) {
+            userID
+            authenticated
+            eZRxJWT
+            email
+            userMobileToken {
+                firstName
+                lastName
+                mobileTokens {
+                    token
+                    dateUpdated
+                    provider
+                }
+                mobileNotifications
+            }
+            passwordLastReset
+            passwordExpiry
+            isAccountLocked
+            isAccountExpired
+        }
+    },
+   "variables": {
+    "request": {
+      "username": "testclientadmin",
+    }
+  }
+}
+  

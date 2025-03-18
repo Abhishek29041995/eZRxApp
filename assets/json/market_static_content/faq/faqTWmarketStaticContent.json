@@ -1,0 +1,100 @@
+{
+    "results": [
+        {
+            "id": "ctg-general-4",
+            "name": "如何註冊及更了解eZRx+",
+            "displayName": "如何註冊及更了解eZRx+",
+            "question": {
+              "value": "如何註冊及更了解eZRx+"
+            },
+            "answer": {
+              "value": "eZRx+ 可供所有現有 Zuellig Pharma 客戶使用。\r\n如果您還沒有帳號，請至聯絡我們申請帳號。"
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "General",
+              "displayName": "General"
+            }
+        },
+        {
+          "id": "ctg-ordering-1",
+          "name": "如何下單",
+          "displayName": "如何下單",
+          "question": {
+            "value": "如何下單"
+          },
+          "answer": {
+            "value": "1、請至選擇送貨地址選取\r\n2、至產品搜尋填入產品相關資訊(如:產品名稱、產品代碼…)，將已選取的商品加入至購物車\r\n3、也可在首頁瀏覽所有商品\r\n4、送出訂單前請再次檢核訂單相關資訊"
+          },
+          "category": {
+            "id": "ctg-ordering",
+            "name": "Ordering",
+            "displayName": "Ordering"
+          }
+        },
+        {
+            "id": "ctg-ordering-2",
+            "name": "查詢歷史訂單記錄",
+            "displayName": "查詢歷史訂單記錄",
+            "question": {
+              "value": "查詢歷史訂單記錄"
+            },
+            "answer": {
+              "value": "1、請至個人資料頁，並點選訂單追踨\r\n2、可依產品或是訂單編號進行查詢"
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Ordering",
+              "displayName": "Ordering"
+            }
+        },
+        {
+            "id": "ctg-ordering-3",
+            "name": "未收到下單相關資訊",
+            "displayName": "未收到下單相關資訊",
+            "question": {
+              "value": "未收到下單相關資訊"
+            },
+            "answer": {
+              "value": "請至訂單追踨進行確認\r\n1、請至個人資料頁，並點選訂單追踨\r\n2、可依產品或是訂單編號進行查詢"
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Ordering",
+              "displayName": "Ordering"
+            }
+        },
+        {
+            "id": "ctg-ordering-5",
+            "name": "修改訂單資料",
+            "displayName": "修改訂單資料",
+            "question": {
+              "value": "修改訂單資料"
+            },
+            "answer": {
+              "value": "訂單一旦送出即無法在eZRx+進行修改，請聯絡裕利訂單窗口進行修改。"
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Ordering",
+              "displayName": "Ordering"
+            }
+        },
+        {
+            "id": "ctg-ordering-6",
+            "name": "取消訂單",
+            "displayName": "取消訂單",
+            "question": {
+              "value": "取消訂單"
+            },
+            "answer": {
+              "value": "訂單一旦送出即無法在eZRx+進行取消，請聯絡裕利訂單窗口進行修改。"
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Ordering",
+              "displayName": "Ordering"
+            }
+        }
+    ]
+}

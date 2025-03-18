@@ -1,0 +1,56 @@
+{
+    "data": {
+      "getAnnouncements": [
+        {
+          "active": true,
+          "descriptionList": [
+            {
+              "language": "English",
+              "languageCode": "en",
+              "announcement": "Please note that eZRx will be unavailable ${startTime} from 30 January 2023 18:30 to 30 January 2023 19:00 (GMT +8), due to scheduled maintenance. We apologise for any inconvenience caused and thank you for your patience."
+            },
+            {
+              "language": "Myanmar",
+              "languageCode": "my",
+              "announcement": "Test"
+            },
+            {
+              "language": "Taiwan",
+              "languageCode": "zh",
+              "announcement": "das"
+            },
+            {
+              "language": "Vietnam",
+              "languageCode": "vi",
+              "announcement": "Test vnasd"
+            },
+            {
+              "language": "Thailand",
+              "languageCode": "th",
+              "announcement": "tes thasdintland"
+            },
+            {
+              "language": "Cambodia",
+              "languageCode": "km",
+              "announcement": "tes cambodasd"
+            }
+          ],
+          "startTime": "01/29/2023 02:40 PM",
+          "endTime": "04/30/2023 06:40 PM",
+          "type": "Regular",
+          "day": "",
+          "functionLabel": "Test data function label",
+          "id": "232",
+          "created_at": "2022-12-19T12:06:49Z",
+          "updated_at": "2023-04-04T13:08:04Z",
+          "isModuleSpecific": true,
+          "moduleName": "[\"Orders\",\"Payments\"]",
+          "loginType": "Post",
+          "isCrossButton": true
+        }
+      ]
+    },
+    "extensions": {
+      "trace-id": "1fafb8ea96a14a63bb57c7a533c2e2e2"
+    }
+  }

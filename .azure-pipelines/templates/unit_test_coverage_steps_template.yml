@@ -1,0 +1,20 @@
+parameters:
+  - name: testPath # name of the parameter; required
+    type: string # data type of the parameter; required
+
+steps:
+  - task: Bash@3
+    inputs:
+      targetType: 'inline'
+      script: flutter test --coverage ${{ parameters.testPath }}
+    displayName: Run Test Coverage For ${{ parameters.testPath }}
+
+  - task: Bash@3
+    inputs:
+      targetType: 'inline'
+      script: |
+        mkdir -p $(System.DefaultWorkingDirectory)/coverage/${{ parameters.testPath }}
+        mv $(System.DefaultWorkingDirectory)/coverage/lcov.info $(System.DefaultWorkingDirectory)/coverage/${{ parameters.testPath }}/lcov.info
+    displayName: Create test report artifact for ${{ parameters.testPath }}
+
+  - publish: $(System.DefaultWorkingDirectory)/coverage/${{ parameters.testPath }}

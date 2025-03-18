@@ -1,0 +1,489 @@
+[
+  {
+    "bank": "BCA",
+    "transferMethods": [
+      {
+        "title": "Klik BCA Individu",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Login pada aplikasi KlikBCA",
+              "2. Pilih “Transfer Dana",
+              "3. Pilih “Transfer ke BCA Virtual Account.",
+              "4. Masukkan nomor BCA nomor Virtual Account {0} atau pilih dari Daftar Transfer",
+
+              "5. Lakukan konfirmasi pembayaran Anda",
+              "6. Input “Respon KeyBCA“,",
+              "7. Klik “Kirim“.",
+              "8. Pembayaran Selesai"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Mobile Banking",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Login pada akun Anda",
+              "2. Pilih “m-BCA”",
+              "3. Masukkan kode akses m-BCA ",
+              "4. Pilih “m-Transfer”",
+              "5. Pilih “BCA Virtual Account”",
+              "6. Masukkan nomor BCA nomor Virtual Account {0}  atau pilih dari Daftar Transfer",
+              "7. Pilih “OK“.",
+              "8. Lakukan konfirmasi pembayaran Anda",
+              "9. Pilih “Ya”",
+              "10. Masukan pin m-BCA.",
+              "11. Pembayaran selesai"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Klik BCA Bisnis",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Login pada aplikasi KlikBCA",
+              "2. Pilih “Transfer Dana“",
+              "3. Pilih “Transfer ke BCA Virtual Account“.",
+              "4. Pilih rekening sumber dana ",
+              "5. Pilih rekening BCA nomor Virtual Account {0} ",
+
+              "6. Lakukan konfirmasi pembayaran Anda ",
+              "7. Pilih “Transfer Dana”, “Otorisasi Transaksi”",
+              "8. Pilih transaksi yang ingin diotorisasi",
+              "9. Pembayaran selesai"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "bank": "Mandiri",
+    "transferMethods": [
+      {
+        "title": "Internet Banking",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Kunjungi website Mandiri Internet Banking: https://ibank.bankmandiri. co.id/retail3/",
+              "2. Login ke akun Mandiri Internet/Online Anda ",
+              "3. Pilih “Pembayaran“",
+              "4. Pilih “Multi Payment“",
+              "5. Pilih “No Rekening Anda“",
+              "6. Pilih Penyedia Jasa “Xendit 88908“",
+              "7. Pilih “No Virtual Account“",
+              "8. Masukkan nomor Virtual Account {0}  ",
+              "9. Masuk ke halaman konfirmasi 1",
+              "10. Apabila benar/sesuai, klik tombol tagihan TOTAL, kemudian klik “LANJUTKAN“",
+              "11. Masuk ke halaman konfirmasi 2",
+              "12. Masukkan Challenge Code yang dikirimkan ke Token Internet Banking Anda, kemudian klik “Kirim“",
+              "13. Anda akan masuk ke halaman konfirmasi jika pembayaran telah selesai"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "ATM",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Masukkan kartu ATM dan PIN",
+              "2. Pilih menu “BAYAR/BELI”",
+              "3. Pilih menu “MULTI PAYMENT”",
+              "4. Ketik kode perusahaan: “88908“ (Xendit 88908)",
+              "5. Masukkan nomor Virtual Account {0} ",
+              "6. Isi NOMINAL",
+              "7. Muncul konfirmasi data customer. Pilih Nomor 1 sesuai tagihan yang akan dibayar, kemudian tekan “YA“",
+              "8. Muncul konfirmasi pembayaran. Tekan “YA“ untuk melakukan pembayaran",
+              "9. Transaksi Anda sudah selesai"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Mobile Banking",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Log in Mobile Banking",
+              "2. Pilih menu “Pembayaran”",
+              "3. Pilih “Buat Pembayaran Baru”",
+              "4. Pilih “Multi Payment”",
+              "6. Pilih “No. Virtual”",
+              "7. Masukkan nomor Virtual Account {0}  dengan kode perusahaan “88908” lalu pilih “Tambah Sebagai Nomor Baru”",
+              "8. Masukkan “Nominal” lalu pilih “Konfirmasi”",
+              "9. Pilih “Lanjut”",
+              "10. Muncul tampilan konfirmasi pembayaran",
+              "11. Scroll ke bawah di tampilan konfirmasi pembayaran lalu pilih “Konfirmasi”",
+              "12. Masukkan PIN dan ",
+              "13. Transaksi selesai"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bank": "BNI",
+    "transferMethods": [
+      {
+        "title": "ATM",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Pilih ”Menu Lainnya”",
+              "2. Pilih ”Transfer”",
+              "3. Pilih “TRANSAKSI LAINNYA”",
+              "4. Pilih ke “REKENING BNI”",
+              "5. Masukkan nomor Virtual Account {0}  , lalu tekan “BENAR”",
+              "6. Isi NOMINAL, kemudian tekan ”YA”",
+              "7. Konfirmasi transaksi telah selesai, tekan “TIDAK” untuk menyelesaikan transaksi"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Internet Banking",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Pilih “ Transaksi”",
+              "2. Pilih “INFO & ADMINISTRASI TRANSFER”",
+              "3. Pilih “ATUR REKENING TUJUAN”",
+              "4. Tambah nomor Virtual Account {0}  lalu klik “OK”",
+              "6. Akan muncul detail konfirmasi, apabila sudah benar dan sesuai, masukkan 8 digit angka yang dihasilkan dari APPLI 2 pada token BNI anda lalu klik ”PROSES”",
+              "7. Rekening tujuan berhasil ditambahkan",
+              "8. Pilih “TRANSFER”",
+              "9. Pilih “Transfer antar rek BNI”",
+              "10. Lengkapi semua data akun penerima, lalu klik “LANJUTKAN”",
+              "11. Transaksi anda telah berhasil"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Mobile Banking",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Log in Mobile Banking",
+              "2. Pilih menu “TRANSFER”",
+              "3. Pilih “WITHIN BANK”",
+              "4. Isi kolom “DEBIT ACCOUNT” kemudian klik menu “ TO ACCOUNT”",
+              "5. Pilih menu ”AD HOC BENEFICIARY”",
+              "6. Lengkapi datanya dengan mengisi: NICKNAME, nomor Virtual Account {0} , dan BENEFICIARY EMAIL ADDRESS",
+              "7. Konfirmasi akan muncul lalu klik “CONTINUE”",
+              "8. Isi semua form yang ada setelah itu klik “CONTINUE”",
+              "9. Detail konfirmasi muncul dengan meminta password transaksi",
+              "10. Setelah dilengkapi, klik “CONTINUE”",
+              "11. Transaksi anda telah berhasil"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Dari Bank Lainnya",
+        "paymentInstructions": [
+          {
+            "instructionType": "ATM LAINNYA KE BNI VA",
+            "instructions": [
+              "1. Pilih “Menu lain“",
+              "2. Pilih “Transfer“",
+              "3. Pilih “dari rekening tabungan“",
+              "4. Pilih “ke rek. Bank lain“",
+              "5. Masukkan kode bank dilanjutkan dengan nomor virtual account {0} (BNI) ",
+              "6. Input Nominal yang ditagihkan sebagai Nominal Transfer",
+              "7. Selesai, transaksi berhasil"
+            ]
+          },
+          {
+            "instructionType": "INTERNET BANKING LAINNYA KE BNI VA",
+            "instructions": [
+              "1. Masukan User ID dan Password",
+              "2. Pilih “Transfer“",
+              "4. Pilih “bank tujuan“",
+              "5. Masukkan nomor virtual account {0} (BNI) ",
+              "6. Input Nominal yang ditagihkan sebagai Nominal Transfer",
+              "7. Selesai, transaksi berhasil"
+            ]
+          },
+          {
+            "instructionType": "MOBILE BANKING LAINNYA KE BNI VA",
+            "instructions": [
+              "1. Masukan User ID dan Password",
+              "2. Pilih “Transfer“",
+              "3. Pilih “ke rek. Bank lain“",
+              "4. Pilih “bank tujuan“",
+              "5. Masukkan nomor virtual account {0} (BNI) ",
+              "6. Input Nominal yang ditagihkan sebagai Nominal Transfer",
+              "7. Selesai, transaksi berhasil"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "bank": "Permata",
+    "transferMethods": [
+      {
+        "title": "ATM Prima/ALTO",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Pada menu utama, pilih transaksi lain",
+              "2. Pilih Pembayaran “Transfer“",
+              "3. Pilih “pembayaran lainnya“",
+              "4. Pilih “pembayaran Virtual Account“",
+              "5. Masukkan nomor Virtual Account {0} ",
+              "6. Pada halaman konfirmasi, akan muncul nominal yang dibayarkan, nomor, dan nama merchant, lanjutkan jika sudah sesuai",
+              "7. Pilih sumber pembayaran anda dan lanjutkan",
+              "8. Transaksi anda selesai."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Permata X",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Buka Permata Mobile X dan Login",
+              "2. Pilih Pay “Pay Bills“/ “Pembayaran Tagihan“",
+              "3. Pilih “Virtual Account”",
+              "4. Masukkan nomor Virtual Account {0} ",
+              "5. Detail pembayaran anda akan muncul di layar",
+              "6. Nominal yang ditagihkan akan muncul di layar. Pilih sumber pembayaran",
+              "7. Konfirmasi transaksi anda",
+              "8. Masukkan kode response token anda",
+              "9. Transaksi anda telah selesai"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Internet Banking",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Buka situs https://new.permatanet.com dan login",
+              "2. Pilih menu “pembayaran”",
+              "3. Pilih menu “Pembayaran Tagihan”",
+              "4. Pilih “Virtual Account”",
+              "5. Pilih sumber pembayaran",
+              "6. Pilih menu “Masukkan Daftar Tagihan Baru“",
+              "7. Masukan nomor Virtual Account {0}  Konfirmasi transaksi anda",
+              "8. Masukkan SMS token response",
+              "9. Pembayaran Anda berhasil"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Permata Mobile",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Buka Permata Mobile dan Login",
+              "2. Pilih Pay “Pay Bills“/ “Pembayaran Tagihan“",
+              "3. Pilih menu “Transfer”",
+              "4. Pilih sumber pembayaran",
+              "5. Pilih “daftar tagihan baru”",
+              "6. Masukan nomor Virtual Account {0} ",
+              "7. Periksa ulang mengenai transaksi yang anda ingin lakukan",
+              "8. Konfirmasi transaksi anda",
+              "9. Masukkan SMS token respons",
+              "10. Pembayaran Anda berhasil"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "bank": "BRI",
+    "transferMethods": [
+      {
+        "title": "Mobile Banking",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Login ke Mobile Banking",
+              "2. Pilih menu “Pembayaran“",
+              "3. Pilih menu “BRIVA“",
+              "4. Masukkan nomor Virtual Account {0}  dan nominal yang akan dibayar ",
+              "6. Tekan OK untuk melanjutkan transaksi",
+              "7. Transaksi berhasil ",
+              "8. SMS konfirmasi akan masuk ke nomor telefon anda"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "ATM",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Pilih menu “Transaksi Lain“",
+              "2. Pilih menu “Lainnya“ ",
+              "3. Pilih menu “Pembayaran“ ",
+              "4. Pilih menu “Lainnya“ ",
+              "5. Pilih menu “BRIVA“ ",
+              "6. Masukkan nomor Virtual Account {0} lalu tekan “Benar“ ",
+              "7. Konfirmasi pembayaran, tekan “Ya” jika sesuai"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Internet Banking",
+        "paymentInstructions": [
+          {
+            "instructions": [
+              "1. Masukkan user ID dan Password ",
+              "2. Pilih menu “Pembayaran“ ",
+              "3. Pilih menu “BRIVA“ ",
+              "4. Pilih rekening pembayaran",
+
+              "5. Masukkan nomor Virtual Account {0}  dan nominal yang akan dibayar ",
+              "6. Masukkan password dan Mtoken anda"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bank": "BSI",
+    "transferMethods": [
+      {
+        "title": "ATM",
+        "paymentInstructions": [
+          {
+            "instructionType": "LANGKAH 1: TEMUKAN ATM BSI TERDEKAT",
+            "instructions": [
+              "1. Masukkan kartu ATM BSI anda",
+              "2. Masukkan PIN"
+            ]
+          },
+          {
+            "instructionType": "LANGKAH 2: DETAIL PEMBAYARAN",
+            "instructions": [
+              "1. Pilih menu “Pembayaran/Pembelian“",
+              "2. Pilih menu “Institusi“",
+              "3. Masukkan kode BSI VA Nomor Virtual Account {0}",
+              "4. Detail yang ditampilkan: NIM, Nama, & Total Tagihan",
+              "5. Konfirmasi detail transaksi anda"
+            ]
+          },
+          {
+            "instructionType": "LANGKAH 3: TRANSAKSI BERHASIL",
+            "instructions": [
+              "1. Transaksi Anda telah selesai",
+              "2. Setelah transaksi anda selesai, invoice ini akan diupdate secara otomatis. Proses ini mungkin memakan waktu hingga 5 menit"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Internet Banking",
+        "paymentInstructions": [
+          {
+            "instructionType": "LANGKAH 1: MASUK KE AKUN ANDA",
+            "instructions": [
+              "1. Buka situs https://bsinet.bankbsi.co.id",
+              "2. Masukkan User ID dan Password"
+            ]
+          },
+          {
+            "instructionType": "LANGKAH 2: DETAIL PEMBAYARAN",
+            "instructions": [
+              "1. Pilih Menu “Pembayaran”",
+              "2. Pilih Nomor Rekening BSI Anda",
+              "3. Pilih menu “Institusi“",
+              "4. Masukkan nama institusi Xendit (kode 9347)",
+              "5. Masukkan Nomor Virtual Account {0}",
+              "6. Konfirmasi detail transaksi anda",
+              "7. Masukkan otentikasi transaksi/token"
+            ]
+          },
+          {
+            "instructionType": "LANGKAH 3: TRANSAKSI BERHASIL",
+            "instructions": [
+              "1. Transaksi Anda telah selesai",
+              "2. Setelah transaksi anda selesai, invoice ini akan diupdate secara otomatis. Proses ini mungkin memakan waktu hingga 5 menit"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "BSI Dari Bank Lain",
+        "paymentInstructions": [
+          {
+            "instructionType": "LANGKAH 1: MASUK KE AKUN ANDA",
+            "instructions": [
+              "1. Buka aplikasi Mobile bank Anda",
+              "2. Masukkan User ID dan Password"
+            ]
+          },
+          {
+            "instructionType": "LANGKAH 2: DETAIL PEMBAYARAN",
+            "instructions": [
+              "1. Pilih Menu “Transfer”",
+              "2. Pilih Menu “Antar Bank”",
+              "3. Masukkan BSI VA Code “900” + Nomor Virtual Account {0} Catatan: Untuk transfer antar bank via ATM, Anda harus memasukkan Kode Bank BSI “451” sebelum Kode BSI VA “900”",
+              "4. Masukkan nominal yang ingin dibayarkan",
+              "5. Pilih tipe rekening",
+              "6. Konfirmasi detail transaksi Anda"
+            ]
+          },
+          {
+            "instructionType": "LANGKAH 3: TRANSAKSI BERHASIL",
+            "instructions": [
+              "1. Transaksi Anda telah selesai",
+              "2. Setelah transaksi anda selesai, invoice ini akan diupdate secara otomatis. Proses ini mungkin memakan waktu hingga 5 menit"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Mobile Banking",
+        "paymentInstructions": [
+          {
+            "instructionType": "LANGKAH 1: MASUK KE AKUN ANDA",
+            "instructions": [
+              "1. Buka aplikasi BSI Mobile",
+              "2. Masukkan User ID dan Password"
+            ]
+          },
+          {
+            "instructionType": "LANGKAH 2: DETAIL PEMBAYARAN",
+            "instructions": [
+              "1. Pilih Menu “Pembayaran”",
+              "2. Pilih Nomor Rekening BSI Anda",
+              "3. Pilih menu “Institusi“",
+              "4. Masukkan nama institusi Xendit (kode 9347)",
+              "5. Masukkan Nomor Virtual Account {0} tanpa diikuti kode institusi (saat copy paste hilangkan angka 9347 pada nomor Virtual Account)",
+              "6. Konfirmasi detail transaksi anda",
+              "7. Masukkan otentikasi transaksi/token"
+            ]
+          },
+          {
+            "instructionType": "LANGKAH 3: TRANSAKSI BERHASIL",
+            "instructions": [
+              "1. Transaksi Anda telah selesai",
+              "2. Setelah transaksi anda selesai, invoice ini akan diupdate secara otomatis. Proses ini mungkin memakan waktu hingga 5 menit"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

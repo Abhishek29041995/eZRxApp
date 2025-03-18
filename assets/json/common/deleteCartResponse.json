@@ -1,0 +1,11 @@
+{
+  "data": {
+    "deleteCart": {
+      "Type": "",
+      "Message": "cart deleted for userId: 7209 with Cart ID: 6089"
+    }
+  },
+  "extensions": {
+    "traceId": "be7f5f8ff5414bd9ad5452093d882dae"
+  }
+}

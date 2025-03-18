@@ -1,0 +1,180 @@
+{
+  "data": {
+    "item": {
+      "id": "294DBC60639442849D2BB3270D0459EF",
+      "name": "Maintenance Banners",
+      "displayName": "Maintenance Banners",
+      "maxNumberOfItem": {
+        "intValue": 2
+      },
+      "banners": {
+        "value": [
+          {
+            "id": "EFC8DDCE4D074AD5B3B0E7BC369DF10A",
+            "name": "MB Payment Invoice",
+            "template": {
+              "name": "Maintenance Banner"
+            },
+            "displayName": "MB Payment Invoice",
+            "content": {
+              "value": "MB1_Payment invoice_eZRx will be unavailable from Saturday, 19 March 2022, 06:00 PM to Sunday, 20 March 2022, 12:00 AM (GMT\u002B8) for monthly system maintenance support Pre-Post"
+            },
+            "publishedDate": {
+              "isoValue": "20240130T043239Z",
+              "formattedDateValue": "01/30/2024 04:32"
+            },
+            "hyperlink": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "type": {
+              "value": "Regular"
+            },
+            "applicableModules": {
+              "value": [
+                {
+                  "id": "A7B87CE83B81407EA00CE676E570797E",
+                  "name": "Payments",
+                  "displayName": "Payments"
+                }
+              ]
+            },
+            "enableCrossButton": {
+              "value": true
+            },
+            "login": {
+              "value": "Post Login"
+            },
+            "saleOrgDictionary": null
+          },
+          {
+            "id": "E5CB7539399E4CDE8B04CF0D69E62B5F",
+            "name": "MB Order_Checkout",
+            "template": {
+              "name": "Maintenance Banner"
+            },
+            "displayName": "MB Order_Checkout",
+            "content": {
+              "value": "MB_Order_Checkout\u0026nbsp; eZRx will be unavailable from Saturday, 19 March 2022, 06:00 PM to Sunday, 20 March 2022, 12:00 AM (GMT\u002B8) for monthly system maintenance support Pre-Post\u003Cbr /\u003E\nAny eZRx orders placed from 17th June (Saturday) \u0026lt;time \u002B timezone\u0026gt; till 18th June (Sunday) \u0026lt;time \u002B timezone\u0026gt; will only be processed to SAP after maintenance has been completed. If you have any questions or require further support, please contact support@ezrx.com. Thank you for your understanding and we apologise for any inconvenience caused."
+            },
+            "publishedDate": {
+              "isoValue": "20240130T043239Z",
+              "formattedDateValue": "01/30/2024 04:32"
+            },
+            "hyperlink": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "type": {
+              "value": ""
+            },
+            "applicableModules": {
+              "value": [
+                {
+                  "id": "7769E3AD491E4849AD313B52F30DEF74",
+                  "name": "Orders",
+                  "displayName": "Orders"
+                }
+              ]
+            },
+            "enableCrossButton": {
+              "value": true
+            },
+            "login": {
+              "value": "Post Login"
+            },
+            "saleOrgDictionary": null
+          },
+          {
+            "id": "5085BC6911FE483A9E9C784EF4B7B1D3",
+            "name": "MB Order_confirmation",
+            "template": {
+              "name": "Maintenance Banner"
+            },
+            "displayName": "MB Order_confirmation",
+            "content": {
+              "value": "MB_Order Confirmation_Any eZRx orders placed from 17th June (Saturday) \u0026lt;time \u002B timezone\u0026gt; till 18th June (Sunday) \u0026lt;time \u002B timezone\u0026gt; will only be processed to SAP after maintenance has been completed. If you have any questions or require further support, please contact support@ezrx.com. Thank you for your understanding and we apologise for any inconvenience caused."
+            },
+            "publishedDate": {
+              "isoValue": "20240130T043239Z",
+              "formattedDateValue": "01/30/2024 04:32"
+            },
+            "hyperlink": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "type": {
+              "value": ""
+            },
+            "applicableModules": {
+              "value": [
+                {
+                  "id": "7769E3AD491E4849AD313B52F30DEF74",
+                  "name": "Orders",
+                  "displayName": "Orders"
+                }
+              ]
+            },
+            "enableCrossButton": {
+              "value": true
+            },
+            "login": {
+              "value": "Pre and Post Login"
+            },
+            "saleOrgDictionary": null
+          },
+          {
+            "id": "7E4F73C231B74F3FACC565D345AC5E76",
+            "name": "MB Return",
+            "template": {
+              "name": "Maintenance Banner"
+            },
+            "displayName": "MB Return",
+            "content": {
+              "value": "\u003Cstrong\u003EMB4_Return\u0026nbsp; eZRx will be unavailable from Saturday, 19 March 2022, 06:00 PM to Sunday, 20 March 2022, 12:00 AM (GMT\u002B8) for monthly system maintenance support Pre-Post\u003Cbr /\u003E\n\u0026nbsp;\u003Ca href=\u0022https://uat-kr2.ezrxplus.com/contact-us\u0022\u003Euat-my.ezrxplus.com/contact-us\u003C/a\u003E\u003C/strong\u003E"
+            },
+            "publishedDate": {
+              "isoValue": "20240130T043239Z",
+              "formattedDateValue": "01/30/2024 04:32"
+            },
+            "hyperlink": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "type": {
+              "value": ""
+            },
+            "applicableModules": {
+              "value": [
+                {
+                  "id": "FE186A2991A547AABB51C3E546D86C32",
+                  "name": "Returns",
+                  "displayName": "Returns"
+                }
+              ]
+            },
+            "enableCrossButton": {
+              "value": true
+            },
+            "login": {
+              "value": "Post Login"
+            },
+            "saleOrgDictionary": null
+          }
+        ]
+      }
+    }
+  }
+}

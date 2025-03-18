@@ -1,0 +1,11 @@
+{
+    "data": {
+        "customerPaymentExcel": {
+            "url": "https://zpdigitalproducts.blob.core.windows.net/ezrx/prod/ezpay/CustomerPayment_20230606152539.xlsx",
+            "__typename": "customerPaymentExcelResponse"
+        }
+    },
+    "extensions": {
+        "trace-id": "598f19f7b2144fc8864d34505439c0d6"
+    }
+}

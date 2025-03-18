@@ -1,0 +1,127 @@
+query salesOrgConfigs($request: SalesOrgConfigRequest) {
+  salesOrgConfigs(request: $request) {
+    id
+    salesOrgCode
+    ponRequired
+    enableAnalytics
+    priceOverride
+    expiryDateDisplay
+    batchNumDisplay
+    currency
+    logo
+    enableMobileNumber
+    enableRemarks
+    enableListPrice
+    enableTaxDisplay
+    enableTenderOrders
+    addOosMaterials
+    oosValue
+    enablePartialPayment
+    enableDefaultMD
+    enableZDP8Override
+    enableGMC
+    enableGMN
+    enableUploadAd
+    topLeftAd
+    topRightAd
+    btmLeftAd
+    btmRightAd
+    supportURL
+    minOrderAmount
+    vatValue
+    netPriceOverride
+    enableFutureDeliveryDay
+    futureDeliveryDay
+    enablePaymentTerms
+    plantNumber
+    enableVat
+    enableZDP5
+    materialWithoutPrice
+    enableDeliveryStatus
+    enableOMC
+    enableBatchNumber
+    enableOHPrice
+    enableSpecialInstructions
+    enableReferenceNote
+    displayOrderDiscount
+    enableIRN
+    enableTaxClassification
+    supportMail
+    disablePrincipals
+    principalList {
+      value {
+        date
+        principalName
+            }
+        }
+    disableDeals
+    principleDisabledDeals {
+      value {
+        principal
+            }
+        }
+    enable2FA
+    disableBundles
+    disableProcessingStatus
+    disableOrderType
+    displayItemTaxBreakdown
+    displaySubtotalTaxBreakdown
+    enableCollectiveNumber
+    enableGimmickMaterial
+    enableUnreferencedReturn
+    hideCustomer
+    hideCredit
+    enableBillTo
+    disablePaymentTermsDisplay
+    disableReturnsAccess
+    disablePayment
+    disableReturnsAccessSR
+    hideStockDisplay
+    showPOAttachment
+    created_at
+    updated_at
+    enableLoyaltyScheme
+    disableOverrideFieldSR
+    disableOverrideFieldCustomer
+    disableOverrideApprovalCustomer
+    disableOverrideApprovalSR
+    disableDeliveryDate
+    allowReturnsOutsidePolicy
+    disableApproverActions
+    disableUserRestrictions
+    enableTaxAtTotalLevelOnly
+    hideCredit
+    enablePOAttachmentRequired
+    enableComboDeals
+    comboDealsUserRole
+    enableMarketPlace
+    mpMinOrderAmount
+    statementOfAccountEnabled
+    authorizedExtSalesRep {
+      userId
+      userName
+      }
+    disclaimer
+    enableDeliveryOptions
+    enableRequestDeliveryDate
+    enableSaturdayUrgentDelivery
+    enableStandardDelivery
+    enableTodayUrgentDelivery
+    enableTomorrowUrgentDelivery
+    enableUrgentDelivery
+    saturdayDeliveryFee
+    selectableDeliveryDays
+    standardDeliveryDays
+    todayDeliveryFee
+    tomorrowDeliveryFee
+    showEZCSTickets
+    }
+    poReferenceLength
+    referenceNoteLength
+}
+
+"variables": {
+    "request": {
+        "salesOrg": "2001",
+    },
+},

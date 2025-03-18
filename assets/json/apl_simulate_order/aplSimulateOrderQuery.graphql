@@ -1,0 +1,38 @@
+query aplSimulateOrder($input: AplSimulateOrderRequest!) {
+  aplSimulateOrder(input: $input) {
+    netTotalValue
+    tax
+    totalDiscValue
+    beforeTax
+    deliveryFee
+    products {
+      type
+      itemNumber
+      parentItemNumber
+      material
+      productQty
+      productPriceNetValue
+      netValue
+      taxValue
+    }
+  }
+}
+
+
+variable : 
+{
+  "input": {
+    "salesOrg": "1900",
+    "customer": "0000100237",
+    "materials": [
+      {
+        "material": "000000003353621001",
+        "quantity": 1
+      },
+      {
+        "material": "JSR55",
+        "quantity": 1
+      }
+    ]
+  }
+}

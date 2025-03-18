@@ -1,0 +1,62 @@
+{
+  "data": {
+    "tenderContractDetails": {
+      "tenderContractDetails": [
+        {
+          "contractNumber": "0040005178",
+          "contractItemNumber": "000010",
+          "contractReference": "835348340324",
+          "tenderOrderReason": "735",
+          "tenderVisaNumber": "",
+          "salesDistrict": "HCM",
+          "tenderPackageDescription": "",
+          "tenderPrice": "952380952",
+          "pricingUnit": 10000,
+          "remainingTenderQuantity": 259,
+          "contractQuantity": 1481,
+          "contractExpiryDate": "99991231",
+          "announcementLetterNumber": "VAT 10% - 8%",
+          "isNearToExpire": false,
+          "contractPaymentTerm": "E002",
+          "tenderUnitPrice": "95238.0952"
+        },
+        {
+          "contractNumber": "0040011432",
+          "contractItemNumber": "000120",
+          "contractReference": "TEST",
+          "tenderOrderReason": "735",
+          "tenderVisaNumber": "",
+          "salesDistrict": "HCM",
+          "tenderPackageDescription": "VAT 10% - 8%",
+          "tenderPrice": "12091790",
+          "pricingUnit": 100,
+          "remainingTenderQuantity": 0,
+          "contractQuantity": 100,
+          "contractExpiryDate": "20221231",
+          "announcementLetterNumber": "VAT 10% - 8%",
+          "isNearToExpire": true,
+          "contractPaymentTerm": "E013",
+          "tenderUnitPrice": "120917.9"
+        },
+        {
+          "contractNumber": "0040013848",
+          "contractItemNumber": "000020",
+          "contractReference": "835348340582-3",
+          "tenderOrderReason": "735",
+          "tenderVisaNumber": "",
+          "salesDistrict": "HCM",
+          "tenderPackageDescription": "",
+          "tenderPrice": "952380952",
+          "pricingUnit": 10000,
+          "remainingTenderQuantity": 0,
+          "contractQuantity": 749,
+          "contractExpiryDate": "99991231",
+          "announcementLetterNumber": "",
+          "isNearToExpire": false,
+          "contractPaymentTerm": "E013",
+          "tenderUnitPrice": "95238.0952"
+        }
+      ]
+    }
+  }
+}

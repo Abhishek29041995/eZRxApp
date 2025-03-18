@@ -1,0 +1,28 @@
+query customerDocumentHeaderExcel($input: customerDocumentHeaderRequest!) {
+  customerDocumentHeaderExcel(request: $input) {
+    url
+    __typename
+  }
+}
+
+variables
+
+{
+  "input": {
+    "customerCode": "0030032223",
+    "salesOrg": "2601",
+    "orderBy": [
+      {
+        "order": "desc",
+        "field": "netDueDate"
+      }
+    ],
+    "filterBy": [
+      {
+        "field": "debitCreditCode",
+        "value": "S"
+      }
+    ],
+    "excelFor": "Debit"
+  }
+}

@@ -1,0 +1,534 @@
+trigger:
+  tags:
+    include:
+      - test.uat.*
+
+parameters:
+  - name: region
+    type: string
+    displayName: Region (Select Region You Want To Test)
+    default: my
+    values:
+      - my
+      - id
+      - sg
+      - ph
+      - tw
+      - vn
+      - mm
+      - th
+      - kh
+
+  - name: client_user_order
+    type: boolean
+    default: false
+  - name: client_user_payment
+    type: boolean
+    default: false
+  - name: client_user_return
+    type: boolean
+    default: false
+  - name: external_sales_rep_user_order
+    type: boolean
+    default: false
+  - name: external_sales_rep_user_return
+    type: boolean
+    default: false  
+  - name: market_place_user_order
+    type: boolean
+    default: false
+  - name: market_place_user_return
+    type: boolean
+    default: false
+  - name: market_place_user_payment
+    type: boolean
+    default: false
+
+  - name: schedule
+    type: string
+    default: disable
+
+  - name: max_test_time
+    displayName: Max Test Time
+    type: string
+    default: 10000
+    values:
+      - 10000
+      - 3000
+      - 1500
+      - 1000
+      - 500
+      - 300
+
+  - name: device_name
+    type: string
+    displayName: Test Device
+    default: 'Pixel 7 Pro-13'
+    values:
+      - 'Pixel 7 Pro-13'
+      - 'Galaxy S21 5G-12'
+      - 'Vivo Y20g-11'
+      - 'Redmi Note 9-10'
+      - 'Huawei Mate 20 Pro-9'
+      - 'Galaxy S9-8'
+
+  - name: agentpool
+    type: string
+    displayName: Agent Pool
+    default: dnd-azdevops-flutter44
+    values:
+      - dnd-azdevops-flutter44
+      - dnd-azdevops-flutter33
+
+pool:
+  name: dnd-azdevops-flutter44
+
+resources:
+  - repo: self
+
+variables:
+  - group: 'eZRx Cred'
+  - group: 'eZRx plus CICD'
+
+stages:
+  - stage: PublishNotificationTemplate
+    displayName: Publish Notification Template
+    jobs:
+      - job:
+        displayName: Upload Push Notification Template
+        steps:
+          - task: AzureCLI@2
+            displayName: Update PushNotification Template
+            inputs:
+              azureSubscription: 'devops-dd-sc'
+              scriptType: 'bash'
+              scriptLocation: 'inlineScript'
+              inlineScript: |
+                az storage blob upload --connection-string $AZURE_STORAGE_CONNECTION_STRING --container-name devops-operations --overwrite --file $(System.DefaultWorkingDirectory)/.azure-pipelines/template.html --name ezrxplus-mobile-msteams/template$(Build.BuildId)
+            env:
+              AZURE_STORAGE_CONNECTION_STRING: '$(AZURE_STORAGE_CONNECTION_STRING)'
+
+  - stage: BuildApplicationStage
+    displayName: Build Application
+    jobs:
+      - job: BuildApplicationJob
+        displayName: Build Application
+        steps:
+          - task: Bash@3
+            inputs:
+              targetType: 'inline'
+              script: |
+                ./integration_test/${{ parameters.region }}/reset_sales_org_config.sh
+            displayName: Preset Sales Org Configs For ${{ parameters.region }}
+
+          - task: DownloadSecureFile@1
+            name: localprop
+            displayName: Download local properties file
+            inputs:
+              secureFile: 'local.properties'
+
+          - task: DownloadSecureFile@1
+            name: keyprop
+            displayName: Download key properties file
+            inputs:
+              secureFile: 'key.properties'
+
+          - task: DownloadSecureFile@1
+            name: key
+            displayName: Download signing key
+            inputs:
+              secureFile: 'ezrxplusuat.jks'
+
+          - task: Bash@3
+            displayName: Copy config files
+            inputs:
+              targetType: 'inline'
+              script: |
+                cp $(localprop.secureFilePath) $(Build.SourcesDirectory)/android/local.properties
+                cp $(keyprop.secureFilePath) $(Build.SourcesDirectory)/android/key.properties
+                cp $(key.secureFilePath) $(Build.SourcesDirectory)/android/app/ezrxkey.jks
+
+                echo "local.properties copied to $(Build.SourcesDirectory)/android/local.properties"
+                echo "key.properties copied to $(Build.SourcesDirectory)/android/key.properties"
+                echo "key.jks copied to $(Build.SourcesDirectory)/android/app/ezrxkey.jks"
+
+          - task: Bash@3
+            displayName: Build test suite apk
+            inputs:
+              targetType: 'inline'
+              script: |
+                pushd android	
+                source /etc/profile.d/gradle.sh 
+                flutter pub get 
+                gradle wrapper
+                ./gradlew app:assembleUatDebugAndroidTest
+                build_status=$(echo $?)
+                if [ "$build_status" == 0 ]
+                then
+                  echo "Build Done"
+                else
+                  echo "Some Build Failed."
+                  exit 1
+                fi            
+                popd
+
+          - task: Bash@3
+            displayName: Upload test suite apk
+            name: uploadApk
+            inputs:
+              targetType: 'inline'
+              script: |
+                LAMBDATEST_CREDENTIALS=$LAMBDATEST_USERNAME:$LAMBDATEST_ACCESSKEY
+                echo -e "\n"
+                echo 'Uploading the test suite to Lambdatest from $(System.DefaultWorkingDirectory)/build/app/outputs/apk/androidTest/uat/debug/app-uat-debug-androidTest.apk :'
+                cmd="curl --location -u $LAMBDATEST_CREDENTIALS -X POST "https://manual-api.lambdatest.com/app/uploadFramework" -F "appFile=@$(System.DefaultWorkingDirectory)/build/app/outputs/apk/androidTest/uat/debug/app-uat-debug-androidTest.apk" -F "type=espresso-android""
+                test_suite_url=`$cmd | sed -n 's/.*"app_id":"\([^"]*\)".*/\1/p'`
+                echo -e "\n"
+                echo "test_suite_url : " $test_suite_url
+                echo "##vso[task.setvariable variable=test_suite_url;isOutput=true]$test_suite_url"
+            env:
+              LAMBDATEST_USERNAME: '$(LAMBDATEST_USERNAME)'
+              LAMBDATEST_ACCESSKEY: '$(LAMBDATEST_ACCESSKEY)'
+
+  - stage: AndroidUATRegressionJob
+    dependsOn: [BuildApplicationStage]
+    displayName: Android UAT Regression Job
+    variables:
+      test_suite_url: $[ stageDependencies.BuildApplicationStage.BuildApplicationJob.outputs['uploadApk.test_suite_url'] ]
+    jobs:
+      - ${{ each testFile in parameters }}:
+          - job: RunIntegrationTest${{ testFile.Key }}
+            condition: and(succeeded(), eq('${{ testFile.Value }}', true))
+            timeoutInMinutes: 120
+            cancelTimeoutInMinutes: 5
+            displayName: ${{ testFile.Key }}
+            pool:
+              name: ${{ parameters.agentpool }}
+            steps:
+              - task: DownloadSecureFile@1
+                name: localprop
+                displayName: Download local properties file
+                inputs:
+                  secureFile: 'local.properties'
+
+              - task: DownloadSecureFile@1
+                name: keyprop
+                displayName: Download key properties file
+                inputs:
+                  secureFile: 'key.properties'
+
+              - task: DownloadSecureFile@1
+                name: key
+                displayName: Download signing key
+                inputs:
+                  secureFile: 'ezrxplusuat.jks'
+
+              - task: Bash@3
+                displayName: Copy config files
+                inputs:
+                  targetType: 'inline'
+                  script: |
+                    cp $(localprop.secureFilePath) $(Build.SourcesDirectory)/android/local.properties
+                    cp $(keyprop.secureFilePath) $(Build.SourcesDirectory)/android/key.properties
+                    cp $(key.secureFilePath) $(Build.SourcesDirectory)/android/app/ezrxkey.jks
+
+                    echo "local.properties copied to $(Build.SourcesDirectory)/android/local.properties"
+                    echo "key.properties copied to $(Build.SourcesDirectory)/android/key.properties"
+                    echo "key.jks copied to $(Build.SourcesDirectory)/android/app/ezrxkey.jks"
+
+              - task: Bash@3
+                inputs:
+                  targetType: 'inline'
+                  script: |
+                    test_file=$(find integration_test/${{ parameters.region }}/ -type f -regextype posix-awk -regex '.*\.dart' | grep ${{ testFile.Key }} )
+                    pushd android	 
+                    source /etc/profile.d/gradle.sh
+                    flutter pub get 
+                    gradle wrapper
+                    ./gradlew app:assembleUatDebug -Ptarget="$(Build.SourcesDirectory)/$test_file"
+
+                    build_status=$(echo $?)
+                    if [ "$build_status" == 0 ]
+                    then
+                      echo "Build Done"
+                    else
+                      echo "Some Build Failed."
+                      exit 1
+                    fi
+                    popd
+                displayName: Build Android APK
+
+              - task: Bash@3
+                inputs:
+                  targetType: 'inline'
+                  script: |
+                    test_file=${{ testFile.Key }}
+                    region=${{ parameters.region }}
+                    
+                    # Set geolocation for mm, lambda does not support mm
+                    if [ "$region" == "mm" ]; then
+                      geoLocation="MY"
+                    else
+                      geoLocation="$region"
+                    fi
+
+                    testSuite=("integration_test/$region/$test_file.dart" "${geoLocation^^}")
+
+                    echo "Testcase:" "${testSuite[0]}"
+                    echo "GeoLocation:" "$geoLocation"
+                    echo "Using device:" "${{ parameters.device_name }}"
+
+                    echo -e "\n"
+                    echo 'Uploading the App to Lambdatest from $(System.DefaultWorkingDirectory)/build/app/outputs/apk/uat/debug/app-uat-debug.apk :'
+
+                    cmd="curl --location -u $LAMBDATEST_CREDENTIALS -X POST "https://manual-api.lambdatest.com/app/uploadFramework" -F "appFile=@$(System.DefaultWorkingDirectory)/build/app/outputs/apk/uat/debug/app-uat-debug.apk" -F "type=espresso-android""
+                    app_url=`$cmd | sed -n 's/.*"app_id":"\([^"]*\)".*/\1/p'`
+                    echo "app_url : " $app_url
+                    echo "test_suite_url : " $(test_suite_url)
+
+                    echo -e "\n"
+                    echo "Starting the Test execution on Lambdatest :"
+
+                    val=$(curl --location -X POST 'https://mobile-api.lambdatest.com/framework/v1/flutter/build' \
+                    -H 'Content-Type: application/json' \
+                    -u $LAMBDATEST_CREDENTIALS \
+                    -d '{"app": "'"${app_url}"'", "testSuite": "'"$(test_suite_url)"'", "device": ["'"${{ parameters.device_name }}"'"], "build": "'"${testSuite[0]}"'", "geoLocation":"'"${testSuite[1]}"'", "queueTimeout": 10800, "idleTimeout": 150, "testTimeout": 10000, "deviceLog":true, "network":false, "autoGrantPermissions":false, "projectName":"eZRxPlus"}')
+
+                    result_build_id=$(echo $val | sed -E 's/.*"buildId":\["([^"]*)".*/\1/')
+
+                    echo "val : " $val
+                    echo "Build_Id : " $result_build_id
+
+                    buildStatus="running"
+                    buildMonitorStart=$SECONDS
+                    maxTime=${{ parameters.max_test_time }} # Max test time should not be above 5 minutes. (Yet apply, if want to do this please use ENV Param instead)
+
+                    while [ "$buildStatus" == "running" ] || [ "$buildStatus" == "queued" ];
+                    do
+                      buildCmd="curl --location -u $LAMBDATEST_CREDENTIALS -X GET "https://mobile-api.lambdatest.com/mobile-automation/api/v1/builds/${result_build_id}""
+                      buildStatus=`$buildCmd | sed -n 's/.*"status_ind":"\([^"]*\)".*/\1/p'`
+                      
+                      echo "The Current status of the run is : " $buildStatus
+                      monitorTime=$(( SECONDS - buildMonitorStart ))
+                      echo "Monitor Time : " $monitorTime
+                      echo "Max Time : " $maxTime
+                      if [ $monitorTime -gt $maxTime  ]
+                      then	
+                        buildStatus="error"
+                      fi
+                    done
+
+                    buildDetails=https://appautomation.lambdatest.com/build?searchtxt="${result_build_id}"
+
+                    duration=$(( SECONDS - start ))
+
+                    echo -e "\n"
+                    echo "Summary of the Test Run is as follows: "
+
+                    echo "Test case : " ${test_file}
+
+                    echo "Build Status : " ${buildStatus}
+
+                    echo "Build Details URL : "${buildDetails}
+
+                    # sessionCmd="curl --location -u $LAMBDATEST_CREDENTIALS -X GET "https://mobile-api.lambdatest.com/mobile-automation/api/v1/sessions?build_id=${result_build_id}""
+                    # testId=`$sessionCmd | sed -n 's/.*"test_id":"\([^"]*\)".*/\1/p'`
+                    # echo "Test ID Details URL : https://appautomation.lambdatest.com/test?testID="${testId}
+
+                    echo -e "\n"
+                    echo "The total time taken for the test execution in seconds is :" $duration                     
+
+                    file_without_integration=$(echo ${test_file} | cut -d '/' -f 2-)
+
+                    echo "##vso[task.setvariable variable=buildDetails]$buildDetails"
+                    echo "##vso[task.setvariable variable=result_build_id]$result_build_id" 
+                    echo "##vso[task.setvariable variable=file_without_integration]$file_without_integration"
+
+                displayName: Upload App and Test to Lambdatest and wait for result
+                env:
+                  LAMBDATEST_CREDENTIALS: '$(LAMBDATEST_CREDENTIALS)'
+
+              - task: AzureCLI@2
+                displayName: Edit PushNotification Template
+                inputs:
+                  azureSubscription: 'devops-dd-sc'
+                  scriptType: 'bash'
+                  scriptLocation: 'inlineScript'
+                  inlineScript: |
+                    buildDetails=$(buildDetails)
+                    result_build_id=$(result_build_id)
+                    test_file=$(file_without_integration)
+                    echo $test_file
+                    total_cases=$(curl --location -u $LAMBDATEST_CREDENTIALS -X GET "https://mobile-api.lambdatest.com/mobile-automation/api/v1/framework/builds/${result_build_id}/report/?encoder=true" | sed -n '/tests="/s/.*tests="\([0-9]*\)".*/\1/p')
+                    echo "Total Cases: $total_cases"
+                    failures_cases=$(curl --location -u $LAMBDATEST_CREDENTIALS -X GET "https://mobile-api.lambdatest.com/mobile-automation/api/v1/framework/builds/${result_build_id}/report/?encoder=true" | sed -n '/failures="/s/.*failures="\([0-9]*\)".*/\1/p')
+                    echo "Total Cases failure: $failures_cases"
+
+                    az storage blob download --container-name devops-operations --file $(System.DefaultWorkingDirectory)/.azure-pipelines/template.html --name ezrxplus-mobile-msteams/template$(Build.BuildId) 
+
+                    if [ -n "$total_cases" ] && [ -n "$failures_cases" ]; then
+                      if [ "$total_cases" -eq "0" ]; then 
+                        avg=0
+                        echo "set avg: $avg cause Division Error"
+                        sed -i "s|${test_file}_per|${avg}%|g" .azure-pipelines/template.html 
+                        sed -i "s|${test_file}_link|$buildDetails|g" .azure-pipelines/template.html 
+                      else
+                        avg=$(python3 -c "print(int((($total_cases - $failures_cases) / $total_cases)*100))")
+                        sed -i "s|${test_file}_link|$buildDetails|g" .azure-pipelines/template.html 
+                        sed -i "s|${test_file}_per|${avg}%|g" .azure-pipelines/template.html 
+                        echo "current avg: $avg"
+                      fi
+                    else
+                      avg=0
+                      echo "Error! Will set avg = $avg"
+                      sed -i "s|${test_file}_per|${avg}%|g" .azure-pipelines/template.html 
+                    fi
+
+                    az storage blob upload --connection-string $AZURE_STORAGE_CONNECTION_STRING --container-name devops-operations --overwrite --file $(System.DefaultWorkingDirectory)/.azure-pipelines/template.html --name ezrxplus-mobile-msteams/template$(Build.BuildId)
+                    cat .azure-pipelines/template.html
+                env:
+                  AZURE_STORAGE_CONNECTION_STRING: '$(AZURE_STORAGE_CONNECTION_STRING)'
+                  LAMBDATEST_CREDENTIALS: '$(LAMBDATEST_CREDENTIALS)'
+
+              - task: Bash@3
+                displayName: Read Integration Test Report
+                inputs:
+                  targetType: 'inline'
+                  script: |
+                    w3m -dump .azure-pipelines/template.html
+  # daily cron fail easily , comment out for now
+  # - stage:
+  #   displayName: Run Unit Test
+  #   condition: ${{ eq(parameters.schedule, 'enable') }}
+  #   dependsOn: [AndroidUATRegressionJob]
+  #   jobs:
+  #   - job: unitTest
+  #     displayName: Run Unit Test
+  #     steps:
+  #     - bash: flutter test --coverage
+  #       displayName: Run Flutter Test
+
+  #     - bash: genhtml coverage/lcov.info -o coverage/html
+  #       displayName: Generate HTML File
+
+  - stage: MSTeamsNotificationStage
+    displayName: MSTeams Succeeded Notification Stage
+    condition: not(or(failed(), canceled()))
+    jobs:
+      - job: MSTeamsNotificationUatJob
+        displayName: MSTeamsNotificationUatJob
+        steps:
+          - task: AzureCLI@2
+            displayName: Edit PushNotification Template
+            inputs:
+              azureSubscription: 'devops-dd-sc'
+              scriptType: 'bash'
+              scriptLocation: 'inlineScript'
+              inlineScript: |
+                az storage blob download --container-name devops-operations --file $(System.DefaultWorkingDirectory)/.azure-pipelines/template.html --name ezrxplus-mobile-msteams/template$(Build.BuildId) 
+                region=${{ parameters.region }}
+                sed -E -i "s|region|$region|g" ./.azure-pipelines/template.html           
+                sed -E -i "s|<a.*_per|NA|g" ./.azure-pipelines/template.html
+                w3m -dump .azure-pipelines/template.html
+
+          - task: Bash@3
+            displayName: Define Template Notification
+            inputs:
+              targetType: 'inline'
+              script: |
+                regions=( ${{ parameters.region }} )
+                for region in ${regions[@]}
+                do
+                  avg=$(grep -Eo "${region}.*[0-9]+%" .azure-pipelines/template.html | grep -Eo '[0-9]+%' | grep -Eo '[0-9]+')
+                  len=$(grep -Eco "${region}.*[0-9]+%" .azure-pipelines/template.html)
+                  echo $(echo $region: ${avg[@]})
+                  if [ "$len" == 0 ]; then 
+                    echo "Ignore"
+                  else
+                    sum=0
+                    for i in ${avg[@]}; do
+                      sum=$((sum + i ))
+                    done
+                    average=$((sum / len))
+                    echo "${region}_avg: $average"
+                    sed -i "s|${region}_avg|${average}%|g" ./.azure-pipelines/template.html
+                  fi
+                done
+
+                sed -E -i "s|>.*_avg|>NA|g" ./.azure-pipelines/template.html
+                buildUrl="$(System.TeamFoundationCollectionUri)$(System.TeamProject)/_build/results?buildId=$(Build.BuildId)"
+                username="$(Build.RequestedFor)"
+                build_id="$(Build.BuildId)"
+                branch_name="$(Build.SourceBranchName)"      
+                sed -E -i "s|build_url_link|$buildUrl|g" ./.azure-pipelines/template.html
+                sed -E -i "s|user_name|$username|g" ./.azure-pipelines/template.html
+                sed -E -i "s|build_id|$build_id|g" ./.azure-pipelines/template.html
+                sed -E -i "s|branch_name|$branch_name|g" ./.azure-pipelines/template.html                  
+                sed -E -i "s|build_time|$build_time|g" ./.azure-pipelines/template.html                  
+
+                cat .azure-pipelines/template.html
+
+          - task: Bash@3
+            displayName: Push Notification
+            inputs:
+              targetType: 'inline'
+              script: |
+                html=$(tr -d '\n' < ./.azure-pipelines/template.html)
+                curl -X POST -H "Content-Type: application/json" -d "{\"text\":\"$html\"}" $MICROSOFT_TEAMS_BUILD_MOBILE_CHANNEL
+            env:
+              MICROSOFT_TEAMS_BUILD_MOBILE_CHANNEL: '$(MICROSOFT_TEAMS_BUILD_MOBILE_CHANNEL)'
+
+          - task: LakshayKaushik.PublishHTMLReports.publishhtmlreport.publishhtmlreport@1
+            displayName: Push Report To Azure DevOps Pipeline
+            inputs:
+              htmlType: 'genericHTML'
+              htmlPath: '$(System.DefaultWorkingDirectory)/.azure-pipelines/template.html'
+
+  - stage: MSTeamsFailedNotificationStage
+    displayName: MSTeams Failed Notification Stage
+    condition: failed()
+    jobs:
+      - job: MSTeamsFailedNotificationUatJob
+        displayName: MSTeams Failed Notification
+        steps:
+          - task: LakshayKaushik.PublishHTMLReports.publishhtmlreport.publishhtmlreport@1
+            displayName: Push Report To Azure DevOps Pipeline
+            inputs:
+              htmlType: 'genericHTML'
+              htmlPath: '$(System.DefaultWorkingDirectory)/.azure-pipelines/template.html'
+
+          - task: Bash@3
+            displayName: Push Notification When Failed
+            inputs:
+              targetType: 'inline'
+              script: |
+                buildUrl="$(System.TeamFoundationCollectionUri)$(System.TeamProject)/_build/results?buildId=$(Build.BuildId)"      
+                username="$(Build.RequestedFor)"
+                build_id="$(Build.BuildId)"
+                branch_name="$(Build.SourceBranchName)"
+                TITLE="Integration For ${{ parameters.region }} Triggered By $username on $branch_name Fail"
+
+                curl -X POST '$(MICROSOFT_TEAMS_BUILD_MOBILE_CHANNEL)' \
+                -H 'Content-Type: text/plain' \
+                -d '{
+                  "@type": "MessageCard",
+                  "@context": "http://schema.org/extensions",
+                  "summary": "Integration For ${{ parameters.region }} Fail",
+                  "sections": [{
+                    "activityTitle": "'"$TITLE"'",
+                      "markdown": true
+                    }],
+                  "potentialAction": [{
+                    "@type": "ActionCard",
+                    "name": "Build url",
+                    "actions": [{
+                      "@type": "OpenUri",
+                      "name": "Pipeline Fail",
+                      "targets": [
+                        { "os": "default", "uri": "'"$buildUrl"'" }
+                      ]
+                    }]
+                  }]
+                }'
+            env:
+              MICROSOFT_TEAMS_BUILD_MOBILE_CHANNEL: '$(MICROSOFT_TEAMS_BUILD_MOBILE_CHANNEL)'

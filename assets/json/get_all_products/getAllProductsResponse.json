@@ -1,0 +1,541 @@
+{
+    "data": {
+        "GetAllProducts": {
+            "Count": 13,
+            "Products": [
+                {
+                    "Code": "000000000021041772",
+                    "Name": "BIPOLAR PENANG 61",
+                    "PrincipalCode": "0000102575",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                    "IsFavourite": false,
+                    "isFOCMaterial": false,
+                    "Type": "material",
+                    "HidePrice": false,
+                    "BundleInformation": null,
+                    "Data": [
+                        {
+                            "MaterialCode": "000000000021041772",
+                            "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                            "MaterialDescription": "BIPOLAR PENANG 61",
+                            "DefaultMaterialDescription": "BIPOLAR PENANG 61",
+                            "GenericMaterialName": "BIPOLAR PENANG 61",
+                            "GovernmentMaterialCode": "EZRX-1234"
+                        }
+                    ],
+                    "DataTotalCount": 1,
+                    "DataTotalHidden": 0,
+                    "IsGimmick": false,
+                    "hasValidTenderContract": true,
+                    "hasMandatoryTenderContract": false,
+                    "isMarketPlace": true
+                },
+                {
+                    "Code": "0047278981",
+                    "Name": "Entresto",
+                    "PrincipalCode": "",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "Novartis (Singapore) Pte Ltd",
+                    "IsFavourite": false,
+                    "Type": "bundle",
+                    "HidePrice": false,
+                    "BundleInformation": {
+                        "BundleName": "Entresto",
+                        "BundleCode": "0047278981",
+                        "Conditions": "",
+                        "BonusEligible": false,
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 1,
+                                "Type": "SGD",
+                                "Rate": 193,
+                                "__typename": "BundleInformation"
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 15,
+                                "Type": "SGD",
+                                "Rate": 183,
+                                "__typename": "BundleInformation"
+                            }
+                        ],
+                        "__typename": "Bundle"
+                    },
+                    "Data": [
+                        {
+                            "Active": true,
+                            "MaterialCode": "000000000023062280",
+                            "Manufactured": "Novartis (Singapore) Pte Ltd",
+                            "MaterialDescription": "Entresto FCT 100mg 56s (4X14) SG",
+                            "DefaultMaterialDescription": "Entresto FCT 100mg 56s (4X14) SG",
+                            "GenericMaterialName": "",
+                            "GovernmentMaterialCode": "",
+                            "ItemRegistrationNumber": null,
+                            "__typename": "ProductMaterial"
+                        },
+                        {
+                            "Active": true,
+                            "MaterialCode": "000000000023062281",
+                            "Manufactured": "Novartis (Singapore) Pte Ltd",
+                            "MaterialDescription": "Entresto FCT 200mg 56s (8X7) SG",
+                            "DefaultMaterialDescription": "Entresto FCT 200mg 56s (8X7) SG",
+                            "GenericMaterialName": "",
+                            "GovernmentMaterialCode": "",
+                            "ItemRegistrationNumber": null,
+                            "__typename": "ProductMaterial"
+                        }
+                    ],
+                    "DataTotalCount": 2,
+                    "DataTotalHidden": 0,
+                    "IsGimmick": null,
+                    "suspensionStatus": false,
+                    "hasValidTenderContract": true,
+                    "hasMandatoryTenderContract": true,
+                    "isFOCMaterial": false,
+                    "taxClassification": "",
+                    "__typename": "Product"
+                },
+                {
+                    "Code": "000000000023344239",
+                    "Name": "Bone Impactor V3",
+                    "PrincipalCode": "0000102575",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                    "IsFavourite": false,
+                    "isFOCMaterial": false,
+                    "Type": "material",
+                    "HidePrice": false,
+                    "BundleInformation": null,
+                    "Data": [
+                        {
+                            "MaterialCode": "000000000023344239",
+                            "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                            "MaterialDescription": "Bone Impactor V3",
+                            "DefaultMaterialDescription": "Bone Impactor V3",
+                            "GenericMaterialName": "",
+                            "GovernmentMaterialCode": ""
+                        }
+                    ],
+                    "DataTotalCount": 1,
+                    "DataTotalHidden": 0,
+                    "hasValidTenderContract": false,
+                    "hasMandatoryTenderContract": false,
+                    "IsGimmick": true,
+                    "isSampleMaterial": false,
+                    "isPoison": false
+                },
+                {
+                    "Code": "000000000023344237",
+                    "Name": "Calliper f/Corpectomy SSt ( Long)V2",
+                    "PrincipalCode": "0000102575",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                    "IsFavourite": false,
+                    "isFOCMaterial": false,
+                    "Type": "material",
+                    "HidePrice": false,
+                    "BundleInformation": null,
+                    "Data": [
+                        {
+                            "MaterialCode": "000000000023344237",
+                            "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                            "MaterialDescription": "Calliper f/Corpectomy SSt ( Long)V2",
+                            "DefaultMaterialDescription": "Calliper f/Corpectomy SSt ( Long)V2",
+                            "GenericMaterialName": "",
+                            "GovernmentMaterialCode": ""
+                        }
+                    ],
+                    "DataTotalCount": 1,
+                    "DataTotalHidden": 0,
+                    "hasValidTenderContract": false,
+                    "hasMandatoryTenderContract": false,
+                    "IsGimmick": false,
+                    "isSampleMaterial": true,
+                    "isPoison": false
+                },
+                {
+                    "Code": "000000000023270265",
+                    "Name": "EXETER V40 KL 42",
+                    "PrincipalCode": "0000102575",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                    "IsFavourite": false,
+                    "isFOCMaterial": false,
+                    "Type": "material",
+                    "HidePrice": false,
+                    "BundleInformation": null,
+                    "Data": [
+                        {
+                            "MaterialCode": "000000000023270265",
+                            "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                            "MaterialDescription": "EXETER V40 KL 42",
+                            "DefaultMaterialDescription": "EXETER V40 KL 42",
+                            "GenericMaterialName": "EXETER V40 KL 42",
+                            "GovernmentMaterialCode": ""
+                        }
+                    ],
+                    "DataTotalCount": 1,
+                    "DataTotalHidden": 0,
+                    "hasValidTenderContract": false,
+                    "hasMandatoryTenderContract": false,
+                    "IsGimmick": false,
+                    "isSampleMaterial": false,
+                    "isPoison": true
+                },
+                {
+                    "Code": "000000000023344243",
+                    "Name": "SCORPIO NRG X3 PS TIBIAL INSERT#78MM V2",
+                    "PrincipalCode": "0000102575",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                    "IsFavourite": false,
+                    "isFOCMaterial": false,
+                    "Type": "material",
+                    "HidePrice": false,
+                    "BundleInformation": null,
+                    "Data": [
+                        {
+                            "MaterialCode": "000000000023344243",
+                            "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                            "MaterialDescription": "SCORPIO NRG X3 PS TIBIAL INSERT#78MM V2",
+                            "DefaultMaterialDescription": "SCORPIO NRG X3 PS TIBIAL INSERT#78MM V2",
+                            "GenericMaterialName": "SCORPIO NRG X3 PS TIBIAL INSERT#7 8mm V2",
+                            "GovernmentMaterialCode": ""
+                        }
+                    ],
+                    "DataTotalCount": 1,
+                    "DataTotalHidden": 0,
+                    "hasValidTenderContract": false,
+                    "hasMandatoryTenderContract": false,
+                    "IsGimmick": false,
+                    "isSampleMaterial": true,
+                    "isPoison": true
+                },
+                {
+                    "Code": "000000000023344235",
+                    "Name": "SynMesh Cutter V3",
+                    "PrincipalCode": "0000102575",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                    "IsFavourite": false,
+                    "isFOCMaterial": false,
+                    "Type": "material",
+                    "HidePrice": false,
+                    "BundleInformation": null,
+                    "Data": [
+                        {
+                            "MaterialCode": "000000000023344235",
+                            "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                            "MaterialDescription": "SynMesh Cutter V3",
+                            "DefaultMaterialDescription": "SynMesh Cutter V3",
+                            "GenericMaterialName": "",
+                            "GovernmentMaterialCode": ""
+                        }
+                    ],
+                    "DataTotalCount": 1,
+                    "DataTotalHidden": 0,
+                    "hasValidTenderContract": true,
+                    "hasMandatoryTenderContract": false,
+                    "IsGimmick": false
+                },
+                {
+                    "Code": "000000000023272832",
+                    "Name": "TRI TS PLUS INSERT X3 POLY#1  11MM",
+                    "PrincipalCode": "0000102575",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                    "IsFavourite": false,
+                    "isFOCMaterial": false,
+                    "Type": "material",
+                    "HidePrice": false,
+                    "BundleInformation": null,
+                    "Data": [
+                        {
+                            "MaterialCode": "000000000023272832",
+                            "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                            "MaterialDescription": "TRI TS PLUS INSERT X3 POLY#1  11MM",
+                            "DefaultMaterialDescription": "TRI TS PLUS INSERT X3 POLY#1  11MM",
+                            "GenericMaterialName": "Tri TS Plus Tib Insert, X3 Poly, #1,11mm",
+                            "GovernmentMaterialCode": ""
+                        }
+                    ],
+                    "DataTotalCount": 1,
+                    "DataTotalHidden": 0,
+                    "hasValidTenderContract": true,
+                    "hasMandatoryTenderContract": false,
+                    "IsGimmick": false
+                },
+                {
+                    "Code": "000000000023344228",
+                    "Name": "Vario Case for SynMesh",
+                    "PrincipalCode": "0000102575",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                    "IsFavourite": false,
+                    "isFOCMaterial": false,
+                    "Type": "material",
+                    "HidePrice": false,
+                    "BundleInformation": null,
+                    "Data": [
+                        {
+                            "MaterialCode": "000000000023344228",
+                            "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                            "MaterialDescription": "Vario Case for SynMesh",
+                            "DefaultMaterialDescription": "Vario Case for SynMesh",
+                            "GenericMaterialName": "Generic MDD Case",
+                            "GovernmentMaterialCode": ""
+                        }
+                    ],
+                    "DataTotalCount": 1,
+                    "DataTotalHidden": 0,
+                    "hasValidTenderContract": true,
+                    "hasMandatoryTenderContract": false,
+                    "IsGimmick": false
+                },
+                {
+                    "Code": "000000000023344230",
+                    "Name": "Vario Case for SynMesh",
+                    "PrincipalCode": "0000102575",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                    "IsFavourite": false,
+                    "isFOCMaterial": false,
+                    "Type": "material",
+                    "HidePrice": false,
+                    "BundleInformation": null,
+                    "Data": [
+                        {
+                            "MaterialCode": "000000000023344230",
+                            "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                            "MaterialDescription": "Vario Case for SynMesh",
+                            "DefaultMaterialDescription": "Vario Case for SynMesh",
+                            "GenericMaterialName": "Generic MDD Case",
+                            "GovernmentMaterialCode": ""
+                        }
+                    ],
+                    "DataTotalCount": 1,
+                    "DataTotalHidden": 0,
+                    "hasValidTenderContract": true,
+                    "hasMandatoryTenderContract": false,
+                    "IsGimmick": false
+                },
+                {
+                    "Code": "000000000023344232",
+                    "Name": "Vario Case for SynMesh",
+                    "PrincipalCode": "0000102575",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                    "IsFavourite": false,
+                    "isFOCMaterial": false,
+                    "Type": "material",
+                    "HidePrice": false,
+                    "BundleInformation": null,
+                    "Data": [
+                        {
+                            "MaterialCode": "000000000023344232",
+                            "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                            "MaterialDescription": "Vario Case for SynMesh",
+                            "DefaultMaterialDescription": "Vario Case for SynMesh",
+                            "GenericMaterialName": "Generic MDD Case",
+                            "GovernmentMaterialCode": ""
+                        }
+                    ],
+                    "DataTotalCount": 1,
+                    "DataTotalHidden": 0,
+                    "hasValidTenderContract": true,
+                    "hasMandatoryTenderContract": false,
+                    "IsGimmick": false
+                },
+                {
+                    "Code": "000000000023344229",
+                    "Name": "Vario Case for SynMesh",
+                    "PrincipalCode": "0000102575",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                    "IsFavourite": false,
+                    "isFOCMaterial": false,
+                    "Type": "material",
+                    "HidePrice": false,
+                    "BundleInformation": null,
+                    "Data": [
+                        {
+                            "MaterialCode": "000000000023344229",
+                            "Manufactured": "STRYKER CORPORATION (M) SDN BHD",
+                            "MaterialDescription": "Vario Case for SynMesh",
+                            "DefaultMaterialDescription": "Vario Case for SynMesh",
+                            "GenericMaterialName": "Generic MDD Case",
+                            "GovernmentMaterialCode": ""
+                        }
+                    ],
+                    "DataTotalCount": 1,
+                    "DataTotalHidden": 0,
+                    "hasValidTenderContract": true,
+                    "hasMandatoryTenderContract": false,
+                    "IsGimmick": false
+                },
+                {
+                    "Code": "0008898400",
+                    "Name": "Testing ZMP2",
+                    "PrincipalCode": "",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                    "IsFavourite": false,
+                    "isFOCMaterial": false,
+                    "Type": "bundle",
+                    "HidePrice": false,
+                    "BundleInformation": {
+                        "BundleName": "Testing ZMP2",
+                        "BundleCode": "0008898400",
+                        "Conditions": "",
+                        "BonusEligible": false,
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 5,
+                                "Type": "MYR",
+                                "Rate": 150
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 10,
+                                "Type": "MYR",
+                                "Rate": 145
+                            }
+                        ]
+                    },
+                    "Data": [
+                        {
+                            "MaterialCode": "000000000023046516",
+                            "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                            "MaterialDescription": "(Z) JANUMET XR 100/1000 TABS 28'S",
+                            "DefaultMaterialDescription": "(Z) JANUMET XR 100/1000 TABS 28'S",
+                            "GenericMaterialName": "SITAGLIPTIN/METFORMIN",
+                            "GovernmentMaterialCode": ""
+                        },
+                        {
+                            "MaterialCode": "000000000023046799",
+                            "Manufactured": "GLAXOSMITHKLINE PHARMACEUTICAL_",
+                            "MaterialDescription": "AVODARTCAP0.5MG30'S",
+                            "DefaultMaterialDescription": "AVODARTCAP0.5MG30'S",
+                            "GenericMaterialName": "DUTASTERIDE",
+                            "GovernmentMaterialCode": ""
+                        }
+                    ],
+                    "DataTotalCount": 2,
+                    "DataTotalHidden": 0,
+                    "IsGimmick": null
+                },
+                {
+                    "Code": "0008896469",
+                    "Name": "UAT ALM 9060",
+                    "PrincipalCode": "",
+                    "materialNumber": "",
+                    "materialDescription": "",
+                    "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                    "IsFavourite": false,
+                    "isFOCMaterial": false,
+                    "Type": "bundle",
+                    "HidePrice": false,
+                    "BundleInformation": {
+                        "BundleName": "UAT ALM 9060",
+                        "BundleCode": "0008896469",
+                        "Conditions": "",
+                        "BonusEligible": false,
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 5,
+                                "Type": "MYR",
+                                "Rate": 100
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 10,
+                                "Type": "MYR",
+                                "Rate": 90
+                            },
+                            {
+                                "Sequence": 7,
+                                "Quantity": 20,
+                                "Type": "MYR",
+                                "Rate": 85
+                            }
+                        ]
+                    },
+                    "Data": [
+                        {
+                            "MaterialCode": "000000000023046003",
+                            "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                            "MaterialDescription": "COZAAR TABS 100MG 30'S",
+                            "DefaultMaterialDescription": "COZAAR TABS 100MG 30'S",
+                            "GenericMaterialName": "LOSARTAN POTASSIUM",
+                            "GovernmentMaterialCode": ""
+                        },
+                        {
+                            "MaterialCode": "000000000023046018",
+                            "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                            "MaterialDescription": "FOSAMAXTABS10MG30'S",
+                            "DefaultMaterialDescription": "FOSAMAXTABS10MG30'S",
+                            "GenericMaterialName": "ALENDRONATE SODIUM",
+                            "GovernmentMaterialCode": "PPP"
+                        },
+                        {
+                            "MaterialCode": "000000000023046031",
+                            "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                            "MaterialDescription": "PROPECIA FP LPTABS1MG28'S",
+                            "DefaultMaterialDescription": "PROPECIA FP LPTABS1MG28'S",
+                            "GenericMaterialName": "FINASTERIDE",
+                            "GovernmentMaterialCode": ""
+                        },
+                        {
+                            "MaterialCode": "000000000023046018",
+                            "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                            "MaterialDescription": "FOSAMAXTABS10MG30'S",
+                            "DefaultMaterialDescription": "FOSAMAXTABS10MG30'S",
+                            "GenericMaterialName": "ALENDRONATE SODIUM",
+                            "GovernmentMaterialCode": "PPP"
+                        },
+                        {
+                            "MaterialCode": "000000000023046031",
+                            "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                            "MaterialDescription": "PROPECIA FP LPTABS1MG28'S",
+                            "DefaultMaterialDescription": "PROPECIA FP LPTABS1MG28'S",
+                            "GenericMaterialName": "FINASTERIDE",
+                            "GovernmentMaterialCode": ""
+                        },
+                        {
+                            "MaterialCode": "000000000023046031",
+                            "Manufactured": "MERCK SHARP \u0026 DOHME (I.A)",
+                            "MaterialDescription": "PROPECIA FP LPTABS1MG28'S",
+                            "DefaultMaterialDescription": "PROPECIA FP LPTABS1MG28'S",
+                            "GenericMaterialName": "FINASTERIDE",
+                            "GovernmentMaterialCode": ""
+                        }
+                    ],
+                    "DataTotalCount": 6,
+                    "DataTotalHidden": 3,
+                    "IsGimmick": null,
+                    "isMarketPlace": true
+                }
+            ]
+        }
+    },
+    "extensions": {
+        "trace-id": "a767ff4fd4ec3a17e5b8950433b18ed2"
+    }
+}

@@ -1,0 +1,2176 @@
+{
+    "data": {
+        "GetBundles": [
+            {
+                "MaterialNumber": "000000000023007310",
+                "ListPrice": 100,
+                "FinalIndividualPrice": 80,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": false,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 100,
+                        "Conditions": "ZLP0 - A901 - 0009896378",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0009896378"
+                    },
+                    {
+                        "Type": "SGD",
+                        "Rate": 80,
+                        "Conditions": "ZDP2 - A907 - 0015315639",
+                        "BonusEligible": false,
+                        "ConditionNumber": "0015315639"
+                    }
+                ],
+                "Bonuses": [],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0010276898",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 1,
+                                "Type": "%",
+                                "Rate": -10
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 10,
+                                "Type": "%",
+                                "Rate": -15
+                            },
+                            {
+                                "Sequence": 7,
+                                "Quantity": 15,
+                                "Type": "%",
+                                "Rate": -20
+                            },
+                            {
+                                "Sequence": 13,
+                                "Quantity": 50,
+                                "Type": "%",
+                                "Rate": -30
+                            },
+                            {
+                                "Sequence": 10,
+                                "Quantity": 20,
+                                "Type": "%",
+                                "Rate": -25
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023007401",
+                "ListPrice": 93.28,
+                "FinalIndividualPrice": 93.28,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 93.28,
+                        "Conditions": "ZLP0 - A901 - 0000885200",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000885200"
+                    }
+                ],
+                "Bonuses": [],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0010276898",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 1,
+                                "Type": "%",
+                                "Rate": -10
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 10,
+                                "Type": "%",
+                                "Rate": -15
+                            },
+                            {
+                                "Sequence": 7,
+                                "Quantity": 15,
+                                "Type": "%",
+                                "Rate": -20
+                            },
+                            {
+                                "Sequence": 13,
+                                "Quantity": 50,
+                                "Type": "%",
+                                "Rate": -30
+                            },
+                            {
+                                "Sequence": 10,
+                                "Quantity": 20,
+                                "Type": "%",
+                                "Rate": -25
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023007440",
+                "ListPrice": 250,
+                "FinalIndividualPrice": 250,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 250,
+                        "Conditions": "ZLP0 - A901 - 0008896391",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0008896391"
+                    }
+                ],
+                "Bonuses": [],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0009922498",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 5,
+                                "Type": "SGD",
+                                "Rate": 150
+                            },
+                            {
+                                "Sequence": 7,
+                                "Quantity": 20,
+                                "Type": "SGD",
+                                "Rate": 100
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 10,
+                                "Type": "SGD",
+                                "Rate": 120
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023340349",
+                "ListPrice": 200,
+                "FinalIndividualPrice": 200,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 200,
+                        "Conditions": "ZLP0 - A901 - 0008896394",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0008896394"
+                    }
+                ],
+                "Bonuses": [],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0009922498",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 5,
+                                "Type": "SGD",
+                                "Rate": 150
+                            },
+                            {
+                                "Sequence": 7,
+                                "Quantity": 20,
+                                "Type": "SGD",
+                                "Rate": 100
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 10,
+                                "Type": "SGD",
+                                "Rate": 120
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023344284",
+                "ListPrice": 508.82,
+                "FinalIndividualPrice": 508.82,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 508.82,
+                        "Conditions": "ZLP0 - A901 - 0009111324",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0009111324"
+                    }
+                ],
+                "Bonuses": [],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "test2",
+                        "BundleCode": "0009113765",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 1,
+                                "Type": "SGD",
+                                "Rate": 500
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008184",
+                "ListPrice": 71.4,
+                "FinalIndividualPrice": 71.4,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 71.4,
+                        "Conditions": "ZLP0 - A901 - 0000888933",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000888933"
+                    }
+                ],
+                "Bonuses": [
+                    {
+                        "BonusTiers": [
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 12,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 1,
+                                        "MaterialNumber": "000000000023008184",
+                                        "MaterialDescription": "Singulair           Tab   10mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 12,
+                                        "QualifyingQuantity": 12,
+                                        "BonusQuantity": 2,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186714"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 25,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 2,
+                                        "MaterialNumber": "000000000023008184",
+                                        "MaterialDescription": "Singulair           Tab   10mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 25,
+                                        "QualifyingQuantity": 25,
+                                        "BonusQuantity": 6,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186714"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 40,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 3,
+                                        "MaterialNumber": "000000000023008184",
+                                        "MaterialDescription": "Singulair           Tab   10mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 40,
+                                        "QualifyingQuantity": 40,
+                                        "BonusQuantity": 14,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186714"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 60,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 4,
+                                        "MaterialNumber": "000000000023008184",
+                                        "MaterialDescription": "Singulair           Tab   10mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 60,
+                                        "QualifyingQuantity": 60,
+                                        "BonusQuantity": 30,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186714"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641434",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 100
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008206",
+                "ListPrice": 73.5,
+                "FinalIndividualPrice": 73.5,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 73.5,
+                        "Conditions": "ZLP0 - A901 - 0000889002",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000889002"
+                    }
+                ],
+                "Bonuses": [
+                    {
+                        "BonusTiers": [
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 10,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 1,
+                                        "MaterialNumber": "000000000023008206",
+                                        "MaterialDescription": "Januvia Tab 100mg 28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 10,
+                                        "QualifyingQuantity": 10,
+                                        "BonusQuantity": 2,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145356"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 20,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 2,
+                                        "MaterialNumber": "000000000023008206",
+                                        "MaterialDescription": "Januvia Tab 100mg 28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 20,
+                                        "QualifyingQuantity": 20,
+                                        "BonusQuantity": 5,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145356"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 40,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 3,
+                                        "MaterialNumber": "000000000023008206",
+                                        "MaterialDescription": "Januvia Tab 100mg 28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 40,
+                                        "QualifyingQuantity": 40,
+                                        "BonusQuantity": 12,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145356"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 60,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 4,
+                                        "MaterialNumber": "000000000023008206",
+                                        "MaterialDescription": "Januvia Tab 100mg 28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 60,
+                                        "QualifyingQuantity": 60,
+                                        "BonusQuantity": 22,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145356"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 80,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 5,
+                                        "MaterialNumber": "000000000023008206",
+                                        "MaterialDescription": "Januvia Tab 100mg 28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 80,
+                                        "QualifyingQuantity": 80,
+                                        "BonusQuantity": 36,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145356"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 100,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 6,
+                                        "MaterialNumber": "000000000023008206",
+                                        "MaterialDescription": "Januvia Tab 100mg 28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 100,
+                                        "QualifyingQuantity": 100,
+                                        "BonusQuantity": 56,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145356"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641434",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 100
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008215",
+                "ListPrice": 46.2,
+                "FinalIndividualPrice": 46.2,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 46.2,
+                        "Conditions": "ZLP0 - A901 - 0000889029",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000889029"
+                    }
+                ],
+                "Bonuses": [
+                    {
+                        "BonusTiers": [
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 10,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 1,
+                                        "MaterialNumber": "000000000023008215",
+                                        "MaterialDescription": "Cozaar              Tab   50mg   30's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 4,
+                                        "QualifyingQuantity": 10,
+                                        "BonusQuantity": 10,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000190315"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 30,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 2,
+                                        "MaterialNumber": "000000000023008215",
+                                        "MaterialDescription": "Cozaar              Tab   50mg   30's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 26,
+                                        "QualifyingQuantity": 30,
+                                        "BonusQuantity": 30,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000190315"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 50,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 3,
+                                        "MaterialNumber": "000000000023008215",
+                                        "MaterialDescription": "Cozaar              Tab   50mg   30's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 55,
+                                        "QualifyingQuantity": 50,
+                                        "BonusQuantity": 50,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000190315"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 80,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 4,
+                                        "MaterialNumber": "000000000023008215",
+                                        "MaterialDescription": "Cozaar              Tab   50mg   30's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 96,
+                                        "QualifyingQuantity": 80,
+                                        "BonusQuantity": 80,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000190315"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 120,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 5,
+                                        "MaterialNumber": "000000000023008215",
+                                        "MaterialDescription": "Cozaar              Tab   50mg   30's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 180,
+                                        "QualifyingQuantity": 120,
+                                        "BonusQuantity": 120,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000190315"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641435",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 20
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023007448",
+                "ListPrice": 250,
+                "FinalIndividualPrice": 250,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 250,
+                        "Conditions": "ZLP0 - A901 - 0008896392",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0008896392"
+                    }
+                ],
+                "Bonuses": [
+                    {
+                        "BonusTiers": [
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 12,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 1,
+                                        "MaterialNumber": "000000000023007448",
+                                        "MaterialDescription": "Xylocaine (2%) Gel 20mg/ml 1x30g",
+                                        "Calculation": "915",
+                                        "BonusRatio": 12,
+                                        "QualifyingQuantity": 12,
+                                        "BonusQuantity": 1,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186366"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 24,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 2,
+                                        "MaterialNumber": "000000000023007448",
+                                        "MaterialDescription": "Xylocaine (2%) Gel 20mg/ml 1x30g",
+                                        "Calculation": "915",
+                                        "BonusRatio": 24,
+                                        "QualifyingQuantity": 24,
+                                        "BonusQuantity": 3,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186366"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 50,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 3,
+                                        "MaterialNumber": "000000000023007448",
+                                        "MaterialDescription": "Xylocaine (2%) Gel 20mg/ml 1x30g",
+                                        "Calculation": "915",
+                                        "BonusRatio": 50,
+                                        "QualifyingQuantity": 50,
+                                        "BonusQuantity": 8,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186366"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 100,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 4,
+                                        "MaterialNumber": "000000000023007448",
+                                        "MaterialDescription": "Xylocaine (2%) Gel 20mg/ml 1x30g",
+                                        "Calculation": "915",
+                                        "BonusRatio": 100,
+                                        "QualifyingQuantity": 100,
+                                        "BonusQuantity": 30,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186366"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0009922498",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 5,
+                                "Type": "SGD",
+                                "Rate": 150
+                            },
+                            {
+                                "Sequence": 7,
+                                "Quantity": 20,
+                                "Type": "SGD",
+                                "Rate": 100
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 10,
+                                "Type": "SGD",
+                                "Rate": 120
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008192",
+                "ListPrice": 46.2,
+                "FinalIndividualPrice": 46.2,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 46.2,
+                        "Conditions": "ZLP0 - A901 - 0000888958",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000888958"
+                    },
+                    {
+                        "Type": "SGD",
+                        "Rate": 0,
+                        "Conditions": "ZDP2 - A907 - 0000973524",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000973524"
+                    }
+                ],
+                "Bonuses": [
+                    {
+                        "BonusTiers": [
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 10,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 1,
+                                        "MaterialNumber": "000000000023008192",
+                                        "MaterialDescription": "Hyzaar Tab 100/12.5mg 30s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 4,
+                                        "QualifyingQuantity": 10,
+                                        "BonusQuantity": 10,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000147928"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 30,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 2,
+                                        "MaterialNumber": "000000000023008192",
+                                        "MaterialDescription": "Hyzaar Tab 100/12.5mg 30s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 26,
+                                        "QualifyingQuantity": 30,
+                                        "BonusQuantity": 30,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000147928"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 50,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 3,
+                                        "MaterialNumber": "000000000023008192",
+                                        "MaterialDescription": "Hyzaar Tab 100/12.5mg 30s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 55,
+                                        "QualifyingQuantity": 50,
+                                        "BonusQuantity": 50,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000147928"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 80,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 4,
+                                        "MaterialNumber": "000000000023008192",
+                                        "MaterialDescription": "Hyzaar Tab 100/12.5mg 30s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 96,
+                                        "QualifyingQuantity": 80,
+                                        "BonusQuantity": 80,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000147928"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 120,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 5,
+                                        "MaterialNumber": "000000000023008192",
+                                        "MaterialDescription": "Hyzaar Tab 100/12.5mg 30s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 180,
+                                        "QualifyingQuantity": 120,
+                                        "BonusQuantity": 120,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000147928"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "TieredPricing": [
+                    {
+                        "Tier": "C",
+                        "PriceTier": [
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 1,
+                                "Type": "",
+                                "Rate": 46.2,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            },
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 200,
+                                "Type": "",
+                                "Rate": 16,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            },
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 60,
+                                "Type": "",
+                                "Rate": 21,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            },
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 20,
+                                "Type": "",
+                                "Rate": 24.75,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            },
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 120,
+                                "Type": "",
+                                "Rate": 18.45,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            }
+                        ]
+                    }
+                ],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641435",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 20
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008204",
+                "ListPrice": 73.5,
+                "FinalIndividualPrice": 73.5,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 73.5,
+                        "Conditions": "ZLP0 - A901 - 0000888996",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000888996"
+                    }
+                ],
+                "Bonuses": [
+                    {
+                        "BonusTiers": [
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 10,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 1,
+                                        "MaterialNumber": "000000000023008204",
+                                        "MaterialDescription": "Janumet         Tab  50/850mg  56's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 10,
+                                        "QualifyingQuantity": 10,
+                                        "BonusQuantity": 2,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145355"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 20,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 2,
+                                        "MaterialNumber": "000000000023008204",
+                                        "MaterialDescription": "Janumet         Tab  50/850mg  56's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 20,
+                                        "QualifyingQuantity": 20,
+                                        "BonusQuantity": 5,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145355"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 40,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 3,
+                                        "MaterialNumber": "000000000023008204",
+                                        "MaterialDescription": "Janumet         Tab  50/850mg  56's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 40,
+                                        "QualifyingQuantity": 40,
+                                        "BonusQuantity": 12,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145355"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 60,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 4,
+                                        "MaterialNumber": "000000000023008204",
+                                        "MaterialDescription": "Janumet         Tab  50/850mg  56's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 60,
+                                        "QualifyingQuantity": 60,
+                                        "BonusQuantity": 22,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145355"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 80,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 5,
+                                        "MaterialNumber": "000000000023008204",
+                                        "MaterialDescription": "Janumet         Tab  50/850mg  56's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 80,
+                                        "QualifyingQuantity": 80,
+                                        "BonusQuantity": 36,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145355"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 100,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 6,
+                                        "MaterialNumber": "000000000023008204",
+                                        "MaterialDescription": "Janumet         Tab  50/850mg  56's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 100,
+                                        "QualifyingQuantity": 100,
+                                        "BonusQuantity": 56,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145355"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641434",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 100
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008163",
+                "ListPrice": 46.2,
+                "FinalIndividualPrice": 46.2,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 46.2,
+                        "Conditions": "ZLP0 - A901 - 0000888868",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000888868"
+                    }
+                ],
+                "Bonuses": [],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641435",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 20
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008196",
+                "ListPrice": 73.5,
+                "FinalIndividualPrice": 73.5,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 73.5,
+                        "Conditions": "ZLP0 - A901 - 0000888971",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000888971"
+                    },
+                    {
+                        "Type": "SGD",
+                        "Rate": 0,
+                        "Conditions": "ZDP2 - A907 - 0000927157",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000927157"
+                    }
+                ],
+                "Bonuses": [
+                    {
+                        "BonusTiers": [
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 10,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 1,
+                                        "MaterialNumber": "000000000023008196",
+                                        "MaterialDescription": "Januvia             Tab   50mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 10,
+                                        "QualifyingQuantity": 10,
+                                        "BonusQuantity": 2,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145352"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 20,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 2,
+                                        "MaterialNumber": "000000000023008196",
+                                        "MaterialDescription": "Januvia             Tab   50mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 20,
+                                        "QualifyingQuantity": 20,
+                                        "BonusQuantity": 5,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145352"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 40,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 3,
+                                        "MaterialNumber": "000000000023008196",
+                                        "MaterialDescription": "Januvia             Tab   50mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 40,
+                                        "QualifyingQuantity": 40,
+                                        "BonusQuantity": 12,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145352"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 60,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 4,
+                                        "MaterialNumber": "000000000023008196",
+                                        "MaterialDescription": "Januvia             Tab   50mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 60,
+                                        "QualifyingQuantity": 60,
+                                        "BonusQuantity": 22,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145352"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 80,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 5,
+                                        "MaterialNumber": "000000000023008196",
+                                        "MaterialDescription": "Januvia             Tab   50mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 80,
+                                        "QualifyingQuantity": 80,
+                                        "BonusQuantity": 36,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145352"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 100,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 6,
+                                        "MaterialNumber": "000000000023008196",
+                                        "MaterialDescription": "Januvia             Tab   50mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 100,
+                                        "QualifyingQuantity": 100,
+                                        "BonusQuantity": 56,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145352"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "TieredPricing": [
+                    {
+                        "Tier": "C",
+                        "PriceTier": [
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 1,
+                                "Type": "",
+                                "Rate": 73.5,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            }
+                        ]
+                    }
+                ],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641434",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 100
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023007396",
+                "ListPrice": 100,
+                "FinalIndividualPrice": 100,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 100,
+                        "Conditions": "ZLP0 - A901 - 0009896379",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0009896379"
+                    }
+                ],
+                "Bonuses": [],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0010276898",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 1,
+                                "Type": "%",
+                                "Rate": -10
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 10,
+                                "Type": "%",
+                                "Rate": -15
+                            },
+                            {
+                                "Sequence": 7,
+                                "Quantity": 15,
+                                "Type": "%",
+                                "Rate": -20
+                            },
+                            {
+                                "Sequence": 13,
+                                "Quantity": 50,
+                                "Type": "%",
+                                "Rate": -30
+                            },
+                            {
+                                "Sequence": 10,
+                                "Quantity": 20,
+                                "Type": "%",
+                                "Rate": -25
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008162",
+                "ListPrice": 46.2,
+                "FinalIndividualPrice": 46.2,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 46.2,
+                        "Conditions": "ZLP0 - A901 - 0000888865",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000888865"
+                    },
+                    {
+                        "Type": "SGD",
+                        "Rate": 0,
+                        "Conditions": "ZDP2 - A907 - 0000972319",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000972319"
+                    }
+                ],
+                "Bonuses": [],
+                "TieredPricing": [
+                    {
+                        "Tier": "C",
+                        "PriceTier": [
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 1,
+                                "Type": "",
+                                "Rate": 46.2,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            },
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 200,
+                                "Type": "",
+                                "Rate": 16,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            },
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 60,
+                                "Type": "",
+                                "Rate": 21,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            },
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 20,
+                                "Type": "",
+                                "Rate": 24.75,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            },
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 120,
+                                "Type": "",
+                                "Rate": 18.45,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            }
+                        ]
+                    }
+                ],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641435",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 20
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023007425",
+                "ListPrice": 250,
+                "FinalIndividualPrice": 250,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 250,
+                        "Conditions": "ZLP0 - A901 - 0008896390",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0008896390"
+                    }
+                ],
+                "Bonuses": [],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0009922498",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 5,
+                                "Type": "SGD",
+                                "Rate": 150
+                            },
+                            {
+                                "Sequence": 7,
+                                "Quantity": 20,
+                                "Type": "SGD",
+                                "Rate": 100
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 10,
+                                "Type": "SGD",
+                                "Rate": 120
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023007377",
+                "ListPrice": 93.28,
+                "FinalIndividualPrice": 93.28,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 93.28,
+                        "Conditions": "ZLP0 - A901 - 0000885126",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000885126"
+                    }
+                ],
+                "Bonuses": [],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0010276898",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 1,
+                                "Type": "%",
+                                "Rate": -10
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 10,
+                                "Type": "%",
+                                "Rate": -15
+                            },
+                            {
+                                "Sequence": 7,
+                                "Quantity": 15,
+                                "Type": "%",
+                                "Rate": -20
+                            },
+                            {
+                                "Sequence": 13,
+                                "Quantity": 50,
+                                "Type": "%",
+                                "Rate": -30
+                            },
+                            {
+                                "Sequence": 10,
+                                "Quantity": 20,
+                                "Type": "%",
+                                "Rate": -25
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008138",
+                "ListPrice": 46.2,
+                "FinalIndividualPrice": 46.2,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": false,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 46.2,
+                        "Conditions": "ZLP0 - A901 - 0000888790",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000888790"
+                    },
+                    {
+                        "Type": "SGD",
+                        "Rate": 0,
+                        "Conditions": "ZDP2 - A907 - 0006572701",
+                        "BonusEligible": false,
+                        "ConditionNumber": "0006572701"
+                    }
+                ],
+                "Bonuses": [],
+                "TieredPricing": [
+                    {
+                        "Tier": "C",
+                        "PriceTier": [
+                            {
+                                "ApplyBonus": false,
+                                "Sequence": 0,
+                                "Quantity": 6,
+                                "Type": "",
+                                "Rate": 15,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            },
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 1,
+                                "Type": "",
+                                "Rate": 46.2,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            }
+                        ]
+                    }
+                ],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641435",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 20
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023007415",
+                "ListPrice": 250,
+                "FinalIndividualPrice": 250,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 250,
+                        "Conditions": "ZLP0 - A901 - 0008896389",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0008896389"
+                    }
+                ],
+                "Bonuses": [],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0009922498",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 5,
+                                "Type": "SGD",
+                                "Rate": 150
+                            },
+                            {
+                                "Sequence": 7,
+                                "Quantity": 20,
+                                "Type": "SGD",
+                                "Rate": 100
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 10,
+                                "Type": "SGD",
+                                "Rate": 120
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008187",
+                "ListPrice": 95,
+                "FinalIndividualPrice": 95,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 95,
+                        "Conditions": "ZLP0 - A901 - 0004925710",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0004925710"
+                    }
+                ],
+                "Bonuses": [
+                    {
+                        "BonusTiers": [
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 12,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 1,
+                                        "MaterialNumber": "000000000023008187",
+                                        "MaterialDescription": "Singulair           Tab   4mg    28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 12,
+                                        "QualifyingQuantity": 12,
+                                        "BonusQuantity": 2,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186710"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 25,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 2,
+                                        "MaterialNumber": "000000000023008187",
+                                        "MaterialDescription": "Singulair           Tab   4mg    28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 25,
+                                        "QualifyingQuantity": 25,
+                                        "BonusQuantity": 6,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186710"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 40,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 3,
+                                        "MaterialNumber": "000000000023008187",
+                                        "MaterialDescription": "Singulair           Tab   4mg    28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 40,
+                                        "QualifyingQuantity": 40,
+                                        "BonusQuantity": 14,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186710"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 60,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 4,
+                                        "MaterialNumber": "000000000023008187",
+                                        "MaterialDescription": "Singulair           Tab   4mg    28s",
+                                        "Calculation": "915",
+                                        "BonusRatio": 60,
+                                        "QualifyingQuantity": 60,
+                                        "BonusQuantity": 30,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000186710"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "TieredPricing": [],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641434",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 100
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008185",
+                "ListPrice": 46.2,
+                "FinalIndividualPrice": 46.2,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 46.2,
+                        "Conditions": "ZLP0 - A901 - 0000888936",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000888936"
+                    },
+                    {
+                        "Type": "SGD",
+                        "Rate": 0,
+                        "Conditions": "ZDP2 - A907 - 0000935408",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000935408"
+                    }
+                ],
+                "Bonuses": [
+                    {
+                        "BonusTiers": [
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 10,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 1,
+                                        "MaterialNumber": "000000000023008185",
+                                        "MaterialDescription": "Hyzaar Forte     Tab  100/25 30's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 4,
+                                        "QualifyingQuantity": 10,
+                                        "BonusQuantity": 10,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000190321"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 30,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 2,
+                                        "MaterialNumber": "000000000023008185",
+                                        "MaterialDescription": "Hyzaar Forte     Tab  100/25 30's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 26,
+                                        "QualifyingQuantity": 30,
+                                        "BonusQuantity": 30,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000190321"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 50,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 3,
+                                        "MaterialNumber": "000000000023008185",
+                                        "MaterialDescription": "Hyzaar Forte     Tab  100/25 30's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 55,
+                                        "QualifyingQuantity": 50,
+                                        "BonusQuantity": 50,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000190321"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 80,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 4,
+                                        "MaterialNumber": "000000000023008185",
+                                        "MaterialDescription": "Hyzaar Forte     Tab  100/25 30's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 96,
+                                        "QualifyingQuantity": 80,
+                                        "BonusQuantity": 80,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000190321"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 120,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 5,
+                                        "MaterialNumber": "000000000023008185",
+                                        "MaterialDescription": "Hyzaar Forte     Tab  100/25 30's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 180,
+                                        "QualifyingQuantity": 120,
+                                        "BonusQuantity": 120,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000190321"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "TieredPricing": [
+                    {
+                        "Tier": "C",
+                        "PriceTier": [
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 1,
+                                "Type": "",
+                                "Rate": 46.2,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            },
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 200,
+                                "Type": "",
+                                "Rate": 16,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            },
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 60,
+                                "Type": "",
+                                "Rate": 21,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            },
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 20,
+                                "Type": "",
+                                "Rate": 24.75,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            },
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 120,
+                                "Type": "",
+                                "Rate": 18.45,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            }
+                        ]
+                    }
+                ],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641435",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 20
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000021016132",
+                "ListPrice": 10.39,
+                "FinalIndividualPrice": 7.29,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": false,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 10.39,
+                        "Conditions": "ZLP0 - A901 - 0000894535",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000894535"
+                    },
+                    {
+                        "Type": "SGD",
+                        "Rate": 0,
+                        "Conditions": "ZDP2 - A907 - 0000979552",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000979552"
+                    }
+                ],
+                "Bonuses": [
+                    {
+                        "BonusTiers": [
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 5,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 1,
+                                        "MaterialNumber": "000000000021016132",
+                                        "MaterialDescription": "Simple Hydrat Light  Moist  (NEW)",
+                                        "Calculation": "915",
+                                        "BonusRatio": 5,
+                                        "QualifyingQuantity": 5,
+                                        "BonusQuantity": 1,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000128871"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "TieredPricing": [
+                    {
+                        "Tier": "C",
+                        "PriceTier": [
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 1,
+                                "Type": "",
+                                "Rate": 7.29,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            }
+                        ]
+                    }
+                ],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0015241221",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 1,
+                                "Type": "SGD",
+                                "Rate": 1050
+                            },
+                            {
+                                "Sequence": 4,
+                                "Quantity": 2,
+                                "Type": "SGD",
+                                "Rate": 1100
+                            },
+                            {
+                                "Sequence": 7,
+                                "Quantity": 7,
+                                "Type": "SGD",
+                                "Rate": 1050
+                            },
+                            {
+                                "Sequence": 10,
+                                "Quantity": 25,
+                                "Type": "SGD",
+                                "Rate": 950
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            },
+            {
+                "MaterialNumber": "000000000023008195",
+                "ListPrice": 73.5,
+                "FinalIndividualPrice": 73.5,
+                "FinalTotalPrice": 0,
+                "AdditionalBonusEligible": true,
+                "PriceRules": [
+                    {
+                        "Type": "SGD",
+                        "Rate": 73.5,
+                        "Conditions": "ZLP0 - A901 - 0000888968",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000888968"
+                    },
+                    {
+                        "Type": "SGD",
+                        "Rate": 0,
+                        "Conditions": "ZDP2 - A907 - 0000927160",
+                        "BonusEligible": true,
+                        "ConditionNumber": "0000927160"
+                    }
+                ],
+                "Bonuses": [
+                    {
+                        "BonusTiers": [
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 10,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 1,
+                                        "MaterialNumber": "000000000023008195",
+                                        "MaterialDescription": "Januvia             Tab   25mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 10,
+                                        "QualifyingQuantity": 10,
+                                        "BonusQuantity": 2,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145351"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 20,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 2,
+                                        "MaterialNumber": "000000000023008195",
+                                        "MaterialDescription": "Januvia             Tab   25mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 20,
+                                        "QualifyingQuantity": 20,
+                                        "BonusQuantity": 5,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145351"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 40,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 3,
+                                        "MaterialNumber": "000000000023008195",
+                                        "MaterialDescription": "Januvia             Tab   25mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 40,
+                                        "QualifyingQuantity": 40,
+                                        "BonusQuantity": 12,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145351"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 60,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 4,
+                                        "MaterialNumber": "000000000023008195",
+                                        "MaterialDescription": "Januvia             Tab   25mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 60,
+                                        "QualifyingQuantity": 60,
+                                        "BonusQuantity": 22,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145351"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 80,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 5,
+                                        "MaterialNumber": "000000000023008195",
+                                        "MaterialDescription": "Januvia             Tab   25mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 80,
+                                        "QualifyingQuantity": 80,
+                                        "BonusQuantity": 36,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145351"
+                                    }
+                                ]
+                            },
+                            {
+                                "Calculation": "915",
+                                "QualifyingQuantity": 100,
+                                "BonusMaterial": [
+                                    {
+                                        "Id": 6,
+                                        "MaterialNumber": "000000000023008195",
+                                        "MaterialDescription": "Januvia             Tab   25mg   28's",
+                                        "Calculation": "915",
+                                        "BonusRatio": 100,
+                                        "QualifyingQuantity": 100,
+                                        "BonusQuantity": 56,
+                                        "LimitPerTransaction": 0,
+                                        "ConditionId": "0000145351"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "TieredPricing": [
+                    {
+                        "Tier": "C",
+                        "PriceTier": [
+                            {
+                                "ApplyBonus": true,
+                                "Sequence": 0,
+                                "Quantity": 1,
+                                "Type": "",
+                                "Rate": 73.5,
+                                "Percentage": 6,
+                                "MinAmount": 12,
+                                "ScaleBasis": "C"
+                            }
+                        ]
+                    }
+                ],
+                "Bundles": [
+                    {
+                        "BundleName": "",
+                        "BundleCode": "0012641434",
+                        "BundleInformation": [
+                            {
+                                "Sequence": 1,
+                                "Quantity": 40,
+                                "Type": "SGD",
+                                "Rate": 100
+                            }
+                        ]
+                    }
+                ],
+                "Valid": true
+            }
+        ]
+    }
+}

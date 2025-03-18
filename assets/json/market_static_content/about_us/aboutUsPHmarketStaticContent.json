@@ -1,0 +1,180 @@
+{
+  "data": {
+    "item": {
+      "components": {
+        "value": [
+          {
+            "template": {
+              "name": "Banner"
+            },
+            "media": {
+              "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg",
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg"
+                }
+              }
+            },
+            "title": {
+              "value": "About Us"
+            },
+            "content": {
+              "value": "Zuellig Pharma provides world-class pharmaceutical distribution, digital and commercial services to support the evolving healthcare needs in the region."
+            },
+            "buttonName": {
+              "value": "Get in touch"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "backgroundColor": {
+              "value": "#EBF6F1"
+            },
+            "backgroundImage": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-background.png"
+                }
+              }
+            }
+          },
+          {
+            "template": {
+              "name": "Horizontal List"
+            },
+            "title": {
+              "value": "Who we are"
+            },
+            "description": {
+              "value": "Zuellig Pharma is a leading healthcare solutions company in Asia"
+            },
+            "maxNumberOfItem": {
+              "value": "3"
+            },
+            "list": {
+              "value": [
+                {
+                  "id": "E6E7DD0DF1AD4FD2A0F8F2F47835F0AC",
+                  "name": "Horizontal List Sub Item 1",
+                  "title": {
+                    "value": "200,000+"
+                  },
+                  "subTitle": {
+                    "value": "Medical Facilities"
+                  },
+                  "description": {
+                    "value": "Our mission is to make healthcare more accessible to the communities we serve, and our people."
+                  }
+                },
+                {
+                  "id": "7794D5595D6A4790A7F8841C4DC3B98C",
+                  "name": "Horizontal List Sub Item",
+                  "title": {
+                    "value": "450+"
+                  },
+                  "subTitle": {
+                    "value": "Clients"
+                  },
+                  "description": {
+                    "value": "We provide world-class distribution, digital and commercial services to support the growing healthcare needs in the region."
+                  }
+                },
+                {
+                  "id": "444A0E65DC174C9096EBF8AF49CC649A",
+                  "name": "Horizontal List Sub Item 2",
+                  "title": {
+                    "value": "20"
+                  },
+                  "subTitle": {
+                    "value": "Top Pharmaceutical Companies"
+                  },
+                  "description": {
+                    "value": "The company was started a hundred years ago and has grown to become a multi-billion dollar business covering 16 markets with over 12,000 employees. Our people serve the top 20 pharmaceutical companies in the world."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit.jpg",
+                  "alt": "",
+                  "width": "708",
+                  "height": "553"
+                }
+              }
+            },
+            "title": {
+              "value": "Why us"
+            },
+            "subTitle": {
+              "value": "Opportunities"
+            },
+            "description": {
+              "value": "<p><span style=\"font-size: medium; color: #234455;\">▶ Growing patient-centric digital health innovation in the Philippines.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ High allocation from Budget 2023 for healthcare. Medical device industry to reach USD 2.2B in 2023.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Capitalising on client relationships to drive commercialisation initiatives.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Potential to improve awareness and utilisation of value-added services (VAS) for higher operating revenue and client conversion.</span>&nbsp;</p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"font-size: 40px; line-height: 150%; font-weight: 300; color: #19303c;\">Capabilities</span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp; </span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Over 100 years of experience in pharma distribution in the Philippines.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ 100% coverage of hospitals, pharma, modern trade accounts &amp; 50k+ customers nationwide.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Strong market presence in 86 therapeutic classes.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Wide range of services incl. Repackaging, Samples Distribution, Product Destruction &amp; Trade Marketing (CHC).</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">\n</span></p>\n<p>&nbsp;</p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Innovative tech solutions incl. eZHealth, eZRx &amp; e-Commerce solutions.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">\n</span></p>\n<p>&nbsp;</p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Patient-centric programs for adherence, access &amp; affordability.</span></p>"
+            },
+            "buttonName": {
+              "value": ""
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": true
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-linear.png",
+                  "alt": "map",
+                  "width": "392",
+                  "height": "552"
+                }
+              }
+            },
+            "title": {
+              "value": "Reaching us is easy"
+            },
+            "subTitle": {
+              "value": "Nationwide branches and distribution centers"
+            },
+            "description": {
+              "value": "<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Zuellig Pharma in the Philippines has seven distribution warehouses covering over 59,000 sq.m. of distribution centre space for pharma, consumer, medical devices, and diagnostics products. We have over 1,700 employees nationwide and have distributed to over 19,000 physicians, 700 private hospitals, 7,000 chain drug stores, and more. We have been recognised for our quality of work and sustainability efforts.</span>&nbsp;</p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\"></span><strong style=\"color: #234455; font-size: x-large;\">Zuellig Pharma Corporation</strong></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Contact Service</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\"><strong>Support:&nbsp;</strong></span><span style=\"font-size: 14px; line-height: 150%;\">Monday to Friday (except holidays): 8am - 5pm</span>&nbsp;&nbsp;</p>\n<p><span style=\"line-height: 50%; font-size: 16px;\">&nbsp;</span></p>\n<p><span style=\"font-size: 14px;\"><strong>Smart:</strong> 0999 992 0790 | 0999 992 0793 | 0919 056 0455</span></p>\n<p><span style=\"line-height: 50%; font-size: 16px;\">&nbsp;</span></p>\n<p><span style=\"font-size: 14px;\"><strong>Globe:</strong> 0917 588 5082 | 0917 829 3807 | 0917 829 6309</span></p>\n<p><span style=\"line-height: 50%; font-size: 14px;\">&nbsp;</span></p>\n<p><span style=\"line-height: 50%; font-size: 14px;\">\n</span></p>\n<p data-renderer-start-pos=\"34243\" style=\"color: #172b4d; margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;; font-size: 16px;\"><span><strong data-renderer-mark=\"true\">eZRx+ General concerns:&nbsp;</strong><a data-testid=\"link-with-safety\" href=\"mailto:PHCustomerCare@zuelligpharma.com\" title=\"mailto:PHCustomerCare@zuelligpharma.com\" data-renderer-mark=\"true\" class=\"confluence-ssr-app-tgpl01\" style=\"color: var(--ds-link, #0052CC); font-size: 14px;\">PHCustomerCare@zuelligpharma.com</a></span></p>\n<p><span style=\"line-height: 50%; font-size: 16px;\">&nbsp;</span></p>\n<p data-renderer-start-pos=\"34301\" style=\"color: #172b4d; margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714; font-size: 16px;\"><span><strong data-renderer-mark=\"true\">Payment concerns:&nbsp;</strong><a data-testid=\"link-with-safety\" href=\"mailto:ezpay.phsupport@zuelligpharma.com\" title=\"mailto:ezpay.phsupport@zuelligpharma.com\" data-renderer-mark=\"true\" class=\"confluence-ssr-app-tgpl01\" style=\"color: var(--ds-link, #0052CC); font-size: 14px;\">ezpay.phsupport@zuelligpharma.com</a></span></p>\n<p><span style=\"line-height: 50%; font-size: 16px;\">&nbsp;</span></p>\n<p data-renderer-start-pos=\"34354\" style=\"color: #172b4d; margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\"><span><a data-testid=\"link-with-safety\" href=\"https://ph.ezrxplus.com/\" title=\"https://ph.ezrxplus.com/\" data-renderer-mark=\"true\" class=\"confluence-ssr-app-tgpl01\" style=\"color: var(--ds-link, #0052CC); font-size: 14px;\">https://ph.ezrxplus.com/</a></span></p>\n<p data-renderer-start-pos=\"34380\" style=\"color: #172b4d; font-size: 14px; margin-top: 0.75rem; margin-right: 0px; margin-left: 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\"><span><em data-renderer-mark=\"true\">Customer Support contact details apply to both&nbsp;</em></span><em data-renderer-mark=\"true\" style=\"letter-spacing: -0.005em;\">Zuellig Pharma and Metro Drug Inc. customers</em></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Address:</span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>Zuellig Pharma Corporation<br />\nKM 14 West Service Rd South Superhighway cor Edison Ave.<br />\nSun Valley, Paranaque City<br />\n<a href=\"http://www.zuelligpharma.com\">Making Healthcare More Accessible - Zuellig Pharma</a> </strong></span></p>"
+            },
+            "buttonName": {
+              "value": "Contact us"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": false
+            }
+          }
+        ]
+      }
+    }
+  }
+}

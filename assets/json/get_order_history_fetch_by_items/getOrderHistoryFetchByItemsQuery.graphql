@@ -1,0 +1,108 @@
+query orderHistoryFetchByItems($soldTo: String!, $fromDate: String, $toDate: String, $shipTo: [String], $first: Int, $after: Int, $language: String, $orderStatus: [String!], $searchKey: String, $salesOrg: [String], $filterBlockCustomer: Boolean, $materialSearch: String, $isOptimised: Boolean) {
+  orderHistoryFetchByItems(
+    soldTo: $soldTo
+    fromDate: $fromDate
+    toDate: $toDate
+    shipTo: $shipTo
+    first: $first
+    after: $after
+    language: $language
+    orderStatus: $orderStatus
+    searchKey: $searchKey
+    isGreen: $isGreen
+    salesOrg: $salesOrg
+    materialSearch: $materialSearch
+    filterBlockedCustomer: $filterBlockCustomer
+    isOptimised: $isOptimised
+  ) {
+    OrderCount
+    OrderHistory {
+      OrderBasicInformation {
+        SoldTo
+        CompanyName
+        ShipTo
+        PaymentTerm {
+          PaymentTermCode
+          PaymentTermDescription
+          
+        }
+        
+      }
+      OrderItems {
+        poAttachment {
+          Url
+          Name
+        }
+        isCounterOffer
+        MaterialCode
+        MaterialDescription
+        DefaultMaterialDescription
+        CreatedTime
+        CreatedDate
+        Qty
+        UnitPrice
+        TotalUnitPrice
+        TotalPrice
+        Status
+        LineNumber
+        Tax
+        TotalTax
+        TaxRate
+        DeliveryDate
+        DeliveryTime
+        OrderType
+        EZRXNumber
+        OrderNumber
+        OrderBy
+        PurchaseOrderType
+        WarehouseStorageCondition
+        OrderNumber
+        Available
+        IsMarketplace
+        Seller
+        POReference
+        ManufactureName
+        SpecialInstructions
+        RequestedDeliveryDate
+        InvoiceNumber
+        IsBonusMaterial
+        GovernmentMaterialCode
+        ItemRegistrationNumber
+        TelephoneNumber
+        HidePrice
+        TenderContractNumber
+        TenderOrderReason
+        isTenderExpire
+        TenderPrice
+        TenderPriceUnit
+        TenderContractReference
+        isGreen
+        IsBundle
+        PrincipalCode
+        InvoiceNumber
+        mrp
+        promotype
+        promoStatus
+        isCovid
+        Batches {
+          BatchNumber
+          ExpiryDate
+        }
+      }
+     
+    }
+   
+  }
+}
+variables : {
+  "soldTo": "0030082707",
+  "shipTo": [
+    "0070149863"
+  ],
+  "first": 24,
+  "after": 0,
+  "language": "EN",
+  "fromDate": "20230805",
+  "toDate": "20230811"
+  "isOptimised":true,
+}

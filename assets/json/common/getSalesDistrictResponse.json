@@ -1,0 +1,21 @@
+{
+    "data": {
+        "salesDistrict": [
+        {
+            "salesOrg": "3050",
+            "salesDistricts": [
+            {
+                "id": 2,
+                "salesDistrict": "HNO",
+                "salesDistrictLabel": "Phyto Hà Nội"
+            },
+            {
+                "id": 1,
+                "salesDistrict": "HCM",
+                "salesDistrictLabel": "Phyto Hồ Chí Minh"
+            }
+            ]
+        }
+        ]
+    }
+}

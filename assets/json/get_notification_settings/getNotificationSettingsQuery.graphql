@@ -1,0 +1,9 @@
+query getNotificationSettings {
+  getNotificationSettings {
+    settings {
+      orderConfirmation
+      paymentConfirmation
+      ereturnConfirmation
+    }
+  }
+}

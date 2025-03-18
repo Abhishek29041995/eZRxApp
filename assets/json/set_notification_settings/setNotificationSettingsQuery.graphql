@@ -1,0 +1,17 @@
+mutation setNotificationSettings($request: NotificationSettingsInput!) {
+  setNotificationSettings(input: $request) {
+    settings {
+      orderConfirmation
+      paymentConfirmation
+      ereturnConfirmation
+    }
+  }
+}
+variables:
+{
+  "request": {
+    "orderConfirmation": false,
+    "paymentConfirmation": true,
+    "ereturnConfirmation": true
+  }
+}

@@ -1,0 +1,67 @@
+
+fragment MaterialsFields on returnMaterialInformation {
+  item {
+    assignmentNumber
+    material
+    materialDescription
+    balanceQuantity
+    batch
+    eligibleForReturn
+    priceDate
+    unitPrice
+    totalPrice
+    principalCode
+    principalName
+    expiryDate
+    itemNumber
+    outsidePolicy
+    wareHouseStorageCondition
+    bonusItem {
+      assignmentNumber
+      material
+      materialDescription
+      balanceQuantity
+      eligibleForReturn
+      batch
+      priceDate
+      unitPrice
+      totalPrice
+      principalCode
+      principalName
+      expiryDate
+      itemNumber
+      outsidePolicy
+      wareHouseStorageCondition
+    }
+  }
+}
+
+fragment materialBasicInformation on materialBasicInfo {
+  salesOrg
+  partnerRole
+  partnerNumber
+}
+
+query searchReturnMaterials($searchReturnMaterialsRequestV2: searchReturnMaterialsRequestV2!) {
+  searchReturnMaterialsV2(request: $searchReturnMaterialsRequestV2) {
+    materialBasicInformation {
+      ...materialBasicInformation
+    }
+    materials {
+      ...MaterialsFields
+    }
+  }
+}
+
+variable:
+{
+    "searchReturnMaterialsRequestV2": {
+        "soldTo": "0030082707",
+        "shipTo": "0070149863",
+        "salesOrg": "2001",
+        "first": 10,
+        "after": 0,
+        "dateFrom": "20230125",
+        "dateTo": "20230725"
+    }
+}

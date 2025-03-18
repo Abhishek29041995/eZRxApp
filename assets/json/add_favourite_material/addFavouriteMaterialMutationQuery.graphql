@@ -1,0 +1,3 @@
+mutation {
+  addFavouriteMaterial(materialNumber: "000000000023344239")
+}

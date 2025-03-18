@@ -1,0 +1,98 @@
+{
+    "query":" query userQuery(\$id: Int!) {
+        user(id: \$id) {
+            id
+            username
+            email
+            provider
+            confirmed
+            blocked
+            role {
+              id
+              name
+              type
+              description
+            }
+            initialLogin
+            accessRight {
+              Users
+              Orders
+              Promos
+              LoyaltyScheme
+              HCPHUB
+              Products
+              Services
+              Analytics
+              AdminPOAttachment
+            }
+            firstName
+            lastName
+            adName
+            isFromAD
+            shipToAddr
+            shipToAddrTwo
+            disable2fa
+            lastLogin
+            mobileNumber
+            countryCode
+            acceptTC
+            isResetUserPassword
+            optIn
+            optInTimestamp
+            hasPriceOverride
+            hasBonusOverride
+            disableReturns
+            disablePaymentAccess
+            disableCreateOrder
+            principalOverrideList
+            mobileAccess
+            totp2fa
+            emailNotifications
+            mobileNotifications
+            passwordLastUpdate
+            passwordActionName
+            passwordActionTime
+            holiday {
+              monday
+              tuesday
+              wednesday
+              thursday
+              friday
+              saturday
+              sunday
+            }
+            conditionGroup
+            salesOrganisations
+            salesOrganization
+            salesOrganizationTwo
+            languagePreference
+            preferredLanguage
+            supportedLanguages {
+              language
+              searchFilter
+            }
+            userSalesOrganisationList {
+              SalesOrg
+              CustomerCode
+              ShipToCode
+            }
+            enableOrderType
+            disablePaymentNotification
+            paymentNotification {
+              day
+              disabled
+            }
+            privacyControls {
+              enableBrowserCookies
+              automatedPersonalisation
+             directMarketing
+            }
+            acceptMPTC
+            isPPATriggerMaintained
+            selectedOrderType
+          }
+        },
+    "variables":{
+       "id":3860
+    }
+ }

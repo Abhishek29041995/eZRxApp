@@ -1,0 +1,41 @@
+query GetProductDetails($request: GetProductDetailsRequest!) {
+  GetProductDetails(request: $request) {
+    Code
+    Name
+    Manufactured
+    Type
+    IsFavourite
+    BundleInformation {
+      BundleName
+      BundleCode
+      BundleInformation {
+        Sequence
+        Quantity
+        Type
+        Rate
+      }
+    }
+    Data {
+      MaterialCode
+      Manufactured
+      MaterialDescription
+      DefaultMaterialDescription
+      GenericMaterialName
+      ItemRegistrationNumber
+    }
+    DataTotalCount
+    DataTotalHidden
+    IsGimmick
+  }
+}
+
+variables : {
+  "request": {
+    "Customer": "0030082707",
+    "SalesOrg": "2001",
+    "ShipTo": "0070149863",
+    "Code": "0008896469",
+    "Type": "bundle"
+  }
+}
+

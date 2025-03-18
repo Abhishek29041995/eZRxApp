@@ -1,0 +1,180 @@
+{
+  "data": {
+    "item": {
+      "components": {
+        "value": [
+          {
+            "template": {
+              "name": "Banner"
+            },
+            "media": {
+              "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg",
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg"
+                }
+              }
+            },
+            "title": {
+              "value": "Tentang Kami"
+            },
+            "content": {
+              "value": "Zuellig Pharma menyediakan layanan distribusi farmasi berkelas dunia, layanan digital dan komersial untuk mendukung kebutuhan layanan kesehatan yang terus berkembang di wilayah ini."
+            },
+            "buttonName": {
+              "value": "Lihat Lebih Banyak"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "backgroundColor": {
+              "value": "#EBF6F1"
+            },
+            "backgroundImage": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-background.png"
+                }
+              }
+            }
+          },
+          {
+            "template": {
+              "name": "Horizontal List"
+            },
+            "title": {
+              "value": "Siapa Kami"
+            },
+            "description": {
+              "value": "Zuellig Pharma adalah perusahaan solusi kesehatan terkemuka di Asia"
+            },
+            "maxNumberOfItem": {
+              "value": "3"
+            },
+            "list": {
+              "value": [
+                {
+                  "id": "7932C22723CE46F598808D6836FF7D01",
+                  "name": "Medical Facilities",
+                  "title": {
+                    "value": "200,000+"
+                  },
+                  "subTitle": {
+                    "value": "Fasilitas Medis"
+                  },
+                  "description": {
+                    "value": "Misi kami adalah untuk menjadikan layanan kesehatan lebih mudah diakses oleh komunitas yang kami layani, dan karyawan kami melayani lebih dari 200.000 fasilitas medis."
+                  }
+                },
+                {
+                  "id": "6F133753A07A4AE0B77C31F16C345AAF",
+                  "name": "Clients",
+                  "title": {
+                    "value": "450+"
+                  },
+                  "subTitle": {
+                    "value": "Klien"
+                  },
+                  "description": {
+                    "value": "Kami menyediakan layanan distribusi berkelas dunia, layanan digital dan komersial untuk mendukung kebutuhan perawatan kesehatan yang terus meningkat di wilayah ini, dan kami bekerja dengan lebih dari 450 klien."
+                  }
+                },
+                {
+                  "id": "52B62066BA1C4BBFBEA478F21DC7BB61",
+                  "name": "Top Pharmaceutical Companies",
+                  "title": {
+                    "value": "20"
+                  },
+                  "subTitle": {
+                    "value": "Perusahaan Farmasi Ternama"
+                  },
+                  "description": {
+                    "value": "Perusahaan ini dimulai seratus tahun yang lalu dan telah berkembang menjadi bisnis bernilai miliaran dolar yang mencakup 16 pasar dengan lebih dari 12.000 karyawan. Karyawan kami melayani 20 perusahaan farmasi teratas di dunia."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit.jpg",
+                  "alt": "",
+                  "width": "708",
+                  "height": "553"
+                }
+              }
+            },
+            "title": {
+              "value": "Mengapa kami"
+            },
+            "subTitle": {
+              "value": "Kesempatan"
+            },
+            "description": {
+              "value": "<p><span style=\"font-size: medium; color: #234455;\">▶ Indonesia meluncurkan blueprint kesehatan digital pertamanya, yang bertujuan untuk memperluas cakupan layanan kesehatan inklusif untuk 270 juta penduduknya.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Blueprint ini akan membantu Indonesia mempercepat tujuan nasionalnya dalam menyediakan layanan kesehatan yang universal, terjangkau, adil dan berkualitas bagi seluruh warga negaranya, dengan menggunakan teknologi digital.</span>&nbsp;</p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"font-size: 40px; line-height: 150%; font-weight: 300; color: #19303c;\">Kapabilitas</span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp; </span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Zuellig Pharma menawarkan solusi layanan kesehatan terintegrasi di Indonesia, termasuk distribusi, komersialisasi, perawatan pasien, analisis data, dan impor.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Pusat Distribusi Nasional APL adalah gudang kelas farmasi terbesar di Indonesia, dengan luas 54.000 meter persegi. ruang untuk farmasi, konsumen, dan produk medis.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Lebih dari 13.000 pesanan ditangani setiap hari oleh 550 personel bersertifikat, dengan 6.000 pesanan dikirimkan melalui 200+ kendaraan.</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Cold chain berstandar tertinggi di Indonesia, dengan luas lebih dari 2,000 meter persegi, 33 cold room dan 85 chiller.</span></p>"
+            },
+            "buttonName": {
+              "value": ""
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": true
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-linear.png",
+                  "alt": "map",
+                  "width": "392",
+                  "height": "552"
+                }
+              }
+            },
+            "title": {
+              "value": "Menghubungi kami sangat mudah"
+            },
+            "subTitle": {
+              "value": "Cabang dan Pusat Distribusi dengan jangkauan nasional"
+            },
+            "description": {
+              "value": "<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Zuellig Pharma menyediakan cakupan lengkap produk etis, produk farmasi, dan produk perdagangan modern di Indonesia, melayani lebih dari 26.000 outlet langsung dengan lebih dari 2.800 karyawan terlatih, 25 gudang, 4 kantor penjualan, dan 8 lokasi mitra APL. </span></p>\n<p><span style=\"line-height: 50%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">Tim ini telah meraih berbagai penghargaan, seperti HR Asia Best Companies to Work for in Asia dan CNBC Indonesia Outstanding Company in Sustainability-Community Initiative.</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\"></span><strong style=\"color: #234455; font-size: x-large;\">PT. Anugerah Pharmindo Lestari</strong></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><strong style=\"font-size: 20px; color: #234455;\">1500275</strong></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\"><strong>Kantor Pusat</strong></span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\">World Trade Center I Lantai 15<br />\nJl. Jenderal Sudirman No.Kav. 29-31, RT.8/RW.3, Kuningan, Karet, Kecamatan Setiabudi,Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12920, Indonesia</span>&nbsp;</p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\"><strong>Kantor Jakarta</strong></span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\">Jl. Boulevard BGR No. 1, Komplek Pergudangan BGR Gudang L &amp; M, Kelapa Gading, Kota Jakarta Utara Daerah Khusus Ibukota Jakarta 14240, Indonesia</span></p>"
+            },
+            "buttonName": {
+              "value": "Contact us"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": false
+            }
+          }
+        ]
+      }
+    }
+  }
+}

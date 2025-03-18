@@ -1,0 +1,59 @@
+
+{
+    "data": {
+        "usage": [
+            {
+                "usageCode": "C13",
+                "usageDescription": "Wrong Bill-To"
+            },
+            {
+                "usageCode": "T06",
+                "usageDescription": "Expired Within Policy"
+            },
+            {
+                "usageCode": "T07",
+                "usageDescription": "Expiring Within Policy"
+            },
+            {
+                "usageCode": "T11",
+                "usageDescription": "Manufacturing Defect"
+            },
+            {
+                "usageCode": "T14",
+                "usageDescription": "Product Recall"
+            },
+            {
+                "usageCode": "T20",
+                "usageDescription": "Slow Moving"
+            },
+            {
+                "usageCode": "T24",
+                "usageDescription": "Damaged Stocks"
+            },
+            {
+                "usageCode": "T33",
+                "usageDescription": "Duplicate Order - Customer"
+            },
+            {
+                "usageCode": "T34",
+                "usageDescription": "Duplicate Order - Principal"
+            },
+            {
+                "usageCode": "T37",
+                "usageDescription": "Wrong Item Issued"
+            },
+            {
+                "usageCode": "T38",
+                "usageDescription": "Wrong Quantity Billed"
+            },
+            {
+                "usageCode": "T39",
+                "usageDescription": "Price Difference"
+            },
+            {
+                "usageCode": "T46",
+                "usageDescription": "Did Not Order"
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+mutation addCustomerPayment($input: addCustomerPaymentInput!) {
+    addCustomerPayment(input: $input) {
+      paymentID
+      paymentBatchAdditionalInfo
+      valueDate
+      transactionCurrency
+      accountingDocExternalReference
+      zCcpPaymentQRCode
+      zzAdvice
+      zzHtmcs
+      adviceExpiry
+   }
+}
+
+"variables":{
+      "input":{
+         "customerCode":"0030007793",
+         "customerInvoice":[
+            {
+               "accountingDocExternalReference":"250020131030126638001SD 1030126638",
+               "accountingDocument":"1030126638",
+               "bpCustomerNumber":"30007793",
+               "debitCreditFlag":"S",
+               "discountAmount":"0.00",
+               "discountDate":"2013-01-30",
+               "displayAmount":"60872.70",
+               "displayCurrency":"PHP",
+               "displayOpenAmount":"0.02",
+               "dueDate":"2013-03-01",
+               "fiscalYear":"2013",
+               "isDisputed":"X",
+               "lineItemNumber":"001",
+               "lineNumber":"000013",
+               "partialPaymentHistoryDesc":"250020230160000509001:",
+               "paymentAmount":"0.02",
+               "salesOrg":"2500"
+            }
+         ],
+         "paymentMethod":"Bank-In",
+         "salesOrg":"2500",
+         "transactionCurrency":"PHP",
+         "userName":"rootadmin",
+         "isV2":true
+    }
+}

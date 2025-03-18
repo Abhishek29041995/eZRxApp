@@ -1,0 +1,16 @@
+{
+  "query": "      query ($request: GetAllProductsRequest!) {\n        GetAllProducts(request: $request) {\n          Count\n          Products {\n            Code\n            Name\n            PrincipalCode\n            materialNumber\n            materialDescription\n            Manufactured\n            IsFavourite\n            isFOCMaterial\n            materialGroup4\n            Type\n            HidePrice\n            BundleInformation {\n              BundleName\n              BundleCode\n              Conditions\n              BonusEligible\n              BundleInformation {\n                Sequence\n                Quantity\n                Type\n                Rate\n              }\n            }\n            Data {\n              MaterialCode\n              Manufactured\n              MaterialDescription\n              DefaultMaterialDescription\n              GenericMaterialName\n              Manufactured\n              GovernmentMaterialCode\n            }\n            DataTotalCount\n            DataTotalHidden\n            HidePrice\n            IsGimmick\n          }\n        }\n      }\n    ",
+  "variables": {
+    "request": {
+      "After": 0,
+      "Customer": "0031124630",
+      "First": 24,
+      "Language": "",
+      "SalesOrg": "1501",
+      "ShipTo": "0073301657",
+      "principalCodeList": [
+        "0000140132"
+      ]
+    }
+  }
+}

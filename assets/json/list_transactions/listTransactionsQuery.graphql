@@ -1,0 +1,32 @@
+query ListTransactions($request: listTxnParams!) {
+  listTransactions(input: $request) {
+    TxnSummary {
+      id
+      customer
+      customerName
+      branch
+      branchName
+      paymentStatus
+      paymentMethodDisplay
+      amountDue
+      reference
+      createdOn
+      paidOn
+    }
+    totalCount
+  }
+}
+
+"variables":{
+  "request":{
+    "customer":"0000100224"
+    "first":15
+    "after":0
+    "createdStartDate":"20231020"
+    "createdEndDate":"20230914"
+    "search":"test",
+    "amountMin":10,
+    "amountMax":100,
+    "status":["expired"]
+    }
+}

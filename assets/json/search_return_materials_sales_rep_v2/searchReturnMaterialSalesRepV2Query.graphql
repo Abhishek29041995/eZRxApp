@@ -1,0 +1,123 @@
+fragment MaterialsFields on returnMaterialInformation {
+        item {
+          assignmentNumber
+          referenceDocument
+          purchaseNumberC
+          poMethod
+          createdDate
+          currency
+          plant
+          material
+          materialDescription
+          DefaultMaterialDescription
+          itemNumber
+          targetQuantity
+          storeLocation
+          batch
+          highLevelItemCode
+          orderReason
+          priceDate
+          unitPrice
+          totalPrice
+          principalCode
+          principalName
+          expiryDate
+          eligibleForReturn
+          schedules {
+            scheduledLine
+            requestDate
+          }
+          conditions {
+            conditionType
+            conditionValue
+          }
+          texts {
+            textID
+            textLine
+            language
+          }
+          suggestedPriceOverride
+          balanceQuantity
+          balanceValue
+          outsidePolicy
+          wareHouseStorageCondition
+          bonusItem {
+            assignmentNumber
+            referenceDocument
+            purchaseNumberC
+            poMethod
+            createdDate
+            currency
+            plant
+            material
+            materialDescription
+            itemNumber
+            targetQuantity
+            storeLocation
+            batch
+            highLevelItemCode
+            orderReason
+            priceDate
+            unitPrice
+            totalPrice
+            principalCode
+            principalName
+            expiryDate
+            eligibleForReturn
+            schedules {
+              scheduledLine
+              requestDate
+            }
+            conditions {
+              conditionType
+              conditionValue
+            }
+            texts {
+              textID
+              textLine
+              language
+            }
+            suggestedPriceOverride
+            balanceQuantity
+            balanceValue
+            outsidePolicy
+            wareHouseStorageCondition
+          }
+        }
+      }
+
+      fragment materialBasicInformation on materialBasicInfo {
+        salesOrg
+        partnerRole
+        partnerNumber
+      }
+
+      query searchReturnMaterialsForSalesRepV2(\$searchReturnMaterialsForSalesRepRequest: searchReturnMaterialsForSalesRepRequestV2!) {
+        searchReturnMaterialsForSalesRepV2(
+          request: \$searchReturnMaterialsForSalesRepRequest
+        ) {
+          isSearchComplete
+          materialBasicInformation {
+            ...materialBasicInformation
+          }
+          materials {
+            ...MaterialsFields
+          }
+          totalCount
+        }
+      }
+
+
+variables : {
+  "searchReturnMaterialsForSalesRepRequest": {
+    "soldTo": "0030082707",
+    "shipTo": "0070149863",
+    "salesOrg": "2001",
+    "first": 10,
+    "after": 0,
+    "language": "EN",
+    "dateFrom": "20230615",
+    "dateTo": "20231215",
+    "username": "testintsalesrep"
+  }
+}

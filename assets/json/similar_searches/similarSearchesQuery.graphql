@@ -1,0 +1,59 @@
+query (\$request: GetAllProductsRequest!) {
+  GetAllProducts(request: \$request) {
+    Count
+    Products {
+      Code
+      Name
+      PrincipalCode
+      materialNumber
+      materialDescription
+      Manufactured
+      IsFavourite
+      isFOCMaterial
+      ${enableMarketplace ? 'isMarketPlace' : ''}
+      materialGroup4
+      Type
+      HidePrice
+      BundleInformation {
+        BundleName
+        BundleCode
+        Conditions
+        BonusEligible
+        BundleInformation {
+          Sequence
+          Quantity
+          Type
+          Rate
+        }
+      }
+      Data {
+        Active
+        MaterialCode
+        Manufactured
+        MaterialDescription
+        DefaultMaterialDescription
+        GenericMaterialName
+        Manufactured
+        MaterialImageURL
+        GovernmentMaterialCode
+        ItemRegistrationNumber
+      }
+      DataTotalCount
+      DataTotalHidden
+      HidePrice
+      IsGimmick
+    }
+  }
+}
+
+variables:{
+    "request": {
+        "Customer": "0070149863",
+        "ShipTo": "0070149863",
+        "First": 4,
+        "After": 0,
+        "isGimmick": false,
+        "OrderByName": "asc",
+        "Language": "EN",
+    }
+}

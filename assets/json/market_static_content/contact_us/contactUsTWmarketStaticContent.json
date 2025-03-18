@@ -1,0 +1,26 @@
+{
+    "id": "4AA656CAC9634AF795BBB130C094F29C",
+    "title": {
+      "value": "聯絡我們"
+    },
+    "backgroundImage": {
+      "jsonValue": {
+        "value": {
+          "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit2.png",
+          "alt": "",
+          "width": "392",
+          "height": "552"
+        }
+      }
+    },
+    "content": {
+      "value": "<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\"><strong>服務時間</strong></span></p>\n<p><span style=\"line-height: 50%; font-size: 16px;\">&nbsp;</span></p>\n<p><span style=\"font-size: 14px; line-height: 150%;\">周一~周五 09:00AM~18:00PM</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px;\">有任何問題，請隨時與我們聯絡</span>&nbsp;</p>\n<p><span style=\"line-height: 50%; font-size: 16px;\">&nbsp;</span></p>\n<p><span style=\"line-height: 50%; font-size: 14px;\">Line @</span></p>\n<p><span style=\"line-height: 50%; font-size: 14px;\"><img height=\"200\" alt=\"Line QR Contact\" width=\"200\" src=\"https://ezrxassets.blob.core.windows.net/images/contactus-tw.png\" /></span></p>"
+    },
+    "preloginSendToEmail": {
+      "value": ""
+    },
+    "postloginSendToEmail": {
+      "value": ""
+    },
+    "saleOrgDictionary": null
+}

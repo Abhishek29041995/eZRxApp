@@ -1,0 +1,10 @@
+query deleteFavouriteMaterial($input: DeleteFavouriteMaterialInput\n!){
+    deleteFavouriteMaterial(input: $input) {
+        id
+    }
+}
+variables:{
+    "input":{
+        "id":"2876"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": "4AA656CAC9634AF795BBB130C094F29C",
+    "title": {
+      "value": "Contact us"
+    },
+    "backgroundImage": {
+      "jsonValue": {
+        "value": {
+          "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit2.png",
+          "alt": "",
+          "width": "392",
+          "height": "552"
+        }
+      }
+    },
+    "content": {
+      "value": "<p data-renderer-start-pos=\"44087\" style=\"color: #172b4d;  margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">Support Hours</p>\n<p data-renderer-start-pos=\"44102\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\"><strong data-renderer-mark=\"true\">24/7 Support (powered by eZZie)</strong></p>\n<p data-renderer-start-pos=\"44135\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">Chat with eZZie, our AI Chatbot on eZRx+</p>\n<p data-renderer-start-pos=\"44177\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\"><strong data-renderer-mark=\"true\">Customer Care Agents</strong></p>\n<p data-renderer-start-pos=\"44199\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">Monday to Friday: 8.30am - 5.15pm</p>\n<p data-renderer-start-pos=\"44234\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\"><em data-renderer-mark=\"true\">excluding Public Holidays</em></p>\n<p data-renderer-start-pos=\"44261\" style=\"color: #172b4d;  margin-top: 0.75rem; margin-right: 0px; margin-left: 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">Questions? Reach us at <a data-testid=\"link-with-safety\" href=\"mailto:SGCustomerCare@zuelligpharma.com\" title=\"mailto:SGCustomerCare@zuelligpharma.com\" data-renderer-mark=\"true\" class=\"cc-tgpl01\" style=\"color: var(--ds-link, #0052CC);\">SGCustomerCare@zuelligpharma.com</a></p>"
+    },
+    "preloginSendToEmail": {
+      "value": ""
+    },
+    "postloginSendToEmail": {
+      "value": ""
+    },
+    "saleOrgDictionary": null
+}

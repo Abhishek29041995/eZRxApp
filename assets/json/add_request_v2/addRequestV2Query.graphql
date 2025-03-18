@@ -1,0 +1,81 @@
+mutation addRequestV2($returnInput: returnInput!) {
+  addRequestV2(input: $returnInput) {
+    requestID
+    messages {
+      childRequestID
+      message {
+        type
+        number
+        message
+      }
+    }
+  }
+}
+
+variables: {
+  "returnInput": {
+      "soldToCustomer": "0030082707",
+      "username": "rootadmin",
+      "orderSource": "MRXS",
+      "invoiceDetails": [
+          {
+              "invoiceNumber": "1100001113",
+              "salesOrg": "2001",
+              "materials": [
+                  {
+                      "lineNumber": "000010",
+                      "materialNumber": "000000000021041790",
+                      "batch": "XAF068",
+                      "returnQuantity": 3,
+                      "returnType": "500",
+                      "returnReason": "T46",
+                      "remarks": "",
+                      "outsidePolicy": false,
+                      "url": [
+                         "d7a1d8e4bcbe788731bcba3c4f8c41491d01fed9f0cd52e9e3104d5fa556595d6fedfed1f0e54cf2903b0a797f27f7b9429e5f0b40d83e840258c70b16adbdd513b5c75a4c4720e463285b7a5e8fac7e8978d94be3bdd5e9bcb2ed48cc8e827a89740dd1bad33a06240b3f69c00352cc40cb85ec46a03d2e4857f00691834fe717f81d706b4e0f631d2296ecfcf8db66"
+                      ]
+                  },
+                  {
+                      "lineNumber": "000011",
+                      "materialNumber": "000000000021041790",
+                      "batch": "XAF068",
+                      "returnQuantity": 1,
+                      "returnType": "500",
+                      "returnReason": "T33",
+                      "remarks": "",
+                      "url": []
+                  }
+              ]
+          },
+          {
+              "invoiceNumber": "1100001117",
+              "salesOrg": "2001",
+              "materials": [
+                  {
+                      "lineNumber": "000010",
+                      "materialNumber": "000000000021041790",
+                      "batch": "XAF068",
+                      "returnQuantity": 1,
+                      "returnType": "500",
+                      "returnReason": "T24",
+                      "remarks": "",
+                      "outsidePolicy": false,
+                      "url": []
+                  },
+                  {
+                      "lineNumber": "000011",
+                      "materialNumber": "000000000021041790",
+                      "batch": "XAF068",
+                      "returnQuantity": 2,
+                      "returnType": "500",
+                      "returnReason": "T46",
+                      "remarks": "",
+                      "url": []
+                  }
+              ]
+          }
+      ],
+      "specialInstruction": "test Special instructions",
+      "purchaseNumberC": "test Return reference"
+  }
+}

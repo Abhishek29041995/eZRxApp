@@ -1,0 +1,276 @@
+{
+    "results": [
+        {
+          "id": "ctg-general-1",
+          "name": "Apa itu eZRx+?",
+          "displayName": "Apa itu eZRx+?",
+          "question": {
+            "value": "Apa itu eZRx+?"
+          },
+          "answer": {
+            "value": "Ezrx+ adalah platform kesehatan e-commerce B2B terbesar ASEAN. Pengalaman pembelian self-service yang mudah, pelanggan dapat memesan produk dan layanan kesehatan secara sederhana, cepat dan nyaman.dilengkapi dengan fitur yang ditingkatkan untuk menyenangkan Anda setiap waktu, mulai menggunakan ezrx+ hari ini untuk menghemat waktu, meningkatkan efisiensi dan memaksimalkan produktivitas. \r\n* Silakan hubungi perwakilan market tentang fitur yang tersedia"
+          },
+          "category": {
+            "id": "ctg-general",
+            "name": "Umum",
+            "displayName": "Umum"
+          }
+        },
+        {
+            "id": "ctg-general-2",
+            "name": "Apa saja keuntungan dari memakai eZRx+?",
+            "displayName": "Apa saja keuntungan dari memakai eZRx+?",
+            "question": {
+              "value": "Apa saja keuntungan dari memakai eZRx+?"
+            },
+            "answer": {
+              "value": "Dengan eZRx+, Anda sekarang dapat melakukan hal-hal berikut melalui proses layanan mandiri:\r\n- Memasukkan pesanan Anda kapan saja, di mana saja.\r\n- Lacak pesanan Anda dengan fitur `pelacakan langsung`.\r\n- Lihat semua riwayat pesanan sebelumnya dalam satu tempat.\r\n- Mudah memesan ulang hanya dengan sekali ketuk.\r\n- Lihat tanggal kedaluwarsa, ketersediaan stok, dan informasi produk lainnya dengan sekilas pandang.\r\nTetap up-to-date dengan penawaran terbaru yang dipersonalisasi khusus untuk Anda!"
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "Umum",
+              "displayName": "Umum"
+            }
+        },
+        {
+            "id": "ctg-general-3",
+            "name": "Produk apa saja yang dapat saya pesan?",
+            "displayName": "Produk apa saja yang dapat saya pesan?",
+            "question": {
+              "value": "Produk apa saja yang dapat saya pesan?"
+            },
+            "answer": {
+              "value": "Pesan dan jelajahi dari lebih dari 500 produsen perawatan kesehatan di Asia Tenggara."
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "Umum",
+              "displayName": "Umum"
+            }
+        },
+        {
+            "id": "ctg-general-4",
+            "name": "Bagaimana saya dapat mendaftar atau mencari tahu lebih banyak terkait eZRx+?",
+            "displayName": "Bagaimana saya dapat mendaftar atau mencari tahu lebih banyak terkait eZRx+?",
+            "question": {
+              "value": "Bagaimana saya dapat mendaftar atau mencari tahu lebih banyak terkait eZRx+?"
+            },
+            "answer": {
+              "value": "eZRx+ tersedia untuk semua pelanggan Zuellig Pharma. Jika Anda belum memiliki akun eZRx+, silakan hubungi perwakilan lokal Anda untuk mendaftar akun eZRx+. \r\nAlternatifnya, Anda dapat meninggalkan pertanyaan Anda di feedback@aplcare.com"
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "Umum",
+              "displayName": "Umum"
+            }
+        },
+        {
+            "id": "ctg-general-5",
+            "name": "Siapa yang dapat menggunakan eZRx+?",
+            "displayName": "Siapa yang dapat menggunakan eZRx+?",
+            "question": {
+              "value": "Siapa yang dapat menggunakan eZRx+?"
+            },
+            "answer": {
+              "value": "eZRx+ adalah platform e-commerce B2B yang dapat digunakan oleh pelanggan (misalnya, penyedia layanan kesehatan, pembeli B2B, dll) di industri kesehatan. "
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "Umum",
+              "displayName": "Umum"
+            }
+        },
+        {
+            "id": "ctg-general-6",
+            "name": "Di mana saja eZRx+ digunakan?",
+            "displayName": "Di mana saja eZRx+ digunakan?",
+            "question": {
+              "value": "Di mana saja eZRx+ digunakan?"
+            },
+            "answer": {
+              "value": "eZRx tersedia di 11 pasar di ASEAN: Singapura, Kamboja, Hong Kong, Indonesia, Korea, Malaysia, Myanmar, Filipina, Taiwan, Thailand, dan Vietnam."
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "Umum",
+              "displayName": "Umum"
+            }
+        },
+        {
+          "id": "ctg-ordering-1",
+          "name": "Bagaimana saya dapat mencari produk? Dan bagaimana saya dapat melakukan pemesanan?",
+          "displayName": "Bagaimana saya dapat mencari produk? Dan bagaimana saya dapat melakukan pemesanan?",
+          "question": {
+            "value": "Bagaimana saya dapat mencari produk? Dan bagaimana saya dapat melakukan pemesanan?"
+          },
+          "answer": {
+            "value": "1. Pilih alamat 'Pengiriman ke' Anda untuk memulai.\r\n2. Masukkan kata kunci pencarian di mesin pencari, temukan produk, dan tambahkan produk ke keranjang Anda. \r\n3. Sebagai alternatif, Anda juga dapat menjelajahi semua produk di halaman utama. \r\n4. Periksa detail pesanan sebelum mengklik Checkout."
+          },
+          "category": {
+            "id": "ctg-ordering",
+            "name": "Pemesanan",
+            "displayName": "Pemesanan"
+          }
+        },
+        {
+            "id": "ctg-ordering-2",
+            "name": "Bagaimana saya dapat melihat riwayat pemesanan?",
+            "displayName": "Bagaimana saya dapat melihat riwayat pemesanan?",
+            "question": {
+              "value": "Bagaimana saya dapat melihat riwayat pemesanan?"
+            },
+            "answer": {
+              "value": "1. Buka halaman Profil Anda dan klik Pesanan. \r\n2. Anda akan dapat melihat riwayat pesanan Anda berdasarkan item atau pesanan."
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Pemesanan",
+              "displayName": "Pemesanan"
+            }
+        },
+        {
+            "id": "ctg-ordering-3",
+            "name": "Saya belum mendapatkan pesanan saya, apa yang harus saya lakukan?",
+            "displayName": "Saya belum mendapatkan pesanan saya, apa yang harus saya lakukan?",
+            "question": {
+              "value": "Saya belum mendapatkan pesanan saya, apa yang harus saya lakukan?"
+            },
+            "answer": {
+              "value": "Anda dapat memeriksa status pesanan Anda di bawah Riwayat Pesanan : \r\n1. Buka halaman Profil Anda dan klik Pesanan. \r\n2. Anda akan dapat melihat riwayat pesanan Anda berdasarkan item atau pesanan."
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Pemesanan",
+              "displayName": "Pemesanan"
+            }
+        },
+        {
+            "id": "ctg-ordering-4",
+            "name": "Di mana saya dapat mencari produk dan penawaran?",
+            "displayName": "Di mana saya dapat mencari produk dan penawaran?",
+            "question": {
+              "value": "Di mana saya dapat mencari produk dan penawaran?"
+            },
+            "answer": {
+              "value": "Anda dapat memilih untuk menyaring produk dengan tag `Dalam Penawaran` untuk mengidentifikasi produk dengan promosi. Untuk detail tentang promosi, klik untuk melihat halaman detail material individu."
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Pemesanan",
+              "displayName": "Pemesanan"
+            }
+        },
+        {
+            "id": "ctg-ordering-5",
+            "name": "Di mana saya dapat mengubah detail produk (contoh: jumlah, alamat pengiriman)?",
+            "displayName": "Di mana saya dapat mengubah detail produk (contoh: jumlah, alamat pengiriman)?",
+            "question": {
+              "value": "Di mana saya dapat mengubah detail produk (contoh: jumlah, alamat pengiriman)?"
+            },
+            "answer": {
+              "value": "Secara default, Anda tidak dapat mengubah detail produk setelah Anda melakukan pemesanan.\r\nSilakan hubungi perwakilan lokal Anda jika Anda memerlukan bantuan lebih lanjut."
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Pemesanan",
+              "displayName": "Pemesanan"
+            }
+        },
+        {
+            "id": "ctg-ordering-6",
+            "name": "Bagaimana caranya membatalkan pesanan?",
+            "displayName": "Bagaimana caranya membatalkan pesanan?",
+            "question": {
+              "value": "Bagaimana caranya membatalkan pesanan?"
+            },
+            "answer": {
+              "value": "Pembatalan pesanan tidak diizinkan melalui situs web eZRx+. Silakan hubungi perwakilan lokal Anda untuk bantuan, di mana permintaan Anda akan dievaluasi."
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Pemesanan",
+              "displayName": "Pemesanan"
+            }
+        },
+        {
+            "id": "ctg-payment-1",
+            "name": "Bagaimana caranya melakukan pembayaran?",
+            "displayName": "Bagaimana caranya melakukan pembayaran?",
+            "question": {
+              "value": "Bagaimana caranya melakukan pembayaran?"
+            },
+            "answer": {
+              "value": "Anda dapat menggunakan modul Pembayaran di eZRx+ untuk memilih faktur yang ingin Anda bayar\r\nFitur dapat berbeda-beda dari pasar ke pasar, dan ini tidak tersedia untuk perwakilan penjualan. \r\nAnda juga dapat merujuk ke panduan pengguna kami baseURL/user-guide untuk informasi lebih lanjut."
+            },
+            "category": {
+              "id": "ctg-payment",
+              "name": "Pembayaran",
+              "displayName": "Pembayaran"
+            }
+        },
+        {
+            "id": "ctg-payment-2",
+            "name": "Mengapa pembayaran saya gagal?",
+            "displayName": "Mengapa pembayaran saya gagal?",
+            "question": {
+              "value": "Mengapa pembayaran saya gagal?"
+            },
+            "answer": {
+              "value": "Berikut beberapa alasan mungkin mengapa gateway pembayaran dapat gagal:\r\n- Konfigurasi gateway pembayaran yang salah.\r\n- Transaksi diblokir oleh akun merchant.\r\n- Kartu kredit/debit sudah kedaluwarsa.\r\n- Kartu kredit/debit telah dibatalkan.\r\n- Metode pembayaran online yang dipilih oleh pelanggan tidak didukung oleh gateway pembayaran.\r\n- Jika akun pelanggan ditandai oleh bank.\r\n- Jika akun melalui mana transaksi diinisiasi ditutup atau ditangguhkan.\r\n- Transaksi dengan kartu kredit yang melebihi limit.\r\n- Transaksi tidak dapat diotorisasi: OTP atau kata sandi yang salah."
+            },
+            "category": {
+              "id": "ctg-payment",
+              "name": "Pembayaran",
+              "displayName": "Pembayaran"
+            }
+        },
+        {
+            "id": "ctg-payment-3",
+            "name": "Bagaimana saya tahu jika pembayaran saya berhasil?",
+            "displayName": "Bagaimana saya tahu jika pembayaran saya berhasil?",
+            "question": {
+              "value": "Bagaimana saya tahu jika pembayaran saya berhasil?"
+            },
+            "answer": {
+              "value": "Di tab Ringkasan Pembayaran Anda, Anda akan melihat status pembayaran, sesuai dengan status yang telah diperbaharui dari `Sedang Berlangsung` menjadi `Selesai`. \r\nHarap dicatat bahwa sistem membutuhkan waktu untuk menampilkan status terbaru"
+            },
+            "category": {
+              "id": "ctg-payment",
+              "name": "Pembayaran",
+              "displayName": "Pembayaran"
+            }
+        },
+        {
+            "id": "ctg-other-1",
+            "name": "Bagaimana saya dapat mempromosikan produk-produk saya di eZRx+?",
+            "displayName": "Bagaimana saya dapat mempromosikan produk-produk saya di eZRx+?",
+            "question": {
+              "value": "Bagaimana saya dapat mempromosikan produk-produk saya di eZRx+?"
+            },
+            "answer": {
+              "value": "Anda dapat mempromosikan produk Anda melalui banner yang tersedia di eZRx+. \r\nHubungi sales@ezrx.com untuk informasi lebih lanjut."
+            },
+            "category": {
+              "id": "ctg-other",
+              "name": "Lain-Lain",
+              "displayName": "Lain-Lain"
+            }
+        },
+        {
+            "id": "ctg-other-2",
+            "name": "Di mana saya dapat mencari tahu lebih banyak tentang cara menggunakan eZRx+?",
+            "displayName": "Di mana saya dapat mencari tahu lebih banyak tentang cara menggunakan eZRx+?",
+            "question": {
+              "value": "Di mana saya dapat mencari tahu lebih banyak tentang cara menggunakan eZRx+?"
+            },
+            "answer": {
+              "value": "Pemesanan : baseURL/user-guide\r\nPembayaran : baseURL/user-guide"
+            },
+            "category": {
+                "id": "ctg-other",
+                "name": "Lain-Lain",
+                "displayName": "Lain-Lain"
+            }
+        }
+    ]
+}

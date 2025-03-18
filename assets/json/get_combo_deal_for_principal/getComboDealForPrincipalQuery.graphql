@@ -1,0 +1,9 @@
+{
+  "query": "      query comboDealForPrincMatGrp(\n        $salesOrg: String!\n        $customerCode: String!\n        $salesDeal: String!\n        $flexibleGroup: String!\n      ) {\n        comboDealForPrincMatGrp(\n          salesOrg: $salesOrg\n          customerCode: $customerCode\n          salesDeal: $salesDeal\n          flexibleGroup: $flexibleGroup\n        ) {\n            flexiGroupCombo {\n              type      \n              value      \n              minQty      \n              setNo    \n            }    \n            flexiTierRule {      \n              rate      \n              type      \n              minTotalAmount      \n              maxTotalAmount      \n              minTotalCurrency      \n              maxTotalCurrency      \n              minQty      \n              conditionNumber      \n              conditions    \n            }  \n          }\n       }\n    ",
+  "variables": {
+    "salesOrg": "1501",
+    "customerCode": "0031124630",
+    "salesDeal": "0040000050",
+    "flexibleGroup": "5000000049"
+  }
+}

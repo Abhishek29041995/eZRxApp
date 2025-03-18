@@ -1,0 +1,26 @@
+{
+    "id": "4AA656CAC9634AF795BBB130C094F29C",
+    "title": {
+      "value": "Liên hệ"
+    },
+    "backgroundImage": {
+      "jsonValue": {
+        "value": {
+          "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit2.png",
+          "alt": "",
+          "width": "392",
+          "height": "552"
+        }
+      }
+    },
+    "content": {
+      "value": "<p data-renderer-start-pos=\"45046\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">Thời gian hỗ trợ</p>\n<p data-renderer-start-pos=\"45064\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">Thứ 2 đến thứ 6: từ 8 giờ s&aacute;ng đến 5 giờ 30 tối</p>\n<p data-renderer-start-pos=\"45113\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">Nếu bạn c&oacute; c&acirc;u hỏi, vui l&ograve;ng li&ecirc;n hệ Trung t&acirc;m Dịch Vụ Kh&aacute;ch H&agrave;ng</p>\n<p data-renderer-start-pos=\"45180\" style=\"color: #172b4d;  margin-top: 0.75rem; margin-right: 0px; margin-left: 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">1800 5555 58</p>"
+    },
+    "preloginSendToEmail": {
+      "value": ""
+    },
+    "postloginSendToEmail": {
+      "value": ""
+    },
+    "saleOrgDictionary": null
+}

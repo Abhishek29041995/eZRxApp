@@ -1,0 +1,33 @@
+{
+    "data": {
+        "materialDetails": {
+            "materialNumber": "000000000021041773",
+            "materialDescription": "190 BIOTENE D/MOUTHT/PASTE FM ORI 4.5OZ",
+            "principalCode": "0000101334",
+            "principalName": "GLAXOSMITHKLINE CONSUMER",
+            "unitOfMeasurement": "EA",
+            "therapeuticClass": "Toothpastes",
+            "genericMaterialName": "190 BIOTENE D/MOUTH T/PASTE FM ORI 4.5OZ",
+            "itemBrand": "190 BIOTENE D/MOUTH",
+            "materialBrand": "",
+            "isFavourite": false,
+            "warehouseStorageCondition": "AC",
+            "defaultMaterialDescription": "190 BIOTENE D/MOUTHT/PASTE FM ORI 4.5OZ",
+            "isMarketplaceProduct": false,
+            "country": "US",
+            "countryName": "USA",
+            "hidePrice": false,
+            "governmentMaterialCode": "",
+            "itemRegistrationNumber": "NOT110104420K",
+            "suspensionStatus": false,
+            "promoStatus": false,
+            "promoType": "",
+            "isMarketPlace": true,
+            "hasMandatoryTenderContract": true,
+            "hasValidTenderContract": true,
+            "isSampleMaterial": false,
+            "isGimmick": true,
+            "isPoison": true
+        }
+    }
+}

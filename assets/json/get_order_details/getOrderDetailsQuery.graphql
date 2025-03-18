@@ -1,0 +1,131 @@
+query orderHistoryQuery($soldTo: String!, $language: String, $searchKey: String, $salesOrg: [String], $isDetailsPage: Boolean) {
+  orderHistoryV3(
+    request: {soldTo: $soldTo, language: $language, searchKey: $searchKey, salesOrg: $salesOrg, isDetailsPage: $isDetailsPage}
+  ) {
+    orderCount
+    creatingOrderIds
+    orderHeaders {
+      Type
+      OrderNumber
+      EZRXNumber
+      SoldTo
+      ShipTo
+      ShipToAddres
+      SoldToAddress
+      CompanyName
+      OrderValue
+      DeliveryFee
+      ManualFee
+      ProcessingStatus
+      CreatedDate
+      CreatedTime
+      RequestedDeliveryDate
+      ExpectedDeliveryDate
+      OrderBy
+      TelephoneNumber
+      POReference
+      TotalTax
+      TaxRate
+      ReferenceNotes
+      TotalValue
+      SpecialInstructions
+      PaymentMethod
+      InvoiceNumber
+      PaymentTerm
+      ItmCount
+      HasPOAttachment
+      ItmDescription
+      PODocuments {
+        Url
+        Name
+      }
+      CustomerHolidays {
+        Monday
+        Tuesday
+        Wednesday
+        Thursday
+        Friday
+        Saturday
+        Sunday
+      }
+      OrderItems {
+        isCounterOffer
+        Type
+        MaterialCode
+        MaterialDescription
+        DefaultMaterialDescription
+        Qty
+        PickedQuantity
+        UnitPrice
+        TotalUnitPrice
+        TotalPrice
+        LineReferenceNotes
+        Batch
+        ExpiryDate
+        SAPStatus
+        Tax
+        TotalTax
+        TaxRate
+        taxClassification
+        ParentID
+        PlannedDeliveryDate
+        PrincipalName
+        PrincipalCode
+        ProductType
+        ItemBrand
+        HidePrice
+        mrp
+        promotype
+        promoStatus
+        isMarketPlace
+        isCovid
+        Batches {
+          BatchNumber
+          ExpiryDate
+        }
+        Details {
+          DiscountCode
+          DiscountDescription
+          Rate
+        }
+        WarehouseStorageCondition
+        GovernmentMaterialCode
+        ItemRegistrationNumber
+        IsTenderContractMaterial
+        TenderContractDetails {
+          ContractNumber
+          isTenderExpire
+          OrderReason
+          Price
+          PriceUnit
+          ContractQuantity
+          RemainingQuantity
+          ExpiryDate
+          ContractReference
+          VisaNumber
+          SalesDistrict
+          AnnouncementLetterNumber
+        }
+      }
+      OrderHolidays {
+        Monday
+        Tuesday
+        Wednesday
+        Thursday
+        Friday
+        Saturday
+        Sunday
+      }
+      IsGreen
+    }
+  }
+}
+
+{
+  "soldTo": "0030082707",
+  "searchKey": "0200267147",
+  "language": "EN",
+  "salesOrg": [
+    "2001"
+  ]
+}

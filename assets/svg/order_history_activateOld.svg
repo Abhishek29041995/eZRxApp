@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>round_btn_sm_order_history_onclick</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#00555B" offset="0%"></stop>
+            <stop stop-color="#008E93" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="round_btn_sm_order_history_onclick_with_text" transform="translate(-7.000000, 0.000000)">
+            <g id="round_btn_sm_order_history_onclick" transform="translate(7.000000, 0.000000)">
+                <g id="round_btn_sm" fill="url(#linearGradient-1)">
+                    <circle id="Oval" cx="15" cy="15" r="15"></circle>
+                </g>
+                <g id="order_history_icon_white" transform="translate(7.000000, 6.000000)" stroke-width="1">
+                    <g id="order_history_icon">
+                        <path d="M13.3,0 C14.4045695,7.78148667e-16 15.3,0.8954305 15.3,2 L15.3008886,9.93202722 C15.1536343,9.91092127 15.0030925,9.9 14.85,9.9 C13.110303,9.9 11.7,11.310303 11.7,13.05 C11.7,14.789697 13.110303,16.2 14.85,16.2 C15.0003186,16.2 15.1481781,16.1894709 15.292881,16.16911 C15.208016,17.1936739 14.3481718,18 13.3,18 L2,18 C0.8954305,18 1.3527075e-16,17.1045695 0,16 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 L13.3,0 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                        <rect id="Rectangle" stroke="#00555B" x="7.7" y="5.9" width="3.5" height="1" rx="0.5"></rect>
+                        <rect id="Rectangle" stroke="#00555B" x="7.7" y="10.4" width="3.5" height="1" rx="0.5"></rect>
+                        <rect id="Rectangle" stroke="#00555B" x="7.7" y="14.9" width="3.05" height="1" rx="0.5"></rect>
+                        <rect id="Rectangle" stroke="#00555B" x="7.7" y="4.1" width="5.3" height="1" rx="0.5"></rect>
+                        <rect id="Rectangle" stroke="#00555B" x="7.7" y="8.6" width="5.3" height="1" rx="0.5"></rect>
+                        <rect id="Rectangle" stroke="#00555B" x="7.7" y="13.1" width="2.6" height="1" rx="0.5"></rect>
+                        <path d="M5.4,4.95 C5.4,5.69558441 4.79558441,6.3 4.05,6.3 C3.30441559,6.3 2.7,5.69558441 2.7,4.95 C2.7,4.20441559 3.30441559,3.6 4.05,3.6 C4.20914818,3.6 4.36186432,3.62753882 4.50364309,3.67811113" id="Path" stroke="#00555B" stroke-linecap="round"></path>
+                        <path d="M5.4,9.45 C5.4,10.1955844 4.79558441,10.8 4.05,10.8 C3.30441559,10.8 2.7,10.1955844 2.7,9.45 C2.7,8.70441559 3.30441559,8.1 4.05,8.1 C4.20914818,8.1 4.36186432,8.12753882 4.50364309,8.17811113" id="Path" stroke="#00555B" stroke-linecap="round"></path>
+                        <path d="M5.4,13.95 C5.4,14.6955844 4.79558441,15.3 4.05,15.3 C3.30441559,15.3 2.7,14.6955844 2.7,13.95 C2.7,13.2044156 3.30441559,12.6 4.05,12.6 C4.20914818,12.6 4.36186432,12.6275388 4.50364309,12.6781111" id="Path" stroke="#00555B" stroke-linecap="round"></path>
+                        <path d="" id="Rectangle" stroke="#FFFFFF" transform="translate(15.676093, 13.304156) rotate(-181.000000) translate(-15.676093, -13.304156) "></path>
+                        <path d="" id="Rectangle" stroke="#FFFFFF" transform="translate(14.395578, 13.771547) rotate(-404.000000) translate(-14.395578, -13.771547) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

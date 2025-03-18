@@ -1,0 +1,91 @@
+{
+    "data":{
+       "user":{
+          "id":"7725",
+          "username":"vwong",
+          "email":"vwong@zuelligpharma.com",
+          "provider":"local",
+          "confirmed":false,
+          "blocked":false,
+          "role":{
+             "id":"8",
+             "name":"Internal Sales Rep",
+             "type": "internal_sales_rep",
+             "description":"Internal Sales Representative"
+          },
+          "initialLogin":true,
+          "customerCode":"-",
+          "accessRight":{
+             "Users":true,
+             "Orders":true,
+             "Promos":false,
+             "HCPHUB":false,
+             "Products":false,
+             "Services":false,
+             "Analytics":false,
+             "LoyaltyScheme":false
+          },
+          "salesOrganization":"",
+          "firstName":"Valerie",
+          "lastName":"Wong",
+          "adName":"vwong",
+          "isFromAD":true,
+          "shipToAddr":"",
+          "salesOrganizationTwo":"",
+          "customerCodeTwo":"",
+          "shipToAddrTwo":"",
+          "customerCodeSet":{
+             "value":[
+                
+             ]
+          },
+          "customerCodeSetTwo":{
+             "value":[
+                
+             ]
+          },
+          "lastLogin":"2022-02-10T14:34:05Z",
+          "acceptTC":false,
+          "acceptMobileTC":false,
+          "mobileNumber":"-",
+          "countryCode":"-",
+          "optIn":false,
+          "optInTimestamp":"",
+          "totp2fa":false,
+          "totpSecret":"",
+          "hasPriceOverride":false,
+          "hasBonusOverride":false,
+          "principalOverrideList":"",
+          "mobileAccess":true,
+          "disable2fa":false,
+          "emailNotifications":true,
+          "mobileNotifications":false,
+          "acceptPrivacyPolicy":true,
+          "acceptPrivacyPolicyTime":"2021-12-20T07:22:01Z",
+          "privacyPolicyAcceptedPlatform":"mobile",
+          "mobileToken":[
+             
+          ],
+          "passwordLastUpdate":"",
+          "passwordLastRetained":"",
+          "languagePreference":"EN",
+          "userSalesOrganisationList":[
+            {
+               "SalesOrg":"2001",
+               "CustomerCode":"all",
+               "ShipToCode":[
+                  "all"
+               ]
+            }
+         ],
+          "passwordActionName":"Do It Later",
+          "passwordActionTime":"2021-12-16T08:15:26.846Z",
+          "disablePaymentAccess":true,
+          "disableCreateOrder":false,
+          "disableReturns":false,
+          "createdAt":"2021-09-08T06:58:40.426Z",
+          "updatedAt":"2022-02-10T14:34:05Z",
+          "enableOrderType":true
+       }
+    }
+ }

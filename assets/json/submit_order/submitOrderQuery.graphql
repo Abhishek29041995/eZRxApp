@@ -1,0 +1,52 @@
+mutation submitOrderMutation($order: NewOrderTwoInput!){
+    submitOrderTwo(order: $order) {
+        SalesDocument
+        Messages {
+          Type
+          Message
+        }
+    }
+}
+
+variable:
+{
+  "order": {
+    "username": "Joseph Stalin",
+    "companyName": "ZPC Canlubang Plant   ",
+    "customer": {
+      "customerNumber": "0000002510",
+      "customerNumberShipTo": "0000002510",
+      "salesOrganisation": "2500",
+      "division": "00"
+    },
+    "POReference": "",
+    "materials": [
+      {
+        "materialNumber": "000000000023001758",
+        "qty": 1,
+        "bonuses": [],
+        "override": {
+          "reference": ""
+        },
+        "isCounterOffer": false,
+        "comment": "",
+        "batch": null,
+        "salesDistrict": null
+      }
+    ],
+    "PODate": "2022-11-30",
+    "RequestedDeliveryDate": "2022-11-30",
+    "specialInstructions": "",
+    "PurchaseOrderType": "MRXC",
+    "orderType": "ZPOR",
+    "orderReason": "",
+    "shippingCondition": "",
+    "telephone": "",
+    "referenceNotes": "",
+    "paymentTerms": "",
+    "collectiveNumber": "",
+    "subscribeStatusChange": true,
+    "trackingLevel": "items",
+    "blockOrder": false
+  }
+}

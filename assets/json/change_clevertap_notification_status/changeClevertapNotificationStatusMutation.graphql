@@ -1,0 +1,10 @@
+mutation changeClevertapNotificationStatus($notificationId: Int!) {
+  changeClevertapNotificationStatus(input: {notificationId: $notificationId}) {
+    message
+
+  }
+}
+
+Variable:{
+  "notificationId": 16198
+}

@@ -1,0 +1,223 @@
+{
+    "data": {
+        "requestsByItems": {
+            "returnRequestsByItems": [
+                {
+                    "requestDate": "20230615",
+                    "requestByItems": [
+                        {
+                            "prsfd": "B",
+                            "requestId": "EZRE-200123000750",
+                            "requestDate": "20230615",
+                            "itemQty": "1",
+                            "totalPrice": "23.00",
+                            "status": "PENDING",
+                            "materialNumber": "000000000021041790",
+                            "materialName": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "DefaultMaterialDescription": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "orderNumber": "0200216360",
+                            "invoiceID": "1100001109",
+                            "customerName": "RSD HOSPITALS SDN BHD (SJMC)",
+                            "batch": "XAF068",
+                            "outsidePolicy": true,
+                            "expiry": "20170531",
+                            "lineItemNumber": "0000011",
+                            "wareHouseStorageCondition": "AC"
+                        },
+                        {
+                            "prsfd": "X",
+                            "requestId": "EZRE-200123000750",
+                            "requestDate": "20230615",
+                            "itemQty": "1",
+                            "totalPrice": "0.00",
+                            "status": "PENDING",
+                            "materialNumber": "000000000021041790",
+                            "materialName": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "DefaultMaterialDescription": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "orderNumber": "0200216360",
+                            "invoiceID": "1100001109",
+                            "customerName": "RSD HOSPITALS SDN BHD (SJMC)",
+                            "batch": "XAF068",
+                            "outsidePolicy": false,
+                            "expiry": "20170531",
+                            "lineItemNumber": "0000010",
+                            "wareHouseStorageCondition": "AC"
+                        },
+                        {
+                            "prsfd": "X",
+                            "requestId": "EZRE-200123000749",
+                            "requestDate": "20230615",
+                            "itemQty": "1",
+                            "totalPrice": "78.00",
+                            "status": "PENDING",
+                            "materialNumber": "000000000021040129",
+                            "materialName": "VFENDTAB50MG10'S",
+                            "DefaultMaterialDescription": "VFENDTAB50MG10'S",
+                            "orderNumber": "0200215998",
+                            "invoiceID": "1100001104",
+                            "customerName": "RSD HOSPITALS SDN BHD (SJMC)",
+                            "batch": "C10527042",
+                            "outsidePolicy": false,
+                            "expiry": "20251101",
+                            "isMarketPlace": true,
+                            "lineItemNumber": "0000010",
+                            "wareHouseStorageCondition": "AC"
+                        },
+                        {
+                            "prsfd": "X",
+                            "requestId": "EZRE-200123000748",
+                            "requestDate": "20230615",
+                            "itemQty": "2",
+                            "totalPrice": "0.00",
+                            "status": "PENDING",
+                            "materialNumber": "000000000021041790",
+                            "materialName": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "DefaultMaterialDescription": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "orderNumber": "0200216360",
+                            "invoiceID": "1100001109",
+                            "customerName": "RSD HOSPITALS SDN BHD (SJMC)",
+                            "batch": "XAF068",
+                            "outsidePolicy": false,
+                            "expiry": "20170531",
+                            "lineItemNumber": "0000020",
+                            "wareHouseStorageCondition": "SC"
+                        },
+                        {
+                            "prsfd": "X",
+                            "requestId": "EZRE-200123000748",
+                            "requestDate": "20230615",
+                            "itemQty": "4",
+                            "totalPrice": "45.00",
+                            "status": "PENDING",
+                            "materialNumber": "000000000021041790",
+                            "materialName": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "DefaultMaterialDescription": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "orderNumber": "0200216360",
+                            "invoiceID": "1100001109",
+                            "customerName": "RSD HOSPITALS SDN BHD (SJMC)",
+                            "batch": "XAF068",
+                            "outsidePolicy": false,
+                            "expiry": "20170531",
+                            "lineItemNumber": "0000030",
+                            "wareHouseStorageCondition": "NT"
+                        }
+                    ]
+                },
+                {
+                    "requestDate": "20230613",
+                    "requestByItems": [
+                        {
+                            "prsfd": "X",
+                            "requestId": "EZRE-200123000735",
+                            "requestDate": "20230613",
+                            "itemQty": "1",
+                            "totalPrice": "0.00",
+                            "status": "PENDING",
+                            "materialNumber": "000000000021041790",
+                            "materialName": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "DefaultMaterialDescription": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "orderNumber": "0200216360",
+                            "invoiceID": "1100001109",
+                            "customerName": "RSD HOSPITALS SDN BHD (SJMC)",
+                            "batch": "XAF068",
+                            "outsidePolicy": false,
+                            "expiry": "20170531",
+                            "lineItemNumber": "0000010",
+                            "wareHouseStorageCondition": "NA"
+                        },
+                        {
+                            "prsfd": "X",
+                            "requestId": "EZRE-200123000735",
+                            "requestDate": "20230613",
+                            "itemQty": "2",
+                            "totalPrice": "22.50",
+                            "status": "APPROVED",
+                            "materialNumber": "000000000021041790",
+                            "materialName": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "DefaultMaterialDescription": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "orderNumber": "0200216360",
+                            "invoiceID": "1100001109",
+                            "customerName": "RSD HOSPITALS SDN BHD (SJMC)",
+                            "batch": "XAF068",
+                            "outsidePolicy": false,
+                            "expiry": "20170531",
+                            "lineItemNumber": "0000011",
+                            "wareHouseStorageCondition": "FZ"
+                        }
+                    ]
+                },
+                {
+                    "requestDate": "20230612",
+                    "requestByItems": [
+                        {
+                            "prsfd": "X",
+                            "requestId": "EZRE-200123000734",
+                            "requestDate": "20230612",
+                            "itemQty": "1",
+                            "totalPrice": "15.00",
+                            "status": "PENDING",
+                            "materialNumber": "000000000021041790",
+                            "materialName": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "DefaultMaterialDescription": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "orderNumber": "0200216360",
+                            "invoiceID": "1100001109",
+                            "customerName": "RSD HOSPITALS SDN BHD (SJMC)",
+                            "batch": "XAF068",
+                            "outsidePolicy": false,
+                            "expiry": "20170531",
+                            "lineItemNumber": "0000010",
+                            "wareHouseStorageCondition": "DF"
+                        },
+                        {
+                            "prsfd": "X",
+                            "requestId": "EZRE-200123000734",
+                            "requestDate": "20230612",
+                            "itemQty": "1",
+                            "totalPrice": "0.00",
+                            "status": "PENDING",
+                            "materialNumber": "000000000021041790",
+                            "materialName": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "DefaultMaterialDescription": "190 BREATH RIGHT KIDS 1 2'S-6",
+                            "orderNumber": "0200216360",
+                            "invoiceID": "1100001109",
+                            "customerName": "RSD HOSPITALS SDN BHD (SJMC)",
+                            "batch": "XAF068",
+                            "outsidePolicy": false,
+                            "expiry": "20170531",
+                            "lineItemNumber": "0000011",
+                            "wareHouseStorageCondition": "CO"
+                        }
+                    ]
+                },
+                {
+                    "requestDate": "20230529",
+                    "requestByItems": [
+                        {
+                            "prsfd": "X",
+                            "requestId": "EZRE-200123000608",
+                            "requestDate": "20230529",
+                            "itemQty": "10",
+                            "totalPrice": "4028.00",
+                            "status": "PENDING",
+                            "materialNumber": "000000000021040129",
+                            "materialName": "VFENDTAB50MG10'S",
+                            "DefaultMaterialDescription": "",
+                            "orderNumber": "0200215998",
+                            "invoiceID": "1100001104",
+                            "customerName": "RSD HOSPITALS SDN BHD (SJMC)",
+                            "batch": "C10527042",
+                            "outsidePolicy": false,
+                            "expiry": "20251101",
+                            "lineItemNumber": "0000010",
+                            "wareHouseStorageCondition": "AM"
+                        }
+                    ]
+                }
+            ],
+            "totalCount": 54
+        }
+    },
+    "extensions": {
+        "traceId": "e9132caaa2c7478f8be7f128478cd6c1"
+    }
+}

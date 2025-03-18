@@ -1,0 +1,63 @@
+{
+    "operationName": "customerDocumentHeader",
+    "variables": {
+        "input": {
+            "customerCode": "0000100120",
+            "salesOrg": "2001",
+            "first": 10,
+            "after": 0,
+            "excelFor": "Debit",
+            "orderBy": [
+                {
+                    "order": "desc",
+                    "field": "documentDate"
+                }
+            ],
+            "filterBy": [
+                {
+                    "field": "debitCreditCode",
+                    "value": "S"
+                },
+                {
+                    "field": "documentDate",
+                    "value": "2023-05-02",
+                    "type": "ge"
+                },
+                {
+                    "field": "documentDate",
+                    "value": "2023-06-13",
+                    "type": "le"
+                },
+                {
+                    "field": "netDueDate",
+                    "value": "2023-04-30",
+                    "type": "ge"
+                },
+                {
+                    "field": "netDueDate",
+                    "value": "2023-05-03",
+                    "type": "le"
+                },
+                {
+                    "field": "amountInTransactionCurrency",
+                    "value": "1.00",
+                    "type": "ge"
+                },
+                {
+                    "field": "amountInTransactionCurrency",
+                    "value": "10.00",
+                    "type": "le"
+                },
+                {
+                    "field": "invoiceProcessingStatus",
+                    "value": "In progress"
+                },
+                {
+                    "field": "accountingDocument",
+                    "value": "2639136"
+                }
+            ]
+        }
+    },
+    "query": "query customerDocumentHeader($input: customerDocumentHeaderRequest!) {   customerDocumentHeader(request: $input) {     documentHeaderList {   bpCustomerNumber fiscalYear  accountingDocumentItem   netDueDate  referenceDocumentNumber  postingDate  amountInTransactionCurrency  invoiceReference  invoiceProcessingStatus   accountingDocumentType  accountingDocument  postingKeyName  debitCreditCode  referenceId   }        } } "
+}

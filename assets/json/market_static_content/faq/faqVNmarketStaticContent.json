@@ -1,0 +1,276 @@
+{
+    "results": [
+        {
+          "id": "ctg-general-1",
+          "name": "eZRx+ là gì?",
+          "displayName": "eZRx+ là gì?",
+          "question": {
+            "value": "eZRx+ là gì?"
+          },
+          "answer": {
+            "value": "eZRx+ là nền tảng chăm sóc sức khỏe thương mại điện tử B2B từng đoạt giải thưởng lớn nhất ASEAN.\r\nTrải nghiệm mua hàng tự phục vụ liền mạch, khách hàng có thể đặt hàng, trả lại* và thanh toán* cho các sản phẩm và dịch vụ chăm sóc sức khỏe theo những cách đơn giản, nhanh chóng và thuận tiện.\r\nĐược trang bị các tính năng nâng cao giúp bạn luôn hài lòng, hãy bắt đầu sử dụng eZRx+ ngay hôm nay để tiết kiệm thời gian, tăng hiệu quả và tối đa hóa năng suất.\r\n*Vui lòng kiểm tra với đại diện thị trường về các tính năng có sẵn"
+          },
+          "category": {
+            "id": "ctg-general",
+            "name": "Câu hỏi chung",
+            "displayName": "Câu hỏi chung"
+          }
+        },
+        {
+            "id": "ctg-general-2",
+            "name": "Lợi ích của việc sử dụng eZRx+ là gì?",
+            "displayName": "Lợi ích của việc sử dụng eZRx+ là gì?",
+            "question": {
+              "value": "Lợi ích của việc sử dụng eZRx+ là gì?"
+            },
+            "answer": {
+              "value": "Với eZRx+, giờ đây bạn có thể thực hiện những việc sau thông qua quy trình tự phục vụ:\r\n- Đặt hàng mọi lúc, mọi nơi\r\n- Theo dõi đơn hàng của bạn với tính năng “theo dõi trực tiếp”\r\n- Xem tất cả lịch sử đặt hàng trước đây ở một nơi\r\n- Đặt hàng lại dễ dàng chỉ bằng một nút bấm\r\n- Xem nhanh ngày hết hạn, tình trạng còn hàng và thông tin sản phẩm khác trong nháy mắt\r\nLuôn cập nhật những ưu đãi mới nhất, được cá nhân hóa dành riêng cho bạn!"
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "Câu hỏi chung",
+              "displayName": "Câu hỏi chung"
+            }
+        },
+        {
+            "id": "ctg-general-3",
+            "name": "Tôi có thể đặt mua những sản phẩm nào?",
+            "displayName": "Tôi có thể đặt mua những sản phẩm nào?",
+            "question": {
+              "value": "Tôi có thể đặt mua những sản phẩm nào?"
+            },
+            "answer": {
+              "value": "Đặt hàng và duyệt từ hơn 500 nhà sản xuất chăm sóc sức khỏe ở Đông Nam Á"
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "Câu hỏi chung",
+              "displayName": "Câu hỏi chung"
+            }
+        },
+        {
+            "id": "ctg-general-4",
+            "name": "Làm cách nào để đăng ký hoặc tìm hiểu thêm về eZRx+?",
+            "displayName": "Làm cách nào để đăng ký hoặc tìm hiểu thêm về eZRx+?",
+            "question": {
+              "value": "Làm cách nào để đăng ký hoặc tìm hiểu thêm về eZRx+?"
+            },
+            "answer": {
+              "value": "eZRx+ có sẵn cho tất cả khách hàng hiện tại của Zuellig Pharma.\r\nNếu bạn chưa có tài khoản với chúng tôi, vui lòng liên hệ với đại diện thị trường địa phương của bạn để đăng ký tài khoản eZRx+.\r\nNgoài ra, bạn có thể để lại câu hỏi của mình trên Biểu mẫu liên hệ với chúng tôi baseURL/contact-us."
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "Câu hỏi chung",
+              "displayName": "Câu hỏi chung"
+            }
+        },
+        {
+            "id": "ctg-general-5",
+            "name": "Ai có thể sử dụng/truy cập eZRx+?",
+            "displayName": "Ai có thể sử dụng/truy cập eZRx+?",
+            "question": {
+              "value": "Ai có thể sử dụng/truy cập eZRx+?"
+            },
+            "answer": {
+              "value": "eZRx+ là nền tảng Thương mại điện tử B2B có thể được sử dụng bởi các đại diện bán hàng và khách hàng (ví dụ: nhà cung cấp dịch vụ chăm sóc sức khỏe, người mua B2B, v.v.) trong ngành chăm sóc sức khỏe."
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "Câu hỏi chung",
+              "displayName": "Câu hỏi chung"
+            }
+        },
+        {
+            "id": "ctg-general-6",
+            "name": "eZRx+ có sẵn ở đâu?",
+            "displayName": "eZRx+ có sẵn ở đâu?",
+            "question": {
+              "value": "eZRx+ có sẵn ở đâu?"
+            },
+            "answer": {
+              "value": "eZRx có mặt tại 11 thị trường trong ASEAN: Singapore, Campuchia, Hồng Kông, Indonesia, Hàn Quốc, Malaysia, Myanmar, Philippines, Đài Loan, Thái Lan và Việt Nam"
+            },
+            "category": {
+              "id": "ctg-general",
+              "name": "Câu hỏi chung",
+              "displayName": "Câu hỏi chung"
+            }
+        },
+        {
+            "id": "ctg-general-7",
+            "name": "Làm cách nào để quảng cáo sản phẩm của tôi trên eZRx+?",
+            "displayName": "Làm cách nào để quảng cáo sản phẩm của tôi trên eZRx+?",
+            "question": {
+              "value": "Làm cách nào để quảng cáo sản phẩm của tôi trên eZRx+?"
+            },
+            "answer": {
+              "value": "Bạn có thể quảng cáo sản phẩm của mình thông qua các khoảng trống biểu ngữ có sẵn trên eZRx+. Liên hệ cskh@ezrx.com.vn để biết thêm thông tin."
+            },
+            "category": {
+                "id": "ctg-general",
+                "name": "Câu hỏi chung",
+                "displayName": "Câu hỏi chung"
+            }
+        },
+        {
+            "id": "ctg-general-8",
+            "name": "Tôi có thể lấy thêm thông tin về cách sử dụng eZRx+ ở đâu?",
+            "displayName": "Tôi có thể lấy thêm thông tin về cách sử dụng eZRx+ ở đâu?",
+            "question": {
+              "value": "Tôi có thể lấy thêm thông tin về cách sử dụng eZRx+ ở đâu?"
+            },
+            "answer": {
+              "value": "Đặt hàng: baseURL/user-guide\r\nTrả hàng: baseURL/user-guide\r\nThanh toán: baseURL/user-guide"
+            },
+            "category": {
+                "id": "ctg-general",
+                "name": "Câu hỏi chung",
+                "displayName": "Câu hỏi chung"
+            }
+        },
+        {
+          "id": "ctg-ordering-1",
+          "name": "Làm cách nào để tìm thấy các vật phẩm? Tôi phải làm thế nào để đặt hàng?",
+          "displayName": "Làm cách nào để tìm thấy các vật phẩm? Tôi phải làm thế nào để đặt hàng?",
+          "question": {
+            "value": "Làm cách nào để tìm thấy các vật phẩm? Tôi phải làm thế nào để đặt hàng?"
+          },
+          "answer": {
+            "value": "1. Chọn địa chỉ 'Gửi hàng đến' của bạn để bắt đầu.\r\n2.  Nhập từ khóa tìm kiếm vào công cụ tìm kiếm, tìm sản phẩm và thêm sản phẩm vào giỏ hàng của bạn.\r\n3. Ngoài ra, bạn cũng có thể duyệt qua tất cả các sản phẩm trên trang chủ.\r\n4. Kiểm tra chi tiết đơn hàng trước khi nhấn Thanh toán\r\nBạn có thể tham khảo hướng dẫn sử dụng baseURL/user-guide của chúng tôi để biết thêm chi tiết."
+          },
+          "category": {
+            "id": "ctg-ordering",
+            "name": "Đặt hàng",
+            "displayName": "Đặt hàng"
+          }
+        },
+        {
+            "id": "ctg-ordering-2",
+            "name": "Truy xuất lịch sử đơn hàng",
+            "displayName": "Truy xuất lịch sử đơn hàng",
+            "question": {
+              "value": "Truy xuất lịch sử đơn hàng"
+            },
+            "answer": {
+              "value": "1. Đi tới trang Hồ sơ của bạn và nhấp vào Đơn hàng\r\n2. Bạn có thể xem lịch sử đặt hàng của mình theo mặt hàng hoặc đơn hàng"
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Đặt hàng",
+              "displayName": "Đặt hàng"
+            }
+        },
+        {
+            "id": "ctg-ordering-3",
+            "name": "Chưa nhận được đơn đặt hàng của tôi",
+            "displayName": "Chưa nhận được đơn đặt hàng của tôi",
+            "question": {
+              "value": "Chưa nhận được đơn đặt hàng của tôi"
+            },
+            "answer": {
+              "value": "Bạn có thể kiểm tra trạng thái đơn hàng của mình trong Lịch sử đơn hàng\r\n1. Đi tới trang Hồ sơ của bạn và nhấp vào Đơn hàng\r\n2. Bạn có thể xem lịch sử đặt hàng của mình theo mặt hàng hoặc đơn hàng"
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Đặt hàng",
+              "displayName": "Đặt hàng"
+            }
+        },
+        {
+            "id": "ctg-ordering-4",
+            "name": "Tìm sản phẩm đang khuyến mãi",
+            "displayName": "Tìm sản phẩm đang khuyến mãi",
+            "question": {
+              "value": "Tìm sản phẩm đang khuyến mãi"
+            },
+            "answer": {
+              "value": "Bạn có thể chọn lọc các sản phẩm có thẻ `Đang ưu đãi` để xác định các sản phẩm có khuyến mãi. Để biết chi tiết về các chương trình khuyến mãi, nhấp để xem trang chi tiết vật liệu riêng lẻ."
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Đặt hàng",
+              "displayName": "Đặt hàng"
+            }
+        },
+        {
+            "id": "ctg-ordering-5",
+            "name": "Sửa đổi chi tiết sản phẩm của tôi (ví dụ - số lượng, địa chỉ giao hàng)",
+            "displayName": "Sửa đổi chi tiết sản phẩm của tôi (ví dụ - số lượng, địa chỉ giao hàng)",
+            "question": {
+              "value": "Sửa đổi chi tiết sản phẩm của tôi (ví dụ - số lượng, địa chỉ giao hàng)"
+            },
+            "answer": {
+              "value": "Theo mặc định, bạn không thể sửa đổi chi tiết sản phẩm của mình sau khi đã đặt hàng. Vui lòng liên hệ với đại diện thị trường địa phương của bạn nếu bạn cần hỗ trợ thêm."
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Đặt hàng",
+              "displayName": "Đặt hàng"
+            }
+        },
+        {
+            "id": "ctg-ordering-6",
+            "name": "Hủy đơn hàng của tôi",
+            "displayName": "Hủy đơn hàng của tôi",
+            "question": {
+              "value": "Hủy đơn hàng của tôi"
+            },
+            "answer": {
+              "value": "Việc hủy đơn hàng không được phép thông qua trang web eZRx+. Vui lòng liên hệ với đại diện thị trường địa phương của bạn để được hỗ trợ và yêu cầu của bạn sẽ được đánh giá."
+            },
+            "category": {
+              "id": "ctg-ordering",
+              "name": "Đặt hàng",
+              "displayName": "Đặt hàng"
+            }
+        },
+        {
+            "id": "ctg-payment-1",
+            "name": "Làm cách nào để thực hiện thanh toán?",
+            "displayName": "Làm cách nào để thực hiện thanh toán?",
+            "question": {
+              "value": "Làm cách nào để thực hiện thanh toán?"
+            },
+            "answer": {
+              "value": "Bạn có thể sử dụng mô-đun Thanh toán trong eZRx+ để chọn các hóa đơn mà bạn muốn tạo lời khuyên thanh toán và thực hiện thanh toán.\r\nCác tính năng có thể khác nhau tùy theo thị trường và tính năng này không có sẵn cho đại diện bán hàng. Bạn cũng có thể tham khảo hướng dẫn sử dụng baseURL/user-guide của chúng tôi để biết thêm chi tiết."
+            },
+            "category": {
+              "id": "ctg-payment",
+              "name": "Thanh toán",
+              "displayName": "Thanh toán"
+            }
+        },
+        {
+            "id": "ctg-payment-2",
+            "name": "Tại sao thanh toán của tôi không thành công?",
+            "displayName": "Tại sao thanh toán của tôi không thành công?",
+            "question": {
+              "value": "Tại sao thanh toán của tôi không thành công?"
+            },
+            "answer": {
+              "value": "Dưới đây là một số lý do có thể khiến cổng thanh toán có thể không thành công:\r\n- Cấu hình sai cổng thanh toán.\r\n- Giao dịch bị chặn bởi tài khoản người bán.\r\n- Thẻ tín dụng/thẻ ghi nợ hết hạn.\r\n- Thẻ tín dụng/thẻ ghi nợ bị hủy.\r\n- Phương thức thanh toán trực tuyến do khách hàng lựa chọn không được cổng thanh toán hỗ trợ.\r\n- Nếu tài khoản của khách hàng bị ngân hàng gắn cờ.\r\n- Nếu tài khoản mà giao dịch được thực hiện bị đóng hoặc bị đình chỉ.\r\n- Giao dịch qua thẻ tín dụng tối đa.\r\n- Giao dịch không thể được ủy quyền: OTP hoặc mật khẩu không chính xác"
+            },
+            "category": {
+              "id": "ctg-payment",
+              "name": "Thanh toán",
+              "displayName": "Thanh toán"
+            }
+        },
+        {
+            "id": "ctg-payment-3",
+            "name": "Làm cách nào để biết khoản thanh toán của tôi có thành công hay không?",
+            "displayName": "Làm cách nào để biết khoản thanh toán của tôi có thành công hay không?",
+            "question": {
+              "value": "Làm cách nào để biết khoản thanh toán của tôi có thành công hay không?"
+            },
+            "answer": {
+              "value": "Trong tab Tóm tắt thanh toán, bạn sẽ thấy trạng thái của lời khuyên thanh toán tương ứng được cập nhật từ `Đang xử lý` thành `Đã hoàn thành`. Xin lưu ý rằng cập nhật trạng thái này có thể cần một thời gian để phản ánh."
+            },
+            "category": {
+              "id": "ctg-payment",
+              "name": "Thanh toán",
+              "displayName": "Thanh toán"
+            }
+        }
+    ]
+}

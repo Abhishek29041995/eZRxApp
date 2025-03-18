@@ -1,0 +1,16 @@
+{
+    "data": {
+      "updateDraftOrder": {
+        "id": "2077372",
+        "itemlist": "{\"value\": [{\"qty\": 16, \"type\": \"Comm\", \"comment\": \"\", \"remarks\": \"\", \"hidePrice\": false, \"materials\": [], \"bundleCode\": \"\", \"bundleName\": \"\", \"batchNumber\": \"\", \"zdp8Override\": 0.0, \"totalQuantity\": 0, \"materialGroup2\": \"\", \"materialGroup4\": \"AC9\", \"materialNumber\": \"000000000021129643\", \"tenderContract\": {\"pricingUnit\": 0, \"tenderPrice\": \"0\", \"salesDistrict\": \"\", \"contractNumber\": \"\", \"isNearToExpire\": false, \"contractQuantity\": 0, \"tenderVisaNumber\": \"\", \"contractReference\": \"\", \"tenderOrderReason\": \"\", \"contractExpiryDate\": \"\", \"contractItemNumber\": \"\", \"contractPaymentTerm\": \"\", \"remainingTenderQuantity\": 0, \"announcementLetterNumber\": \"\", \"tenderPackageDescription\": \"\"}, \"additionalBonus\": [{\"comment\": \"\", \"inStock\": \"No\", \"expiryDate\": \"\", \"freeQuantity\": 2, \"remainingQty\": 0, \"MaterialNumber\": \"\", \"bonusOverrideFlag\": true, \"MaterialDescription\": \"\", \"additionalBonusFlag\": true}], \"bundleInformation\": [], \"unitOfMeasurement\": \"EA\", \"materialDescription\": \"\", \"itemRegistrationNumber\": \"\", \"defaultMaterialDescription\": \"ACC SUS. 200MG 50'S\"}]}",
+        "draftorder": true,
+        "BillingDocument": "Benh Vien Dai Hoc Y Duoc TP.",
+        "eZRxNumber": "",
+        "SoldToParty": "0030282241",
+        "ShipToParty": "0071209479",
+        "CompanyName": "Benh Vien Dai Hoc Y Duoc TP.  Ho Chi Minh- Co So 1  ",
+        "TotalOrderValue": 2036512,
+        "requestedDeliveryDate": ""
+      }
+    }
+  }

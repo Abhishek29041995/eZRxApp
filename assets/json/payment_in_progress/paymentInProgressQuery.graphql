@@ -1,0 +1,14 @@
+query paymentInProgress($request: paymentInProgressRequest!) {
+  paymentInProgress(request: $request) {
+    results {
+      amount
+    }
+  }
+}
+
+variables: {
+  "request": {
+    "customerCode": "0000100727",
+    "salesOrg": "2601"
+  }
+}

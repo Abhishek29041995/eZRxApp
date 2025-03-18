@@ -1,0 +1,15 @@
+{
+  "data":{
+     "addCustomerPayment":{
+        "paymentID":"2        1",
+        "paymentBatchAdditionalInfo":"23CF96BA733CE5A",
+        "valueDate":"2024-05-21",
+        "transactionCurrency":"VND",
+        "accountingDocExternalReference":"",
+        "zCcpPaymentQRCode":"",
+        "zzAdvice":"09EZ240002324201",
+        "adviceExpiry":"30 Day(s)",
+        "zzHtmcs": ""
+    }
+  }
+}

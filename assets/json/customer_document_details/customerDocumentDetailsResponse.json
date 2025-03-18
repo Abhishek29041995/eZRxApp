@@ -1,0 +1,72 @@
+{
+  "data": {
+    "customerDocumentDetails": [
+      {
+        "billingDocumentItem": "000010",
+        "salesDocumentItemType": "ZPRE",
+        "material": "000000000023348057",
+        "billingDocumentItemText": "(Z) PSE AERIUS D-12 TABS 2.5/120MG 100S",
+        "billingQuantity": "8.000",
+        "billingQuantityUnit": "UNT",
+        "salesMeasureISOUnit": "",
+        "referenceSDDocument": "",
+        "referenceSDDocumentItem": "",
+        "referenceSDDocumentCategory": "",
+        "grossAmount": 0,
+        "netAmount": 1160,
+        "taxAmount": 0,
+        "transactionCurrency": "",
+        "batchNumber": "ZPMYUAT002",
+        "expiryDate": "20250306",
+        "principalName": "ORGANON (M) SDN BHD",
+        "principalCode": "0000140087"
+      },
+      {
+        "billingDocumentItem": "000011",
+        "salesDocumentItemType": "ZPRN",
+        "material": "000000000023348057",
+        "billingDocumentItemText": "(Z) PSE AERIUS D-12 TABS 2.5/120MG 100S",
+        "billingQuantity": "1.000",
+        "billingQuantityUnit": "UNT",
+        "salesMeasureISOUnit": "",
+        "referenceSDDocument": "",
+        "referenceSDDocumentItem": "",
+        "referenceSDDocumentCategory": "",
+        "grossAmount": 0,
+        "netAmount": 0,
+        "taxAmount": 0,
+        "transactionCurrency": "",
+        "principalName": "ORGANON (M) SDN BHD",
+        "principalCode": "0000140087",
+        "batches": [
+          {
+            "batchNumber": "SGUAT0001",
+            "expiryDate": "20241231"
+          },
+          {
+            "batchNumber": "SGUAT0003",
+            "expiryDate": "20241241"
+          }
+        ]
+      },
+      {
+        "billingDocumentItem": "000010",
+        "salesDocumentItemType": "",
+        "material": "000000000021253383",
+        "billingDocumentItemText": "AVELOX INJ 400MG/ 250ML 1'S",
+        "billingQuantity": "2.000",
+        "billingQuantityUnit": "BOX",
+        "salesMeasureISOUnit": "",
+        "referenceSDDocument": "",
+        "referenceSDDocumentItem": "",
+        "referenceSDDocumentCategory": "",
+        "grossAmount": 714347,
+        "netAmount": 680330,
+        "taxAmount": 34017,
+        "transactionCurrency": "",
+        "principalName": "Bayer (South East Asia) Pte. Ltd",
+        "principalCode": "0000102670"
+      }
+    ]
+  }
+}

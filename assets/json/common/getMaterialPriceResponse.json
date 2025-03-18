@@ -1,0 +1,1027 @@
+{
+  "data": {
+    "price": [
+      {
+        "MaterialNumber": "000000000021038305",
+        "OldMaterialCode": "034F8B1307B",
+        "ListPrice": 273.6,
+        "FinalIndividualPrice": 273.6,
+        "FinalTotalPrice": 0,
+        "PriceRules": [
+          {
+            "Type": "MYR",
+            "Rate": 273.6,
+            "Conditions": "ZLP0 - A901 - 0002049233",
+            "TieredRules": null,
+            "BonusEligible": true,
+            "ConditionNumber": "0002049233",
+            "OverriddenBy": null,
+            "MaxQuota": "0",
+            "RemainingQuota": null
+          }
+        ],
+        "Bonuses": [
+          {
+            "BonusTiers": [
+              {
+                "BonusMaterial": [
+                  {
+                    "Id": 1,
+                    "MaterialNumber": "000000000021041773",
+                    "MaterialDescription": "190 BIOTENE D/MOUTHT/PASTE FM ORI 4.5OZ",
+                    "Calculation": "913",
+                    "BonusRatio": 1,
+                    "QualifyingQuantity": 6,
+                    "BonusQuantity": 1,
+                    "LimitPerTransaction": 0,
+                    "ConditionId": "0000205499",
+                    "OldMaterialCode": "190235496"
+                  }
+                ],
+                "Calculation": "913",
+                "QualifyingQuantity": 6
+              },
+              {
+                "BonusMaterial": [
+                  {
+                    "Id": 1,
+                    "MaterialNumber": "000000000021041774",
+                    "MaterialDescription": "193 BIOTENE",
+                    "Calculation": "913",
+                    "BonusRatio": 1,
+                    "QualifyingQuantity": 2,
+                    "BonusQuantity": 1,
+                    "LimitPerTransaction": 0,
+                    "ConditionId": "0000205499",
+                    "OldMaterialCode": "190235496"
+                  }
+                ],
+                "Calculation": "913",
+                "QualifyingQuantity": 10
+              },
+              {
+                "BonusMaterial": [
+                  {
+                    "Id": 1,
+                    "MaterialNumber": "000000000021041774",
+                    "MaterialDescription": "193 BIOTENE 560",
+                    "Calculation": "913",
+                    "BonusRatio": 1,
+                    "QualifyingQuantity": 2,
+                    "BonusQuantity": 1,
+                    "LimitPerTransaction": 0,
+                    "ConditionId": "0000205499",
+                    "OldMaterialCode": "190235496"
+                  }
+                ],
+                "Calculation": "913",
+                "QualifyingQuantity": 10
+              }
+            ]
+          }
+        ],
+        "TieredPricing": [],
+        "Bundles": [],
+        "Valid": true,
+        "AdditionalBonusEligible": true,
+        "ZMGDiscount": false,
+        "ZDP5MaxQuota": "",
+        "ZDP5RemainingQuota": "",
+        "ExceedQty": false,
+        "OverridenRulePresent": false,
+        "OverridenRules": [],
+        "OverridenRuleTier": [],
+        "ComboDeals": null
+      },
+      {
+        "MaterialNumber": "000000000021038302",
+        "OldMaterialCode": "034F8B1307B",
+        "ListPrice": 99303.6,
+        "FinalIndividualPrice": 97813.455,
+        "FinalTotalPrice": 0,
+        "PriceRules": [
+          {
+            "Type": "MYR",
+            "Rate": 273.6,
+            "Conditions": "ZLP0 - A901 - 0002049233",
+            "TieredRules": null,
+            "BonusEligible": true,
+            "ConditionNumber": "0002049233",
+            "OverriddenBy": null,
+            "MaxQuota": "0",
+            "RemainingQuota": null
+          }
+        ],
+        "Bonuses": [
+          {
+            "BonusTiers": [
+              {
+                "BonusMaterial": [
+                  {
+                    "Id": 1,
+                    "MaterialNumber": "000000000021041773",
+                    "MaterialDescription": "190 BIOTENE D/MOUTHT/PASTE FM ORI 4.5OZ",
+                    "Calculation": "913",
+                    "BonusRatio": 1,
+                    "QualifyingQuantity": 6,
+                    "BonusQuantity": 1,
+                    "LimitPerTransaction": 0,
+                    "ConditionId": "0000205499",
+                    "OldMaterialCode": "190235496"
+                  }
+                ],
+                "Calculation": "913",
+                "QualifyingQuantity": 6
+              },
+              {
+                "BonusMaterial": [
+                  {
+                    "Id": 1,
+                    "MaterialNumber": "000000000021041774",
+                    "MaterialDescription": "193 BIOTENE",
+                    "Calculation": "913",
+                    "BonusRatio": 1,
+                    "QualifyingQuantity": 2,
+                    "BonusQuantity": 1,
+                    "LimitPerTransaction": 0,
+                    "ConditionId": "0000205499",
+                    "OldMaterialCode": "190235496"
+                  }
+                ],
+                "Calculation": "913",
+                "QualifyingQuantity": 10
+              },
+              {
+                "BonusMaterial": [
+                  {
+                    "Id": 1,
+                    "MaterialNumber": "000000000021041774",
+                    "MaterialDescription": "193 BIOTENE 560",
+                    "Calculation": "913",
+                    "BonusRatio": 1,
+                    "QualifyingQuantity": 2,
+                    "BonusQuantity": 1,
+                    "LimitPerTransaction": 0,
+                    "ConditionId": "0000205499",
+                    "OldMaterialCode": "190235496"
+                  }
+                ],
+                "Calculation": "913",
+                "QualifyingQuantity": 10
+              }
+            ]
+          }
+        ],
+        "TieredPricing": [
+          {
+            "Tier": "C",
+            "PriceTier": [
+              {
+                "Sequence": 0,
+                "Quantity": 4,
+                "Type": "",
+                "Rate": 93575,
+                "ApplyBonus": true,
+                "Percentage": null,
+                "MinAmount": null,
+                "ScaleBasis": "",
+                "PromotionAmount": -50
+              },
+              {
+                "Sequence": 0,
+                "Quantity": 1,
+                "Type": "",
+                "Rate": 97813.455,
+                "ApplyBonus": true,
+                "Percentage": 5,
+                "MinAmount": null,
+                "ScaleBasis": "",
+                "PromotionAmount": -5
+              }
+            ]
+          }
+        ],
+        "Bundles": [],
+        "Valid": true,
+        "AdditionalBonusEligible": true,
+        "ZMGDiscount": false,
+        "ZDP5MaxQuota": "100",
+        "ZDP5RemainingQuota": "10",
+        "ExceedQty": false,
+        "OverridenRulePresent": false,
+        "OverridenRules": [],
+        "OverridenRuleTier": [],
+        "ComboDeals": null
+      },
+      {
+        "MaterialNumber": "000000000021041773",
+        "OldMaterialCode": "190235496",
+        "ListPrice": 20.4,
+        "FinalIndividualPrice": 20.4,
+        "FinalTotalPrice": 0,
+        "PriceRules": [
+          {
+            "Type": "MYR",
+            "Rate": 20.4,
+            "Conditions": "ZLP0 - A901 - 0002062642",
+            "TieredRules": null,
+            "BonusEligible": true,
+            "ConditionNumber": "0002062642",
+            "OverriddenBy": null,
+            "MaxQuota": "0",
+            "RemainingQuota": null
+          }
+        ],
+        "Bonuses": [
+          {
+            "BonusTiers": [
+              {
+                "BonusMaterial": [
+                  {
+                    "Id": 1,
+                    "MaterialNumber": "000000000021041773",
+                    "MaterialDescription": "190 BIOTENE D/MOUTHT/PASTE FM ORI 4.5OZ",
+                    "Calculation": "913",
+                    "BonusRatio": 1,
+                    "QualifyingQuantity": 6,
+                    "BonusQuantity": 1,
+                    "LimitPerTransaction": 0,
+                    "ConditionId": "0000205499",
+                    "OldMaterialCode": "190235496"
+                  }
+                ],
+                "Calculation": "913",
+                "QualifyingQuantity": 6
+              }
+            ]
+          }
+        ],
+        "TieredPricing": [
+          {
+            "Tier": "C",
+            "PriceTier": [
+              {
+                "Sequence": 0,
+                "Quantity": 2,
+                "Type": "",
+                "Rate": 87785,
+                "ApplyBonus": true,
+                "Percentage": null,
+                "MinAmount": 100,
+                "ScaleBasis": "B"
+              },
+              {
+                "Sequence": 0,
+                "Quantity": 1,
+                "Type": "",
+                "Rate": 90500,
+                "ApplyBonus": true,
+                "Percentage": null,
+                "MinAmount": 100,
+                "ScaleBasis": "c"
+              },
+              {
+                "Sequence": 0,
+                "Quantity": 3,
+                "Type": "",
+                "Rate": 85500,
+                "ApplyBonus": true,
+                "Percentage": null,
+                "MinAmount": null,
+                "ScaleBasis": "",
+                "PromotionAmount": null
+              },
+              {
+                "Sequence": 0,
+                "Quantity": 6,
+                "Type": "",
+                "Rate": 80500,
+                "ApplyBonus": true,
+                "Percentage": null,
+                "MinAmount": null,
+                "ScaleBasis": "",
+                "PromotionAmount": null
+              },
+              {
+                "Sequence": 0,
+                "Quantity": 4,
+                "Type": "",
+                "Rate": 83500,
+                "ApplyBonus": true,
+                "Percentage": null,
+                "MinAmount": null,
+                "ScaleBasis": "",
+                "PromotionAmount": null
+              }
+            ]
+          }
+        ],
+        "Bundles": [],
+        "Valid": true,
+        "AdditionalBonusEligible": true,
+        "ZMGDiscount": false,
+        "ZDP5MaxQuota": "",
+        "ZDP5RemainingQuota": "",
+        "ExceedQty": false,
+        "OverridenRulePresent": false,
+        "OverridenRules": [],
+        "OverridenRuleTier": [],
+        "ComboDeals": null
+      },
+      {
+        "MaterialNumber": "000000000021041769",
+        "OldMaterialCode": "190235168",
+        "ListPrice": 19.8,
+        "FinalIndividualPrice": 19.8,
+        "FinalTotalPrice": 0,
+        "PriceRules": [
+          {
+            "Type": "MYR",
+            "Rate": 19.8,
+            "Conditions": "ZLP0 - A901 - 0002062638",
+            "TieredRules": null,
+            "BonusEligible": true,
+            "ConditionNumber": "0002062638",
+            "OverriddenBy": null,
+            "MaxQuota": "0",
+            "RemainingQuota": null
+          }
+        ],
+        "Bonuses": [
+          {
+            "BonusTiers": [
+              {
+                "BonusMaterial": [
+                  {
+                    "Id": 1,
+                    "MaterialNumber": "000000000021041769",
+                    "MaterialDescription": "190 FIRST TEETH T/PASTE (190) 40G",
+                    "Calculation": "913",
+                    "BonusRatio": 1,
+                    "QualifyingQuantity": 6,
+                    "BonusQuantity": 1,
+                    "LimitPerTransaction": 0,
+                    "ConditionId": "0000205492",
+                    "OldMaterialCode": "190235168"
+                  }
+                ],
+                "Calculation": "913",
+                "QualifyingQuantity": 6
+              }
+            ]
+          }
+        ],
+        "TieredPricing": [],
+        "Bundles": [],
+        "Valid": true,
+        "AdditionalBonusEligible": true,
+        "ZMGDiscount": false,
+        "ZDP5MaxQuota": "",
+        "ZDP5RemainingQuota": "",
+        "ExceedQty": false,
+        "OverridenRulePresent": false,
+        "OverridenRules": [],
+        "OverridenRuleTier": [],
+        "ComboDeals": null
+      },
+      {
+        "MaterialNumber": "000000000021041768",
+        "OldMaterialCode": "190235120",
+        "ListPrice": 36.5,
+        "FinalIndividualPrice": 36.5,
+        "FinalTotalPrice": 0,
+        "PriceRules": [
+          {
+            "Type": "MYR",
+            "Rate": 36.5,
+            "Conditions": "ZLP0 - A901 - 0002062637",
+            "TieredRules": null,
+            "BonusEligible": true,
+            "ConditionNumber": "0002062637",
+            "OverriddenBy": null,
+            "MaxQuota": "0",
+            "RemainingQuota": null
+          }
+        ],
+        "Bonuses": [
+          {
+            "BonusTiers": [
+              {
+                "BonusMaterial": [
+                  {
+                    "Id": 1,
+                    "MaterialNumber": "000000000021041768",
+                    "MaterialDescription": "190 ORAL BALANCE 1.5OZ/42G(190)",
+                    "Calculation": "913",
+                    "BonusRatio": 1,
+                    "QualifyingQuantity": 6,
+                    "BonusQuantity": 1,
+                    "LimitPerTransaction": 0,
+                    "ConditionId": "0000205493",
+                    "OldMaterialCode": "190235120"
+                  }
+                ],
+                "Calculation": "913",
+                "QualifyingQuantity": 6
+              }
+            ]
+          }
+        ],
+        "TieredPricing": [],
+        "Bundles": [],
+        "Valid": true,
+        "AdditionalBonusEligible": true,
+        "ZMGDiscount": false,
+        "ZDP5MaxQuota": "",
+        "ZDP5RemainingQuota": "",
+        "ExceedQty": false,
+        "OverridenRulePresent": false,
+        "OverridenRules": [],
+        "OverridenRuleTier": [],
+        "ComboDeals": null
+      },
+      {
+        "MaterialNumber": "000000000021041805",
+        "OldMaterialCode": "190237629",
+        "ListPrice": 40,
+        "FinalIndividualPrice": 40,
+        "FinalTotalPrice": 0,
+        "PriceRules": [
+          {
+            "Type": "MYR",
+            "Rate": 40,
+            "Conditions": "ZLP0 - A901 - 0002062670",
+            "TieredRules": null,
+            "BonusEligible": true,
+            "ConditionNumber": "0002062670",
+            "OverriddenBy": null,
+            "MaxQuota": "0",
+            "RemainingQuota": null
+          }
+        ],
+        "Bonuses": [
+          {
+            "BonusTiers": [
+              {
+                "BonusMaterial": [
+                  {
+                    "Id": 1,
+                    "MaterialNumber": "000000000021041805",
+                    "MaterialDescription": "190 PANADOL ACTIFAST(NP)CAP 500MG80'S/BX",
+                    "Calculation": "913",
+                    "BonusRatio": 1,
+                    "QualifyingQuantity": 8,
+                    "BonusQuantity": 1,
+                    "LimitPerTransaction": 0,
+                    "ConditionId": "0000223046",
+                    "OldMaterialCode": "190237629"
+                  }
+                ],
+                "Calculation": "913",
+                "QualifyingQuantity": 8
+              }
+            ]
+          }
+        ],
+        "TieredPricing": [],
+        "Bundles": [],
+        "Valid": true,
+        "AdditionalBonusEligible": true,
+        "ZMGDiscount": false,
+        "ZDP5MaxQuota": "",
+        "ZDP5RemainingQuota": "",
+        "ExceedQty": false,
+        "OverridenRulePresent": false,
+        "OverridenRules": [],
+        "OverridenRuleTier": [],
+        "ComboDeals": null
+      },
+      {
+        "MaterialNumber": "000000000021041779",
+        "OldMaterialCode": "190235816",
+        "ListPrice": 36.8,
+        "FinalIndividualPrice": 36.8,
+        "FinalTotalPrice": 0,
+        "PriceRules": [
+          {
+            "Type": "MYR",
+            "Rate": 36.8,
+            "Conditions": "ZLP0 - A901 - 0002062647",
+            "TieredRules": null,
+            "BonusEligible": true,
+            "ConditionNumber": "0002062647",
+            "OverriddenBy": null,
+            "MaxQuota": "0",
+            "RemainingQuota": null
+          }
+        ],
+        "Bonuses": [
+          {
+            "BonusTiers": [
+              {
+                "BonusMaterial": [
+                  {
+                    "Id": 1,
+                    "MaterialNumber": "000000000021041779",
+                    "MaterialDescription": "190 PANADOL REG (NP)TAB150'S",
+                    "Calculation": "913",
+                    "BonusRatio": 1,
+                    "QualifyingQuantity": 6,
+                    "BonusQuantity": 1,
+                    "LimitPerTransaction": 0,
+                    "ConditionId": "0000225620",
+                    "OldMaterialCode": "190235816"
+                  }
+                ],
+                "Calculation": "913",
+                "QualifyingQuantity": 6
+              }
+            ]
+          }
+        ],
+        "TieredPricing": [],
+        "Bundles": [],
+        "Valid": true,
+        "AdditionalBonusEligible": true,
+        "ZMGDiscount": false,
+        "ZDP5MaxQuota": "",
+        "ZDP5RemainingQuota": "",
+        "ExceedQty": false,
+        "OverridenRulePresent": false,
+        "OverridenRules": [],
+        "OverridenRuleTier": [],
+        "ComboDeals": null
+      },
+      {
+        "MaterialNumber": "000000000021041772",
+        "OldMaterialCode": "190235441",
+        "ListPrice": 2.04,
+        "FinalIndividualPrice": 2.04,
+        "FinalTotalPrice": 0,
+        "PriceRules": [
+          {
+            "Type": "MYR",
+            "Rate": 2.04,
+            "Conditions": "ZLP0 - A901 - 0002062641",
+            "TieredRules": null,
+            "BonusEligible": true,
+            "ConditionNumber": "0002062641",
+            "OverriddenBy": null,
+            "MaxQuota": "0",
+            "RemainingQuota": null
+          }
+        ],
+        "Bonuses": [],
+        "TieredPricing": [],
+        "Bundles": [],
+        "Valid": true,
+        "AdditionalBonusEligible": true,
+        "ZMGDiscount": false,
+        "ZDP5MaxQuota": "",
+        "ZDP5RemainingQuota": "",
+        "ExceedQty": false,
+        "OverridenRulePresent": false,
+        "OverridenRules": [],
+        "OverridenRuleTier": [],
+        "ComboDeals": {
+          "Eligible": true,
+          "FlexibleGroup": "5000000018",
+          "SalesDeal": "0040000110",
+          "Category": {
+            "Type": "MATNR",
+            "Value": [
+              "000000000021130726",
+              "000000000021130718",
+              "000000000021222875"
+            ]
+          }
+        }
+      },
+      {
+        "MaterialNumber": "000000000021221523",
+        "OldMaterialCode": "882039",
+        "ListPrice": 3.55,
+        "FinalIndividualPrice": 3.55,
+        "FinalTotalPrice": 0,
+        "PriceRules": [
+            {
+                "Type": "USD",
+                "Rate": 3.55,
+                "Conditions": "ZLP0 - A901 - 0079000848",
+                "TieredRules": null,
+                "BonusEligible": true,
+                "ConditionNumber": "0079000848",
+                "OverriddenBy": null,
+                "MaxQuota": "0",
+                "RemainingQuota": null
+            },
+            {
+                "Type": "%",
+                "Rate": 0,
+                "Conditions": "ZDP1 - A902 - 0086683743",
+                "TieredRules": {
+                    "Tier": "C",
+                    "RuleTier": [
+                        {
+                            "Rate": -7,
+                            "Quantity": 18
+                        },
+                        {
+                            "Rate": 0,
+                            "Quantity": 1
+                        }
+                    ]
+                },
+                "BonusEligible": true,
+                "ConditionNumber": "0086683743",
+                "OverriddenBy": null,
+                "MaxQuota": "0",
+                "RemainingQuota": null
+            }
+        ],
+        "Bonuses": [],
+        "TieredPricing": [
+            {
+                "Tier": "C",
+                "PriceTier": [
+                    {
+                        "Sequence": 0,
+                        "Quantity": 18,
+                        "Type": "",
+                        "Rate": 3.3015,
+                        "ApplyBonus": true,
+                        "Percentage": null,
+                        "MinAmount": null,
+                        "ScaleBasis": ""
+                    },
+                    {
+                        "Sequence": 0,
+                        "Quantity": 1,
+                        "Type": "",
+                        "Rate": 3.55,
+                        "ApplyBonus": true,
+                        "Percentage": null,
+                        "MinAmount": null,
+                        "ScaleBasis": ""
+                    }
+                ]
+            }
+        ],
+        "Bundles": [],
+        "Valid": true,
+        "AdditionalBonusEligible": true,
+        "ZMGDiscount": false,
+        "ZDP5MaxQuota": "",
+        "ZDP5RemainingQuota": "",
+        "ExceedQty": false,
+        "OverridenRulePresent": false,
+        "OverridenRules": [],
+        "OverridenRuleTier": [],
+        "IsMOVExclusion": false,
+        "ComboDeals": null
+    },
+    {
+      "MaterialNumber": "000000000021041786",
+      "OldMaterialCode": "882037",
+      "ListPrice": 40.12,
+      "FinalIndividualPrice": 40.12,
+      "FinalTotalPrice": 0,
+      "PriceRules": [],
+      "Bonuses": [],
+      "TieredPricing": [],
+      "Bundles": [],
+      "Valid": true,
+      "AdditionalBonusEligible": true,
+      "ZMGDiscount": false,
+      "ZDP5MaxQuota": "",
+      "ZDP5RemainingQuota": "",
+      "ExceedQty": false,
+      "OverridenRulePresent": false,
+      "OverridenRules": [],
+      "OverridenRuleTier": [],
+      "IsMOVExclusion": false,
+      "ComboDeals": null
+    },      
+    {
+      "MaterialNumber": "000000000021041796",
+      "OldMaterialCode": "882097",
+      "ListPrice": 13.7,
+      "FinalIndividualPrice": 13.7,
+      "FinalTotalPrice": 0,
+      "PriceRules": [],
+      "Bonuses": [],
+      "TieredPricing": [],
+      "Bundles": [],
+      "Valid": true,
+      "AdditionalBonusEligible": true,
+      "ZMGDiscount": true,
+      "ZDP5MaxQuota": "",
+      "ZDP5RemainingQuota": "",
+      "ExceedQty": false,
+      "OverridenRulePresent": false,
+      "OverridenRules": [],
+      "OverridenRuleTier": [],
+      "IsMOVExclusion": false,
+      "ComboDeals": null
+    },
+    {
+      "MaterialNumber": "000000000021041768",
+      "OldMaterialCode": "300HY43",
+      "ListPrice": 162.4,
+      "FinalIndividualPrice": 138.04000000000002,
+      "FinalTotalPrice": 0,
+      "PriceRules": [
+          {
+              "Type": "TWD",
+              "Rate": 162.4,
+              "Conditions": "ZLP0 - A901 - 0075352024",
+              "TieredRules": {
+                  "Tier": "C",
+                  "RuleTier": [
+                      {
+                          "Rate": 162.4,
+                          "Quantity": 1
+                      }
+                  ]
+              },
+              "BonusEligible": true,
+              "ConditionNumber": "0075352024",
+              "OverriddenBy": null,
+              "MaxQuota": "0",
+              "RemainingQuota": null
+          },
+          {
+              "Type": "%",
+              "Rate": 0,
+              "Conditions": "ZMG3 - A762 - 0066851906",
+              "TieredRules": {
+                  "Tier": "C",
+                  "RuleTier": [
+                      {
+                          "Rate": -15,
+                          "Quantity": 1
+                      },
+                      {
+                          "Rate": -20,
+                          "Quantity": 90
+                      },
+                      {
+                          "Rate": -26,
+                          "Quantity": 200
+                      }
+                  ]
+              },
+              "BonusEligible": true,
+              "ConditionNumber": "0066851906",
+              "OverriddenBy": null,
+              "MaxQuota": "0",
+              "RemainingQuota": null
+          }
+      ],
+      "Bonuses": [],
+      "TieredPricing": [
+          {
+              "Tier": "C",
+              "PriceTier": [
+                  {
+                      "Sequence": 0,
+                      "Quantity": 1,
+                      "Type": "",
+                      "Rate": 138.04000000000002,
+                      "ApplyBonus": true,
+                      "Percentage": null,
+                      "MinAmount": null,
+                      "ScaleBasis": ""
+                  },
+                  {
+                      "Sequence": 0,
+                      "Quantity": 90,
+                      "Type": "",
+                      "Rate": 129.92000000000002,
+                      "ApplyBonus": true,
+                      "Percentage": null,
+                      "MinAmount": null,
+                      "ScaleBasis": ""
+                  },
+                  {
+                      "Sequence": 0,
+                      "Quantity": 200,
+                      "Type": "",
+                      "Rate": 120.176,
+                      "ApplyBonus": true,
+                      "Percentage": null,
+                      "MinAmount": null,
+                      "ScaleBasis": ""
+                  }
+              ]
+          }
+      ],
+      "Bundles": [],
+      "Valid": true,
+      "AdditionalBonusEligible": true,
+      "ZMGDiscount": true,
+      "ZDP5MaxQuota": "",
+      "ZDP5RemainingQuota": "",
+      "ExceedQty": false,
+      "OverridenRulePresent": false,
+      "OverridenRules": [],
+      "OverridenRuleTier": [],
+      "IsMOVExclusion": false,
+      "ComboDeals": null
+  },
+  {
+    "MaterialNumber": "000000000021041786",
+    "OldMaterialCode": "300CZ35U",
+    "ListPrice": 162.4,
+    "FinalIndividualPrice": 138.04000000000002,
+    "FinalTotalPrice": 0,
+    "PriceRules": [
+        {
+            "Type": "TWD",
+            "Rate": 162.4,
+            "Conditions": "ZLP0 - A901 - 0084791431",
+            "TieredRules": null,
+            "BonusEligible": true,
+            "ConditionNumber": "0084791431",
+            "OverriddenBy": null,
+            "MaxQuota": "0",
+            "RemainingQuota": null
+        },
+        {
+            "Type": "%",
+            "Rate": 0,
+            "Conditions": "ZMG3 - A762 - 0066851906",
+            "TieredRules": {
+                "Tier": "C",
+                "RuleTier": [
+                    {
+                        "Rate": -15,
+                        "Quantity": 1
+                    },
+                    {
+                        "Rate": -20,
+                        "Quantity": 90
+                    },
+                    {
+                        "Rate": -26,
+                        "Quantity": 200
+                    }
+                ]
+            },
+            "BonusEligible": true,
+            "ConditionNumber": "0066851906",
+            "OverriddenBy": null,
+            "MaxQuota": "0",
+            "RemainingQuota": null
+        }
+    ],
+    "Bonuses": [],
+    "TieredPricing": [
+        {
+            "Tier": "C",
+            "PriceTier": [
+                {
+                    "Sequence": 0,
+                    "Quantity": 1,
+                    "Type": "",
+                    "Rate": 138.04000000000002,
+                    "ApplyBonus": true,
+                    "Percentage": null,
+                    "MinAmount": null,
+                    "ScaleBasis": ""
+                },
+                {
+                    "Sequence": 0,
+                    "Quantity": 90,
+                    "Type": "",
+                    "Rate": 129.92000000000002,
+                    "ApplyBonus": true,
+                    "Percentage": null,
+                    "MinAmount": null,
+                    "ScaleBasis": ""
+                },
+                {
+                    "Sequence": 0,
+                    "Quantity": 200,
+                    "Type": "",
+                    "Rate": 120.176,
+                    "ApplyBonus": true,
+                    "Percentage": null,
+                    "MinAmount": null,
+                    "ScaleBasis": ""
+                }
+            ]
+        }
+    ],
+    "Bundles": [],
+    "Valid": true,
+    "AdditionalBonusEligible": true,
+    "ZMGDiscount": true,
+    "ZDP5MaxQuota": "",
+    "ZDP5RemainingQuota": "",
+    "ExceedQty": false,
+    "OverridenRulePresent": false,
+    "OverridenRules": [],
+    "OverridenRuleTier": [],
+    "IsMOVExclusion": false,
+    "ComboDeals": null
+},
+{
+  "MaterialNumber": "TCW20",
+  "OldMaterialCode": "",
+  "ListPrice": 129600,
+  "FinalIndividualPrice": 115528,
+  "FinalTotalPrice": 115528,
+  "PriceRules": [
+      {
+          "Type": "IDR",
+          "Rate": 1296,
+          "Conditions": "ZPR0 - A800 - 0009030881",
+          "TieredRules": null,
+          "BonusEligible": true,
+          "ConditionNumber": "0009030881",
+          "OverriddenBy": null,
+          "MaxQuota": "0",
+          "RemainingQuota": null
+      }
+  ],
+  "Bonuses": [
+      {
+          "BonusTiers": [
+              {
+                  "BonusMaterial": [
+                      {
+                          "Id": 3,
+                          "MaterialNumber": "TCW20",
+                          "MaterialDescription": "BANDAGES TATTOO WP, COOL",
+                          "Calculation": "001",
+                          "BonusRatio": 1,
+                          "QualifyingQuantity": 1,
+                          "BonusQuantity": 1,
+                          "LimitPerTransaction": 0,
+                          "ConditionId": "0000026265",
+                          "OldMaterialCode": null
+                      }
+                  ],
+                  "Calculation": "001",
+                  "QualifyingQuantity": 1
+              }
+          ]
+      }
+  ],
+  "TieredPricing": [
+      {
+          "Tier": "",
+          "PriceTier": [
+              {
+                  "Sequence": 0,
+                  "Quantity": 0,
+                  "Type": "amount",
+                  "Rate": 124600,
+                  "ApplyBonus": false,
+                  "Percentage": null,
+                  "MinAmount": 0,
+                  "ScaleBasis": "",
+                  "AcSeq": "ZP30",
+                  "AcNo": "50",
+                  "PromotionAmount": -5000,
+                  "CondType": "ZEDR"
+              }
+          ]
+      },
+      {
+          "Tier": "",
+          "PriceTier": [
+              {
+                  "Sequence": 0,
+                  "Quantity": 0,
+                  "Type": "amount",
+                  "Rate": 115528,
+                  "ApplyBonus": false,
+                  "Percentage": 7,
+                  "MinAmount": 0,
+                  "ScaleBasis": "",
+                  "AcSeq": "ZP30",
+                  "AcNo": "50",
+                  "PromotionAmount": -7,
+                  "CondType": "ZEDP"
+              }
+          ]
+      }
+  ],
+  "Bundles": [],
+  "Valid": true,
+  "AdditionalBonusEligible": false,
+  "ZMGDiscount": false,
+  "ZDP5MaxQuota": "",
+  "ZDP5RemainingQuota": "0",
+  "ExceedQty": false,
+  "OverridenRulePresent": false,
+  "OverridenRules": [],
+  "OverridenRuleTier": [],
+  "IsMOVExclusion": false,
+  "ComboDeals": null
+}
+    ]
+  }
+}

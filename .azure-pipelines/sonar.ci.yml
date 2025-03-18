@@ -1,0 +1,34 @@
+trigger: none
+resources:
+  - repo: self
+jobs:
+  - job: SonarJob
+    pool: dnd-azdevops-flutter
+    steps:
+      - task: SonarQubePrepare@5
+        displayName: Setup sonarcube
+        inputs:
+          SonarQube: 'sonarqube-npd'
+          scannerMode: 'CLI'
+          configMode: 'manual'
+          cliProjectKey: 'ezrx-mobile'
+          cliProjectName: 'ezrx-mobile'
+          extraProperties: |
+            sonar.sources=lib
+            sonar.tests=test
+            # sonar.exclusions=test/utils/**
+            # sonar.cpd.exclusions=**.freezed.dart,**.g.dart
+            sonar.sourceEncoding=UTF-8
+            # sonar.flutter.analyzer.mode=flutter
+            # sonar.dart.analysis.useExistingOptions=true
+            # sonar.verbose=true
+      - task: CmdLine@2
+        displayName: Generate test report
+        inputs:
+          script: flutter test --machine --coverage > tests.output
+      - task: SonarQubeAnalyze@5
+        displayName: Run SonarQube Analyze
+      - task: SonarQubePublish@5
+        displayName: Run SonarQube Publish
+        inputs:
+          pollingTimeoutSec: '300'

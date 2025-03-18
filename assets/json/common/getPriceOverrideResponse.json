@@ -1,0 +1,39 @@
+{
+    "data": {
+      "price": [
+        {
+          "MaterialNumber": "000000000021038305",
+          "OldMaterialCode": "034F8B1307B",
+          "ListPrice": 273.6,
+          "FinalIndividualPrice": 273.6,
+          "FinalTotalPrice": 0,
+          "IsMOVExclusion": false,
+          "PriceRules": [
+            {
+              "Type": "MYR",
+              "Rate": 273.6,
+              "Conditions": "ZLP0 - A901 - 0002049233",
+              "TieredRules": null,
+              "BonusEligible": true,
+              "ConditionNumber": "0002049233",
+              "OverriddenBy": null,
+              "MaxQuota": "0",
+              "RemainingQuota": null
+            }
+          ],
+          "Bonuses": [],
+          "TieredPricing": [],
+          "Bundles": [],
+          "Valid": true,
+          "AdditionalBonusEligible": true,
+          "ZMGDiscount": false,
+          "ZDP5MaxQuota": "",
+          "ZDP5RemainingQuota": "",
+          "ExceedQty": false,
+          "OverridenRulePresent": false,
+          "OverridenRules": [],
+          "OverridenRuleTier": []
+        }
+      ]
+    }
+  }

@@ -1,0 +1,60 @@
+query customerOpenItems($request: customerOpenItemsRequest!) {
+    customerOpenItems(request: $request) {
+        total
+        customerOpenItemsResponse {
+            status
+            accountingDocument
+            netDueDate
+            documentDate
+            postingDate
+            amountInTransactionCurrency
+            documentReferenceID
+            postingKeyName
+            transactionCurrency
+            accountingDocExternalReference
+            bpCustomerNumber
+            debitCreditCode
+            cashDiscountAmountInDspCrcy
+            cashDiscountDueDate
+            totalAmountInDisplayCrcy
+            displayCurrency
+            openAmountInDisplayCrcy
+            fiscalYear
+            isDisputed
+            accountingDocumentItem
+            accountingDocumentItemRef
+            partialPaymentHistoryDesc
+            paymentAmountInDisplayCrcy
+            companyCode
+            openAmountInTransCrcy
+            billingDocument
+            orderId
+        }
+    }
+}
+
+"variables": {
+    "request": {
+        "customerCode":"0030082707",
+        "salesOrg":"2001",
+        "debitCreditType":"debit",
+        "first":24,
+        "after":0,
+        "orderBy":{
+            "order":"desc",
+            "field":"netDueDate"
+        },
+        "filterBy":[
+            {
+                "field":"documentDate",
+                "value":"2023-06-01",
+                "type":"ge"
+            },
+            {
+                "field":"documentDate",
+                "value":"2023-06-30",
+                "type":"le"
+            }
+        ]
+    }
+}

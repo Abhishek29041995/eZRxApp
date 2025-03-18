@@ -1,0 +1,31 @@
+query ($request: TenderContractDetailsRequest!) {
+  tenderContractDetails(request: $request) {
+    tenderContractDetails {
+      contractNumber
+      contractItemNumber
+      contractReference
+      tenderOrderReason
+      tenderVisaNumber
+      salesDistrict
+      tenderPackageDescription
+      tenderPrice
+      pricingUnit
+      remainingTenderQuantity
+      contractQuantity
+      contractExpiryDate
+      announcementLetterNumber
+      isNearToExpire
+      contractPaymentTerm
+      tenderUnitPrice
+    }
+  }
+}
+
+variables : {
+  "request": {
+    "customerNumber": "0030282241",
+    "shipToCustomer": "0071209479",
+    "salesOrg": "3050",
+    "materialNumber": "000000000021129643"
+  }
+}

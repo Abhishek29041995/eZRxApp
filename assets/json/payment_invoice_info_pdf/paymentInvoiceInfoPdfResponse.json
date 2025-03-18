@@ -1,0 +1,73 @@
+{
+   "data":{
+     "paymentInvoicePdf": {
+       "valueDate": "2023-11-03",
+       "paymentID": "2        9",
+       "zzAdvice": "09EZ230001312201",
+       "paymentDue": "PHP 3.290000",
+       "paymentMethod": "Bank-In",
+       "customerName": "rootadmin rootadmin",
+       "payer": "0000100294",
+       "bankBeneficiary": [
+         {
+           "beneficiaryName": "HSBC FAO Zuellig Pharma Corporation",
+           "bankName": "Banco de Oro",
+           "branch": null,
+           "bankCode": null,
+           "bankAccount": "0006-6108-0676",
+           "hdbcSwiftCode": null,
+           "bankAddress": null,
+           "payNowUen": null,
+           "emailId": null
+         },
+         {
+           "beneficiaryName": "HSBC FAO Zuellig Pharma Corporation",
+           "bankName": "Bank of the Philippine Island",
+           "branch": null,
+           "bankCode": null,
+           "bankAccount": "1623-0304-54",
+           "hdbcSwiftCode": null,
+           "bankAddress": null,
+           "payNowUen": null,
+           "emailId": null
+         }
+       ],
+       "qrCode": "",
+       "paymentBatchAdditionalInfo": "23C5C466E9364F6",
+       "paymentItems": [
+         {
+           "postingKeyName": "Other receivables",
+           "accountingDocument": "0040071656",
+           "documentDate": "2012-09-26T00:00:00Z",
+           "transactionCurrency": "PHP",
+           "paymentAmountInDisplayCrcy": 3.29,
+           "documentReferenceID": "1209-10-12IV0593",
+           "debitCreditCode": "S"
+         },
+         {
+          "postingKeyName": "Invoice",
+          "accountingDocument": "1550000045",
+          "documentDate": "2024-05-21T00:00:00Z",
+          "transactionCurrency": "PHP",
+          "paymentAmountInDisplayCrcy": 5000,
+          "documentReferenceID": "0810237257",
+          "debitCreditCode": "S"
+        },
+        {
+          "postingKeyName": "Credit memo",
+          "accountingDocument": "4550000029",
+          "documentDate": "2024-05-23T00:00:00Z",
+          "transactionCurrency": "PHP",
+          "paymentAmountInDisplayCrcy": 32,
+          "documentReferenceID": "0810232262",
+          "debitCreditCode": "H"
+        }
+       ],
+       "salesDistrict": "",
+       "footer": null,
+       "headerLogoPath": null,
+       "pleaseNote": null,
+       "header": null
+     }
+   }
+ }

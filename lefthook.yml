@@ -1,0 +1,23 @@
+#   Refer for explanation to following link:
+#   https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md
+pre-commit:
+  parallel: true
+  skip:
+    - ref: main
+    - ref: v3
+  commands:
+    pretty:
+      glob: '*.dart'
+      exclude: '(^|/)(freezed|g|gr)\.dart$'
+      run: fvm dart format {staged_files} && git add {staged_files}
+
+pre-push:
+  parallel: true
+  skip:
+    - ref: main
+    - ref: v3
+  commands:
+    branch-name-validate:
+      run: bash scripts/branch_name_validate.sh
+    code_analyze:
+      run: make run_analyze

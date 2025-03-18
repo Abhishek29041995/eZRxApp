@@ -1,0 +1,36 @@
+query ($request: GetStockInformationListsRequest!) {
+  getStockInformationLists(request: $request) {
+    MaterialNumber
+    StockInformation {
+      MaterialNumber
+      Batch
+      ExpiryDate
+      InStock
+      ShelfLife
+      SalesDistrict
+      StockQuantity
+    }
+  }
+}
+
+variables : {
+  "request": {
+    "customerCode": "0000101219",
+    "shipToCode": "0071115077"
+    "salesOrganisation": "2001",
+    "materialNumbers": [
+      "000000000021038305",
+      "000000000021038302",
+      "000000000021041773",
+      "000000000021041769",
+      "000000000021041768",
+      "000000000021041805",
+      "000000000021041779",
+      "000000000021041772",
+      "000000000021041780",
+      "000000000021041800",
+      "000000000021041729",
+      "000000000021041890"
+    ]
+  }
+}

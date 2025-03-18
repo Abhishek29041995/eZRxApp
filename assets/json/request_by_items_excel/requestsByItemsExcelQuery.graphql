@@ -1,0 +1,14 @@
+query requestsByItemsExcel($input: requestsByItems!) {
+  requestsByItemsExcel(request: $input) {
+    url
+  }
+}
+
+variable :
+{
+  "input": {
+    "soldTo": "0030082707",
+    "shipTo": "0070149863",
+    "username": "rootadmin"
+  }
+}

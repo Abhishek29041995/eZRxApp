@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="24px" viewBox="0 0 22 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>order_icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer_bar_order_history_onclick" transform="translate(-27.000000, -12.000000)" stroke="#595959">
+            <g id="Group" transform="translate(20.000000, 11.000000)">
+                <g id="order_icon" transform="translate(7.000000, 1.000000)">
+                    <g>
+                        <rect id="Rectangle" x="0.5" y="0.5" width="20.6" height="23" rx="2"></rect>
+                        <rect id="Rectangle" x="10.1" y="7.7" width="5" height="1" rx="0.5"></rect>
+                        <rect id="Rectangle" x="10.1" y="13.7" width="5" height="1" rx="0.5"></rect>
+                        <rect id="Rectangle" x="10.1" y="19.7" width="5" height="1" rx="0.5"></rect>
+                        <rect id="Rectangle" x="10.1" y="5.3" width="7.4" height="1" rx="0.5"></rect>
+                        <rect id="Rectangle" x="10.1" y="11.3" width="7.4" height="1" rx="0.5"></rect>
+                        <rect id="Rectangle" x="10.1" y="17.3" width="7.4" height="1" rx="0.5"></rect>
+                        <path d="M7.2,6.6 C7.2,7.59411255 6.39411255,8.4 5.4,8.4 C4.40588745,8.4 3.6,7.59411255 3.6,6.6 C3.6,5.60588745 4.40588745,4.8 5.4,4.8 C5.61219757,4.8 5.81581909,4.83671843 6.00485745,4.90414818" id="Path" stroke-linecap="round"></path>
+                        <path d="M7.2,12.6 C7.2,13.5941125 6.39411255,14.4 5.4,14.4 C4.40588745,14.4 3.6,13.5941125 3.6,12.6 C3.6,11.6058875 4.40588745,10.8 5.4,10.8 C5.61219757,10.8 5.81581909,10.8367184 6.00485745,10.9041482" id="Path" stroke-linecap="round"></path>
+                        <path d="M7.2,18.6 C7.2,19.5941125 6.39411255,20.4 5.4,20.4 C4.40588745,20.4 3.6,19.5941125 3.6,18.6 C3.6,17.6058875 4.40588745,16.8 5.4,16.8 C5.61219757,16.8 5.81581909,16.8367184 6.00485745,16.9041482" id="Path" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

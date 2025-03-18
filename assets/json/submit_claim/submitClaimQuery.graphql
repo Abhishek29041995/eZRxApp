@@ -1,0 +1,19 @@
+mutation submitClaim(\$submitInput: SubmitClaimRequest!) {
+    submitClaim(input: \$submitInput){
+        success
+        message
+    }
+}
+
+variables:{
+  "submitInput": {
+    "claimAmount": "100",
+    "claimType": "P7- Opening Support",
+    "customerCode": "0000002510",
+    "claimDetail": "String!",
+    "principalCode": "100480",
+    "principalName": "ABBOTT LABORATORIES",
+    "email": "jhchoo@zuelligpharma.com"
+    "attachments": []
+  }
+}

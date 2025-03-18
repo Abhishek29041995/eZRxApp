@@ -1,0 +1,346 @@
+{
+  "query":"mutation UpsertCartItems(\$itemInput: ItemInput!) {
+  fragment ezrxItemsFields on Item {
+  ProductID
+  ItemSource
+  Quantity
+  CreatedAt
+  UpdatedAt
+  principalCode
+  principalName
+  materialNumber
+  materialDescription
+  therapeuticClass
+  itemBrand
+  governmentMaterialCode
+  defaultMaterialDescription
+  oldMaterialCode
+  materialGroup4
+  materialGroup2
+  taxClassification
+  unitOfMeasurement
+  itemRegistrationNumber
+  genericMaterialName
+  language
+  taxM1
+  taxes
+  isSampleMaterial
+  hidePrice
+  TenderContractNumber
+  tenderOrderReason
+  hasValidTenderContract
+  hasMandatoryTenderContract
+  isFOCMaterial
+  isTenderExpired
+  isFavourite
+  productCount
+  productAddedAt
+  productUpdatedAt
+  minimumQty
+  maximumQty
+  orderedQty
+  remainingQty
+  mov
+  materialType
+  suspensionStatus
+  principalCutoffStatus
+  warehouseStorageCondition
+  ParentID
+  BonusMaterials {
+    principalCode
+    principalName
+    materialNumber
+    materialDescription
+    productCount
+    ProductID
+    itemRegistrationNumber
+  }
+  Type
+  ComboDeals {
+    Eligible
+    FlexibleGroup
+    SalesDeal
+    Category {
+      Type
+      Value
+    }
+  }
+  ComboMaterials {
+    ...ComboMaterialsFields
+  }
+}
+
+fragment shipToFields on ShipTo {
+  ID
+  AddressName
+  CompanyName
+  FirstName
+  LastName
+  Street1
+  Street2
+  City
+  State
+  Zip
+  Country
+  Phone
+}
+
+fragment userAddressFields on CartShippingAddress {
+  name
+  street
+  city
+  addressCode
+  country
+}
+
+fragment materialsFields on CartMaterials {
+  principalCode
+  principalName
+  materialNumber
+  materialDescription
+  therapeuticClass
+  itemBrand
+  governmentMaterialCode
+  defaultMaterialDescription
+  oldMaterialCode
+  materialGroup4
+  materialGroup2
+  taxClassification
+  unitOfMeasurement
+  itemRegistrationNumber
+  genericMaterialName
+  language
+  taxM1
+  taxes
+  isSampleMaterial
+  hidePrice
+  hasValidTenderContract
+  hasMandatoryTenderContract
+  isFOCMaterial
+  isFavourite
+  productCount
+  productAddedAt
+  productUpdatedAt
+  minimumQty
+  maximumQty
+  orderedQty
+  remainingQty
+  mov
+  materialType
+  suspensionStatus
+  principalCutoffStatus
+  warehouseStorageCondition
+}
+
+fragment ComboMaterialsFields on Item {
+  Type
+  ProductID
+  ItemSource
+  Quantity
+  CreatedAt
+  UpdatedAt
+  principalCode
+  principalName
+  materialNumber
+  materialDescription
+  therapeuticClass
+  itemBrand
+  governmentMaterialCode
+  defaultMaterialDescription
+  oldMaterialCode
+  materialGroup4
+  materialGroup2
+  taxClassification
+  unitOfMeasurement
+  itemRegistrationNumber
+  genericMaterialName
+  language
+  taxM1
+  taxes
+  isSampleMaterial
+  hidePrice
+  hasValidTenderContract
+  hasMandatoryTenderContract
+  isFOCMaterial
+  isTenderExpired
+  isFavourite
+  productCount
+  productAddedAt
+  productUpdatedAt
+  minimumQty
+  maximumQty
+  orderedQty
+  remainingQty
+  mov
+  materialType
+  suspensionStatus
+  principalCutoffStatus
+  warehouseStorageCondition
+  ParentID
+  Rate
+  ConditionNumber
+  Mandatory
+  Suffix
+  ListPrice
+  ItemCheck
+  Valid
+  SetNo
+  ComboDealType
+  IsComboEligible
+  FinalIndividualPrice
+  PrimaryMaterialNumber
+  ComboDeals {
+    Eligible
+    FlexibleGroup
+    SalesDeal
+    Category {
+      Type
+      Value
+    }
+  }
+}
+
+mutation UpsertCartItems($itemInput: [ItemInput!]) {
+  upsertCartItems(itemInput: $itemInput) {
+    ID
+    UserID
+    EzRxItems {
+      ...ezrxItemsFields
+    }
+    CustomerCode
+    ShipToCustomerCode
+    CreatedAt
+    UpdatedAt
+    OrderID
+    userAddress {
+      ...userAddressFields
+    }
+    materials {
+      ...materialsFields
+    }
+    SalesOrg
+  }
+}
+  }",
+ {
+  "itemInput": [
+    {
+      "ProductID": "000000000021130726",
+      "ParentID": "000000000021130726",
+      "SetNo": "00000001",
+      "Quantity": 24,
+      "ItemSource": "EZRX",
+      "CustomerCode": "0031124655",
+      "ShipToID": "0073301682",
+      "SalesOrg": "1500",
+      "MinQty": 24,
+      "Rate": -8.5,
+      "ConditionNumber": "0015997480",
+      "Mandatory": true,
+      "Suffix": "1",
+      "MaterialDescription": "KLACID MR TAB.500MG",
+      "PrincipleName": "Abbott Products Operations A.G",
+      "ListPrice": 1.5,
+      "ItemCheck": true,
+      "PrincipalCode": "0000102756",
+      "Valid": true,
+      "Type": "combo",
+      "ComboDealType": "K1",
+      "IsComboEligible": true,
+      "ComboDeals": {
+        "Eligible": true,
+        "FlexibleGroup": "5000000018",
+        "SalesDeal": "0040000110",
+        "Category": {
+          "Type": "MATNR",
+          "Value": [
+            "000000000021130726",
+            "000000000021130718",
+            "000000000021222875"
+          ]
+        }
+      },
+      "FinalIndividualPrice": 1.37,
+      "Language": "EN"
+    },
+    {
+      "ProductID": "000000000021130718",
+      "ParentID": "000000000021130726",
+      "SetNo": "00000002",
+      "Quantity": 15,
+      "ItemSource": "EZRX",
+      "CustomerCode": "0031124655",
+      "ShipToID": "0073301682",
+      "SalesOrg": "1500",
+      "MinQty": 15,
+      "Rate": -4,
+      "ConditionNumber": "0015997479",
+      "Mandatory": true,
+      "Suffix": "1",
+      "MaterialDescription": "BETASERC TAB 16MG",
+      "PrincipleName": "Abbott Products Operations A.G",
+      "ListPrice": 250,
+      "ItemCheck": true,
+      "PrincipalCode": "0000102756",
+      "Valid": true,
+      "Type": "combo",
+      "ComboDealType": "K1",
+      "IsComboEligible": true,
+      "ComboDeals": {
+        "Eligible": true,
+        "FlexibleGroup": "5000000018",
+        "SalesDeal": "0040000110",
+        "Category": {
+          "Type": "MATNR",
+          "Value": [
+            "000000000021130726",
+            "000000000021130718",
+            "000000000021222875"
+          ]
+        }
+      },
+      "FinalIndividualPrice": 240,
+      "Language": "EN"
+    },
+    {
+      "ProductID": "000000000021222875",
+      "ParentID": "000000000021130726",
+      "SetNo": "00000003",
+      "Quantity": 20,
+      "ItemSource": "EZRX",
+      "CustomerCode": "0031124655",
+      "ShipToID": "0073301682",
+      "SalesOrg": "1500",
+      "MinQty": 20,
+      "Rate": -8.5,
+      "ConditionNumber": "0015997481",
+      "Mandatory": true,
+      "Suffix": "1",
+      "MaterialDescription": "ZPKH Batch Managed Mat",
+      "PrincipleName": "Abbott Products Operations A.G",
+      "ListPrice": 20,
+      "ItemCheck": true,
+      "PrincipalCode": "0000102756",
+      "Valid": true,
+      "Type": "combo",
+      "ComboDealType": "K1",
+      "IsComboEligible": true,
+      "ComboDeals": {
+        "Eligible": true,
+        "FlexibleGroup": "5000000018",
+        "SalesDeal": "0040000110",
+        "Category": {
+          "Type": "MATNR",
+          "Value": [
+            "000000000021130726",
+            "000000000021130718",
+            "000000000021222875"
+          ]
+        }
+      },
+      "FinalIndividualPrice": 18.3,
+      "Language": "EN"
+    }
+  ]
+}
+}

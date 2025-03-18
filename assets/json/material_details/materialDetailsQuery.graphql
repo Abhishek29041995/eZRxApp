@@ -1,0 +1,50 @@
+query materialDetails(
+    $materialNumber: String!,
+    $language: String, 
+    $salesOrg: String, 
+    $customerCode: String, 
+    $shipToCode: String
+    ) {
+  materialDetails(
+    materialNumber: $materialNumber
+    language: $language
+    salesOrg: $salesOrg
+    customerCode: $customerCode
+    shipToCode: $shipToCode
+  ) {
+    materialNumber
+    materialDescription
+    principalCode
+    principalName
+    unitOfMeasurement
+    therapeuticClass
+    genericMaterialName
+    itemBrand
+    materialBrand
+    isFavourite
+    warehouseStorageCondition
+    defaultMaterialDescription
+    isMarketplaceProduct
+    country
+    countryName
+    hidePrice
+    governmentMaterialCode
+    itemRegistrationNumber
+    suspensionStatus
+    promoStatus
+    promoType
+    hasMandatoryTenderContract
+    hasValidTenderContract
+    isPoison
+    isGimmick
+    isSampleMaterial
+  }
+}
+
+variables : {
+  "materialNumber": "000000000021041773",
+  "language": "EN",
+  "salesOrg": "2001",
+  "customerCode": "0070149863",
+  "shipToCode": "0070149863"
+}

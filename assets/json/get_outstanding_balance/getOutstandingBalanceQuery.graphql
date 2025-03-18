@@ -1,0 +1,17 @@
+query outstandingBalance($request: outstandingBalanceRequest!) {
+  outstandingBalance(request: $request) {
+    results {
+      customerCode
+      currency
+      amount
+      overdue
+      checkDate
+    }
+  },
+  variable:{
+   "request": {
+      "customerCode": "0000101202",
+      "salesOrg": "2001"
+    }
+  }
+}

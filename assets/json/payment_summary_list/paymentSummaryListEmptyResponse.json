@@ -1,0 +1,11 @@
+{
+  "data": {
+    "customerPayment": {
+      "total": 0,
+      "showing": 0,
+      "totalPaymentInProgress": 5342,
+      "resultPaymentInProgress": 5342,
+      "customerPaymentResponse": []
+    }
+  }
+}

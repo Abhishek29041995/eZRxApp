@@ -1,0 +1,77 @@
+{
+  "data": {
+    "comboDealForMaterials": [
+      {
+        "groupDeal": null,
+        "flexiSKUTier": [],
+        "flexiQtyTier": [
+          {
+            "rate": "-5.00",
+            "type": "%",
+            "conditionNumber": "0015958907",
+            "minQty": "3.000",
+            "suffix": "1"
+          },
+          {
+            "rate": "-5.50",
+            "type": "%",
+            "conditionNumber": "0015958908",
+            "minQty": "8.000",
+            "suffix": "2"
+          },
+          {
+            "rate": "-6.00",
+            "type": "%",
+            "conditionNumber": "0015958909",
+            "minQty": "20.000",
+            "suffix": "3"
+          }
+        ],
+        "flexiAmmountTier": [],
+        "materialComboDeals": [
+          {
+            "setNo": "00000001",
+            "materials": [
+              {
+                "minQty": "0.000",
+                "materialNumber": "000000000021130726",
+                "rate": "",
+                "type": "",
+                "conditionNumber": "",
+                "mandatory": false,
+                "suffix": ""
+              },
+              {
+                "minQty": "0.000",
+                "materialNumber": "000000000021130718",
+                "rate": "",
+                "type": "",
+                "conditionNumber": "",
+                "mandatory": false,
+                "suffix": ""
+              },
+              {
+                "minQty": "0.000",
+                "materialNumber": "000000000021222875",
+                "rate": "",
+                "type": "",
+                "conditionNumber": "",
+                "mandatory": false,
+                "suffix": ""
+              },
+              {
+                "minQty": "0.000",
+                "materialNumber": "000000000021223410",
+                "rate": "",
+                "type": "",
+                "conditionNumber": "",
+                "mandatory": false,
+                "suffix": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

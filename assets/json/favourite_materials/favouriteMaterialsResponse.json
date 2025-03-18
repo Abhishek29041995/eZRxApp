@@ -1,0 +1,34 @@
+{
+  "data": {
+    "favouriteMaterials": [
+      {
+        "id": "2876",
+        "materialNumber": "000000000023001758",
+        "materialDescription": "02079701 OTULTRASOFT LANCET 25 IFD",
+        "isFOC": false,
+        "isTenderContract": false
+      },
+      {
+        "id": "2875",
+        "materialNumber": "000000000023344187",
+        "materialDescription": "011-C3322 5'MBORE BIFUSE50S+2REMVBL",
+        "isFOC": false,
+        "isTenderContract": false
+      },
+      {
+        "id": "2872",
+        "materialNumber": "000000000023344187",
+        "materialDescription": "011-C3322 5'MBORE BIFUSE50S+2REMVBL",
+        "isFOC": false,
+        "isTenderContract": false
+      },
+      {
+        "id": "2867",
+        "materialNumber": "000000000021230624",
+        "materialDescription": "10002185 HALF INSOLE1'S (taxonomy test)",
+        "isFOC": false,
+        "isTenderContract": false
+      }
+    ]
+  }
+}

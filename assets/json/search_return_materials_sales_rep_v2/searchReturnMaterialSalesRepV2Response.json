@@ -1,0 +1,389 @@
+{
+    "data": {
+        "searchReturnMaterialsForSalesRepV2": {
+            "isSearchComplete": false,
+            "materialBasicInformation": [
+                {
+                    "salesOrg": "2001",
+                    "partnerRole": "SH",
+                    "partnerNumber": "0070149863"
+                },
+                {
+                    "salesOrg": "2001",
+                    "partnerRole": "AG",
+                    "partnerNumber": "0070149863"
+                }
+            ],
+            "materials": [
+                {
+                    "item": {
+                        "assignmentNumber": "1100001210",
+                        "referenceDocument": "0810048982",
+                        "purchaseNumberC": "",
+                        "poMethod": "",
+                        "createdDate": "20230721",
+                        "currency": "MYR",
+                        "plant": "2010",
+                        "material": "000000000023063774",
+                        "materialDescription": "(M) TEOSYAL PS RD I 1ML PRFS 2'S",
+                        "DefaultMaterialDescription": "",
+                        "itemNumber": "000100",
+                        "targetQuantity": "1",
+                        "storeLocation": "1001",
+                        "batch": "+L-132804A",
+                        "highLevelItemCode": "",
+                        "orderReason": "",
+                        "priceDate": "20230721",
+                        "unitPrice": "540.00",
+                        "totalPrice": "540",
+                        "principalCode": "0000101363",
+                        "principalName": "PARVUS SDN BHD",
+                        "expiryDate": "20250731",
+                        "eligibleForReturn": true,
+                        "schedules": [
+                            {
+                                "scheduledLine": "00010",
+                                "requestDate": "20230721"
+                            }
+                        ],
+                        "conditions": [],
+                        "texts": [],
+                        "suggestedPriceOverride": "540.00",
+                        "balanceQuantity": "1",
+                        "balanceValue": "540.00",
+                        "outsidePolicy": false,
+                        "wareHouseStorageCondition":"AC",
+                        "bonusItem": []
+                    }
+                },
+                {
+                    "item": {
+                        "assignmentNumber": "1100001235",
+                        "referenceDocument": "0810071611",
+                        "purchaseNumberC": "",
+                        "poMethod": "",
+                        "createdDate": "20230804",
+                        "currency": "MYR",
+                        "plant": "2010",
+                        "material": "000000000023063786",
+                        "materialDescription": "(M) TEOSYAL PS RD II 1ML PRFS 2'S",
+                        "DefaultMaterialDescription": "",
+                        "itemNumber": "000100",
+                        "targetQuantity": "1",
+                        "storeLocation": "1001",
+                        "batch": "+L-132202B",
+                        "highLevelItemCode": "",
+                        "orderReason": "",
+                        "priceDate": "20230804",
+                        "unitPrice": "1458.00",
+                        "totalPrice": "1458",
+                        "principalCode": "0000101363",
+                        "principalName": "PARVUS SDN BHD",
+                        "expiryDate": "20250531",
+                        "eligibleForReturn": true,
+                        "schedules": [
+                            {
+                                "scheduledLine": "00010",
+                                "requestDate": "20230804"
+                            }
+                        ],
+                        "conditions": [],
+                        "texts": [],
+                        "suggestedPriceOverride": "1458.00",
+                        "balanceQuantity": "1",
+                        "balanceValue": "1458.00",
+                        "outsidePolicy": false,
+                        "wareHouseStorageCondition":"AC",
+                        "bonusItem": []
+                    }
+                },
+                {
+                    "item": {
+                        "assignmentNumber": "1100001244",
+                        "referenceDocument": "0085415752",
+                        "purchaseNumberC": "",
+                        "poMethod": "",
+                        "createdDate": "20230814",
+                        "currency": "MYR",
+                        "plant": "2010",
+                        "material": "000000000021247738",
+                        "materialDescription": "ILIADIN CHILDREN DROP 0.025% 10ML",
+                        "DefaultMaterialDescription": "",
+                        "itemNumber": "000010",
+                        "targetQuantity": "2",
+                        "storeLocation": "1001",
+                        "batch": "253067",
+                        "highLevelItemCode": "",
+                        "orderReason": "",
+                        "priceDate": "20220622",
+                        "unitPrice": "12.40",
+                        "totalPrice": "24.8",
+                        "principalCode": "0000101308",
+                        "principalName": "PROCTER AND GAMBLE",
+                        "expiryDate": "20230930",
+                        "eligibleForReturn": true,
+                        "schedules": [
+                            {
+                                "scheduledLine": "00001",
+                                "requestDate": "20230814"
+                            }
+                        ],
+                        "conditions": [],
+                        "texts": [],
+                        "suggestedPriceOverride": "12.40",
+                        "balanceQuantity": "1",
+                        "balanceValue": "12.40",
+                        "outsidePolicy": false,
+                        "wareHouseStorageCondition":"AC",
+                        "bonusItem": []
+                    }
+                },
+                {
+                    "item": {
+                        "assignmentNumber": "1100001246",
+                        "referenceDocument": "0085418133",
+                        "purchaseNumberC": "",
+                        "poMethod": "",
+                        "createdDate": "20230814",
+                        "currency": "MYR",
+                        "plant": "2010",
+                        "material": "000000000021247738",
+                        "materialDescription": "ILIADIN CHILDREN DROP 0.025% 10ML",
+                        "DefaultMaterialDescription": "",
+                        "itemNumber": "000010",
+                        "targetQuantity": "2",
+                        "storeLocation": "1001",
+                        "batch": "253067",
+                        "highLevelItemCode": "",
+                        "orderReason": "",
+                        "priceDate": "20220622",
+                        "unitPrice": "12.40",
+                        "totalPrice": "24.8",
+                        "principalCode": "0000101308",
+                        "principalName": "PROCTER AND GAMBLE",
+                        "expiryDate": "20230930",
+                        "eligibleForReturn": true,
+                        "schedules": [
+                            {
+                                "scheduledLine": "00001",
+                                "requestDate": "20230814"
+                            }
+                        ],
+                        "conditions": [],
+                        "texts": [],
+                        "suggestedPriceOverride": "12.40",
+                        "balanceQuantity": "1",
+                        "balanceValue": "22.80",
+                        "outsidePolicy": false,
+                        "wareHouseStorageCondition":"AC",
+                        "bonusItem": []
+                    }
+                },
+                {
+                    "item": {
+                        "assignmentNumber": "1100001325",
+                        "referenceDocument": "0810226594",
+                        "purchaseNumberC": "",
+                        "poMethod": "",
+                        "createdDate": "20231114",
+                        "currency": "MYR",
+                        "plant": "2010",
+                        "material": "000000000021247723",
+                        "materialDescription": "SANGOBION COMPLETE 100S",
+                        "DefaultMaterialDescription": "",
+                        "itemNumber": "000010",
+                        "targetQuantity": "4",
+                        "storeLocation": "1006",
+                        "batch": "D0994947",
+                        "highLevelItemCode": "",
+                        "orderReason": "",
+                        "priceDate": "20231114",
+                        "unitPrice": "69.34",
+                        "totalPrice": "346.68",
+                        "principalCode": "0000101308",
+                        "principalName": "PROCTER AND GAMBLE",
+                        "expiryDate": "20240708",
+                        "eligibleForReturn": true,
+                        "schedules": [
+                            {
+                                "scheduledLine": "00001",
+                                "requestDate": "20231114"
+                            }
+                        ],
+                        "conditions": [],
+                        "texts": [],
+                        "suggestedPriceOverride": "69.34",
+                        "balanceQuantity": "1",
+                        "balanceValue": "157.34",
+                        "outsidePolicy": false,
+                        "wareHouseStorageCondition":"AC",
+                        "bonusItem": []
+                    }
+                },
+                {
+                    "item": {
+                        "assignmentNumber": "1100001326",
+                        "referenceDocument": "0810208564",
+                        "purchaseNumberC": "",
+                        "poMethod": "",
+                        "createdDate": "20231114",
+                        "currency": "MYR",
+                        "plant": "2010",
+                        "material": "000000000021247723",
+                        "materialDescription": "SANGOBION COMPLETE 100S",
+                        "DefaultMaterialDescription": "",
+                        "itemNumber": "000010",
+                        "targetQuantity": "4",
+                        "storeLocation": "1006",
+                        "batch": "D0994947",
+                        "highLevelItemCode": "",
+                        "orderReason": "",
+                        "priceDate": "20231114",
+                        "unitPrice": "69.34",
+                        "totalPrice": "346.68",
+                        "principalCode": "0000101308",
+                        "principalName": "PROCTER AND GAMBLE",
+                        "expiryDate": "20240708",
+                        "eligibleForReturn": true,
+                        "schedules": [
+                            {
+                                "scheduledLine": "00001",
+                                "requestDate": "20231114"
+                            }
+                        ],
+                        "conditions": [],
+                        "texts": [],
+                        "suggestedPriceOverride": "69.34",
+                        "balanceQuantity": "3",
+                        "balanceValue": "277.34",
+                        "outsidePolicy": false,
+                        "wareHouseStorageCondition":"AC",
+                        "bonusItem": [
+                            {
+                                "assignmentNumber": "1100001326",
+                                "referenceDocument": "0810208564",
+                                "purchaseNumberC": "",
+                                "poMethod": "",
+                                "createdDate": "20231114",
+                                "currency": "MYR",
+                                "plant": "2010",
+                                "material": "000000000021247723",
+                                "materialDescription": "SANGOBION COMPLETE 100S",
+                                "DefaultMaterialDescription": "SANGOBION COMPLETE 100S",
+                                "itemNumber": "000011",
+                                "targetQuantity": "1",
+                                "storeLocation": "1006",
+                                "batch": "D0994947",
+                                "highLevelItemCode": "000010",
+                                "orderReason": "",
+                                "priceDate": "20231114",
+                                "unitPrice": "69.34",
+                                "totalPrice": "0",
+                                "principalCode": "0000101308",
+                                "principalName": "PROCTER AND GAMBLE",
+                                "expiryDate": "20240708",
+                                "eligibleForReturn": true,
+                                "schedules": [
+                                    {
+                                        "scheduledLine": "00001",
+                                        "requestDate": "20231114"
+                                    }
+                                ],
+                                "conditions": [],
+                                "texts": [],
+                                "suggestedPriceOverride": "173.34",
+                                "balanceQuantity": "1",
+                                "balanceValue": "346.68",
+                                "outsidePolicy": false,
+                                "wareHouseStorageCondition":"AC"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "item": {
+                        "assignmentNumber": "1100001327",
+                        "referenceDocument": "0810226985",
+                        "purchaseNumberC": "",
+                        "poMethod": "",
+                        "createdDate": "20231114",
+                        "currency": "MYR",
+                        "plant": "2010",
+                        "material": "000000000021247723",
+                        "materialDescription": "SANGOBION COMPLETE 100S",
+                        "DefaultMaterialDescription": "",
+                        "itemNumber": "000010",
+                        "targetQuantity": "4",
+                        "storeLocation": "1006",
+                        "batch": "D0994947",
+                        "highLevelItemCode": "",
+                        "orderReason": "",
+                        "priceDate": "20231114",
+                        "unitPrice": "69.34",
+                        "totalPrice": "346.68",
+                        "principalCode": "0000101308",
+                        "principalName": "PROCTER AND GAMBLE",
+                        "expiryDate": "20240708",
+                        "eligibleForReturn": true,
+                        "schedules": [
+                            {
+                                "scheduledLine": "00001",
+                                "requestDate": "20231114"
+                            }
+                        ],
+                        "conditions": [],
+                        "texts": [],
+                        "suggestedPriceOverride": "69.34",
+                        "balanceQuantity": "1",
+                        "balanceValue": "166.68",
+                        "outsidePolicy": false,
+                        "wareHouseStorageCondition":"AC",
+                        "bonusItem": []
+                    }
+                },
+                {
+                    "item": {
+                        "assignmentNumber": "1100001328",
+                        "referenceDocument": "0810220270",
+                        "purchaseNumberC": "",
+                        "poMethod": "",
+                        "createdDate": "20231114",
+                        "currency": "MYR",
+                        "plant": "2010",
+                        "material": "000000000021247723",
+                        "materialDescription": "SANGOBION COMPLETE 100S",
+                        "DefaultMaterialDescription": "SANGOBION COMPLETE 100S",
+                        "itemNumber": "000010",
+                        "targetQuantity": "4",
+                        "storeLocation": "1006",
+                        "batch": "D0994947",
+                        "highLevelItemCode": "",
+                        "orderReason": "",
+                        "priceDate": "20231114",
+                        "unitPrice": "69.34",
+                        "totalPrice": "346.68",
+                        "principalCode": "0000101308",
+                        "principalName": "PROCTER AND GAMBLE",
+                        "expiryDate": "20240708",
+                        "eligibleForReturn": true,
+                        "schedules": [
+                            {
+                                "scheduledLine": "00001",
+                                "requestDate": "20231114"
+                            }
+                        ],
+                        "conditions": [],
+                        "texts": [],
+                        "suggestedPriceOverride": "69.34",
+                        "balanceQuantity": "2",
+                        "balanceValue": "208.00",
+                        "outsidePolicy": false,
+                        "wareHouseStorageCondition":"AC",
+                        "bonusItem": []
+                    }
+                }
+            ],
+            "totalCount": 8
+        }
+    }
+}

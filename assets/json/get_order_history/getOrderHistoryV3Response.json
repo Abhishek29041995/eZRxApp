@@ -1,0 +1,369 @@
+{
+  "data": {
+    "orderHistoryV3": {
+      "orderCount": 616,
+      "creatingOrderIds": null,
+      "orderHeaders": [
+        {
+          "Type": "Comm",
+          "OrderNumber": "0200251963",
+          "EZRXNumber": "EZRX-7be74cd",
+          "SoldTo": "0030082707",
+          "ShipTo": "0070149863",
+          "CompanyName": "RSD HOSPITALS SDN BHD (SJMC)",
+          "OrderValue": 364.8,
+          "ProcessingStatus": "Order In Progress",
+          "CreatedDate": "20230811",
+          "CreatedTime": "055745",
+          "RequestedDeliveryDate": "2023-08-14",
+          "TotalTax": 0,
+          "POReference": "",
+          "HasPOAttachment": false,
+          "ItmCount": 1,
+          "ItmDescription": "0.9% SODIUM CHLORIDEBP 96X50ML",
+          "PaymentMethod": "Bank Transfer",
+          "IsGreen": false,
+          "IsMarketplace": true,
+          "OrderItems": [
+            {
+              "MaterialCode": "000000000023063780",
+              "MaterialDescription": "0.9% SODIUM CHLORIDEBP 96X50ML",
+              "DefaultMaterialDescription": "",
+              "GovernmentMaterialCode": "SN72591701"
+            }
+          ]
+        },
+        {
+          "Type": "ZPOR",
+          "OrderNumber": "0200248548",
+          "EZRXNumber": "EZRX-ad4b046",
+          "SoldTo": "0030082707",
+          "ShipTo": "0070149863",
+          "CompanyName": "RSD HOSPITALS SDN BHD (SJMC)",
+          "OrderValue": 542,
+          "ProcessingStatus": "Order In Progress",
+          "CreatedDate": "20230811",
+          "CreatedTime": "055745",
+          "RequestedDeliveryDate": "2023-08-11",
+          "TotalTax": 0,
+          "POReference": "TestPO",
+          "HasPOAttachment": false,
+          "ItmCount": 1,
+          "ItmDescription": "AVODARTCAP0.5MG30'S",
+          "PaymentMethod": "Bank Transfer",
+          "IsGreen": false,
+          "IsMarketplace": false,
+          "OrderItems": [
+            {
+              "MaterialCode": "000000000023046799",
+              "MaterialDescription": "AVODARTCAP0.5MG30'S",
+              "DefaultMaterialDescription": ""
+            }
+          ]
+        },
+        {
+          "Type": "ZPOR",
+          "OrderNumber": "0200250259",
+          "EZRXNumber": "EZRX-e910eb5",
+          "SoldTo": "0030082707",
+          "ShipTo": "0070149863",
+          "CompanyName": "RSD HOSPITALS SDN BHD (SJMC)",
+          "OrderValue": 3256,
+          "ProcessingStatus": "Order In Progress",
+          "CreatedDate": "20230811",
+          "CreatedTime": "055745",
+          "RequestedDeliveryDate": "2023-08-11",
+          "TotalTax": 0,
+          "POReference": "TestPO",
+          "HasPOAttachment": false,
+          "ItmCount": 1,
+          "ItmDescription": "(M) 10085 EMBRYOGLUE 10ML",
+          "PaymentMethod": "Bank Transfer",
+          "IsGreen": false,
+          "IsMarketplace": true,
+          "OrderItems": [
+            {
+              "MaterialCode": "000000000023350931",
+              "MaterialDescription": "(M) 10085 EMBRYOGLUE 10ML",
+              "DefaultMaterialDescription": ""
+            }
+          ]
+        },
+        {
+          "Type": "ZPOR",
+          "OrderNumber": "0200250935",
+          "EZRXNumber": "EZRX-9c49b34",
+          "SoldTo": "0030082707",
+          "ShipTo": "0070149863",
+          "CompanyName": "RSD HOSPITALS SDN BHD (SJMC)",
+          "OrderValue": 1450,
+          "ProcessingStatus": "Order Pending",
+          "CreatedDate": "20230811",
+          "CreatedTime": "055745",
+          "RequestedDeliveryDate": "2023-08-14",
+          "TotalTax": 0,
+          "POReference": "TestPO",
+          "HasPOAttachment": false,
+          "ItmCount": 2,
+          "ItmDescription": "(Z) JANUMET XR 100/1000 TABS 28'S",
+          "PaymentMethod": "Bank Transfer",
+          "IsGreen": false,
+          "IsMarketplace": false,
+          "OrderItems": [
+            {
+              "MaterialCode": "000000000023046516",
+              "MaterialDescription": "(Z) JANUMET XR 100/1000 TABS 28'S",
+              "DefaultMaterialDescription": ""
+            },
+            {
+              "MaterialCode": "000000000023046799",
+              "MaterialDescription": "AVODARTCAP0.5MG30'S",
+              "DefaultMaterialDescription": ""
+            }
+          ]
+        },
+        {
+          "Type": "ZPOR",
+          "OrderNumber": "0200250127",
+          "EZRXNumber": "EZRX-f88fe00",
+          "SoldTo": "0030082707",
+          "ShipTo": "0070149863",
+          "CompanyName": "RSD HOSPITALS SDN BHD (SJMC)",
+          "OrderValue": 1450,
+          "ProcessingStatus": "Order Pending",
+          "CreatedDate": "20230811",
+          "CreatedTime": "055745",
+          "RequestedDeliveryDate": "2023-08-14",
+          "TotalTax": 0,
+          "POReference": "TestPO",
+          "HasPOAttachment": false,
+          "ItmCount": 2,
+          "ItmDescription": "(Z) JANUMET XR 100/1000 TABS 28'S",
+          "PaymentMethod": "Bank Transfer",
+          "IsGreen": false,
+          "IsMarketplace": true,
+          "OrderItems": [
+            {
+              "MaterialCode": "000000000023046516",
+              "MaterialDescription": "(Z) JANUMET XR 100/1000 TABS 28'S",
+              "DefaultMaterialDescription": ""
+            },
+            {
+              "MaterialCode": "000000000023046799",
+              "MaterialDescription": "AVODARTCAP0.5MG30'S",
+              "DefaultMaterialDescription": ""
+            }
+          ]
+        },
+        {
+          "Type": "ZPOR",
+          "OrderNumber": "0200251068",
+          "EZRXNumber": "EZRX-34c1959",
+          "SoldTo": "0030082707",
+          "ShipTo": "0070149863",
+          "CompanyName": "RSD HOSPITALS SDN BHD (SJMC)",
+          "OrderValue": 900,
+          "ProcessingStatus": "Order In Progress",
+          "CreatedDate": "20230811",
+          "CreatedTime": "055745",
+          "RequestedDeliveryDate": "2023-08-14",
+          "TotalTax": 0,
+          "POReference": "TestPO",
+          "HasPOAttachment": false,
+          "ItmCount": 2,
+          "ItmDescription": "PROPECIA FP LPTABS1MG28'S",
+          "PaymentMethod": "Bank Transfer",
+          "IsGreen": false,
+          "IsMarketplace": false,
+          "OrderItems": [
+            {
+              "MaterialCode": "000000000023046018",
+              "MaterialDescription": "FOSAMAXTABS10MG30'S",
+              "DefaultMaterialDescription": ""
+            },
+            {
+              "MaterialCode": "000000000023046031",
+              "MaterialDescription": "PROPECIA FP LPTABS1MG28'S",
+              "DefaultMaterialDescription": ""
+            }
+          ]
+        },
+        {
+          "Type": "ZPOR",
+          "OrderNumber": "0200251736",
+          "EZRXNumber": "EZRX-7e678c1",
+          "SoldTo": "0030082707",
+          "ShipTo": "0070149863",
+          "CompanyName": "RSD HOSPITALS SDN BHD (SJMC)",
+          "OrderValue": 900,
+          "ProcessingStatus": "Order In Progress",
+          "CreatedDate": "20230811",
+          "CreatedTime": "055745",
+          "RequestedDeliveryDate": "2023-08-14",
+          "TotalTax": 0,
+          "POReference": "TestPO",
+          "HasPOAttachment": false,
+          "ItmCount": 2,
+          "ItmDescription": "PROPECIA FP LPTABS1MG28'S",
+          "PaymentMethod": "Bank Transfer",
+          "IsGreen": false,
+          "IsMarketplace": true,
+          "OrderItems": [
+            {
+              "MaterialCode": "000000000023046018",
+              "MaterialDescription": "FOSAMAXTABS10MG30'S",
+              "DefaultMaterialDescription": "",
+              "IsTenderContractMaterial": true,
+              "TenderContractDetails": {
+                "ContractNumber": "0040026559",
+                "isTenderExpire": false,
+                "OrderReason": "735",
+                "Price": "1930500",
+                "PriceUnit": 100,
+                "ContractQuantity": 50,
+                "RemainingQuantity": 33,
+                "ExpiryDate": "20251231",
+                "ContractReference": "HNO-012345",
+                "VisaNumber": "",
+                "SalesDistrict": "HNO",
+                "AnnouncementLetterNumber": "eZRx_normal contract"
+              }
+            },
+            {
+              "MaterialCode": "000000000023046031",
+              "MaterialDescription": "PROPECIA FP LPTABS1MG28'S",
+              "DefaultMaterialDescription": "",
+              "IsTenderContractMaterial": true,
+              "TenderContractDetails": {
+                "ContractNumber": "0040026559",
+                "isTenderExpire": false,
+                "OrderReason": "735",
+                "Price": "1930500",
+                "PriceUnit": 100,
+                "ContractQuantity": 50,
+                "RemainingQuantity": 33,
+                "ExpiryDate": "20251231",
+                "ContractReference": "HNO-012345",
+                "VisaNumber": "",
+                "SalesDistrict": "HNO",
+                "AnnouncementLetterNumber": "eZRx_normal contract"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "ZPOR",
+          "OrderNumber": "0200251774",
+          "EZRXNumber": "EZRX-91e3773",
+          "SoldTo": "0030082707",
+          "ShipTo": "0070149863",
+          "CompanyName": "RSD HOSPITALS SDN BHD (SJMC)",
+          "OrderValue": 900,
+          "ProcessingStatus": "Order In Progress",
+          "CreatedDate": "20230811",
+          "CreatedTime": "055745",
+          "RequestedDeliveryDate": "2023-08-14",
+          "TotalTax": 0,
+          "POReference": "TestPO",
+          "HasPOAttachment": false,
+          "ItmCount": 2,
+          "ItmDescription": "PROPECIA FP LPTABS1MG28'S",
+          "PaymentMethod": "Bank Transfer",
+          "IsGreen": false,
+          "IsMarketplace": false,
+          "OrderItems": [
+            {
+              "MaterialCode": "000000000023046018",
+              "MaterialDescription": "FOSAMAXTABS10MG30'S",
+              "DefaultMaterialDescription": ""
+            },
+            {
+              "MaterialCode": "000000000023046031",
+              "MaterialDescription": "PROPECIA FP LPTABS1MG28'S",
+              "DefaultMaterialDescription": ""
+            }
+          ]
+        },
+        {
+          "Type": "ZPOR",
+          "OrderNumber": "0200251773",
+          "EZRXNumber": "EZRX-0c40b0c",
+          "SoldTo": "0030082707",
+          "ShipTo": "0070149863",
+          "CompanyName": "RSD HOSPITALS SDN BHD (SJMC)",
+          "OrderValue": 1034.4,
+          "ProcessingStatus": "Order In Progress",
+          "CreatedDate": "20230811",
+          "CreatedTime": "055745",
+          "RequestedDeliveryDate": "2023-08-14",
+          "TotalTax": 0,
+          "POReference": "TestPO",
+          "HasPOAttachment": false,
+          "ItmCount": 4,
+          "ItmDescription": "ABBOTT CALCIUM MILKEY CHEW400MG30'S",
+          "PaymentMethod": "Bank Transfer",
+          "IsGreen": false,
+          "IsMarketplace": true,
+          "OrderItems": [
+            {
+              "MaterialCode": "000000000021042567",
+              "MaterialDescription": "ABBOTT CALCIUM MILKEY CHEW400MG30'S",
+              "DefaultMaterialDescription": ""
+            },
+            {
+              "MaterialCode": "000000000021042774",
+              "MaterialDescription": "BETASERCTAB24MG50'S",
+              "DefaultMaterialDescription": ""
+            },
+            {
+              "MaterialCode": "000000000023046018",
+              "MaterialDescription": "FOSAMAXTABS10MG30'S",
+              "DefaultMaterialDescription": ""
+            },
+            {
+              "MaterialCode": "000000000023046031",
+              "MaterialDescription": "PROPECIA FP LPTABS1MG28'S",
+              "DefaultMaterialDescription": ""
+            }
+          ]
+        },
+        {
+          "Type": "ZPOR",
+          "OrderNumber": "0200250126",
+          "EZRXNumber": "EZRX-04113ac",
+          "SoldTo": "0030082707",
+          "ShipTo": "0070149863",
+          "CompanyName": "RSD HOSPITALS SDN BHD (SJMC)",
+          "OrderValue": 900,
+          "ProcessingStatus": "Order In Progress",
+          "CreatedDate": "20230811",
+          "CreatedTime": "055745",
+          "RequestedDeliveryDate": "2023-08-14",
+          "TotalTax": 0,
+          "POReference": "TestPO",
+          "HasPOAttachment": false,
+          "ItmCount": 2,
+          "ItmDescription": "FOSAMAXTABS10MG30'S",
+          "PaymentMethod": "Bank Transfer",
+          "IsGreen": false,
+          "IsMarketplace": false,
+          "OrderItems": [
+            {
+              "MaterialCode": "000000000023046018",
+              "MaterialDescription": "FOSAMAXTABS10MG30'S",
+              "DefaultMaterialDescription": ""
+            },
+            {
+              "MaterialCode": "000000000023046031",
+              "MaterialDescription": "PROPECIA FP LPTABS1MG28'S",
+              "DefaultMaterialDescription": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "extensions": {
+    "traceId": "0003c22f24064fa6b34010a368995719"
+  }
+}

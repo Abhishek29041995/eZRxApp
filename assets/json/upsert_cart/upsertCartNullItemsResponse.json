@@ -1,0 +1,18 @@
+{
+    "data": {
+        "upsertCart": {
+            "ID": 6089,
+            "UserID": "7209",
+            "MarketplaceItems": [],
+            "CustomerCode": "0000002014",
+            "ShipToCustomerCode": "0070149863",
+            "CreatedAt": "2023-06-22T06:18:28.867059Z",
+            "UpdatedAt": "2023-06-22T07:27:10.151625Z",
+            "OrderID": "",
+            "WorkSheet": null
+        }
+    },
+    "extensions": {
+        "traceId": "cb9fe352b90c47cc914d5f73c97487d5"
+    }
+}

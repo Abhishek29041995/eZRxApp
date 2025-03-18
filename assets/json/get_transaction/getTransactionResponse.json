@@ -1,0 +1,23 @@
+{
+    "data": {
+        "getTransaction": {
+            "id": "TR202307130387",
+            "reference": "29503943552",
+            "invoices": [
+                {
+                    "documentDate": "20230630",
+                    "documentType": "Invoice",
+                    "documentNo": "1110019074",
+                    "amount": 81405
+                }
+            ],
+            "amountPayable": 81404,
+            "status": "failed",
+            "paymentDetails": null,
+            "paymentMethodDisplay": "BCA Bank",
+            "createdOn": "2023-07-13T11:12:34",
+            "bankId": "BCA",
+            "paidOn": "2021-11-07T11:40:13"
+        }
+    }
+}

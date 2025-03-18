@@ -1,0 +1,66 @@
+{
+    "data": {
+      "availablePaymentTerm": [
+        {
+          "paymentTermCode": "0001",
+          "paymentTermRanking": 1,
+          "paymentTermDescription": "",
+          "paymentTermSubranking": 1
+        },
+        {
+          "paymentTermCode": "0001",
+          "paymentTermRanking": 1,
+          "paymentTermDescription": "",
+          "paymentTermSubranking": 1
+        },
+        {
+          "paymentTermCode": "0001",
+          "paymentTermRanking": 1,
+          "paymentTermDescription": "Pay immediately (Standard SAP)",
+          "paymentTermSubranking": 1
+        },
+        {
+          "paymentTermCode": "0001",
+          "paymentTermRanking": 1,
+          "paymentTermDescription": "",
+          "paymentTermSubranking": 1
+        },
+        {
+          "paymentTermCode": "0001",
+          "paymentTermRanking": 1,
+          "paymentTermDescription": "",
+          "paymentTermSubranking": 1
+        },
+        {
+          "paymentTermCode": "0001",
+          "paymentTermRanking": 1,
+          "paymentTermDescription": "Pay immediately (Standard SAP)",
+          "paymentTermSubranking": 1
+        },
+        {
+          "paymentTermCode": "0001",
+          "paymentTermRanking": 1,
+          "paymentTermDescription": "",
+          "paymentTermSubranking": 1
+        },
+        {
+          "paymentTermCode": "0001",
+          "paymentTermRanking": 1,
+          "paymentTermDescription": "",
+          "paymentTermSubranking": 1
+        },
+        {
+          "paymentTermCode": "0001",
+          "paymentTermRanking": 1,
+          "paymentTermDescription": "Pay immediately (Standard SAP)",
+          "paymentTermSubranking": 1
+        },
+        {
+          "paymentTermCode": "",
+          "paymentTermRanking": 1,
+          "paymentTermDescription": "",
+          "paymentTermSubranking": 1
+        }
+      ]
+    }
+  }

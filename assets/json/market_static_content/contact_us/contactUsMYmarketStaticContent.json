@@ -1,0 +1,26 @@
+{
+    "id": "4AA656CAC9634AF795BBB130C094F29C",
+    "title": {
+      "value": "Contact us"
+    },
+    "backgroundImage": {
+      "jsonValue": {
+        "value": {
+          "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit2.png",
+          "alt": "",
+          "width": "392",
+          "height": "552"
+        }
+      }
+    },
+    "content": {
+      "value": "<p>\n<p data-renderer-start-pos=\"43919\" style=\"color: #172b4d;  margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\"><strong data-renderer-mark=\"true\">Support Hours</strong></p>\n<p data-renderer-start-pos=\"43934\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">Monday to Friday: 8am - 8pm</p>\n<p data-renderer-start-pos=\"43963\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">Saturday: 8am - 5pm</p>\n<p data-renderer-start-pos=\"43984\" style=\"color: #172b4d;  margin: 0.75rem 0px 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\"><strong data-renderer-mark=\"true\">Have any questions? We&rsquo;d love to hear from you.</strong></p>\n<p data-renderer-start-pos=\"44033\" style=\"color: #172b4d;  margin-top: 0.75rem; margin-right: 0px; margin-left: 0px; padding: 0px; letter-spacing: -0.005em; line-height: 1.714;\">+632 82366498</p>\n</p>"
+    },
+    "preloginSendToEmail": {
+      "value": ""
+    },
+    "postloginSendToEmail": {
+      "value": ""
+    },
+    "saleOrgDictionary": null
+}

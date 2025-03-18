@@ -1,0 +1,10 @@
+query usage($salesOrg: String!) {
+ usage(request: {salesOrg: $salesOrg}) {
+   usageCode
+   usageDescription
+ },
+}
+
+"variables": {
+    "salesOrg": "2001"
+}

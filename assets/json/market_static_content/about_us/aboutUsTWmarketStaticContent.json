@@ -1,0 +1,180 @@
+{
+  "data": {
+    "item": {
+      "components": {
+        "value": [
+          {
+            "template": {
+              "name": "Banner"
+            },
+            "media": {
+              "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg",
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg"
+                }
+              }
+            },
+            "title": {
+              "value": "關於裕利"
+            },
+            "content": {
+              "value": "Zuellig Pharma 提供世界一流的藥品分銷、數位和商業服務，以支持該地區不斷變化的醫療保健需求。"
+            },
+            "buttonName": {
+              "value": "聯絡我們"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "backgroundColor": {
+              "value": "#EBF6F1"
+            },
+            "backgroundImage": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-background.png"
+                }
+              }
+            }
+          },
+          {
+            "template": {
+              "name": "Horizontal List"
+            },
+            "title": {
+              "value": "了解裕利"
+            },
+            "description": {
+              "value": "在亞洲裕利為醫藥保健領先品牌"
+            },
+            "maxNumberOfItem": {
+              "value": "3"
+            },
+            "list": {
+              "value": [
+                {
+                  "id": "A2B1802F0B73405A891F561775C05D9D",
+                  "name": "Medical Facilities",
+                  "title": {
+                    "value": "200,000+"
+                  },
+                  "subTitle": {
+                    "value": "醫療設施"
+                  },
+                  "description": {
+                    "value": "我們的使命是讓我們所服務的社區更容易獲得醫療保健服務，我們的員工為超過 200,000 個醫療機構提供服務。"
+                  }
+                },
+                {
+                  "id": "6EF0B103FE83409A8305C1F87E90773D",
+                  "name": "Clients",
+                  "title": {
+                    "value": "450+"
+                  },
+                  "subTitle": {
+                    "value": "服務客戶"
+                  },
+                  "description": {
+                    "value": "我們提供世界一流的銷售、數位和商業服務，以滿足該地區不斷增長的醫療保健需求，並與 450 多家客戶合作"
+                  }
+                },
+                {
+                  "id": "B1D58EB4DEAD4DD99E3D87DC138E31CE",
+                  "name": "Top Pharmaceutical Companies",
+                  "title": {
+                    "value": "20"
+                  },
+                  "subTitle": {
+                    "value": "頂級醫藥公司"
+                  },
+                  "description": {
+                    "value": "該公司成立於一百年前，現已發展成為價值數十億美元的企業，覆蓋 16 個市場，擁有超過 12,000 名員工。我們的員工為全球排名前 20 的製藥公司提供服務。"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit.jpg",
+                  "alt": "",
+                  "width": "708",
+                  "height": "553"
+                }
+              }
+            },
+            "title": {
+              "value": "為何選擇裕利"
+            },
+            "subTitle": {
+              "value": "機會"
+            },
+            "description": {
+              "value": "<p><span style=\"font-size: medium; color: #234455;\">▶ 健康領域數位趨勢強勁，特別是在遠距醫療和人工智慧診斷領域。<span style=\"white-space:pre;\">\t</span></span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ 臨床試驗1-3期的成熟環境。</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ 政府資助本地生物科技公司進行研究和製造。</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ 由於人口老化和低生育率，醫療保健需求不斷增加。</span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"font-size: 40px; line-height: 150%; font-weight: 300; color: #19303c;\">能力</span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp; </span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ 在台灣擁有超過35年的醫療保健經驗。</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ 與 90 多家跨國醫療保健公司建立了牢固的關係。</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ 台灣唯一的超低溫冷鏈系統及最大的冷鏈倉庫。</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ 由 50 名護理師組成的患者護理團隊為 60,000 多名患者提供服務。</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">\n</span></p>\n<p>&nbsp;</p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ 用於程式管理和即時更新的客製化 eZ-solution 應用程式。</span></p>"
+            },
+            "buttonName": {
+              "value": ""
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": true
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-linear.png",
+                  "alt": "map",
+                  "width": "392",
+                  "height": "552"
+                }
+              }
+            },
+            "title": {
+              "value": "聯絡我們"
+            },
+            "subTitle": {
+              "value": "全國分公司及配送中心"
+            },
+            "description": {
+              "value": "<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">台灣 Zuellig Pharma 擁有五個倉庫，面積超過 65, 000 平方公尺。以及藥品、消費品和醫療器材的服務。擁有 200 多名業務與行銷代表，為 20,000 多家醫療保健客戶提供服務。我們獲得了國家醫療品質獎和國家生物技術和醫療品質獎等榮譽。</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\"></span><strong style=\"color: #234455; font-size: x-large;\">裕利股份有限公司</strong></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">聯絡電話:</span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>0809-090-887</strong></span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">地址:</span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>台北市松山區南京東路四段126號10樓</strong></span></p>"
+            },
+            "buttonName": {
+              "value": "聯絡我們"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": false
+            }
+          }
+        ]
+      }
+    }
+  }
+}

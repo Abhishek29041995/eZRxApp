@@ -1,0 +1,47 @@
+{
+  "data": {
+    "aplSimulateOrder": {
+      "netTotalValue": 7163940,
+      "tax": 709940,
+      "totalDiscValue": 0,
+      "beforeTax": 6454000,
+      "deliveryFee": null,
+      "products": [
+        {
+          "type": "Material",
+          "material": "000000003353621001",
+          "itemNumber": "110",
+          "parentItemNumber": "",
+          "productQty": 1,
+          "productPriceNetValue": 5734000,
+          "taxValue": 630740,
+          "netValue": 5734000,
+          "promotions": [
+            { "discountValue": -5, "discountTypeValue": "%" },
+            { "discountValue": -10, "discountTypeValue": "IDR" }
+          ]
+        },
+        {
+          "type": "Bonus",
+          "material": "000000003353621001",
+          "itemNumber": "111",
+          "parentItemNumber": "110",
+          "productQty": 1,
+          "productPriceNetValue": 5734000,
+          "taxValue": 630740,
+          "netValue": 5734000
+        },
+        {
+          "type": "Material",
+          "material": "JSR55",
+          "itemNumber": "120",
+          "parentItemNumber": "",
+          "productQty": 1,
+          "productPriceNetValue": 720000,
+          "taxValue": 79200,
+          "netValue": 720000
+        }
+      ]
+    }
+  }
+}

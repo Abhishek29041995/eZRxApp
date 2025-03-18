@@ -1,0 +1,180 @@
+{
+  "data": {
+    "item": {
+      "components": {
+        "value": [
+          {
+            "template": {
+              "name": "Banner"
+            },
+            "media": {
+              "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg",
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-banner.jpg"
+                }
+              }
+            },
+            "title": {
+              "value": "អំពី​ពួក​យើង"
+            },
+            "content": {
+              "value": "Zuellig Pharma ផ្តល់នូវការចែកចាយឱសថលំដាប់ពិភពលោក សេវាកម្មឌីជីថល និងពាណិជ្ជកម្ម ដើម្បីគាំទ្រដល់តម្រូវការថែទាំសុខភាពដែលកំពុងរីកចម្រើននៅក្នុងតំបន់។"
+            },
+            "buttonName": {
+              "value": "ទំនាក់ទំនង"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "backgroundColor": {
+              "value": "#EBF6F1"
+            },
+            "backgroundImage": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-background.png"
+                }
+              }
+            }
+          },
+          {
+            "template": {
+              "name": "Horizontal List"
+            },
+            "title": {
+              "value": "យើង​ជា​នរណា"
+            },
+            "description": {
+              "value": "Zuellig Pharma គឺជាក្រុមហ៊ុនដំណោះស្រាយថែទាំសុខភាពឈានមុខគេនៅអាស៊ី"
+            },
+            "maxNumberOfItem": {
+              "value": "3"
+            },
+            "list": {
+              "value": [
+                {
+                  "id": "20B92C5B7F3D4996AD574DB0E25ACE4C",
+                  "name": "Medical Facilities",
+                  "title": {
+                    "value": "200,000+"
+                  },
+                  "subTitle": {
+                    "value": "គ្រឿងបរិក្ខារពេទ្យ"
+                  },
+                  "description": {
+                    "value": "បេសកកម្មរបស់យើងគឺធ្វើឱ្យការថែទាំសុខភាពកាន់តែងាយស្រួលដល់សហគមន៍ដែលយើងបម្រើ ហើយប្រជាជនរបស់យើងបម្រើកន្លែងពេទ្យច្រើនជាង 200,000 ។"
+                  }
+                },
+                {
+                  "id": "D73CB110740549DD945FEA9BD31740B4",
+                  "name": "Clients",
+                  "title": {
+                    "value": "450+"
+                  },
+                  "subTitle": {
+                    "value": "អតិថិជន"
+                  },
+                  "description": {
+                    "value": "យើងផ្តល់ជូននូវការចែកចាយលំដាប់ពិភពលោក សេវាកម្មឌីជីថល និងពាណិជ្ជកម្ម ដើម្បីគាំទ្រតម្រូវការថែទាំសុខភាពដែលកំពុងកើនឡើងនៅក្នុងតំបន់នេះ ហើយយើងធ្វើការជាមួយអតិថិជនជាង 450 នាក់។"
+                  }
+                },
+                {
+                  "id": "F6EB86B8F4914DF29F3857A9273D8342",
+                  "name": "Top Pharmaceutical Companies",
+                  "title": {
+                    "value": "20"
+                  },
+                  "subTitle": {
+                    "value": "ក្រុមហ៊ុនឱសថកំពូល"
+                  },
+                  "description": {
+                    "value": "ក្រុមហ៊ុននេះត្រូវបានចាប់ផ្តើមកាលពីមួយរយឆ្នាំមុន ហើយបានរីកចម្រើនក្លាយជាអាជីវកម្មដែលមានតម្លៃរាប់ពាន់លានដុល្លាគ្របដណ្តប់ទីផ្សារចំនួន 16 ដែលមានបុគ្គលិកជាង 12,000។ បុគ្គលិករបស់យើងបម្រើក្រុមហ៊ុនឱសថកំពូលទាំង 20 នៅលើពិភពលោក។"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-contentsplit.jpg",
+                  "alt": "",
+                  "width": "708",
+                  "height": "553"
+                }
+              }
+            },
+            "title": {
+              "value": "ហេតុអ្វីបានជាយើង"
+            },
+            "subTitle": {
+              "value": "ឱកាស"
+            },
+            "description": {
+              "value": "<p><span style=\"font-size: medium; color: #234455;\">▶ ការពង្រីកសេវាថែទាំសុខភាពជាសកលក្នុងការជំរុញការប្រើប្រាស់សេវាវេជ្ជសាស្រ្ត។</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ អង្គការមិនមែនរដ្ឋាភិបាលបន្តផ្តល់ថ្នាំចាំបាច់។</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ ឱសថជាមូលដ្ឋានមានសារៈសំខាន់ដោយសារការផលិតក្នុងតំបន់ និងការផលិតក្នុងស្រុកទាប។</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ 'ការលក់ឱសថសរុបបានឈានដល់ 386 លានដុល្លាក្នុងឆ្នាំ 2022 ជាមួយនឹងការចំណាយសម្រាប់មនុស្សម្នាក់ចំនួន 23 ដុល្លារ។</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\"><hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p />\n<p>▶ ការប្រើប្រាស់ឱសថកើនឡើងដើម្បីព្យាបាលអត្រាប្រេវ៉ាឡង់ដែលកំពុងកើនឡើងនៃជំងឺរបៀបរស់នៅរ៉ាំរ៉ៃ។</p>\n</span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"font-size: 40px; line-height: 150%; font-weight: 300; color: #19303c;\">សមត្ថភាព</span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp; </span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ Zuellig Pharma មានបទពិសោធន៍ 20 ឆ្នាំជាអ្នកផ្តល់សេវាថែទាំសុខភាពក្នុងប្រទេសកម្ពុជា ដោយបម្រើអតិថិជនហ្វកំពូលទាំង 4 ។</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ បន្ទប់ត្រជាក់ធំជាងគេនៅកម្ពុជា ជាមួយនឹងហេដ្ឋារចនាសម្ព័ន្ធទំនើបសម្រាប់ការថែទាំសុខភាព</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ បច្ចេកវិទ្យាខ្សែសង្វាក់ត្រជាក់ដែលបានបញ្ជាក់រក្សាគុណភាពល្អបំផុតក្នុងអំឡុងពេលចែកចាយ។</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ ការវេចខ្ចប់អកម្មជាមួយនឹងប្រព័ន្ធបន្ទប់ញែកកម្ដៅតែមួយគត់។</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">\n</span></p>\n<p>&nbsp;</p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ កម្មវិធីដែលមានតម្លៃសមរម្យ និងការប្រកាន់ខ្ជាប់ដោយផ្តោតលើអ្នកជំងឺ។</span></p>\n<hr class=\"border-[#AFAFAF] border-t-[0.5px] mt-2 mb-6\" style=\"color: #0f1515; background-color: #fafbfb; height: 0px; margin: 0.5rem 0px 1.5rem; border-color: rgb(175 175 175/var(--tw-border-opacity)); border-style: solid; border-width: 0.5px 0px 0px;\" />\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">\n</span></p>\n<p>&nbsp;</p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">▶ កម្មវិធីទូរស័ព្ទផ្ទាល់ខ្លួនសម្រាប់អ្នកគ្រប់គ្រងកម្មវិធីអតិថិជន ការចុះឈ្មោះ និងបច្ចុប្បន្នភាព។</span></p>"
+            },
+            "buttonName": {
+              "value": ""
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": true
+            }
+          },
+          {
+            "template": {
+              "name": "Content Split"
+            },
+            "media": {
+              "jsonValue": {
+                "value": {
+                  "src": "https://ezrxassets.blob.core.windows.net/images/aboutus-linear.png",
+                  "alt": "map",
+                  "width": "392",
+                  "height": "552"
+                }
+              }
+            },
+            "title": {
+              "value": "ការឈានដល់ពួកយើងគឺងាយស្រួល"
+            },
+            "subTitle": {
+              "value": "សាខា និងមជ្ឈមណ្ឌលចែកចាយទូទាំងប្រទេស"
+            },
+            "description": {
+              "value": "<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">គ្រឿងបរិក្ខាររបស់ Zuellig Pharma Cambodia ផ្តល់ជូនមជ្ឈមណ្ឌលចែកចាយដែលទើបសាងសង់ថ្មី ដែលមានផ្ទៃដីជាង 6,300 sq.m. ឃ្លាំង និង 1,200 sq.m. ឡៅតឿសម្រាប់ផលិតផលថែទាំសុខភាព រួមមាន 6,400 បន្ទះក្នុង 6 ជាន់ខ្ពស់ និង 240 ប្រអប់ដាក់ក្នុងបន្ទប់ត្រជាក់។ </span></p>\n<p><span style=\"line-height: 50%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">ជាមួយនឹងការគ្របដណ្តប់ 90% នៃក្រមសីលធម៌ ឱសថស្ថាន និងពាណិជ្ជកម្មទំនើប យើងបម្រើអតិថិជនផ្នែកថែទាំសុខភាពជាង 10,000 នាក់ទូទាំងប្រទេស រួមទាំងមន្ទីរពេទ្យ គ្លីនិក និងឱសថស្ថាន តាមរយៈអ្នកតំណាងផ្នែកលក់ និងទីផ្សារចំនួន 200 ។ គុណភាពការងាររបស់យើងត្រូវបានទទួលស្គាល់ជាមួយនឹងវិញ្ញាបនប័ត្រដូចជា GDSP, GMP, GDPMDD និង ISO 9001:2015។</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 24px; color: #234455;\"></span><strong style=\"color: #234455; font-size: x-large;\">ទាក់ទងមកពួកយើង:<br />\n<br />\nឈ្មោះក្រុមហ៊ុន៖ ហ្សូអេលីហ្វាម៉ា</strong></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\">&nbsp;</span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">លេខទូរស័ព្ទសេវាអតិថិជន៖</span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>+855 11 22 62 89</strong></span></p>\n<p><span style=\"line-height: 100%; font-size: 16px; color: #234455;\"><strong>&nbsp;</strong></span></p>\n<p><span style=\"line-height: 150%; font-size: 16px; color: #234455;\">អាសយដ្ឋានការិយាលយ័កណ្តាល៖ </span></p>\n<p><span style=\"font-size: 20px; line-height: 150%; color: #234455;\"><strong>ដីឡូតិ៍បេ ផ្លូវលំ ភូមិបឹងសាឡាង សង្កាត់ឫស្សីកែវ ខណ្ឌឫស្សីកែវ រាជធានីភ្នំពេញ</strong></span></p>"
+            },
+            "buttonName": {
+              "value": "Contact us"
+            },
+            "buttonUrl": {
+              "jsonValue": {
+                "value": {
+                  "href": ""
+                }
+              }
+            },
+            "greyBackgroundColor": {
+              "boolValue": false
+            }
+          }
+        ]
+      }
+    }
+  }
+}

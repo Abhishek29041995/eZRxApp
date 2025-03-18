@@ -1,0 +1,78 @@
+{
+    "data": {
+        "item": {
+            "id": "995F1D832F55417F95FFBF1A7F6D068C",
+            "title": {
+                "value": "Announcement 1",
+                "__typename": "TextField"
+            },
+            "content": {
+                "value": "<p><span style=\"color: #333333; background-color: #ffffff; text-align: justify;\">Zuellig Pharma is one of the largest healthcare services groups in Asia and our purpose is to make healthcare more accessible. In Asia, we provide world-class distribution, commercial solutions, patient care, clinic reach, data analytics, pharmacy channel and payor services to support the growing healthcare needs in this region.</span></p>\n<p><strong style=\"color: #333333; background-color: #ffffff; margin: 0px; padding: 0px; text-align: justify;\">A FOCUS ON SUSTAINABLE ENGAGEMENT</strong></p>\n<p><strong style=\"color: #333333; background-color: #ffffff; margin: 0px; padding: 0px; text-align: justify;\"><img alt=\"IM\" src=\"/-/media/Project/ezrx/ezrx/About-Us/Media/anh-2.png?h=806.222&amp;w=972.444\" style=\"left: 428.542px; top: 650.069px; width: 972.444px; height: 806.222px; opacity: 0.8;\" /></strong></p>\n<p><strong style=\"color: #333333; background-color: #ffffff; margin: 0px; padding: 0px; text-align: justify;\"></strong><br style=\"color: #333333; background-color: #ffffff; margin: 0px; padding: 0px; text-align: justify;\" />\n<span style=\"color: #333333; background-color: #ffffff; text-align: justify;\">Zuellig Pharma employees are the force behind our business success. Through various focus groups and the Employee Opinion Survey results, we know that&nbsp;</span><strong style=\"color: #333333; background-color: #ffffff; margin: 0px; padding: 0px; text-align: justify;\">our employees are here because they are passionate and believe in our mission to make healthcare more accessible.</strong><br style=\"color: #333333; background-color: #ffffff; margin: 0px; padding: 0px; text-align: justify;\" />\n<span style=\"color: #333333; background-color: #ffffff; text-align: justify;\">By driving &ldquo;Sustainable Engagement&rdquo;, we continuously&nbsp;</span><strong style=\"color: #333333; background-color: #ffffff; margin: 0px; padding: 0px; text-align: justify;\">ENGAGE, ENABLE, ENERGIZE</strong><span style=\"color: #333333; background-color: #ffffff; text-align: justify;\">&nbsp;our colleagues to be the best of themselves at work every day, so that we only deliver the best services and solutions to our clients.</span></p>",
+                "__typename": "RichTextField"
+            },
+            "summary": null,
+            "thumbnail": {
+                "src": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Contact-Us/Media/Vector/Rectangle-17532/Test2.jpg",
+                "__typename": "ImageField"
+            },
+            "publishedDate": {
+                "isoValue": "20231216T173351",
+                "formattedDateValue": "12/16/2023 17:33",
+                "__typename": "DateField"
+            },
+            "releaseDate": {
+                "isoValue": "20231130T020000Z",
+                "formattedDateValue": "11/30/2023 02:00",
+                "__typename": "DateField"
+            },
+            "documents": {
+                "jsonValue": [
+                    {
+                        "id": "b5a887e3-733f-4827-9558-cc2b6c06611a",
+                        "url": "https://edge.sitecorecloud.io/zuelligphar400f-zpcms-uat-ce0f/media/Project/ezrx/ezrx/Announcements/Media/default.pdf",
+                        "name": "default",
+                        "displayName": "default",
+                        "fields": {
+                            "Mime Type": {
+                                "value": "application/pdf"
+                            },
+                            "Size": {
+                                "value": "80377"
+                            },
+                            "Extension": {
+                                "value": "pdf"
+                            },
+                            "Blob": {
+                                "value": "blob://b9f82e4c-65d4-4c2b-ae20-72fa115b38a5"
+                            }
+                        }
+                    }
+                ],
+                "__typename": "MultilistField"
+            },
+            "manufacturer": {
+                "value": "Sanofi",
+                "__typename": "TextField"
+            },
+            "source": {
+                "value": "ZP",
+                "__typename": "TextField"
+            },
+            "tag": {
+                "value": {
+                    "id": "9529FD15AC594B2ABF4D0A9BCF169397",
+                    "name": "General notice",
+                    "displayName": "General notice",
+                    "__typename": "EzrxTag"
+                },
+                "__typename": "LookupField"
+            },
+            "pinToTop": {
+                "boolValue": false,
+                "__typename": "CheckboxField"
+            },
+            "saleOrgDictionary": null,
+            "__typename": "UnknownItem"
+        }
+    }
+}

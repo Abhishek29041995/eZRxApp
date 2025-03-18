@@ -1,0 +1,173 @@
+{
+  "data": {
+    "salesOrgConfigs": [
+      {
+        "id": 78,
+        "salesOrgCode": "2001",
+        "ponRequired": true,
+        "enableAnalytics": false,
+        "priceOverride": true,
+        "expiryDateDisplay": true,
+        "batchNumDisplay": true,
+        "currency": "myr",
+        "enableUploadAd": false,
+        "enableMobileNumber": true,
+        "enableRemarks": true,
+        "enableListPrice": true,
+        "enableTaxDisplay": true,
+        "enableTenderOrders": true,
+        "enableDefaultMD": true,
+        "enableZDP5": false,
+        "enableZDP8Override": true,
+        "enableGMC": false,
+        "enableGreenDelivery": false,
+        "greenDeliveryDelayInDays": 0,
+        "greenDeliveryUserRole": 0,
+        "supportURL": "",
+        "minOrderAmount": "100",
+        "netPriceOverride": false,
+        "enableFutureDeliveryDay": true,
+        "futureDeliveryDay": "",
+        "plantNumber": "",
+        "materialWithoutPrice": false,
+        "enablePaymentTerms": true,
+        "enableBatchNumber": true,
+        "enableOHPrice": true,
+        "enableSpecialInstructions": true,
+        "enableReferenceNote": true,
+        "displayOrderDiscount": false,
+        "enableTaxClassification": true,
+        "supportMail": "",
+        "disablePrincipals": false,
+        "principalList": {
+          "value": [
+            {
+              "date": 2023040722,
+              "principal": "0000000000"
+            }
+          ]
+        },
+        "enable2FA": false,
+        "disableBundles": false,
+        "disableOrderType": false,
+        "disablePaymentTermsDisplay": false,
+        "enableCollectiveNumber": true,
+        "addOosMaterials": true,
+        "vatValue": 8,
+        "enableVat": true,
+        "enableTaxAtTotalLevelOnly": true,
+        "oosValue": 1,
+        "enableUnreferencedReturn": false,
+        "enableGimmickMaterial": false,
+        "enableBillTo": false,
+        "hideCustomer": false,
+        "hideCredit": false,
+        "hideStockDisplay": false,
+        "disablePayment": false,
+        "enablePartialPayment": false,
+        "disableDeals": false,
+        "showPOAttachment": true,
+        "principleDisabledDeals": {
+          "value": []
+        },
+        "created_at": "2022-04-22T04:30:42.398Z",
+        "updated_at": "2022-04-22T04:30:42.398Z",
+        "enableLoyaltyScheme": false,
+        "disableProcessingStatus": false,
+        "enableIRN": true,
+        "disableReturnsAccessSR": false,
+        "disableReturnsAccess": false,
+        "disableOverrideFieldCustomer": false,
+        "disableOverrideFieldSR": false,
+        "enablePOAttachmentRequired": false,
+        "enableMarketPlace": true,
+        "mpMinOrderAmount": "0.0",
+        "statementOfAccountEnabled": false,
+        "enableComboDeals": true,
+        "comboDealsUserRole": 1,
+        "enableSmallOrderFee": true,
+        "smallOrderFeeUserRoles": [
+          "Client User",
+          "Client Admin",
+          "External Sales Rep"
+        ],
+        "smallOrderFee": 20.56,
+        "movThreshold": 300.50,
+        "enableMPSmallOrderFee": true,
+        "mpSmallOrderFeeUserRoles": [
+          "Client User",
+          "Client Admin"
+        ],
+        "mpSmallOrderFee": 10,
+        "mpMovThreshold": 200,
+        "enableDeliveryOptions": true,
+        "disclaimer": "Delivery times are estimates and may vary.",
+        "enableStandardDelivery": true,
+        "standardDeliveryDays": 5,
+        "enableRequestDeliveryDate": true,
+        "selectableDeliveryDays": 7,
+        "enableUrgentDelivery": true,
+        "enableTodayUrgentDelivery": false,
+        "enableTomorrowUrgentDelivery": true,
+        "enableSaturdayUrgentDelivery": true,
+        "todayDeliveryFee": 20.0,
+        "tomorrowDeliveryFee": 15.0,
+        "saturdayDeliveryFee": 15.0,
+        "orderTypes": [
+          {
+            "categoryId": "zpor",
+            "orderType": "ZPOR",
+            "orderReason": null,
+            "description": "Regular order",
+            "enabled": true
+          },
+          {
+            "categoryId": "zpfb",
+            "orderType": "ZPFB",
+            "orderReason": null,
+            "description": "Sample order",
+            "enabled": true
+          },
+          {
+            "categoryId": "zpfc",
+            "orderType": "ZPFC",
+            "orderReason": null,
+            "description": "FOC order",
+            "enabled": true
+          },
+          {
+            "categoryId": "zpfb_800",
+            "orderType": "ZPFB 800",
+            "orderReason": 800,
+            "description": "Sample order 800",
+            "enabled": false
+          },
+          {
+            "categoryId": "zpfb_801",
+            "orderType": "ZPFB 801",
+            "orderReason": 801,
+            "description": "Sample order 801",
+            "enabled": false
+          }
+        ],
+        "authorizedExtSalesRep": [
+          {
+            "userId": 513,
+            "userName": "sgfre_m.tan"
+          },
+          {
+            "userId": 1277,
+            "userName": "sgfre_lina.l"
+          },
+          {
+            "userId": 3368,
+            "userName": "testextsalesrep"
+          }
+        ],
+        "poReferenceLength": 0,
+        "referenceNoteLength": 0,
+        "showEZCSTickets": true
+      }
+    ]
+  }
+}

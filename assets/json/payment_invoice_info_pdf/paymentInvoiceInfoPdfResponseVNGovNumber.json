@@ -1,0 +1,33 @@
+{
+   "data": {
+       "paymentInvoicePdf": {
+           "valueDate": "2023-11-21",
+           "paymentID": "2        2",
+           "zzAdvice": "09EZ230001439201",
+           "paymentDue": "VND 500000.000000",
+           "paymentMethod": "Payment Gateway",
+           "customerName": "rootadmin rootadmin",
+           "payer": "0000102668",
+           "bankBeneficiary": null,
+           "qrCode": "",
+           "paymentBatchAdditionalInfo": "23C6A67F5BB2FA2",
+           "paymentItems": [
+               {
+                   "postingKeyName": "Invoice",
+                   "accountingDocument": "0340000001",
+                   "documentDate": "2017-06-22T00:00:00Z",
+                   "transactionCurrency": "VND",
+                   "paymentAmountInDisplayCrcy": 500000,
+                   "documentReferenceID": "",
+                   "__typename": "paymentItemsResponse"
+               }
+           ],
+           "salesDistrict": "",
+           "footer": "Công Ty TNHH Thương Mại và Dược Phẩm Sang. Đã đăng ký Bản quyền. Tài liệu này được tạo tự động.",
+           "headerLogoPath": "",
+           "pleaseNote": "\r\n\u003cul\u003e\r\n \u003cli\u003eChúng tôi đang truy xuất trạng thái thanh toán của bạn từ ngân hàng. Có thể mất đến 3 giờ để trạng thái thanh toán mới được phản ánh trên eZRx.\u003c/li\u003e\r\n \u003cli\u003eThanh toán chỉ được xem là hợp lệ khi số tiền thanh toán nợ được thể hiện trong tài khoản ngân hàng của Zuellig Pharma.\u003c/li\u003e\r\n \u003cli\u003eThanh toán này sẽ được cập nhật trong Bản sao kê hàng tháng của chúng tôi\u003c/li\u003e\r\n \u003cli\u003eXin lưu ý rằng các chứng từ thanh toán trên hệ thống sẽ được xóa tự động nếu chúng tôi không nhận được thanh toán trong vòng 30 ngày.\u003c/li\u003e\r\n\u003c/ul\u003e",
+           "header": "Chứng từ thanh toán",
+           "__typename": "paymentInvoicePdfResponse"
+       }
+   }
+}

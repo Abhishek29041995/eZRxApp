@@ -1,0 +1,15 @@
+{
+  "data":{
+     "addCustomerPayment":{
+        "paymentID":"2        1",
+        "paymentBatchAdditionalInfo":"23CF96BA733CE5A",
+        "valueDate":"2024-05-21",
+        "transactionCurrency":"VND",
+        "accountingDocExternalReference":"",
+        "zCcpPaymentQRCode":"",
+        "zzAdvice":"09EZ240002324201",
+        "adviceExpiry":"30 Day(s)",
+        "zzHtmcs": "\u003chtml:script language=\"javascript\"\u003e$(document).ready(function(){$(\"#btn_submit\").click(function (){var win=window.open(\"https://newsandbox.payoo.com.vn/v2/paynow/prepare?_token=1hgRF9i75CC\" ,\"_blank\" );})})\u003c/html:script\u003e\u003chtml:button type=\"button\" onlick=\"butonClick\" id=\"btn_submit\"\u003eOpen Payment Gateway\u003c/html:button\u003e"
+      }
+  }
+}

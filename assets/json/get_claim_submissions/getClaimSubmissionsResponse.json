@@ -1,0 +1,47 @@
+{
+  "data": {
+      "getClaimList": [
+          {
+              "createdAt": "2024-07-18T08:27:49Z",
+              "principalCode": 100415,
+              "principalName": "ALLERGAN  BOTOX",
+              "claimType": "P7- Opening Support",
+              "claimAmount": "100.0",
+              "claimId": 66618
+          },
+          {
+              "createdAt": "2024-07-16T06:09:09Z",
+              "principalCode": 100480,
+              "principalName": "ABBOTT LABORATORIES",
+              "claimType": "P6- Anniversary Support",
+              "claimAmount": "100.0",
+              "claimId": 66181
+          },
+          {
+              "createdAt": "2024-07-08T09:46:25Z",
+              "principalCode": 100349,
+              "principalName": "ABBOTT NUTRITIONAL INTERNATIONAL",
+              "claimType": "P1- Principal Deals",
+              "claimAmount": "1000.0",
+              "claimId": 65111
+          },
+          {
+              "createdAt": "2024-07-08T06:56:30Z",
+              "principalCode": 100402,
+              "principalName": "ADP PHARMA CORPORATION",
+              "claimType": "P1- Principal Deals",
+              "claimAmount": "999.0",
+              "claimId": 65071
+          },
+          {
+              "createdAt": "2024-07-08T01:58:54Z",
+              "principalCode": 2510,
+              "principalName": "ABBOTT LABORATORIES",
+              "claimType": "P1- Principal Deals",
+              "claimAmount": "10.0",
+              "claimId": 64980
+          }
+          
+      ]
+  }
+}

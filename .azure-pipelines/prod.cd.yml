@@ -1,0 +1,198 @@
+# Deploy to testflight IOS Service
+# Build and push PROD binary to IOS testflight
+
+trigger:
+  tags:
+    include:
+    - prod.*
+
+resources:
+- repo: self
+
+pool:
+  vmImage: 'macos-13'
+
+variables:
+  - group: "eZRx plus CICD"
+
+stages:
+- stage: IOSProdStage
+  dependsOn: []
+  displayName: IOSProdStage
+  jobs:
+
+  - job: IOSProdJob
+    displayName: IOSProdJob
+    steps: 
+
+    - task: InstallAppleCertificate@2
+      displayName: Install Apple Certificate P12 file
+      inputs:
+        certSecureFile: 'Certificates.p12'
+        certPwd: '$(P12_PASSWORD)'
+        keychain: 'temp'
+        deleteCert: true  
+
+    - task: InstallAppleProvisioningProfile@1
+      displayName: Install Apple Provisioning Profile
+      inputs:
+        provisioningProfileLocation: 'secureFiles'
+        provProfileSecureFile: 'AppStore_com.zuelligpharma.ezrxplus.mobileprovision'
+        removeProfile: true
+
+    - task: Bash@3
+      displayName: flutter setup
+      inputs:
+        targetType: 'inline'
+        script: make app_setup FLAVOR=prod PLATFORM=ios
+
+    - task: Bash@3
+      displayName: build IOS Prod
+      inputs:
+        targetType: 'inline'
+        script: |
+          fvm flutter build ipa --flavor prod -t lib/main_prod.dart --release --export-options-plist=ios/config/prod/exportOptions.plist
+
+    - task: Bash@3
+      displayName: 'Install Firebase Tools'
+      inputs:
+        targetType: 'inline'
+        script: 'curl -sL firebase.tools | bash'
+        workingDirectory: '$(Agent.ToolsDirectory)'
+
+    - task: Bash@3
+      displayName: 'Upload IPA to Firebase'
+      continueOnError: true
+      inputs:
+        targetType: 'inline'
+        script: |
+          firebase appdistribution:distribute *.ipa \
+          --app "$(FIREBASE_PROD_IOS_APP_ID)" \
+          --token "$(FIREBASE_CI_TOKEN)" \
+          --release-notes "eZRx+ PROD IOS"
+        workingDirectory: 'build/ios/ipa'
+
+    - task: AppStoreRelease@1
+      displayName: 'Upload to the App Store TestFlight track'
+      inputs:
+        authType: 'ApiKey'
+        apiKeyId: '$(APPSTORECONNECT_API_KEY_ID)'
+        apiKeyIssuerId: '$(APPSTORECONNECT_API_KEY_ISSUER_ID)'
+        apitoken: '$(APPSTORECONNECT_API_TOKEN_BASE64)'
+        apiKeyInHouse: false
+        appIdentifier: '$(APP_PACKAGE_NAME_PROD)'
+        appType: 'iOS'
+        releaseTrack: 'TestFlight'
+        ipaPath: 'build/ios/ipa/*.ipa'
+        shouldSkipWaitingForProcessing: true
+        shouldSkipSubmission: true
+
+
+- stage: AndroidProdStage
+  dependsOn: []
+  displayName: AndroidProdStage
+  jobs:
+
+  - job: AndroidProdJob
+    displayName: AndroidProdJob
+    steps: 
+
+    - task: DownloadSecureFile@1
+      name: localprop
+      displayName: Download local properties file
+      inputs:
+        secureFile: 'local.properties'
+
+    - task: DownloadSecureFile@1
+      name: keyprop
+      displayName: Download key properties file
+      inputs:
+        secureFile: 'key.properties'
+
+    - task: DownloadSecureFile@1
+      name: key
+      displayName: Download signing key
+      inputs:
+        secureFile: 'ezrxplus.jks'
+
+    - task: DownloadSecureFile@1
+      name: serviceAccountKey
+      displayName: Download Google Service Account Key
+      inputs:
+        secureFile: 'ezrx_devops_pipeline.json'
+
+    - task: Bash@3
+      displayName: Copy config files
+      inputs:
+        targetType: 'inline'
+        script: |
+          cp $(localprop.secureFilePath) $(Build.SourcesDirectory)/android/local.properties
+          cp $(keyprop.secureFilePath) $(Build.SourcesDirectory)/android/key.properties
+          cp $(key.secureFilePath) $(Build.SourcesDirectory)/android/app/ezrxkey.jks
+          cp $(serviceAccountKey.secureFilePath) $(Build.SourcesDirectory)/android/serviceAccountKey.json
+          
+          echo "local.properties copied to $(Build.SourcesDirectory)/android/local.properties"
+          echo "key.properties copied to $(Build.SourcesDirectory)/android/key.properties"
+          echo "key.jks copied to $(Build.SourcesDirectory)/android/app/ezrxkey.jks"
+
+    - task: JavaToolInstaller@0
+      inputs:
+        versionSpec: '17'
+        jdkArchitectureOption: 'x64'
+        jdkSourceOption: 'PreInstalled'
+
+    - task: Bash@3
+      displayName: flutter setup
+      inputs:
+        targetType: 'inline'
+        script: make app_setup FLAVOR=prod PLATFORM=android
+
+    - task: Bash@3
+      displayName: build Android Prod
+      inputs:
+        targetType: 'inline'
+        script: |
+          fvm flutter build appbundle --flavor prod -t lib/main_prod.dart --release
+
+    - task: Bash@3
+      displayName: 'Install Firebase Tools'
+      inputs:
+        targetType: 'inline'
+        script: 'curl -sL firebase.tools | bash'
+        workingDirectory: '$(Agent.ToolsDirectory)'
+
+    - task: Bash@3
+      displayName: 'Upload AAB to Firebase'
+      continueOnError: true
+      inputs:
+        targetType: 'inline'
+        script: |
+          firebase appdistribution:distribute *.aab \
+          --app "$(FIREBASE_PROD_ANDROID_APP_ID)" \
+          --token "$(FIREBASE_CI_TOKEN)" \
+          --groups "$(FIREBASE_PROD_TESTER_GROUP)" \
+          --release-notes "eZRx+ PROD Android"
+        workingDirectory: 'build/app/outputs/bundle/prodRelease'
+
+    - task: AppCenterDistribute@3
+      displayName: Upload to Microsoft Appcenter
+      continueOnError: true
+      inputs:
+        serverEndpoint: 'eZRx+ Appcenter'
+        appSlug: '$(APPCENTER_APP_SLUG_PROD)'
+        appFile: 'build/app/outputs/bundle/prodRelease/*.aab'
+        destinationType: 'groups'
+        destinationGroupIds: '$(APPCENTER_DESTINATION_GROUP_IDS_PROD)'
+        releaseNotesInput: 'prod release'
+        isSilent: true
+
+    - task: GooglePlayRelease@4
+      displayName: Upload to Google Play console internal test track
+      inputs:
+        authType: 'JsonFile'
+        serviceAccountKey: '$(Build.SourcesDirectory)/android/serviceAccountKey.json'
+        applicationId: '$(APP_PACKAGE_NAME_PROD)'
+        action: 'SingleBundle'
+        bundleFile: 'build/app/outputs/bundle/prodRelease/*.aab'
+        track: 'internal'
+        rolloutToUserFraction: true
